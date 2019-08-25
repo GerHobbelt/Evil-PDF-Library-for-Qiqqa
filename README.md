@@ -6,8 +6,8 @@ A Qiqqa Test Library which contains various PDF document samples, etc. collected
 
 ## Setup / Install
 
-> Because I expect to have more git repositories managing some Qiqqa libraries or other, I had to reckon with `git` behaviour as well: to make sure these git repositories don't bite one another, we have to set them up next to one another in separate repository root directories as you CANNOT have multiple repositories share a single directory (say `qiqqa/base/`) as repo root.
-> That's why I did this using Windows Directory Junctions.
+> Because I expect to have more git repositories managing some Qiqqa libraries or other, I had to reckon with `git` behaviour as well: to make sure these git repositories don't bite one another, we have to set them up next to one another in separate git repository root directories as you CANNOT have multiple git repositories share a single directory (say `qiqqa/base/`) as git repo root.
+> That's why I did this using [Windows Directory Junctions](https://winaero.com/blog/symbolic-link-in-windows-10/).
 > 
 > The bit missing that way is the Qiqqa `ocr` directory as that one's shared (by Qiqqa) among all Qiqqa libraries. Alas.
 > 
