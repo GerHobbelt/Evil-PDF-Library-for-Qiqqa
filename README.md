@@ -2,6 +2,8 @@
 
 A Qiqqa Test Library which contains various PDF document samples, etc. collected from live Qiqqa libraries to showcase issues and check regressions in the software.
 
+
+
 ## Setup / Install
 
 > Because I expect to have more git repositories managing some Qiqqa libraries or other, I had to reckon with `git` behaviour as well: to make sure these git repositories don't bite one another, we have to set them up next to one another in separate repository root directories as you CANNOT have multiple repositories share a single directory (say `qiqqa/base/`) as repo root.
@@ -10,10 +12,10 @@ A Qiqqa Test Library which contains various PDF document samples, etc. collected
 > The bit missing that way is the Qiqqa `ocr` directory as that one's shared (by Qiqqa) among all Qiqqa libraries. Alas.
 > 
 
-1. We assume you have your Qiqqa 'data directory' located in `D:\\Qiqqa\\` — fill in your own setup's data path for this one.
+1. We assume you have your Qiqqa 'data directory' located in `D:\Qiqqa\` — fill in your own setup's data path for this one.
 2. Open a shell (`cmd`, `powershell` or `bash`) and `cd` to that data directory:
    
-       cd D:\\Qiqqa\\
+       cd D:\Qiqqa\
 
 3. Clone this repo into an empty directory, preferrably one that doesn't exist yet. Like this:
 
