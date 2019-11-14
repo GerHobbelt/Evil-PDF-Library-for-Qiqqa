@@ -59,3 +59,15 @@ typings/
 
 # next.js build output
 .next
+
+# Qiqqa Lucene (binary) index files
+**/index/segments_1w
+**/index/*.fdt
+**/index/*.fdx
+**/index/*.fnm
+**/index/*.frq
+**/index/*.nrm
+**/index/*.prx
+**/index/*.tii
+**/index/*.tis
+
