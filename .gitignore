@@ -61,7 +61,7 @@ typings/
 .next
 
 # Qiqqa Lucene (binary) index files
-**/index/segments_1w
+**/index/segments*
 **/index/*.fdt
 **/index/*.fdx
 **/index/*.fnm
@@ -70,4 +70,5 @@ typings/
 **/index/*.prx
 **/index/*.tii
 **/index/*.tis
+**/index/*.gen
 
