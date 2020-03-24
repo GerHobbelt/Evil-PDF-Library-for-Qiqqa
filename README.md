@@ -80,7 +80,7 @@ A Qiqqa Test Library which contains various PDF document samples, etc. collected
 5. Now the library should be available to Qiqqa the next time you start the application.
 
 
-# Qiqqa Folder Watch feature to find & import new PDFs into the library
+# Qiqqa Folder Watch feature <br><sup>to find & import new PDFs into the library</sup>
 
 The "source PDFs" to be found and imported by Qiqqa are located in the 
 
