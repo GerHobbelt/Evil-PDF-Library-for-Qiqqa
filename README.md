@@ -80,3 +80,16 @@ A Qiqqa Test Library which contains various PDF document samples, etc. collected
 5. Now the library should be available to Qiqqa the next time you start the application.
 
 
+# Qiqqa Folder Watch feature <br><sup>to find & import new PDFs into the library</sup>
+
+The "source PDFs" to be found and imported by Qiqqa are located in the 
+
+```
+INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/Z/
+```
+
+directory. In Qiqqa,  you'll have to point the Folder Watcher for this library to that directory to have Qiqqa spot these and import them when it hasn't already. 
+
+> Generally the state of the library as saved in this repo is "already up-to-date". but when you wish to test the Folder Watch feature, you can trigger a hard rescan by deleting the `documents/1/` ..to.. `documents/F/` directories **and** the **XXXXXX TODO XXXXXX** file.
+
+
