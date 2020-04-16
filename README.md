@@ -1,6 +1,9 @@
-# Evil-PDF-Library-for-Qiqqa
+# Evil PDF Library for Qiqqa
 
 A Qiqqa Test Library which contains various PDF document samples, etc. collected from live Qiqqa libraries to showcase issues and check regressions in the software.
+
+This includes coping with PDFs in various states of disarray and broken-ness: some of these files have been corrupted during download or at the originating server.
+Several other PDFs have been included which test the reach and stability of the Qiqqa Viewer, Search, Content Extraction, Metadata Extraction and OCR subsystems, due to various quirks and features in a PDF file which the toolchain has to contend with.
 
 
 
@@ -80,7 +83,9 @@ A Qiqqa Test Library which contains various PDF document samples, etc. collected
 5. Now the library should be available to Qiqqa the next time you start the application.
 
 
-# Qiqqa Folder Watch feature <br><sup>to find & import new PDFs into the library</sup>
+## Qiqqa Folder Watch feature <br><sup>to find & import new PDFs into the library</sup>
+
+### Directory 1: the 'Z' subdirectory
 
 The "source PDFs" to be found and imported by Qiqqa are located in the 
 
@@ -93,3 +98,49 @@ directory. In Qiqqa,  you'll have to point the Folder Watcher for this library t
 > Generally the state of the library as saved in this repo is "already up-to-date". but when you wish to test the Folder Watch feature, you can trigger a hard rescan by deleting the `documents/1/` ..to.. `documents/F/` directories **and** the **XXXXXX TODO XXXXXX** file.
 
 
+### Directory 2: the 'Sample-PDFs-for-format-testing' subdirectory
+
+The `Sample-PDFs-for-format-testing` directory has an additional set of source PDFs to feed into Qiqqa for ability and stability testing (how well do the tools cope with the various pieces of crud in there?). 
+
+
+
+## Security Considerations
+
+Note that these PDFs have been grabbed off the Internet (and some of them have been subsequently altered to suit various tests) and some are highly suspect, including Embedded JavaScript.
+
+Make sure to DISABLE JavaScript in your Acrobat Reader and other PDF readers/viewers!
+
+**Cave canem.**
+
+> You have been warned...
+
+
+
+
+
+## License Disclaimer
+
+The following limitations apply to the usage of all the PDF files contained in this repository:
+
+* The copyright of the documents are owned by the original owners (include but not limited to 
+  publisher, author, distributor, licensee as applicable)
+* We have accessed the document from a openly accessible website at some point and our usage
+  of the files are for the purpose of testing the PDF tools we are investigating and the software we have been developing. The 
+  content and knowledge disseminated are not relevant to us. To that extent we feel it is
+  within the realm of *fair use*.
+* This repository should not be considered as a document repository. It is a dump of PDF
+  binaries for testing PDF applications.
+* If anyone is using these files for getting access to copyrighted content, for consuming the 
+  information value of the content, must contact the copyright owner for clarfying the license
+  restrictions. 
+* Some of these files have been altered as part of some software tests. 
+  For anyone who believes (s)he's found some valuable content in here: be aware
+  that these files are only used for various software tests and any human-readable data therein 
+  may very well have been altered in all sorts of ways that corrupt any potentially correct information that 
+  was in the original.
+* We do not claim to be author of any of the documents nor claim to any rights of the owners.
+* If any owner of the copyrighted material feels the file should not be hosted here, please
+  let us know by raising an issue, so that the content can be removed from the repository within 
+  the best of our abilities. However, we will not be responsible for any limitations of the GitHub 
+  system in maintaining document history.
+ 
