@@ -95,7 +95,7 @@ INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/Z/
 
 directory. In Qiqqa,  you'll have to point the Folder Watcher for this library to that directory to have Qiqqa spot these and import them when it hasn't already. 
 
-> Generally the state of the library as saved in this repo is "already up-to-date". but when you wish to test the Folder Watch feature, you can trigger a hard rescan by deleting the `documents/1/` ..to.. `documents/F/` directories **and** the **XXXXXX TODO XXXXXX** file.
+> Generally the state of the library as saved in this repo is "already up-to-date". but when you wish to test the Folder Watch feature, you can trigger a hard rescan by deleting the `documents/1/` ..to.. `documents/F/` directories **and** the **INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/Qiqqa.folder_watcher** file.
 
 
 ### Directory 2: the 'Sample-PDFs-for-format-testing' subdirectory
