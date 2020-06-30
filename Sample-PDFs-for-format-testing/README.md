@@ -8,7 +8,12 @@ The files include PDFs with one or more of these characteristics:
 - both small and large file sizes
 - documents with > 1K pages (i.e. pagecount > 1000)
 - produced by many different generators (TeX, InDesign, Acrobat, Word, PowerPoint, but also many others)
-- obscure/irregular page sizes
+- obscure/irregular page sizes and page orientations
+- obscure/irregular fonts
+- obscure/irregular spacing (text / word formatting)
+- PDF document layers (for image and/or language hiding in multi-purpose documents)
+- CAD & geographical drawings (to verify properly *sharp* rendering on screen **and in print**)
+- barcodes (to verify properly *sharp* rendering on screen **and in print**)
 - PDF/A compliant
 - PDF forms
 - signatures
@@ -25,10 +30,28 @@ The files include PDFs with one or more of these characteristics:
 - rotated pages
 - referencing extra font packages
 - watermarks
+- page bleed and other printer preflight checkmarks which can show up in print-ready/preflight PDFs
 - highly suspect links (i.e. PDFs obtained from extremely shady websites, which may contain hack attempts)
 - password encryption
 - embedded JavaScript (which should never have been allowed as it's a huge security risk -- how do the various tools cope with this?)
+- hash collisions (two or more documents producing the same hash)
 - ...
+
+
+
+
+## Security Considerations
+
+Note that these PDFs have been grabbed off the Internet (and some of them have been subsequently altered to suit various tests) and some are highly suspect, including Embedded JavaScript.
+
+Make sure to DISABLE JavaScript in your Acrobat Reader and other PDF readers/viewers!
+
+**Cave canem.**
+
+> You have been warned...
+
+
+
 
 
 # License Disclaimer
