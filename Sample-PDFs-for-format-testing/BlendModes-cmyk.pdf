@@ -1,0 +1,433 @@
+%PDF-1.6
+% (c) Copyright VDP Tech Inc
+% Author: Boris Aronshtam
+% Date: Nov 20, 2008
+
+% X - Isolated
+% Y - NonIsolated
+
+1 0 obj
+  <</Type /Catalog
+	/Outlines 2 0 R
+	/Pages 3 0 R
+  >>
+endobj
+
+2 0 obj
+  <</Type /Outlines
+	/Count 0
+  >>
+endobj
+
+3 0 obj
+  <</Type /Pages
+	/Kids [ 4 0 R ]
+	/Count 1
+  >>
+endobj
+
+4 0 obj
+  <</Type /Page
+	/Parent 3 0 R
+	/MediaBox [0 0 612 792]
+	/Contents 5 0 R
+	/Group <</S /Transparency  /CS /DeviceCMYK  /I false  /K false>>
+	/Resources 
+      <</Font << /F1 7 0 R >>
+        /ExtGState 
+          <</BNormal     101 0 R
+            /BMultiply   102 0 R  
+            /BScreen     103 0 R
+            /BOverlay    104 0 R
+            /BDarken     105 0 R
+            /BLighten    106 0 R
+            /BColorDodge 107 0 R
+            /BColorBurn  108 0 R
+            /BHardLight  109 0 R
+            /BSoftLight  110 0 R
+            /BDifference 111 0 R
+            /BExclusion  112 0 R
+            /BHue        113 0 R
+            /BSaturation 114 0 R
+            /BColor      115 0 R
+            /BLuminosity 116 0 R
+            /ca1.0 51 0 R /ca0.5 52 0 R /ca0.1 53 0 R /ca0.0 54 0 R
+          >>
+        /XObject 
+         << 
+           /Rect 21 0 R
+           /Circle 22 0 R  
+           /GrayCircle 23 0 R  
+           /RedCircle 24 0 R  
+           /GreenCircle 25 0 R 
+           /BlueCircle 26 0 R 
+           /BlackCircle 27 0 R 
+           /AllCircles 29 0 R
+         >>
+      >>
+  >>
+endobj
+
+7 0 obj
+  <</Type /Font
+	/Subtype /Type1
+	/Name /F1
+	/BaseFont /Helvetica
+  >>
+endobj
+
+
+101 0 obj <</Type /ExtGState  /CA 1.0  /ca 1.0 /BM /Normal     >> endobj
+102 0 obj <</Type /ExtGState  /CA 1.0  /ca 1.0 /BM /Multiply   >> endobj
+103 0 obj <</Type /ExtGState  /CA 1.0  /ca 1.0 /BM /Screen     >> endobj
+104 0 obj <</Type /ExtGState  /CA 1.0  /ca 1.0 /BM /Overlay    >> endobj
+105 0 obj <</Type /ExtGState  /CA 1.0  /ca 1.0 /BM /Darken     >> endobj
+106 0 obj <</Type /ExtGState  /CA 1.0  /ca 1.0 /BM /Lighten    >> endobj
+107 0 obj <</Type /ExtGState  /CA 1.0  /ca 1.0 /BM /ColorDodge >> endobj
+108 0 obj <</Type /ExtGState  /CA 1.0  /ca 1.0 /BM /ColorBurn  >> endobj
+109 0 obj <</Type /ExtGState  /CA 1.0  /ca 1.0 /BM /HardLight  >> endobj
+110 0 obj <</Type /ExtGState  /CA 1.0  /ca 1.0 /BM /SoftLight  >> endobj
+111 0 obj <</Type /ExtGState  /CA 1.0  /ca 1.0 /BM /Difference >> endobj
+112 0 obj <</Type /ExtGState  /CA 1.0  /ca 1.0 /BM /Exclusion  >> endobj
+113 0 obj <</Type /ExtGState  /CA 1.0  /ca 1.0 /BM /Hue        >> endobj
+114 0 obj <</Type /ExtGState  /CA 1.0  /ca 1.0 /BM /Saturation >> endobj
+115 0 obj <</Type /ExtGState  /CA 1.0  /ca 1.0 /BM /Color      >> endobj
+116 0 obj <</Type /ExtGState  /CA 1.0  /ca 1.0 /BM /Luminosity >> endobj
+
+
+51 0 obj <</Type /ExtGState  /ca 1.0>> endobj
+52 0 obj <</Type /ExtGState  /ca 0.5>> endobj
+53 0 obj <</Type /ExtGState  /ca 0.1>> endobj
+54 0 obj <</Type /ExtGState  /ca 0.0>> endobj
+
+
+% Rect XObject
+% ============
+% 10x1-unit rectangle
+21 0 obj
+<</Type /XObject
+  /Subtype /Form
+  /FormType 1
+  /BBox [0 0 16 1]
+  /Matrix [1 0 0 1 0 0 ]
+>>
+stream
+  0 0 0 RG
+  0 w
+  1 .7 0 rg
+  0 0.25 16 0.75 re
+  B
+endstream
+endobj
+
+% Colorless Circle XObject
+% ========================
+% 1-unit circle centered at (0,0)
+22 0 obj
+<</Type /XObject
+  /Subtype /Form
+  /FormType 1
+  /BBox [-.57 -.57 .57 .57]
+  /Matrix [1 0 0 1 0 0 ]
+>>
+stream
+  0 0 0 RG
+  0.04 w
+  .5 0 m
+  .5 -.276 .276 -.5 0 -.5 c
+  -.276 -.5 -.5 -.276 -.5 0 c
+  -.5 .276 -.276 .5  0 .5 c
+  .276 .5 .5 .276 .5 0 c
+  b
+endstream
+endobj
+
+% GrayCircle XObject
+% ==================
+% 1-unit circle centered at (0,0)
+23 0 obj
+<</Type /XObject
+  /Subtype /Form
+  /FormType 1
+  /BBox [-.57 -.57 .57 .57]
+  /Matrix [1 0 0 1 0 0 ]
+>>
+stream
+  .7 .7 .7 rg
+  /Circle Do
+endstream
+endobj
+
+% RedCircle XObject
+% =================
+% 1-unit circle centered at (0,0)
+24 0 obj
+<</Type /XObject
+  /Subtype /Form
+  /FormType 1
+  /BBox [-.57 -.57 .57 .57]
+  /Matrix [1 0 0 1 0 0 ]
+>>
+stream
+  1 0 0 rg
+  /Circle Do
+endstream
+endobj
+
+% GreenCircle XObject
+% =================
+% 1-unit circle centered at (0,0)
+25 0 obj
+<</Type /XObject
+  /Subtype /Form
+  /FormType 1
+  /BBox [-.57 -.57 .57 .57]
+  /Matrix [1 0 0 1 0 0 ]
+>>
+stream
+  0 1 0 rg
+  /Circle Do
+endstream
+endobj
+
+% BlueCircle XObject
+% =================
+% 1-unit circle centered at (0,0)
+26 0 obj
+<</Type /XObject
+  /Subtype /Form
+  /FormType 1
+  /BBox [-.57 -.57 .57 .57]
+  /Matrix [1 0 0 1 0 0 ]
+>>
+stream
+  0 0 1 rg
+  /Circle Do
+endstream
+endobj
+
+% BlackCircle XObject
+% ==================
+% 1-unit circle centered at (0,0)
+27 0 obj
+<</Type /XObject
+  /Subtype /Form
+  /FormType 1
+  /BBox [-.57 -.57 .57 .57]
+  /Matrix [1 0 0 1 0 0 ]
+>>
+stream
+  0 0 0 rg
+  /Circle Do
+endstream
+endobj
+
+% AllCircles
+29 0 obj
+<</Type /XObject
+  /Subtype /Form
+  /FormType 1
+  /BBox [0 -2 20 2]
+  /Matrix [1 0 0 1 0 0 ]
+>>
+stream
+	1 0 0 1 0.5 -0.75 cm
+	/ca1.0 gs    /GrayCircle  Do    1 0 0 1 1 0 cm
+	/ca0.5 gs    /GrayCircle  Do    1 0 0 1 1 0 cm
+	/ca0.1 gs    /GrayCircle  Do    1 0 0 1 1.2 0 cm
+
+	/ca1.0 gs    /RedCircle   Do    1 0 0 1 1 0 cm
+	/ca0.5 gs    /RedCircle   Do    1 0 0 1 1 0 cm
+	/ca0.1 gs    /RedCircle   Do    1 0 0 1 1.2 0 cm
+
+	/ca1.0 gs    /GreenCircle   Do    1 0 0 1 1 0 cm
+	/ca0.5 gs    /GreenCircle   Do    1 0 0 1 1 0 cm
+	/ca0.1 gs    /GreenCircle   Do    1 0 0 1 1.2 0 cm
+
+	/ca1.0 gs    /BlueCircle   Do    1 0 0 1 1 0 cm
+	/ca0.5 gs    /BlueCircle   Do    1 0 0 1 1 0 cm
+	/ca0.1 gs    /BlueCircle   Do    1 0 0 1 1.2 0 cm
+
+	/ca1.0 gs    /BlackCircle Do    1 0 0 1 1 0 cm
+	/ca0.5 gs    /BlackCircle Do    1 0 0 1 1 0 cm
+	/ca0.1 gs    /BlackCircle Do    1 0 0 1 1.2 0 cm
+endstream
+endobj
+
+
+% Page#1
+% ======
+5 0 obj
+  <</Length 1449>>
+stream
+  /DeviceRGB cs
+
+  q BT
+    0 0 1 rg
+    /F1 8 Tf
+    1 0 0 1 36 36 cm
+    0 -8 TD
+    ((c) 2008 VDP Tech, Inc.)'
+    (www.vdptech.com)'
+
+    120 20 Td
+    (Category:)'  (Title:)'  (Creator:)'
+
+    40 24 Td  
+    (PDF Transparency)'  (Blend Modes (BlendSpace=CMYK))'  (Boris Aronshtam)'
+  ET Q
+
+
+  35 0 0 35 18 792 cm
+  /F1 0.4 Tf
+
+  % Opacity Captions
+  % ----------------
+  BT
+    0.2 -0.4 Td
+    (1.0)Tj 1 0 Td (0.5)Tj 1 0 Td (0.1)Tj 1.2 0 Td
+    (1.0)Tj 1 0 Td (0.5)Tj 1 0 Td (0.1)Tj 1.2 0 Td
+    (1.0)Tj 1 0 Td (0.5)Tj 1 0 Td (0.1)Tj 1.2 0 Td
+    (1.0)Tj 1 0 Td (0.5)Tj 1 0 Td (0.1)Tj 1.2 0 Td
+    (1.0)Tj 1 0 Td (0.5)Tj 1 0 Td (0.1)Tj 1.2 0 Td
+  ET
+  1 0 0 1 0 -0.3 cm
+
+  q
+	q 1 0 0 1 0 -1.75 cm /Rect Do Q
+    BT 4 -1.45 Td (BM=Normal)Tj ET
+	/BNormal gs
+    /AllCircles Do
+  Q
+  1 0 0 1 0 -1.32 cm
+
+  q
+	q 1 0 0 1 0 -1.75 cm /Rect Do Q
+    BT 4 -1.45 Td (BM=Multiply)Tj ET
+	/BMultiply gs
+    /AllCircles Do
+  Q
+  1 0 0 1 0 -1.32 cm
+
+  q
+	q 1 0 0 1 0 -1.75 cm /Rect Do Q
+    BT 4 -1.45 Td (BM=Screen)Tj ET
+	/BScreen gs
+    /AllCircles Do
+  Q
+  1 0 0 1 0 -1.32 cm
+
+  q
+	q 1 0 0 1 0 -1.75 cm /Rect Do Q
+    BT 4 -1.45 Td (BM=Overlay)Tj ET
+	/BOverlay gs
+    /AllCircles Do
+  Q
+  1 0 0 1 0 -1.32 cm
+
+  q
+	q 1 0 0 1 0 -1.75 cm /Rect Do Q
+    BT 4 -1.45 Td (BM=Darken)Tj ET
+	/BDarken gs
+    /AllCircles Do
+  Q
+  1 0 0 1 0 -1.32 cm
+
+  q
+	q 1 0 0 1 0 -1.75 cm /Rect Do Q
+    BT 4 -1.45 Td (BM=Lighten)Tj ET
+	/BLighten gs
+    /AllCircles Do
+  Q
+  1 0 0 1 0 -1.32 cm
+
+  q
+	q 1 0 0 1 0 -1.75 cm /Rect Do Q
+    BT 4 -1.45 Td (BM=ColorDodge)Tj ET
+	/BColorDodge gs
+    /AllCircles Do
+  Q
+  1 0 0 1 0 -1.32 cm
+
+  q
+	q 1 0 0 1 0 -1.75 cm /Rect Do Q
+    BT 4 -1.45 Td (BM=ColorBurn)Tj ET
+	/BColorBurn gs
+    /AllCircles Do
+  Q
+  1 0 0 1 0 -1.32 cm
+
+  q
+	q 1 0 0 1 0 -1.75 cm /Rect Do Q
+    BT 4 -1.45 Td (BM=HardLight)Tj ET
+	/BHardLight gs
+    /AllCircles Do
+  Q
+  1 0 0 1 0 -1.32 cm
+
+  q
+	q 1 0 0 1 0 -1.75 cm /Rect Do Q
+    BT 4 -1.45 Td (BM=SoftLight)Tj ET
+	/BSoftLight gs
+    /AllCircles Do
+  Q
+  1 0 0 1 0 -1.32 cm
+
+  q
+	q 1 0 0 1 0 -1.75 cm /Rect Do Q
+    BT 4 -1.45 Td (BM=Difference)Tj ET
+	/BDifference gs
+    /AllCircles Do
+  Q
+  1 0 0 1 0 -1.32 cm
+
+  q
+	q 1 0 0 1 0 -1.75 cm /Rect Do Q
+    BT 4 -1.45 Td (BM=Exclusion)Tj ET
+	/BExclusion gs
+    /AllCircles Do
+  Q
+  1 0 0 1 0 -1.32 cm
+
+
+  q
+	q 1 0 0 1 0 -1.75 cm /Rect Do Q
+    BT 4 -1.45 Td (BM=Hue)Tj ET
+	/BHue gs
+    /AllCircles Do
+  Q
+  1 0 0 1 0 -1.32 cm
+
+  q
+	q 1 0 0 1 0 -1.75 cm /Rect Do Q
+    BT 4 -1.45 Td (BM=Saturation)Tj ET
+	/BSaturation gs
+    /AllCircles Do
+  Q
+  1 0 0 1 0 -1.32 cm
+
+  q
+	q 1 0 0 1 0 -1.75 cm /Rect Do Q
+    BT 4 -1.45 Td (BM=Color)Tj ET
+	/BColor gs
+    /AllCircles Do
+  Q
+  1 0 0 1 0 -1.32 cm
+
+  q
+	q 1 0 0 1 0 -1.75 cm /Rect Do Q
+    BT 4 -1.45 Td (BM=Luminosity)Tj ET
+	/BLuminosity gs
+    /AllCircles Do
+  Q
+  1 0 0 1 0 -1.32 cm
+endstream
+endobj
+
+trailer
+  <<
+    /Root 1 0 R
+  >>
+startxref
+1556
+%%EOF
