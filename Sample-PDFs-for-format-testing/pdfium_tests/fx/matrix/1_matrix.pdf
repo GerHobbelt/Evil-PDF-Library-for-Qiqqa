@@ -1,0 +1,154 @@
+%PDF-1.7	
+
+1 0 obj		
+<<
+	/Type /Pages
+	/Kids [2 0 R]		
+	/Count 1
+>>
+endobj
+
+2 0 obj		
+<<
+	/Type /Page 
+	/Parent 1 0 R				
+	/MediaBox [0 0 531 666]		
+	/Contents [4 0 R]	
+	/Resources <<
+		/Font <</F1 5 0 R>>
+	>>			
+	
+>>
+endobj
+
+3 0 obj		
+<<
+	/Type /Catalog
+	/Pages 1 0 R	
+>>
+endobj
+
+4 0 obj		
+<<
+	/Length 0		 
+					
+>> stream
+
+BT
+/F1 30 Tf 200 620 TD (Matrix)Tj
+ET
+
+%% a>1 & -1<d<0
+q
+1 0 0 1 20 570 cm
+q
+0.654 w 
+5.3082 0 0  -0.13 0 0 cm
+0 0  20 200 re S
+Q
+BT /F1 20 Tf 120 -20 TD (a>1 & -1<d<0 0<w<1)Tj
+ET
+Q
+
+%% a>1 & d<-1
+q
+1 0 0 1 20 510 cm
+q
+0.654 w 
+5.3082 0 0  -1.3 0 0 cm
+0 0 20 20 re S Q
+BT /F1 20 Tf 120 -20 TD (a>1 & d<-1)Tj
+ET
+Q
+
+%% a>1 & d=1
+q
+1 0 0 1 20 430 cm
+q
+0.654 w 
+5.3082 0 0  1 0 0 cm
+0 0 20 20 re S Q
+BT  /F1 20 Tf 120 0 TD (a>1 & d=1)Tj
+ET
+Q
+
+%% a>1 & d>1
+q
+1 0 0 1 20 370 cm
+q
+0.654 w 
+5.3082 0 0  1.3 0 0 cm
+0 0 20 20 re S Q
+BT /F1 20 Tf 120 0 TD (a>1 & d>1)Tj
+ET
+Q
+
+%% a>1 & 0<d<1 w>1
+q
+1 0 0 1 20 310 cm
+q
+1.5 w 
+2 0 0 0.1 0 0 cm
+0 0 40 200 re S Q
+BT /F1 20 Tf 120 0 TD (a>1 & 0<d<1 w>1)Tj
+ET
+Q
+
+%% a>1 & d=1 
+q
+1 0 0 1 20 260 cm
+q
+1.5 w 
+2 0 0 1 0 0 cm
+0 0 40 20 re S Q
+BT /F1 20 Tf 120 0 TD (a>1 & d=1 )Tj
+ET
+Q
+
+%% a>1 & -1<d<0 w>1
+q
+1 0 0 1 20 230 cm
+q
+1.5 w 
+2 0 0 -0.1 0 0 cm
+0 0 40 200 re S Q
+BT /F1 20 Tf 120 -20 TD (a>1 & -1<d<0 )Tj
+ET
+Q
+
+%% a>1 & d<-1 w>1
+q
+1 0 0 1 20 180 cm
+q
+1.5 w 
+2 0 0 -1.3 0 0 cm
+0 0 40 20 re S Q
+BT /F1 20 Tf 120 -20 TD (a>1 & d<-1 )Tj
+ET
+Q
+
+endstream
+endobj
+
+5 0 obj
+<<
+	/Type /Font
+	/Subtype /Type1
+	/BaseFont /Helvetica
+>>
+endobj
+
+xref	
+		
+
+trailer	
+<<
+	/Size 0		
+	/Root 3 0 R	
+>>
+
+startxref
+0		
+
+%%EOF	
+ 

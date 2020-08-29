@@ -73,3 +73,8 @@ typings/
 **/index/*.gen
 
 Sample-PDFs-for-format-testing/HTML/
+
+# mujstest script generator runtime output dir:
+/__mujstest/
+
+

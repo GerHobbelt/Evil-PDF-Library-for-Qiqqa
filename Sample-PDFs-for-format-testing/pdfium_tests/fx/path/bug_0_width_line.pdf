@@ -1,0 +1,77 @@
+%PDF-1.4	
+
+1 0 obj		
+<<
+	/Type /Pages
+	/Kids [2 0 R]		
+	/Count 1
+>>
+endobj
+
+2 0 obj		
+<<
+	/Type /Page 
+	/Parent 1 0 R				
+	/MediaBox [0 0 531 666]		
+	/Contents [4 0 R]	
+	/Resources <<
+		/Font <</F1 5 0 R>>
+	>>			
+	
+>>
+endobj
+
+3 0 obj		
+<<
+	/Type /Catalog
+	/Pages 1 0 R	
+>>
+endobj
+
+4 0 obj		
+<<
+	/Length 0		 
+					
+>> stream
+%%当只有一个点的path时,如果是Round Cap会画一个圆圈.其他cap不产生输出
+%% reference P231
+q
+1 0 0 1 0 600 cm 
+10 w
+1 J
+100 0 m h S			
+BT
+/F1 10 Tf 
+80 20 TD
+(Zero Length Line with Round Cap; 10 Line Width) Tj
+ET
+Q
+%%
+
+
+
+endstream
+endobj
+
+5 0 obj
+<<
+	/Type /Font
+	/Subtype /Type1
+	/BaseFont /Helvetica
+>>
+endobj
+
+xref	
+		
+
+trailer	
+<<
+	/Size 0		
+	/Root 3 0 R	
+>>
+
+startxref
+0		
+
+%%EOF	
+ 

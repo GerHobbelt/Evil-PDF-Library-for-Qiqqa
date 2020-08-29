@@ -1,0 +1,137 @@
+%PDF-1.7
+%% Names 可定位  Dests 未定位	
+
+1 0 obj		
+<<
+	/Type /Pages
+	/Kids [10 0 R 11 0 R]		
+	/Count 2
+>>
+endobj
+
+
+
+3 0 obj		
+<<
+	/Type /Catalog
+	/Pages 1 0 R	
+	/Dests 50 0 R
+	/Names 40 0 R
+	/Outlines 30 0 R
+	
+>>
+endobj
+50 0 obj
+<< /Page1 [10 0 R /XYZ 50 370 2.1] /Page2 <</D [11 0 R /Fit]>>  >>
+endobj
+4 0 obj		
+<<
+	/Length 0		 
+					
+>> stream
+100 100 100 100 re s
+
+endstream
+endobj
+
+5 0 obj
+<<
+	/Type /Font
+	/Subtype /Type1
+	/BaseFont /Helvetica
+>>
+endobj
+
+10 0 obj		
+<<
+	/Type /Page 
+	/Parent 1 0 R				
+	/MediaBox [0 0 531 666]		
+	/Contents [4 0 R]	
+	/Resources <<
+		/Font <</F1 5 0 R>>
+	>>			
+	
+>>
+endobj
+
+11 0 obj
+<<
+	/Type /Page 
+	/Parent 1 0 R				
+	/MediaBox [0 0 531 666]		
+	/Contents [21 0 R]	
+	/Resources <<
+		/Font <</F1 5 0 R>>
+	>>			
+>>
+endobj
+
+21 0 obj		
+<<
+	/Length 0		 
+					
+>> stream
+10 100 100 100 re S
+BT /F1 20 Tf
+100 100 TD (Page2 Fit Names)Tj
+ET
+
+endstream
+endobj
+
+%% Outline object
+30 0 obj
+<<
+/Type /Outlines
+/First 31 0 R
+/Last 32 0 R
+/Count 2
+>>
+endobj
+
+31 0 obj
+<<
+/Title (Page1-Dests)
+/Parent 30 0 R
+/Next 32 0 R
+/Count 0
+/Dest /Page1
+/C [1.0 0.0 0]
+/F  1
+>>
+endobj
+
+32 0 obj
+<<
+/Title (Page2-Names)
+/Parent 30 0 R
+/Prev 31 0 R
+/Dest (PageString2)
+/C [0 1 0]
+/F 1
+>> 
+endobj
+
+40 0 obj
+<<
+/Dests     <</Names    [(PageString1) [10 0 R /XYZ 50 370 2.1]  (PageString2) [11 0 R /Fit] ]>>
+>>
+endobj
+
+
+
+xref	
+		
+
+trailer	
+<<
+	/Size 0		
+	/Root 3 0 R	
+>>
+
+startxref
+0		
+
+%%EOF	
+ 

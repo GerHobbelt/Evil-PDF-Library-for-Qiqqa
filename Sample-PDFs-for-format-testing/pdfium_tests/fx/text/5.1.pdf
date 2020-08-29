@@ -1,0 +1,109 @@
+%PDF-1.4	% PDF--5.1
+
+1 0 obj		% the root node of page tree
+<<
+	/Type /Pages
+	/Kids [2 0 R]		% kids under this node. 
+						% Can be another page tree node, or a page dictionary
+	/Count 1
+>>
+endobj
+
+2 0 obj		% a page dictionary
+<<
+	/Type /Page 
+	/Parent 1 0 R				
+	/MediaBox [0 0 612 792]		
+	/Contents 4 0 R				
+	/Resources <<				
+		/Font <<				
+			/Font1 5 0 R		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+			/Font2 9 0 R		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+		>>
+	>>
+>>
+endobj
+
+3 0 obj		% the catalog dictionary.
+<<
+	/Type /Catalog
+	/Pages 1 0 R	% pointer to the root node of pages tree
+>>
+endobj
+
+4 0 obj		% the page content stream
+<<
+	/Length 0		% should be byte length of the stream data. 
+					% We use 0 here for convenience.
+>> stream
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+BT
+/Font1 35 Tf
+100 700 Td
+(show text 1) Tj
+ET
+
+BT
+/Font2 25 Tf
+100 650 Td
+(show text 2) Tj
+ET
+
+BT
+/Font1 35 Tf
+100 600 Td
+0 Tr
+0.4 g
+(RENDERING 0) Tj
+ET
+
+BT
+/Font1 35 Tf
+100 550 Td
+1 Tr
+2 w
+0 0 1 RG
+(RENDERING 1) Tj
+ET
+
+BT
+/Font1 35 Tf
+100 500 Td
+2 Tr
+1 w
+0 G
+1 0 0 rg
+(RENDERING 2) Tj
+ET
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+endstream
+endobj
+
+5 0 obj		% a font dictionary. 
+			% This is a base-14 font, so only a few data is required.
+<<
+	/Type /Font
+	/Subtype /Type1
+	/BaseFont /Helvetica
+>>
+endobj
+
+ 9 0 obj
+<<
+	/Type /Font
+	/Subtype /Type1
+	/BaseFont /Times-Roman
+>>
+endobj
+
+xref
+trailer	
+<<
+	/Size 0				
+	/Root 3 0 R	
+>>
+
+startxref
+0		
+%%EOF	% end of file

@@ -1,0 +1,321 @@
+%PDF-1.7	
+1 0 obj		
+<<
+	/Type /Catalog
+	/Pages 2 0 R	
+	/OCProperties
+		<<
+		/OCGs [6 0 R 7 0 R 8 0 R]
+		/D<</Order [7 0 R 8 0 R 6 0 R]>>
+		>>
+	/AcroForm 10 0 R 
+>>
+endobj
+
+2 0 obj		
+<<
+	/Type /Pages
+	/Kids [3 0 R]		
+	/Count 1
+>>
+endobj
+
+3 0 obj		
+<<
+	/Type /Page 
+	/Parent 2 0 R				
+	/MediaBox [0 0 400 550]		
+	/Contents [4 0 R]	
+	/Resources <<
+		/Font <</F1 5 0 R>>
+		/Properties<</OC1 6 0 R /OC2 7 0 R /OC3 8 0 R>>
+		
+	>>
+	/Annots [ 11 0 R 21 0 R]               			
+	
+>>
+endobj
+
+4 0 obj		
+<<
+	/Length 0		 
+>> stream
+q
+1 0 0 1 40 350 cm
+/OC/OC2 BDC
+1 1 0 rg 
+10 0 100 100 re b
+EMC
+
+/OC/OC3 BDC
+0 1 1 rg
+30 30 50 50 re b
+EMC
+
+/OC/OC1 BDC
+BT
+1 0 1 rg
+/F1 10 Tf
+40 40 Td
+(Hello!)Tj
+ET
+EMC
+Q
+
+
+endstream
+endobj
+
+5 0 obj
+<<
+	/Type /Font
+	/Subtype /Type1
+	/BaseFont /Helvetica
+>>
+endobj
+6 0 obj
+<<
+/Type /OCG
+/Name (Text)
+>>
+endobj
+7 0 obj
+<<
+/Type /OCG
+/Name (BigRect)
+>>
+endobj
+8 0 obj
+<<
+/Type /OCG
+/Name (SmallRect)
+>>
+endobj
+
+10 0 obj
+<<
+	/Fields [11 0 R 21 0 R]    
+           
+>>
+endobj
+
+11 0 obj                           %field dictionary
+<<
+	/FT /Btn                    
+	/Parent 10 0 R
+	/Ff 65536
+	/T (Push Button)
+	/TU (this is a pushbutton)
+	
+	/Type /Annot                   %a annotation dictionary chapter8.4 , table 8.15, P606 
+	/Subtype /Widget
+	/Rect [100 320 150 345]
+	/BS <</W 1 /S /B >>/H /P       %/BS dictionary define the border style /W=width   P641
+								   %/H highlighting mode /P Push                     P611      
+	/AP << /N 12 0 R  /D 13 0 R>>    %appearance     /N normal /D down P614   
+                 /AA 14 0 R    
+>>
+endobj
+
+
+21 0 obj                           %field dictionary
+<<
+	/FT /Btn                    
+	/Parent 10 0 R
+	/Ff 65536
+	/T (Push Button1)
+	/TU (this is a pushbutton1)
+	
+	/Type /Annot                   %a annotation dictionary chapter8.4 , table 8.15, P606 
+	/Subtype /Widget
+	/Rect [50 320 100 345]
+	/BS <</W 1 /S /B >>/H /P       %/BS dictionary define the border style /W=width   P641
+								   %/H highlighting mode /P Push                     P611      
+	/AP << /N 22 0 R  /D 23 0 R>>    %appearance     /N normal /D down P614   
+       /AA 16 0 R    
+>>
+endobj
+
+12 0 obj                          %form XObject chapter4.9, table4.45, P358
+<<
+	/Type /XObject
+	/Subtype /Form
+	/BBox [0 0 50 25]
+>> stream
+q                               %draw chapter4.1 ,table4.1, P196
+0.75 0.75 0.75 rg               %rg,g = color
+0 0 50 25 re f                  %m = move to , l = line to , f = fill
+1 g
+1 1 m
+1 24 l
+49 24 l
+48 23 l
+2 23 l
+2 2 l f
+0.37 0.37 0.37 rg
+49 24 m
+49 1 l
+1 1 l
+2 2 l
+48 2 l
+48 23 l f
+/F1 10 Tf
+10 10 Td
+(All OFF) Tj
+Q
+
+endstream
+endobj
+
+13 0 obj
+<<
+	/Type /XObject
+	/Subtype /Form
+	/BBox [0 0 50 25]
+>> stream
+q                              
+0.75 0.75 0.75 rg               
+0 0 50 25 re f                  
+1 g
+1 1 m
+1 24 l
+49 24 l
+48 23 l
+2 23 l
+2 2 l f
+0.37 0.37 0.37 rg
+49 24 m
+49 1 l
+1 1 l
+2 2 l
+48 2 l
+48 23 l f
+Q
+
+q                              
+0.75 0.75 0.75 rg              
+0 0 50 25 re f 
+0.37 0.37 0.37 rg                
+1 1 m
+1 24 l
+49 24 l
+48 23 l
+2 23 l
+2 2 l f
+1 g
+49 24 m
+49 1 l
+1 1 l
+2 2 l
+48 2 l
+48 23 l f
+Q
+
+endstream
+endobj
+
+22 0 obj                          %form XObject chapter4.9, table4.45, P358
+<<
+	/Type /XObject
+	/Subtype /Form
+	/BBox [0 0 50 25]
+>> stream
+q                               %draw chapter4.1 ,table4.1, P196
+0.75 0.75 0.75 rg               %rg,g = color
+0 0 50 25 re f                  %m = move to , l = line to , f = fill
+1 g
+1 1 m
+1 24 l
+49 24 l
+48 23 l
+2 23 l
+2 2 l f
+0.37 0.37 0.37 rg
+49 24 m
+49 1 l
+1 1 l
+2 2 l
+48 2 l
+48 23 l f
+/F1 10 Tf
+10 10 Td
+(All ON) Tj
+Q
+
+endstream
+endobj
+
+23 0 obj
+<<
+	/Type /XObject
+	/Subtype /Form
+	/BBox [0 0 50 25]
+>> stream
+q                              
+0.75 0.75 0.75 rg               
+0 0 50 25 re f                  
+1 g
+1 1 m
+1 24 l
+49 24 l
+48 23 l
+2 23 l
+2 2 l f
+0.37 0.37 0.37 rg
+49 24 m
+49 1 l
+1 1 l
+2 2 l
+48 2 l
+48 23 l f
+Q
+
+q                              
+0.75 0.75 0.75 rg              
+0 0 50 25 re f 
+0.37 0.37 0.37 rg                
+1 1 m
+1 24 l
+49 24 l
+48 23 l
+2 23 l
+2 2 l f
+1 g
+49 24 m
+49 1 l
+1 1 l
+2 2 l
+48 2 l
+48 23 l f
+Q
+
+endstream
+endobj
+
+
+
+14 0 obj
+<</D 15 0 R >>endobj
+
+15 0 obj
+<</Type /Action /S /JavaScript /JS (var docOCGs = this.getOCGs\(\);\r\nfor \(var x=0; x < docOCGs.length; x++\) \r\n{\r\n    docOCGs[x].state = false;\r\n})>>endobj
+
+16 0 obj
+<</D 17 0 R >>endobj
+
+17 0 obj
+<</Type /Action /S /JavaScript /JS (var docOCGs = this.getOCGs\(\);\r\nfor \(var x=0; x < docOCGs.length; x++\) \r\n{\r\n    docOCGs[x].state = true;\r\n})>>endobj
+
+		
+
+trailer	
+<<
+	/Size 0		
+	/Root 1 0 R	
+>>
+
+startxref
+0		
+
+%%EOF	
+ 

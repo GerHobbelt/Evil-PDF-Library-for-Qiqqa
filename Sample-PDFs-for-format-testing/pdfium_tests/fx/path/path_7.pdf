@@ -1,0 +1,474 @@
+%PDF-1.5	
+
+1 0 obj		
+<<
+	/Type /Pages
+	/Kids [2 0 R 8 0 R]		
+	/Count 2
+>>
+endobj
+
+2 0 obj		
+<<
+	/Type /Page 
+	/Parent 1 0 R				
+	/MediaBox [0 0 612 792]		
+	/Contents 4 0 R		
+	/Resources <<
+		/Font <</F1 5 0 R>>
+		/ExtGState<</G1 6 0 R>>
+	>>			
+	
+>>
+endobj
+
+8 0 obj
+<<
+	/Type /Page 
+	/Parent 1 0 R				
+	/MediaBox [0 0 612 792]		
+	/Contents 9 0 R		
+	/Resources <<
+		/Font <</F1 5 0 R>>
+		/ExtGState<</G2 10 0 R /G3 11 0 R>>
+	>>	
+>>
+endobj
+
+3 0 obj		
+<<
+	/Type /Catalog
+	/Pages 1 0 R	
+>>
+endobj
+
+4 0 obj		
+<<
+	/Length 0		 
+					
+>> stream
+%%%%%%%%%line width
+
+
+q
+1 0 0 1 0 620 cm
+10 w				% set line width 10
+%1 0 0 RG
+%1 0 0 rg
+BT
+/F1 80 Tf
+0 1 0 RG 0 1 0 rg
+300 0 Td 2 Tr (Hello) Tj 	% fill, and then stroke	text	
+0 -80 Td 0 Tr (Hello)Tj		
+ET
+
+0 0 0 RG
+1 w 10 0 40 40 re S
+
+0 w 70 0 40 40 re S
+1 w 
+q
+4 0 0 1 10 -60 cm
+0 0 40 40 re S
+Q
+
+BT
+/F1 20 Tf
+10 60 Td (Line Width)Tj
+/F1 15 Tf 
+0 -15 Td (1 w) Tj
+60 0 Td (0 w) Tj
+-60 -60 Td (1 w 4 1 Scale) Tj
+0 0 0 rg				% change fill color
+200 60 Td (fill and stroke) Tj
+40 -15 Td (10 w) Tj
+10 -80 Td (fill) Tj
+/F1 50 Tf
+-130 150 Td (Graphic State)Tj
+ET
+Q	
+
+%%%%%%%%%%%%%%%line cap & line join
+% J j
+0.5 0.5 0.5 RG
+0.5 0.6 0.5 rg
+q
+15 w
+1 0 0 1 0 420 cm
+0 j 1 J
+50 0 m 80 50 l 110 0 l
+S
+
+1 j 0 J
+180 0 m 210 50 l 240 0 l S
+
+2 j 2 J
+310 0 m 340 50 l 370 0 l S
+
+1 w 2 j 2 J
+0 1 0 RG
+310 0 m 340 50 l 370 0 l S
+180 0 m 210 50 l 240 0 l S
+50 0 m 80 50 l 110 0 l S
+
+BT
+/F1 20 Tf
+5 90 Td
+(LineJoin: j && LineCap: J)Tj
+/F1 15 Tf
+30 -30 Td (0 j 1 J) Tj
+130 0 Td (1 j 0 J)Tj
+130 0 Td (2 j 2 J) Tj
+ET
+Q
+
+%/G1 gs
+%%%%%%%%%%%%%%%%MiterLimit
+q
+1 0 0 1 0 250 cm
+10 w
+100 M 30 0 m 35 50 l 40 0 l S
+10 M 70 0 m 75 50 l 80 0 l S
+2 j 110 0 m 115 50 l 120 0 l S 0 j
+
+170 0 m 190 50 l 210 0 l S
+2 M 230 0 m 250 50 l 270 0 l S 
+2 j 290 0 m 310 50 l 330 0 l S 0 j
+
+380 0 m 410 50 l 440 0 l S
+1.414 M 460 0 m 490 50 l 520 0 l S
+2 j 540 0 m 570 50 l 600 0 l S 0 j
+
+
+q
+1 w
+0 1 0 RG
+30 0 m 35 50 l 40 0 l S
+70 0 m 75 50 l 80 0 l S
+110 0 m 115 50 l 120 0 l S
+170 0 m 190 50 l 210 0 l S
+230 0 m 250 50 l 270 0 l S
+290 0 m 310 50 l 330 0 l S
+380 0 m 410 50 l 440 0 l S
+460 0 m 490 50 l 520 0 l S
+540 0 m 570 50 l 600 0 l S
+Q
+
+BT
+/F1 20 Tf
+5 130 Td
+(MiterLimit: M. 10M~11.5 2M~60 1.414M~90(degree)) Tj 
+0 -25 Td (100 M) Tj
+40 -40 Td (10 M) Tj
+55 0 Td (2 j) Tj
+60 10 Td (10 M) Tj
+70 0 Td (2 M) Tj
+70 0 Td (2 j) Tj
+90 0 Td (2 M) Tj
+60 0 Td (1.414 M)Tj
+105 0 Td (2 j) Tj
+ET
+
+Q
+%%%%%%%%%%%%%%Dash Pattern
+q
+10 w
+[] 0 d 5 190 m 150 190 l S
+2 J [20] 24 d 5 170 m 150 170 l S
+0 J [20] 24 d 5 150 m 150 150 l S
+1 J [20] 24 d 5 130 m 150 130 l S
+0 J 1 j [2] 0 d 350 150 50 50 re S
+[2] 0 d 420 150 40 40 re S
+50 w 
+[1 2 5 7 8 1 4 5 12 4 5] 0 d 5 50 m  200 50 l S
+
+q
+1 w 0 1 0 RG
+[] 0 d 5 190 m 150 190 l S
+[3] 0 d 5 170 m 150 170 l S
+[2] 1 d 5 150 m 150 150 l S
+[3 5] 6 d 5 130 m 150 130 l S
+[2] 0 d
+350 150 50 50 re S
+420 150 40 40 re S
+Q
+BT
+/F1 20 Tf
+5 210 Td (Line Dash Pattern: d. Solid) Tj
+/F1 15 Tf
+170 -20 Td (0 J [] 0 d)Tj
+0 -20 Td (2 J [20] 24 d [3] 0 d) Tj
+0 -20 Td (0 J [20] 24 d [2] 1 d) Tj
+0 -20 Td (1 J [20] 24 d [3 5] 6 d) Tj
+150 80 Td([2] 0 d 50*50) Tj
+100 0 Td (40*40) Tj
+-200 -150 Td ([1 2 5 7 8 1 4 5 12 4 5] 0 d) Tj
+ET
+Q
+
+endstream
+endobj
+
+9 0 obj
+<<
+	/Length 0
+>>
+stream
+q
+1 0 0 1 0 650 cm
+5 0 m 25 40 l 45 0 l S
+70 0 m 90 40 l 110 0 l s
+135 0 m 155 40 l 175 0 l h S
+200 0 m 220 40 l 240 0 l h 200 40 l S
+[2] 1 d 270 0 m 290 40 310 40 330 0 c S [] 0 d
+360 0 m 400 40 420 0 v S
+450 0 m 470 40 510 0 y S
+		% show text
+BT
+/F1 20 Tf
+5 105 Td (Path Construction: m re; l c v y h ) Tj
+0 -25 Td (Path Painting: S s f f* B B* b b* n) Tj
+/F1 15 Tf 
+10 -35 Td (S) Tj
+65 0 Td (s) Tj
+60 0 Td (h S) Tj
+55 0 Td (h l S)Tj
+100 0 Td (c)Tj
+60 0 Td (v p1=P0)Tj
+90 0 Td (y P2=P3)Tj
+
+ET
+Q
+		%%%%%%fill
+q
+1 0 0 1 0 500 cm
+0.5 0.5 0.5 rg
+17 0 m 50 95 l 80 0 l 0 60 l 96 60 l h f			%% draw pentagon
+q
+1 0 0 RG 17 0 m 50 95 l S		%% draw first line
+0 1 0 RG 50 95 m 80 0 l S		%% draw second line
+0 0 1 RG 80 0 m 0 60 l S		%% draw third line
+1 1 0 RG 0 60 m 96 60 l S		%% draw fourth line
+1 0 1 RG 96 60 m 17 0 l S		%% draw fifth line
+Q
+q 
+1 0 0 1 100 0 cm 17 0 m 50 95 l 80 0 l 0 60 l 96 60 l h f* 
+q
+1 0 0 RG 17 0 m 50 95 l S		%% draw first line
+0 1 0 RG 50 95 m 80 0 l S		%% draw second line
+0 0 1 RG 80 0 m 0 60 l S		%% draw third line
+1 1 0 RG 0 60 m 96 60 l S		%% draw fourth line
+1 0 1 RG 96 60 m 17 0 l S		%% draw fifth line
+Q
+
+1 0 0 1 150 50 cm						%% draw doughnut
+0 40 m 22.08 40 40 22.08 40 0 c
+40 -22.08 22.08 -40 0 -40 c
+-22.08 -40 -40 -22.08 -40 0 c
+-40 22.08 -22.08 40 0 40 c h
+
+0 20 m 11.04 20 20 11.04 20 0 c
+20 -11.04 11.04 -20 0 -20 c
+-11.04 -20 -20 -11.04 -20 0 c
+-20 11.04 -11.04 20 0 20 c h B*
+q
+1 0 0 RG 0 40 m 22.08 40 40 22.08 40 0 c S		%% draw first line
+0 1 0 RG 40 0 m 40 -22.08 22.08 -40 0 -40 c S		%% draw second line
+0 0 1 RG 0 -40 m -22.08 -40 -40 -22.08 -40 0 c S	%% draw third line
+1 1 0 RG -40 0 m -40 22.08 -22.08 40 0 40 c S		%% draw fourth line
+
+1 0 0 RG 0 20 m 11.04 20 20 11.04 20 0 c S		%% draw first line
+0 1 0 RG 20 0 m 20 -11.04 11.04 -20 0 -20 c S		%% draw second line
+0 0 1 RG 0 -20 m -11.04 -20 -20 -11.04 -20 0 c S	%% draw third line
+1 1 0 RG -20 0 m -20 11.04 -11.04 20 0 20 c S		%% draw fourth line
+Q
+
+1 0 0 1 100 0 cm
+0 40 m 22.08 40 40 22.08 40 0 c
+40 -22.08 22.08 -40 0 -40 c
+-22.08 -40 -40 -22.08 -40 0 c
+-40 22.08 -22.08 40 0 40 c h
+
+0 20 m 11.04 20 20 11.04 20 0 c
+20 -11.04 11.04 -20 0 -20 c
+-11.04 -20 -20 -11.04 -20 0 c
+-20 11.04 -11.04 20 0 20 c h B
+q
+1 0 0 RG 0 40 m 22.08 40 40 22.08 40 0 c S		%% draw first line
+0 1 0 RG 40 0 m 40 -22.08 22.08 -40 0 -40 c S		%% draw second line
+0 0 1 RG 0 -40 m -22.08 -40 -40 -22.08 -40 0 c S	%% draw third line
+1 1 0 RG -40 0 m -40 22.08 -22.08 40 0 40 c S		%% draw fourth line
+
+1 0 0 RG 0 20 m 11.04 20 20 11.04 20 0 c S		%% draw first line
+0 1 0 RG 20 0 m 20 -11.04 11.04 -20 0 -20 c S		%% draw second line
+0 0 1 RG 0 -20 m -11.04 -20 -20 -11.04 -20 0 c S	%% draw third line
+1 1 0 RG -20 0 m -20 11.04 -11.04 20 0 20 c S		%% draw fourth line
+Q
+
+0.5 0.6 0.5 rg
+1 0 0 1 100 0 cm
+0 20 m -11.04 20 -20 11.04 -20 0 c
+-20 -11.04 -11.04 -20 0 -20 c
+11.04 -20 20 -11.04 20 0 c
+20 11.04 11.04 20 0 20 c h 
+
+0 40 m 22.08 40 40 22.08 40 0 c
+40 -22.08 22.08 -40 0 -40 c
+-22.08 -40 -40 -22.08 -40 0 c
+-40 22.08 -22.08 40 0 40 c h B
+q
+1 0 0 RG 0 40 m 22.08 40 40 22.08 40 0 c S		%% draw first line
+0 1 0 RG 40 0 m 40 -22.08 22.08 -40 0 -40 c S		%% draw second line
+0 0 1 RG 0 -40 m -22.08 -40 -40 -22.08 -40 0 c S	%% draw third line
+1 1 0 RG -40 0 m -40 22.08 -22.08 40 0 40 c S		%% draw fourth line
+
+1 0 0 RG 0 20 m -11.04 20 -20 11.04 -20 0 c S		%% draw first line
+0 1 0 RG -20 0 m -20 -11.04 -11.04 -20 0 -20 c S	%% draw second line
+0 0 1 RG 0 -20 m 11.04 -20 20 -11.04 20 0 c S		%% draw third line
+1 1 0 RG 20 0 m 20 11.04 11.04 20 0 20 c S		%% draw fourth line
+Q
+
+Q
+
+BT
+/F1 15 Tf
+20 100 Td (None-Zero)Tj
+100 0 Td (Even-Odd)Tj
+100 0 Td (Even-Odd)Tj
+100 0 Td (None-Zero)Tj
+100 0 Td (None-Zero)Tj
+ET
+Q %% path construction
+
+%% clipping 
+q
+1 0 0 1 0 445 cm
+BT
+/F1 15 Tf
+140 5 Td (Fill Path, set Clipping and show text inside the Clipping) Tj
+ET
+0 1 0 rg
+5 0 120 20 re W f
+.5 .5 .5 rg
+BT
+/F1 20 Tf
+5 5 Td (Clipping Path) Tj
+ET
+Q
+
+q
+1 0 0 1 0 410 cm
+BT
+/F1 15 Tf
+140 5 Td (Stroke Path, set Clipping and show text ) Tj
+ET
+1 1 0 RG
+4 w
+5 0 100 20 re 
+W S
+.5 .5 .5 rg
+BT
+/F1 20 Tf
+5 5 Td (Clipping Path) Tj
+ET
+Q
+
+q
+1 0 0 1 0 350 cm
+BT
+/F1 15 Tf
+130 15 Td (Fill and Stroke Path, set Clipping and fill path object) Tj
+ET
+/G3 gs	
+%/G2 gs			
+0 1 0 rg 1 1 0 RG
+10 10 50 20 re  W B
+.5 .5 .5 rg 0 0 0 RG
+10 10 40 20 re f
+Q
+
+q
+1 0 0 1 0 300 cm
+BT
+/F1 15 Tf
+130 20 Td (No-op for Path, set Clipping and fill path object) Tj
+ET				
+0 1 0 rg 1 1 0 RG
+10 10 50 20 re W n
+.5 .5 .5 rg 0 0 0 RG
+10 10 40 20 re f
+Q
+
+q
+2 0 0 1 200 300 cm
+10 0 m 60 0 l 60 50 l 10 50 l h
+ W n
+0 1 0 rg
+%10 0 60 60 re f
+Q
+
+
+%%end clipping path
+endstream
+endobj
+5 0 obj
+<<
+	/Type /Font
+	/Subtype /Type1
+	/BaseFont /Helvetica
+>>
+endobj
+
+6 0 obj
+<<
+/Type /ExtGState
+/SA true
+/LW 10
+/TR 7 0 R
+>>
+endobj
+
+10 0 obj
+<<
+/Type /ExtGState
+/LW 10
+>>
+endobj
+11 0 obj
+<<
+/Type /ExtGState
+/LW 5
+>>
+
+7 0 obj
+<<
+/FunctionType 0
+/Domain [0.0 1.0]
+/Range [0.0 1.0]
+/Size 2
+/BitPerSample 8
+/Length 7
+/Filter /ASCIIHexDecode
+>>
+stream
+01 00 >
+endstream
+endobj
+
+
+
+
+xref	
+		
+
+trailer	
+<<
+	/Size 0		
+	/Root 3 0 R	
+>>
+
+startxref
+0		
+
+%%EOF	
+ 

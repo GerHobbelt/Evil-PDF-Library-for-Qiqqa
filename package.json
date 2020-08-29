@@ -1,0 +1,24 @@
+{
+  "name": "evil-base",
+  "version": "0.0.1",
+  "description": "collection of Evil Bastard PDFs for testing Qiqqa tools and processes",
+  "main": "mk_mupdf_mujstest_script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GerHobbelt/Evil-PDF-Library-for-Qiqqa.git"
+  },
+  "keywords": [
+    "qiqqa",
+    "pdf",
+    "testsuite"
+  ],
+  "author": "Ger Hobbelt",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/GerHobbelt/Evil-PDF-Library-for-Qiqqa/issues"
+  },
+  "homepage": "https://github.com/GerHobbelt/Evil-PDF-Library-for-Qiqqa#readme"
+}

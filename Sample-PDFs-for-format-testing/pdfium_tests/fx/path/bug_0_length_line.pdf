@@ -1,0 +1,134 @@
+%PDF-1.4	
+
+1 0 obj		
+<<
+	/Type /Pages
+	/Kids [2 0 R]		
+	/Count 1
+>>
+endobj
+
+2 0 obj		
+<<
+	/Type /Page 
+	/Parent 1 0 R				
+	/MediaBox [0 0 531 666]		
+	/Contents [4 0 R]	
+	/Resources <<
+		/Font <</F1 5 0 R>>
+	>>			
+	
+>>
+endobj
+
+3 0 obj		
+<<
+	/Type /Catalog
+	/Pages 1 0 R	
+>>
+endobj
+
+4 0 obj		
+<<
+	/Length 0		 
+					
+>> stream
+%% 当只有一个点的path时,如果是Round Cap会画一个圆圈.其他cap不产生输出
+%% reference P231
+10 w
+q
+
+1 0 0 1 50 550 cm 
+1 J 10 50 m h S 30 50 m 30 50 l h S	
+0 J 10 30 m h S 30 30 m 30 30 l h S 	
+2 J 10 10 m h S 30 10 m 30 10 l h S	
+BT
+/F1 15 Tf -30 70 Td (Zero Length Solid line) Tj
+/F1 10 Tf 75 -25 TD
+(Zero Length Line with Round Cap; 10 Line Width) Tj
+0 -20 TD (Butt Cap; no Output) Tj
+(Projecting square Cap; no Output)'
+ET
+Q
+%%
+%% dash 解析:例如[10 15 30] 0 d解析为10 on 15 off 30 on 10 off 15 on 30 off....
+%% 我们foxit是10 on 15 off 30 on 30 off ....
+q
+1 0 0 1 50 480 cm
+[10 15 30] 0 d 
+10 0 m 210 0 l S
+1 w 0 1 0 RG 
+10 0 m 210 0 l S
+BT
+/F1 15 Tf -30 50 Td (Dash) Tj
+/F1 10 Tf 40 -30 TD (10 on 15 off 30 on 10 off 15 on 30 off....)Tj
+0 20 Td ([10 15 30] 0 d. Butt Cap)Tj
+ET
+Q
+%% 0 off 在adobe不解析; 0 on有解析
+%% 我们foxit不同.看看吧
+q
+1 0 0 1 20 360 cm
+[10 0] 0 d 		%% adobe相当于[] 0 d; foxit相当于[10] 0 d
+10 60 m 210 60 l S
+0 J
+[0 10] 0 d		%% 0 on 10 off...
+10 40 m 210 40 l S
+1 J
+[0 10] 0 d		%% 0 on 10 off...
+10 20 m 210 20 l S
+2 J
+[0 20] 0 d		%% 0 on 20 off.....
+10 0 m 210 0 l S
+BT
+/F1 15 Tf 0 80 Td (0 Off 0 On) Tj
+/F1 10 Tf 230 -20 TD ([10 0] 0 d 10 on 0 off... -> [10] 0 d) Tj
+(Butt Cap: [0 10] 0 d; 0 on 10 off...) '
+(Round Cap: [0 10] 0 d; 0 on 10 off...)'
+(Projecting square Cap: [0 20] 0 d; 0 on 20 off...)'
+ET
+Q
+
+%% Dash Line Cap
+q
+1 0 0 1 20 260 cm
+[20] 0 d 10 40 m 210 40 l S 
+1 J [20] 0 d 10 20 m 210 20 l S
+2 J [20] 0 d 10 0 m 210 0 l S
+1 w 0 1 0 RG
+0 J [20] 0 d 10 40 m 210 40 l S 
+1 J [20] 0 d 10 20 m 210 20 l S
+2 J [20] 0 d 10 0 m 210 0 l S
+BT
+/F1 15 Tf 0 60 Td (Dash Line Cap) Tj
+/F1 10 Tf 230 -20 TD (Butt Cap: [20] 0 d; 20 on 20 off...) Tj
+(Round Cap: [20] 0 d; 20 on 20 off...)'
+(Projecting square Cap: [20] 0 d; 20 on 20 off...)'
+ET
+Q
+
+endstream
+endobj
+
+5 0 obj
+<<
+	/Type /Font
+	/Subtype /Type1
+	/BaseFont /Helvetica
+>>
+endobj
+
+xref	
+		
+
+trailer	
+<<
+	/Size 0		
+	/Root 3 0 R	
+>>
+
+startxref
+0		
+
+%%EOF	
+ 

@@ -1,0 +1,101 @@
+%PDF-1.4	
+
+1 0 obj		
+<<
+	/Type /Pages
+	/Kids [2 0 R]		
+	/Count 1
+>>
+endobj
+
+2 0 obj		
+<<
+	/Type /Page 
+	/Parent 1 0 R				
+	/MediaBox [0 0 531 666]		
+	/Contents [4 0 R]	
+	/Resources <<
+		/Font <</F1 5 0 R>>
+		/XObject<</Im1 6 0 R>>
+		/ExtGState<</GS1 7 0 R>>
+	>>			
+	
+>>
+endobj
+
+3 0 obj		
+<<
+	/Type /Catalog
+	/Pages 1 0 R	
+>>
+endobj
+
+4 0 obj		
+<<
+	/Length 0		 
+					
+>> stream
+/GS1 gs
+q
+100 0 0 100 100 500 cm
+/Im1 Do
+Q
+
+
+endstream
+endobj
+
+5 0 obj
+<<
+	/Type /Font
+	/Subtype /Type1
+	/BaseFont /Helvetica
+>>
+endobj
+
+6 0 obj		% a colored image
+<<
+	/Type /XObject
+	/Subtype /Image
+	/Width 8					% pixel width
+	/Height 8					% pixel height
+	/ColorSpace /DeviceRGB		% color space: each pixel uses R,G,B components
+	/BitsPerComponent 8			% each component uses one byte
+	/Length 0					% should be length of image data. 
+								% Use 0 here for convinience
+	/Filter /ASCIIHexDecode		% use hexidecimal form for convinience
+	/Mask [0 50 0 50 100 255]
+>> stream
+FF0000 C00000 A00000 800000 600000 400000 200000 0000FF
+FF2000 C00000 A00000 800000 600000 400000 200000 0000C0
+FF4000 C00000 A00000 800000 600000 400000 200000 0000A0
+FF6000 C00000 A00000 800000 600000 400000 200000 000080
+FF8000 C00000 A00000 800000 600000 400000 200000 000060
+FFA000 C00000 A00000 800000 600000 400000 200000 000040
+FFC000 C00000 A00000 800000 600000 400000 200000 000020
+FFFF00 C0C000 A0A000 808000 606000 404000 202000 000000>
+endstream
+endobj
+
+7 0 obj
+<<
+/Type /ExtGState
+/AIS false
+/ca 0.5
+>>
+endobj
+
+xref	
+		
+
+trailer	
+<<
+	/Size 0		
+	/Root 3 0 R	
+>>
+
+startxref
+0		
+
+%%EOF	
+ 

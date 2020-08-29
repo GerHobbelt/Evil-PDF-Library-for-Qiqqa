@@ -1,0 +1,173 @@
+%PDF-1.7	
+
+1 0 obj		
+<<
+	/Type /Pages
+	/Kids [2 0 R]		
+	/Count 1
+>>
+endobj
+
+2 0 obj		
+<<
+	/Type /Page 
+	/Parent 1 0 R				
+	/MediaBox [0 0 531 666]		
+	/Contents [4 0 R]	
+	/Resources <<
+		/Font <</F1 5 0 R>>
+		/ExtGState<</G1 6 0 R>>
+	>>			
+>>
+endobj
+
+3 0 obj		
+<<
+	/Type /Catalog
+	/Pages 1 0 R	
+>>
+endobj
+
+5 0 obj
+<<
+	/Type /Font
+	/Subtype /Type1
+	/BaseFont /Helvetica
+>>
+endobj
+
+6 0 obj				% Graphics State Parameter Dictionaries
+<<
+/Type /ExtGState	
+/LW 5				% Line Width = 5
+/LJ	0				% Line Join Style = Miter Join  
+					% Miter Join (0 j)  Round join (1 j) 
+/LC 1				% Line Cap Style = Round cap    
+					% Butt cap (0 J)  Round cap (1 J) Projecting square cap (2 J)
+/ML 2				% Miter Limit = 2
+/D [[10 15] 2]		% Line Dash Pattern: 10 units on, 15 units off, 2 units offset
+/CA 0.5				% Stroking alpha = 0.5
+/ca 0.5				% Nonstrking alpha = 0.5
+>>
+endobj
+
+4 0 obj		
+<<
+	/Length 0		 
+					
+>> stream
+
+%Homework1: line cap & line join
+q
+0.5 0.5 0.5 RG
+0.5 0.6 0.5 rg
+5 w				% Line Width = 5
+0 j				% Line Join Style = Miter Join  
+				% Miter Join (0 j)  Round join (1 j)
+1 J				% Line Cap Style = Round cap    
+				% Butt cap (0 J)  Round cap (1 J) Projecting square cap (2 J)
+2 M				% Miter Limit = 2
+[10 8] 1 d  	% Line Dash Pattern: 10 units on, 8 units off, 1 units offset
+50 590 m 
+70 640 l 
+90 590 l
+S
+BT
+/F1 10 Tf 
+20 570 Td 
+(Line Width = 5, Line Join = Miter Join, Line Cap = Round Cap, Miter Limit = 2) Tj				%% Tj: Show Text
+0 -10 Td
+(Line Dash Patten: 10 units on, 8 units off, 1 units offset) Tj				%% Tj: Show Text
+0 90 Td
+(Homework1: line cap & line join) Tj				%% Tj: Show Text
+ET
+Q
+
+%Homework2: Graphics State Parameter Dictionaries
+q
+/G1 gs
+0 1 0 RG
+1 0 0 rg
+20 300 200 200 re
+b
+BT
+/F1 10 Tf 
+20 510 Td
+(Graphics State Parameter Dictionaries:) Tj
+0 10 Td
+(Homework2:) Tj
+ET
+Q
+
+%Homework3: Text Clipping
+q
+
+BT
+/F1 10 Tf 
+250 510 Td
+(Homework3: Text Clipping) Tj
+ET
+
+1 0 0 1 250 465 cm 
+BT								%% BT:begin Text; ET: end Text
+/F1 50 Tf 						%% select font; set font;
+7 Tr			  				%% Text rendering modes 7; Add text to path for clipping
+0 0 Td 
+(Hello World!) Tj				%% Tj: Show Text
+ET
+
+1 0 0 rg
+0 0 50 50 re f
+
+0 1 0 rg
+50 0 50 50 re f
+
+0 0 1 rg
+100 0 50 50 re f
+
+1 1 0 rg
+150 0 50 50 re f
+
+0 1 1 rg
+200 0 50 50 re f
+
+1 0 1 rg
+250 0 50 50 re f
+Q
+
+%Homework4: Bezier Curve
+q
+0 0.5 0.5 rg
+0.5 0.5 1 RG
+BT
+/F1 10 Tf 
+20 266 Td
+(Homework4: Bezier Curve) Tj
+ET
+
+1 0 0 1 -240 230 cm 
+270 0 m 290 40 310 40 330 0 c S
+360 0 m 400 40 420 0 v S
+450 0 m 470 40 510 0 y S
+Q
+
+
+endstream
+endobj
+
+
+
+xref	
+		
+
+trailer	
+<<
+	/Size 0		
+	/Root 3 0 R	
+>>
+
+startxref
+0		
+
+%%EOF	
+ 

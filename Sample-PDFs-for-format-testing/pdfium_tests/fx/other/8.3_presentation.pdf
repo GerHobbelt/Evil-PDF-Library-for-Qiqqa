@@ -1,0 +1,116 @@
+%PDF-1.7	
+%% 2 pages; 页面内的跳转还没写
+
+1 0 obj		
+<<
+	/Type /Pages
+	/Kids [2 0 R 10 0 R]		
+	/Count 2
+>>
+endobj
+
+2 0 obj		
+<<
+	/Type /Page 
+	/Parent 1 0 R				
+	/MediaBox [0 0 176 220]		
+	/Contents [4 0 R]	
+	/Resources <<
+		/Font <</F1 5 0 R>>
+	>>
+	/Dur	3
+	/Trans  <</D 3 /S /Split /Dm /H>>
+	/PresSteps 30 0 R			
+	
+>>
+endobj
+
+3 0 obj		
+<<
+	/Type /Catalog
+	/Pages 1 0 R	
+	/PageMode  /FullScreen
+	/ViewerPreferences <</FitWindow true>>
+>>
+endobj
+
+4 0 obj		
+<<
+	/Length 0		 
+					
+>> stream
+
+1 0 0 rg
+0 0 176 220 re f
+
+0 0 0 rg
+BT
+/F1 10 Tf
+60 200 TD (/D 3 /S /Split /Dm /H)Tj
+ET
+
+endstream
+endobj
+
+5 0 obj
+<<
+	/Type /Font
+	/Subtype /Type1
+	/BaseFont /Helvetica
+>>
+endobj
+
+10 0 obj		
+<<
+	/Type /Page 
+	/Parent 1 0 R				
+	/MediaBox [0 0 176 220]		
+	/Contents [20 0 R]	
+	/Resources <</Font <</F1 5 0 R>> >>
+	/Dur	3
+	/Trans  <</D 3 /S /Blinds /Dm /H>>			
+	
+>>
+endobj
+
+20 0 obj
+<<
+/Length 0
+>>
+stream
+BT
+/F1 10 Tf
+60 200 TD (/D 3 /S /Blinds /Dm /V)Tj
+ET
+
+endstream
+endobj
+
+30 0 obj
+<<
+/Type /NavNode
+/NA  40 0 R
+%/PA  41 0 R
+/Next 42 0 R
+/Dur 3
+>>
+endobj
+
+
+
+
+
+xref	
+		
+
+trailer	
+<<
+	/Size 0		
+	/Root 3 0 R	
+>>
+
+startxref
+0		
+
+%%EOF	
+ 

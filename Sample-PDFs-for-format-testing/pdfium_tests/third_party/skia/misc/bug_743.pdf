@@ -1,0 +1,199 @@
+%PDF-1.4
+%׃כיב
+1 0 obj
+<</Title (ShaderText)
+/Subject (rendering correctness test)
+/Creator (Skia/DM)
+/Producer (Skia/PDF m61)>>
+endobj
+2 0 obj
+<</Length 141>> stream
+1 0 0 -1 0 128 cm
+1 1 1 RG 1 1 1 rg
+/G0 gs
+0 0 128 128 re
+f
+/Pattern CS/Pattern cs/P0 SCN/P0 scn
+BT
+/F0 100 Tf
+1 0 0 -1 16 108 Tm
+<04> Tj
+ET
+
+endstream
+endobj
+3 0 obj
+<</Type /Catalog
+/Pages 4 0 R>>
+endobj
+4 0 obj
+<</Type /Pages
+/Count 1
+/Kids [5 0 R]>>
+endobj
+5 0 obj
+<</Type /Page
+/Resources <</ProcSets [/PDF /Text /ImageB /ImageC /ImageI]
+/ExtGState <</G0 6 0 R>>
+/Pattern <</P0 7 0 R>>
+/Font <</F0 8 0 R>>>>
+/MediaBox [0 0 128 128]
+/Contents 2 0 R
+/Parent 4 0 R>>
+endobj
+6 0 obj
+<</Type /ExtGState
+/Type /ExtGState
+/CA 1
+/ca 1
+/LC 0
+/LJ 0
+/LW 0
+/ML 4
+/SA true
+/BM /Normal>>
+endobj
+7 0 obj
+<</Type /Pattern
+/PatternType 2
+/Matrix [1 0 0 -1 0 128]
+/Shading <</Function <</C0 [1 1 0]
+/C1 [1 0 1]
+/Domain [0 1]
+/FunctionType 2
+/N 1>>
+/Extend [true true]
+/Coords [0 0 128 128]
+/ShadingType 2
+/ColorSpace /DeviceRGB>>>>
+endobj
+8 0 obj
+<</Type /Font
+/Subtype /Type3
+/FontMatrix [.00048828125 0 0 -.00048828125 0 0]
+/FirstChar 0
+/LastChar 4
+/FontBBox [8 0 1330 -1409]
+/CIDToGIDMap /Identity
+/ToUnicode 9 0 R
+/FontDescriptor 10 0 R
+/Widths [1536 0 0 0 1139]
+/Encoding <</Type /Encoding
+/Differences [0 /g0 /g0 /g0 /g0 /g4]>>
+/CharProcs <</g0 11 0 R
+/g4 12 0 R>>>>
+endobj
+9 0 obj
+<</Length 332>> stream
+/CIDInit /ProcSet findresource begin
+12 dict begin
+begincmap
+/CIDSystemInfo
+<<  /Registry (Adobe)
+/Ordering (UCS)
+/Supplement 0
+>> def
+/CMapName /Adobe-Identity-UCS def
+/CMapType 2 def
+1 begincodespacerange
+<00> <FF>
+endcodespacerange
+1 beginbfchar
+<04> <0023>
+endbfchar
+endcmap
+CMapName currentdict /CMap defineresource pop
+end
+end
+endstream
+endobj
+10 0 obj
+<</Type /FontDescriptor
+/FontName /Toy#20Liberation#20Sans
+/ItalicAngle 0
+/Flags 4>>
+endobj
+11 0 obj
+<</Length 252>> stream
+1536 0 205 -1409 1330 0 d1
+205.0007 -1408.99939 m
+1329.99988 -1408.99939 l
+1329.99988 0 l
+205.0007 0 l
+205.0007 -1408.99939 l
+h
+280.99994 -1333.00024 m
+280.99994 -76.000053 l
+1254.00061 -76.000053 l
+1254.00061 -1333.00024 l
+280.99994 -1333.00024 l
+h
+f
+
+endstream
+endobj
+12 0 obj
+<</Length 761>> stream
+1139 0 8 -1401 1130 0 d1
+896 -885.00018 m
+817.99988 -515.99976 l
+1077.99963 -515.99976 l
+1077.99963 -408.00052 l
+795.00085 -408.00052 l
+707.00031 0 l
+597.00018 0 l
+682.99982 -408.00052 l
+320 -408.00052 l
+235.99924 0 l
+125.999924 0 l
+209.99988 -408.00052 l
+8.9999971 -408.00052 l
+8.9999971 -515.99976 l
+234.00038 -515.99976 l
+312.00052 -885.00018 l
+60.00005 -885.00018 l
+60.00005 -992.99945 l
+334.00012 -992.99945 l
+423.00006 -1400.99988 l
+533.00018 -1400.99988 l
+444.99969 -992.99945 l
+807.99951 -992.99945 l
+896 -1400.99988 l
+1006.00012 -1400.99988 l
+917.99963 -992.99945 l
+1129.00098 -992.99945 l
+1129.00098 -885.00018 l
+896 -885.00018 l
+h
+425.00095 -885.00018 m
+344.99994 -515.99976 l
+707.00031 -515.99976 l
+785.00043 -885.00018 l
+425.00095 -885.00018 l
+h
+f
+
+endstream
+endobj
+xref
+0 13
+0000000000 65535 f 
+0000000015 00000 n 
+0000000136 00000 n 
+0000000326 00000 n 
+0000000373 00000 n 
+0000000428 00000 n 
+0000000643 00000 n 
+0000000753 00000 n 
+0000000993 00000 n 
+0000001334 00000 n 
+0000001715 00000 n 
+0000001816 00000 n 
+0000002118 00000 n 
+trailer
+<</Size 13
+/Root 3 0 R
+/Info 1 0 R>>
+startxref
+2929
+%%EOF

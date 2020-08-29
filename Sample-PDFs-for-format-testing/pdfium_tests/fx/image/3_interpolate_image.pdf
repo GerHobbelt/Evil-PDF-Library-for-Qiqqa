@@ -1,0 +1,144 @@
+%PDF-1.7	
+
+1 0 obj		
+<<
+	/Type /Pages
+	/Kids [2 0 R]		
+	/Count 1
+>>
+endobj
+
+2 0 obj		
+<<
+	/Type /Page 
+	/Parent 1 0 R				
+	/MediaBox [0 0 531 666]		
+	/Contents [4 0 R]	
+	/Resources <<
+		/Font <</F1 5 0 R>>
+		/ColorSpace<</CS1 6 0 R>>
+		/XObject<</Im1 7 0 R /Im2 9 0 R>>
+		/ExtGState<</GS1 8 0 R>>
+	>>			
+	
+>>
+endobj
+
+3 0 obj		
+<<
+	/Type /Catalog
+	/Pages 1 0 R	
+>>
+endobj
+
+4 0 obj		
+<<
+	/Length 0		 
+					
+>> stream
+
+q 100 0 0 100 50 500 cm /Im1 Do Q
+q /GS1 gs 100 0 0 100 200 500 cm /Im1 Do Q
+q 100 0 0 100 50 350 cm /Im2 Do Q
+
+q /GS1 gs 100 0 0 100 200 350 cm /Im2 Do Q
+
+BT
+/F1 20 Tf 50 610 TD (Interpolate)Tj
+150 0 TD (Transparent) Tj
+-150 -150 TD (CalRGB)Tj
+150 0 TD (Transparent)Tj
+ET
+
+endstream
+endobj
+
+5 0 obj
+<<
+	/Type /Font
+	/Subtype /Type1
+	/BaseFont /Helvetica
+>>
+endobj
+
+
+
+6 0 obj
+[/CalRGB <<%/WhitePoint [1.0 1.0 0.5 ]
+/WhitePoint [0.905 1.0 1.0890 ]
+%/Gamma [1.800000 1.800000 1.800000 ]
+%/Matrix  [0.4497 0.2446 0.0252  0.3163 0.6720 0.1412 0.1845 0.0833 0.9227]
+>>
+]
+endobj
+
+7 0 obj		% a colored image
+<<
+	%/ImageMask true
+	/Type /XObject
+	/Subtype /Image
+	/Width 8					% pixel width
+	/Height 8					% pixel height
+	/ColorSpace /DeviceRGB		% color space: each pixel uses R,G,B components
+	/BitsPerComponent 8			% each component uses one byte
+	/Length 0					% should be length of image data. 
+								% Use 0 here for convinience
+	/Filter /ASCIIHexDecode		% use hexidecimal form for convinience
+	/Interpolate true
+>> stream
+FF0000 C00000 A00000 800000 600000 400000 200000 0000FF
+FF2000 C00000 A00000 800000 600000 400000 200000 0000C0
+FF4000 C00000 A00000 800000 600000 400000 200000 0000A0
+FF6000 C00000 A00000 800000 600000 400000 200000 000080
+FF8000 C00000 A00000 800000 600000 400000 200000 000060
+FFA000 C00000 A00000 800000 600000 400000 200000 000040
+FFC000 C00000 A00000 800000 600000 400000 200000 000020
+FFFF00 C0C000 A0A000 808000 606000 404000 202000 000000>
+endstream
+endobj
+
+9 0 obj
+<<
+	%/ImageMask true
+	/Type /XObject
+	/Subtype /Image
+	/Width 8					% pixel width
+	/Height 8					% pixel height
+	/ColorSpace 6 0 R		% color space: each pixel uses R,G,B components
+	/BitsPerComponent 8			% each component uses one byte
+	/Length 0					% should be length of image data. 
+								% Use 0 here for convinience
+	/Filter /ASCIIHexDecode		% use hexidecimal form for convinience
+	%/Interpolate true
+>> stream
+FF0000 C00000 A00000 800000 600000 400000 200000 0000FF
+FF2000 C00000 A00000 800000 600000 400000 200000 0000C0
+FF4000 C00000 A00000 800000 600000 400000 200000 0000A0
+FF6000 C00000 A00000 800000 600000 400000 200000 000080
+FF8000 C00000 A00000 800000 600000 400000 200000 000060
+FFA000 C00000 A00000 800000 600000 400000 200000 000040
+FFC000 C00000 A00000 800000 600000 400000 200000 000020
+FFFF00 C0C000 A0A000 808000 606000 404000 202000 000000>
+endstream
+endobj
+
+8 0 obj
+<<
+/ca 0.5
+>>
+endobj
+
+xref	
+		
+
+trailer	
+<<
+	/Size 0		
+	/Root 3 0 R	
+>>
+
+startxref
+0		
+
+%%EOF	
+ 

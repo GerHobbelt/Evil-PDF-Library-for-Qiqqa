@@ -1,0 +1,105 @@
+%PDF-1.7	
+
+1 0 obj		
+<<
+	/Type /Pages
+	/Kids [2 0 R]		
+	/Count 1
+>>
+endobj
+
+2 0 obj		
+<<
+	/Type /Page 
+	/Parent 1 0 R				
+	/MediaBox [0 0 531 666]		
+	/Contents [4 0 R]	
+	/Resources <<
+		/Font <</Font1 5 0 R>>
+	>>			
+>>
+endobj
+
+3 0 obj		
+<<
+	/Type /Catalog
+	/Pages 1 0 R	
+>>
+endobj
+
+4 0 obj		
+<<
+	/Length 0		 
+					
+>> stream
+
+100 600 40 50 re  		%w=40,h=50,pos:(100,600)
+s
+
+q
+6 0 0 1 180 600 cm		%pos:(180,600) 
+0 0 40 50 re  			%w=40,h=50
+s
+Q
+
+q
+0.866 0.5 -0.5 0.866 100 500 cm   	%pos:(100,500) Matrix = [cos¦È,sin¦È,-sin¦È,cos¦È,0,0] ¦È = 30
+0 0 40 50 re  						%w=40,h=50
+s
+Q
+
+
+q
+1 0.5773 0 1 100 400 cm   			%pos:(100,400) Matrix = [1,tan¦Á,0,1,0,0] ¦Á = 30
+0 0 40 50 re  						%w=40,h=50
+s
+Q
+
+q
+1 0 0.5773 1 100 300 cm   			%pos:(100,300) Matrix = [1,0,tan¦Â,1,0,0] ¦Â = 30
+0 0 40 50 re  						%w=40,h=50
+s
+Q
+
+BT
+
+/Font1 10 Tf	
+50 270 TD				
+(Rect5: Skews the Y axis by an angle 30) Tj							
+0 120 TD				
+(Rect4: Skews the X axis by an angle 30 ) Tj	
+0 100 TD				
+(Rect3: Rotation = 30 Pos x=100, y=500) Tj
+10 90 TD				
+(    Pos x=100, y=600) Tj
+0 10 TD				
+(Rect1: w = 40, h = 50) Tj
+120 0 TD				
+(Rect2: w = 240, h = 50 Pos x=180, y=600) Tj
+
+ET
+endstream
+endobj
+
+5 0 obj
+<<
+	/Type /Font
+	/Subtype /Type1
+	/BaseFont /Helvetica
+>>
+endobj
+
+xref	
+		
+
+trailer	
+<<
+	/Size 0		
+	/Root 3 0 R	
+>>
+
+startxref
+0		
+
+%%EOF	
+ 
