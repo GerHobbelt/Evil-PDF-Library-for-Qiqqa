@@ -1,0 +1,207 @@
+mupdf memory issue:
+
+muconvert INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/4/458B1F6296CFA32442F7CC47752231F74B89E54D.pdf
+
+
+stdout/stderr:
+
+'% PDF: INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/4/458B1F6296CFA32442F7CC47752231F74B89E54D.pdf'
+'% dir: INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/4'
+'% name: 458B1F6296CFA32442F7CC47752231F74B89E54D.pdf'
+'% base: 458B1F6296CFA32442F7CC47752231F74B89E54D'
+'CD F:/Qiqqa/evil-base'
+'MUTOOL mudraw -o "__mujstest/INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/4/%04d-458B1F6296CFA32442F7CC47752231F74B89E54D.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l "INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/4/458B1F6296CFA32442F7CC47752231F74B89E54D.pdf"'
+Layer configs:
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/4/458B1F6296CFA32442F7CC47752231F74B89E54D.pdf 1 grayscaleError opening data file W:\Projects\sites\library.visyond.gov\80\lib\CS\MuPDF\platform\win32\Debug-64/tessdata/eng.traineddata
+Please make sure the TESSDATA_PREFIX environment variable is set to your "tessdata" directory.
+Failed loading language 'eng'
+Tesseract couldn't load any languages!
+error: Tesseract initialisation failed
+warning: dropping unclosed device
+error: cannot draw 'INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/4/458B1F6296CFA32442F7CC47752231F74B89E54D.pdf': Tesseract initialisation failed
+Allocations total=1807
+error executing MUTOOL command: mudraw -o "__mujstest/INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/4/%04d-458B1F6296CFA32442F7CC47752231F74B89E54D.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l "INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/4/458B1F6296CFA32442F7CC47752231F74B89E54D.pdf"
+'MUTOOL muconvert -o "__mujstest/INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/4/%04d-458B1F6296CFA32442F7CC47752231F74B89E54D.convert.pdf" -W 1200 -H 1800 "INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/4/458B1F6296CFA32442F7CC47752231F74B89E54D.pdf"'
+OK: MUTOOL command: muconvert -o "__mujstest/INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/4/%04d-458B1F6296CFA32442F7CC47752231F74B89E54D.convert.pdf" -W 1200 -H 1800 "INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/4/458B1F6296CFA32442F7CC47752231F74B89E54D.pdf"
+'MUTOOL muraster -o "__mujstest/INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/4/%04d-458B1F6296CFA32442F7CC47752231F74B89E54D.raster.ppm" -s mt -r 150 -P "INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/4/458B1F6296CFA32442F7CC47752231F74B89E54D.pdf"'
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/4/458B1F6296CFA32442F7CC47752231F74B89E54D.pdf 1warning: found duplicate fz_icc_link in the store
+ 19ms (interpretation) 467ms (rendering) 486ms (total)
+Glyph Cache Size: 0
+Glyph Cache Evictions: 0 (0 bytes)
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/4/458B1F6296CFA32442F7CC47752231F74B89E54D.pdf 2 32ms (interpretation) 306ms (rendering) 338ms (total)
+Glyph Cache Size: 0
+Glyph Cache Evictions: 0 (0 bytes)
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/4/458B1F6296CFA32442F7CC47752231F74B89E54D.pdf 3
+
+**CRASH**
+
+
+
+
+
+'MUTOOL muraster -o "__mujstest/INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/7/%04d-71120B277417F57C6496F63EE705197262F7AA.raster.ppm" -s mt -r 150 -P "INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/7/71120B277417F57C6496F63EE705197262F7AA.pdf"'
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/7/71120B277417F57C6496F63EE705197262F7AA.pdf 1warning: found duplicate fz_icc_link in the store
+ 21ms (interpretation) 311ms (rendering) 332ms (total)
+Glyph Cache Size: 0
+Glyph Cache Evictions: 0 (0 bytes)
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/7/71120B277417F57C6496F63EE705197262F7AA.pdf 2 8ms (interpretation) 35ms (rendering) 43ms (total)
+Glyph Cache Size: 0
+Glyph Cache Evictions: 0 (0 bytes)
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/7/71120B277417F57C6496F63EE705197262F7AA.pdf 3 18ms (interpretation) 138ms (rendering) 156ms (total)
+Glyph Cache Size: 0
+Glyph Cache Evictions: 0 (0 bytes)
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/7/71120B277417F57C6496F63EE705197262F7AA.pdf 4 15ms (interpretation) 143ms (rendering) 158ms (total)
+Glyph Cache Size: 0
+Glyph Cache Evictions: 0 (0 bytes)
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/7/71120B277417F57C6496F63EE705197262F7AA.pdf 5 15ms (interpretation) 147ms (rendering) 162ms (total)
+Glyph Cache Size: 0
+Glyph Cache Evictions: 0 (0 bytes)
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/7/71120B277417F57C6496F63EE705197262F7AA.pdf 6
+**CRASH**
+
+
+
+
+
+OK: MUTOOL command: muconvert -o "__mujstest/INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/7/%04d-7C40AD1A6353764F741E9F8C56ECDDA68061BAF0.convert.pdf" -W 1200 -H 1800 "INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/7/7C40AD1A6353764F741E9F8C56ECDDA68061BAF0.pdf"
+'MUTOOL muraster -o "__mujstest/INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/7/%04d-7C40AD1A6353764F741E9F8C56ECDDA68061BAF0.raster.ppm" -s mt -r 150 -P "INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/7/7C40AD1A6353764F741E9F8C56ECDDA68061BAF0.pdf"'
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/7/7C40AD1A6353764F741E9F8C56ECDDA68061BAF0.pdf 1 13ms (interpretation) 230ms (rendering) 243ms (total)
+Glyph Cache Size: 0
+Glyph Cache Evictions: 0 (0 bytes)
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/7/7C40AD1A6353764F741E9F8C56ECDDA68061BAF0.pdf 2
+**CRASH**
+
+
+
+
+'MUTOOL muraster -o "__mujstest/INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/7/%04d-7E70426EE6C56414553F313EE285F64734EBBF.raster.ppm" -s mt -r 150 -P "INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/7/7E70426EE6C56414553F313EE285F64734EBBF.pdf"'
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/7/7E70426EE6C56414553F313EE285F64734EBBF.pdf 1 1ms (interpretation) 182ms (rendering) 183ms (total)
+Glyph Cache Size: 0
+Glyph Cache Evictions: 0 (0 bytes)
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/7/7E70426EE6C56414553F313EE285F64734EBBF.pdf 2 23ms (interpretation) 115ms (rendering) 138ms (total)
+Glyph Cache Size: 0
+Glyph Cache Evictions: 0 (0 bytes)
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/7/7E70426EE6C56414553F313EE285F64734EBBF.pdf 3 29ms (interpretation) 84ms (rendering) 113ms (total)
+Glyph Cache Size: 0
+Glyph Cache Evictions: 0 (0 bytes)
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/7/7E70426EE6C56414553F313EE285F64734EBBF.pdf 4 15ms (interpretation) 104ms (rendering) 119ms (total)
+Glyph Cache Size: 0
+Glyph Cache Evictions: 0 (0 bytes)
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/7/7E70426EE6C56414553F313EE285F64734EBBF.pdf 5 7ms (interpretation) 91ms (rendering) 98ms (total)
+Glyph Cache Size: 0
+Glyph Cache Evictions: 0 (0 bytes)
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/7/7E70426EE6C56414553F313EE285F64734EBBF.pdf 6 5ms (interpretation) 31ms (rendering) 36ms (total)
+Glyph Cache Size: 0
+Glyph Cache Evictions: 0 (0 bytes)
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/7/7E70426EE6C56414553F313EE285F64734EBBF.pdf 7
+**CRASH**
+
+
+
+
+
+
+Glyph Cache Size: 1048431
+Glyph Cache Evictions: 144013 (71527649 bytes)
+page Sample-PDFs-for-format-testing/PDF.js-issue-PDFs/PDF32000_2008.pdf 756 6ms (interpretation) 103ms (rendering) 109ms (total)
+Glyph Cache Size: 0
+Glyph Cache Evictions: 144015 (71528593 bytes)
+total 132018ms / 756 pages for an average of 174ms
+fastest page 654: 36ms
+slowest page 403: 7727ms
+warning: ... repeated 2 times...
+Memory use total=5508642498 peak=42052316 current=0
+
+---NO CRASH, just huge memory usage and slow rendering!---
+
+
+
+
+'MUTOOL trace -o "__mujstest/Sample-PDFs-for-format-testing/PDF.js-issue-PDFs/%04d-pdfmark_reference.trace.txt" -W 1200 -H 1800 "Sample-PDFs-for-format-testing/PDF.js-issue-PDFs/pdfmark_reference.pdf"'
+OK: MUTOOL command: trace -o "__mujstest/Sample-PDFs-for-format-testing/PDF.js-issue-PDFs/%04d-pdfmark_reference.trace.txt" -W 1200 -H 1800 "Sample-PDFs-for-format-testing/PDF.js-issue-PDFs/pdfmark_reference.pdf"
+T:1964ms D:94.662s OK MUTOOL trace -o "__mujstest/Sample-PDFs-for-format-testing/PDF.js-issue-PDFs/%04d-pdfmark_reference.trace.txt" -W 1200 -H 1800 "Sample-PDFs-for-format-testing/PDF.js-issue-PDFs/pdfmark_reference.pdf"
+'MUTOOL clean -gggg -D -c -s -AA "Sample-PDFs-for-format-testing/PDF.js-issue-PDFs/pdfmark_reference.pdf" "__mujstest/Sample-PDFs-for-format-testing/PDF.js-issue-PDFs/%04d-pdfmark_reference.clean.pdf"'
+warning: deduplication cost pathological at O(75104768)?
+
+--slow clean without the timeout patch--
+
+
+
+
+'MUTOOL clean -gggg -D -c -s -AA "Sample-PDFs-for-format-testing/PDFIO-format-corpus/govdocs1-error-pdfs/error_set_1/499039.pdf" "__mujstest/Sample-PDFs-for-format-testing/PDFIO-format-corpus/govdocs1-error-pdfs/error_set_1/%04d-499039.clean.pdf"'
+warning: deduplication cost pathological at O(588485124)?
+
+
+
+
+
+warning: cannot render glyph
+warning: FT_Load_Glyph(ICKPOC+HelveticaNeue-Condensed,71,FT_LOAD_NO_HINTING): broken file
+warning: FT_Load_Glyph(ICKPOC+HelveticaNeue-Condensed,71,FT_LOAD_NO_SCALE|FT_LOAD_IGNORE_TRANSFORM): broken file
+warning: cannot render glyph
+warning: FT_Load_Glyph(ICKPOC+HelveticaNeue-Condensed,68,FT_LOAD_NO_HINTING): broken file
+warning: FT_Load_Glyph(ICKPOC+HelveticaNeue-Condensed,68,FT_LOAD_NO_SCALE|FT_LOAD_IGNORE_TRANSFORM): broken file
+warning: cannot render glyph
+ 13ms (interpretation) 8538ms (rendering) 8551ms (total)
+Glyph Cache Size: 1048520
+Glyph Cache Evictions: 5101 (2140987 bytes)
+page Sample-PDFs-for-format-testing/PDFIO-format-corpus/govdocs1-error-pdfs/error_set_2/178360.pdf 11error: zlib error: invalid distance too far back
+warning: read error; treating as end of file
+error: zlib error: invalid distance too far back
+
+-- no crash, but LOTS of failures --
+
+
+
+
+
+
+'MUTOOL clean -gggg -D -c -s -AA "Sample-PDFs-for-format-testing/PDFIO-format-corpus/govdocs1-error-pdfs/error_set_2/219789.pdf" "__mujstest/Sample-PDFs-for-format-testing/PDFIO-format-corpus/govdocs1-error-pdfs/error_set_2/%04d-219789.clean.pdf"'
+
+-- causes infinite loop in the code: hits the 'else if (rune == 32)' branch inside 'static void walk_string(fz_context *ctx, int uni, int remove, editable_str *str)' and loops indefinitely at the same spot as str->pos is not updated.
+
+
+
+
+
+'MUTOOL clean -gggg -D -c -s -AA "Sample-PDFs-for-format-testing/Qiqqa Tools - test collection/PEP20-01-01-006-508.pdf" "__mujstest/Sample-PDFs-for-format-testing/Qiqqa Tools - test collection/%04d-PEP20-01-01-006-508.clean.pdf"'
+
+-- and another one for that infinite loop --
+
+
+
+
+OK: MUTOOL command: muconvert -o "__mujstest/Sample-PDFs-for-format-testing/Qiqqa Tools - test collection/%04d-TE2000_TC3_HMI_EN.convert.pdf" -W 1200 -H 1800 "Sample-PDFs-for-format-testing/Qiqqa Tools - test collection/TE2000_TC3_HMI_EN.pdf"
+T:122284ms D:4911.867s OK MUTOOL muconvert -o "__mujstest/Sample-PDFs-for-format-testing/Qiqqa Tools - test collection/%04d-TE2000_TC3_HMI_EN.convert.pdf" -W 1200 -H 1800 "Sample-PDFs-for-format-testing/Qiqqa Tools - test collection/TE2000_TC3_HMI_EN.pdf"
+
+-- no errors but takes 120 seconds to complete --
+
+
+
+
+page Sample-PDFs-for-format-testing/Qiqqa Tools - test collection/TE2000_TC3_HMI_EN.pdf 2286 13ms (interpretation) 1122ms (rendering) 1135ms (total)
+Glyph Cache Size: 0
+Glyph Cache Evictions: 63808 (33888924 bytes)
+total 531963ms / 2286 pages for an average of 232ms
+fastest page 2: 26ms
+slowest page 545: 31173ms
+warning: ... repeated 9 times...
+Memory use total=17710823054 peak=395591797 current=0
+OK: MUTOOL command: muraster -o "__mujstest/Sample-PDFs-for-format-testing/Qiqqa Tools - test collection/%04d-TE2000_TC3_HMI_EN.raster.ppm" -s mt -r 150 -P "Sample-PDFs-for-format-testing/Qiqqa Tools - test collection/TE2000_TC3_HMI_EN.pdf"
+
+-- 395MB: that's some HUGE memory consumption! --
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
