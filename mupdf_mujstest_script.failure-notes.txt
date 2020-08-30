@@ -198,7 +198,501 @@ OK: MUTOOL command: muraster -o "__mujstest/Sample-PDFs-for-format-testing/Qiqqa
 
 
 
+page Sample-PDFs-for-format-testing/testset European Unicode extract & OCR/AH_26-2018-2.pdf 310 34ms (interpretation) 37ms (rendering) 71ms (total)
+Glyph Cache Size: 1048369
+Glyph Cache Evictions: 40373 (18540939 bytes)
+page Sample-PDFs-for-format-testing/testset European Unicode extract & OCR/AH_26-2018-2.pdf 311 3ms (interpretation) 66ms (rendering) 69ms (total)
+Glyph Cache Size: 0
+Glyph Cache Evictions: 40374 (18541369 bytes)
+total 71802ms / 311 pages for an average of 230ms
+fastest page 7: 22ms
+slowest page 239: 30350ms
+Memory use total=1709316691 peak=94789515 current=0
+OK: MUTOOL command: muraster -o "__mujstest/Sample-PDFs-for-format-testing/testset European Unicode extract & OCR/%04d-AH_26-2018-2.raster.ppm" -s mt -r 150 -P "Sample-PDFs-for-format-testing/testset European Unicode extract & OCR/AH_26-2018-2.pdf"
 
+-- page 239 takes about half the total render time of the entire PDF --
+
+
+
+
+
+
+
+!!!BAD-1DC618F32245B5B4F143197B5249DCF83A68.extract.image-0004-0001.jpg ...
+-- that PDF produced over 7000 jpg files on extract; apparently the pages are constructed from a zillion tiny images --
+
+
+
+
+
+
+
+
+'MUTOOL clean -gggg -D -c -s -AA "Sample-PDFs-for-format-testing/Qiqqa Tools - test collection/9780735626690 (links in TOC seem b0rked in Acrobat DC at least).pdf" "__mujstest/Sample-PDFs-for-format-testing/Qiqqa Tools - test collection/%04d-9780735626690 (links in TOC seem b0rked in Acrobat DC at least).clean.pdf"'
+warning: undefined link destination
+warning: ... repeated 359 times...
+warning: object out of range (0 0 R); xref size 21798
+warning: undefined link destination
+warning: deduplication cost pathological at O(237620000)?
+-- another slow cleaner --
+
+
+
+
+
+'MUTOOL clean -gggg -D -c -s -AA "Sample-PDFs-for-format-testing/Qiqqa Tools - test collection/Engineering-Data-Release_LandingGear.pdf" "__mujstest/Sample-PDFs-for-format-testing/Qiqqa Tools - test collection/%04d-Engineering-Data-Release_LandingGear.clean.pdf"'
+error: cannot create appearance stream for 3D annotations
+warning: cannot create appearance stream
+warning: deduplication cost pathological at O(85844304)?
+OK: MUTOOL command: clean -gggg -D -c -s -AA "Sample-PDFs-for-format-testing/Qiqqa Tools - test collection/Engineering-Data-Release_LandingGear.pdf" "__mujstest/Sample-PDFs-for-format-testing/Qiqqa Tools - test collection/%04d-Engineering-Data-Release_LandingGear.clean.pdf"
+T:21172ms D:1469.051s OK MUTOOL clean -gggg -D -c -s -AA "Sample-PDFs-for-format-testing/Qiqqa Tools - test collection/Engineering-Data-Release_LandingGear.pdf" "__mujstest/Sample-PDFs-for-format-testing/Qiqqa Tools - test collection/%04d-Engineering-Data-Release_LandingGear.clean.pdf"
+-- another slow cleaner, which is restricted by the new 15s time duration hack in the dedup code --
+
+
+
+
+
+
+
+
+page Sample-PDFs-for-format-testing/Qiqqa Tools - test collection/TE2000_TC3_HMI_EN.pdf 2286 12ms (interpretation) 1382ms (rendering) 1394ms (total)
+Glyph Cache Size: 0
+Glyph Cache Evictions: 63823 (33897130 bytes)
+total 594473ms / 2286 pages for an average of 260ms
+fastest page 1633: 22ms
+slowest page 1806: 7878ms
+warning: ... repeated 7 times...
+warning: ... repeated 2 times...
+Memory use total=17710831059 peak=395591764 current=0
+OK: MUTOOL command: muraster -o "__mujstest/Sample-PDFs-for-format-testing/Qiqqa Tools - test collection/%04d-TE2000_TC3_HMI_EN.raster.ppm" -s mt -r 150 -P "Sample-PDFs-for-format-testing/Qiqqa Tools - test collection/TE2000_TC3_HMI_EN.pdf"
+T:526693ms D:3100.355s OK MUTOOL muraster -o "__mujstest/Sample-PDFs-for-format-testing/Qiqqa Tools - test collection/%04d-TE2000_TC3_HMI_EN.raster.ppm" -s mt -r 150 -P "Sample-PDFs-for-format-testing/Qiqqa Tools - test collection/TE2000_TC3_HMI_EN.pdf"
+'MUTOOL trace -o "__mujstest/Sample-PDFs-for-format-testing/Qiqqa Tools - test collection/%04d-TE2000_TC3_HMI_EN.trace.txt" -W 1200 -H 1800 "Sample-PDFs-for-format-testing/Qiqqa Tools - test collection/TE2000_TC3_HMI_EN.pdf"'
+OK: MUTOOL command: trace -o "__mujstest/Sample-PDFs-for-format-testing/Qiqqa Tools - test collection/%04d-TE2000_TC3_HMI_EN.trace.txt" -W 1200 -H 1800 "Sample-PDFs-for-format-testing/Qiqqa Tools - test collection/TE2000_TC3_HMI_EN.pdf"
+T:128212ms D:3228.570s OK MUTOOL trace -o "__mujstest/Sample-PDFs-for-format-testing/Qiqqa Tools - test collection/%04d-TE2000_TC3_HMI_EN.trace.txt" -W 1200 -H 1800 "Sample-PDFs-for-format-testing/Qiqqa Tools - test collection/TE2000_TC3_HMI_EN.pdf"
+'MUTOOL clean -gggg -D -c -s -AA "Sample-PDFs-for-format-testing/Qiqqa Tools - test collection/TE2000_TC3_HMI_EN.pdf" "__mujstest/Sample-PDFs-for-format-testing/Qiqqa Tools - test collection/%04d-TE2000_TC3_HMI_EN.clean.pdf"'
+warning: deduplication cost pathological at O(4069102472)?
+-- slow going --
+
+
+
+
+
+
+
+OK: MUTOOL command: trace -o "__mujstest/Sample-PDFs-for-format-testing/testset misc 2/global/%04d-1f5dd128c3757420a881a155f2f8ace3.trace.txt" -W 1200 -H 1800 "Sample-PDFs-for-format-testing/testset misc 2/global/1f5dd128c3757420a881a155f2f8ace3.pdf"
+T:13695ms D:28397.400s OK MUTOOL trace -o "__mujstest/Sample-PDFs-for-format-testing/testset misc 2/global/%04d-1f5dd128c3757420a881a155f2f8ace3.trace.txt" -W 1200 -H 1800 "Sample-PDFs-for-format-testing/testset misc 2/global/1f5dd128c3757420a881a155f2f8ace3.pdf"
+'MUTOOL clean -gggg -D -c -s -AA "Sample-PDFs-for-format-testing/testset misc 2/global/1f5dd128c3757420a881a155f2f8ace3.pdf" "__mujstest/Sample-PDFs-for-format-testing/testset misc 2/global/%04d-1f5dd128c3757420a881a155f2f8ace3.clean.pdf"'
+warning: undefined link destination
+warning: deduplication cost pathological at O(204606220)?
+
+
+
+
+
+T:29060ms D:30885.487s OK MUTOOL trace -o "__mujstest/Sample-PDFs-for-format-testing/testset misc 2/global/%04d-ec00d5825f47b9d0faa953b1709163c3.trace.txt" -W 1200 -H 1800 "Sample-PDFs-for-format-testing/testset misc 2/global/ec00d5825f47b9d0faa953b1709163c3.pdf"
+'MUTOOL clean -gggg -D -c -s -AA "Sample-PDFs-for-format-testing/testset misc 2/global/ec00d5825f47b9d0faa953b1709163c3.pdf" "__mujstest/Sample-PDFs-for-format-testing/testset misc 2/global/%04d-ec00d5825f47b9d0faa953b1709163c3.clean.pdf"'
+warning: PDF stream Length incorrect
+warning: deduplication cost pathological at O(200100012)?
+
+
+
+
+
+
+
+'MUTOOL clean -gggg -D -c -s -AA "INTRANET-EVIL-PDF-SAMPLES-FOR-QIQQA/documents/2/2F7BEB491AD6C6E3539C95FB78E6CCF5E4BF772.pdf" "__mujstest/INTRANET-EVIL-PDF-SAMPLES-FOR-QIQQA/documents/2/%04d-2F7BEB491AD6C6E3539C95FB78E6CCF5E4BF772.clean.pdf"'
+error: cannot find startxref
+warning: trying to repair broken xref after encountering error: cannot find startxref
+warning: repairing PDF document
+warning: object missing 'endobj' token
+warning: deduplication cost pathological at O(53809938)?
+OK: MUTOOL command: clean -gggg -D -c -s -AA "INTRANET-EVIL-PDF-SAMPLES-FOR-QIQQA/documents/2/2F7BEB491AD6C6E3539C95FB78E6CCF5E4BF772.pdf" "__mujstest/INTRANET-EVIL-PDF-SAMPLES-FOR-QIQQA/documents/2/%04d-2F7BEB491AD6C6E3539C95FB78E6CCF5E4BF772.clean.pdf"
+T:68374ms D:595.226s OK MUTOOL clean -gggg -D -c -s -AA "INTRANET-EVIL-PDF-SAMPLES-FOR-QIQQA/documents/2/2F7BEB491AD6C6E3539C95FB78E6CCF5E4BF772.pdf" "__mujstest/INTRANET-EVIL-PDF-SAMPLES-FOR-QIQQA/documents/2/%04d-2F7BEB491AD6C6E3539C95FB78E6CCF5E4BF772.clean.pdf"
+'MUTOOL extract -o "__mujstest/INTRANET-EVIL-PDF-SAMPLES-FOR-QIQQA/documents/2/%04d-2F7BEB491AD6C6E3539C95FB78E6CCF5E4BF772.extract." -r "INTRANET-EVIL-PDF-SAMPLES-FOR-QIQQA/documents/2/2F7BEB491AD6C6E3539C95FB78E6CCF5E4BF772.pdf"'
+error: cannot find startxref
+warning: trying to repair broken xref after encountering error: cannot find startxref
+warning: repairing PDF document
+warning: object missing 'endobj' token
+-- another 'pathological' ... --
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6568483517080AD2E1EAB5DE0A9AEDD72B0F3AA.pdf"
+'MUTOOL mudraw -o "__mujstest/INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/1/%04d-16568483517080AD2E1EAB5DE0A9AEDD72B0F3AA.png" -s mtf5 -r 150 "INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/1/16568483517080AD2E1EAB5DE0A9AEDD72B0F3AA.pdf"'
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/1/16568483517080AD2E1EAB5DE0A9AEDD72B0F3AA.pdf 1 color a79b579f2de8e4bd40145b5d7f83db11 776ms
+Glyph Cache Size: 0
+Glyph Cache Evictions: 0 (0 bytes)
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/1/16568483517080AD2E1EAB5DE0A9AEDD72B0F3AA.pdf 2 color 515b07f9f07ca9fcae9720cd0b1fa9f0 416ms
+Glyph Cache Size: 0
+Glyph Cache Evictions: 0 (0 bytes)
+
+-- zero glyphs??? (no errors, just wondering what's going on in there...) ---
+
+
+
+
+
+
+
+
+
+'MUTOOL muraster -o "__mujstest/INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/4/%04d-458B1F6296CFA32442F7CC47752231F74B89E54D.raster.ppm" -s mt -r 150 -P "INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/4/458B1F6296CFA32442F7CC47752231F74B89E54D.pdf"'
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/4/458B1F6296CFA32442F7CC47752231F74B89E54D.pdf 1 15ms (interpretation) 408ms (rendering) 423ms (total)
+Glyph Cache Size: 0
+Glyph Cache Evictions: 0 (0 bytes)
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/4/458B1F6296CFA32442F7CC47752231F74B89E54D.pdf 2 32ms (interpretation) 293ms (rendering) 325ms (total)
+Glyph Cache Size: 0
+Glyph Cache Evictions: 0 (0 bytes)
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/4/458B1F6296CFA32442F7CC47752231F74B89E54D.pdf 3 37ms (interpretation) 279ms (rendering) 316ms (total)
+Glyph Cache Size: 0
+Glyph Cache Evictions: 0 (0 bytes)
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/4/458B1F6296CFA32442F7CC47752231F74B89E54D.pdf 4
+**CRASH** (double free???)
+
+
+
+'MUTOOL muraster -o "__mujstest/INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/6/%04d-6581B97C8F4A6CF712F84D81D0BA3155FFB5491.raster.ppm" -s mt -r 150 -P "INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/6/6581B97C8F4A6CF712F84D81D0BA3155FFB5491.pdf"'
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/6/6581B97C8F4A6CF712F84D81D0BA3155FFB5491.pdf 1warning: found duplicate fz_icc_link in the store
+ 13ms (interpretation) 232ms (rendering) 245ms (total)
+Glyph Cache Size: 0
+Glyph Cache Evictions: 0 (0 bytes)
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/6/6581B97C8F4A6CF712F84D81D0BA3155FFB5491.pdf 2 4ms (interpretation) 298ms (rendering) 302ms (total)
+Glyph Cache Size: 0
+Glyph Cache Evictions: 0 (0 bytes)
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/6/6581B97C8F4A6CF712F84D81D0BA3155FFB5491.pdf 3
+**CRASH** (double free???)
+-- Hmmmmm. Apparently only happens when other files have been processed previously as running this file as the first in the mujstest script does NOT trigger the 'double free' check! --
+
+
+
+
+'MUTOOL muraster -o "__mujstest/INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/7/%04d-71120B277417F57C6496F63EE705197262F7AA.raster.ppm" -s mt -r 150 -P "INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/7/71120B277417F57C6496F63EE705197262F7AA.pdf"'
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/7/71120B277417F57C6496F63EE705197262F7AA.pdf 1 19ms (interpretation) 309ms (rendering) 328ms (total)
+Glyph Cache Size: 0
+Glyph Cache Evictions: 0 (0 bytes)
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/7/71120B277417F57C6496F63EE705197262F7AA.pdf 2 10ms (interpretation) 31ms (rendering) 41ms (total)
+Glyph Cache Size: 0
+Glyph Cache Evictions: 0 (0 bytes)
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/7/71120B277417F57C6496F63EE705197262F7AA.pdf 3 17ms (interpretation) 134ms (rendering) 151ms (total)
+Glyph Cache Size: 0
+Glyph Cache Evictions: 0 (0 bytes)
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/7/71120B277417F57C6496F63EE705197262F7AA.pdf 4 16ms (interpretation) 821ms (rendering) 837ms (total)
+Glyph Cache Size: 0
+Glyph Cache Evictions: 0 (0 bytes)
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/7/71120B277417F57C6496F63EE705197262F7AA.pdf 5 15ms (interpretation) 148ms (rendering) 163ms (total)
+Glyph Cache Size: 0
+Glyph Cache Evictions: 0 (0 bytes)
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/7/71120B277417F57C6496F63EE705197262F7AA.pdf 6 55ms (interpretation) 151ms (rendering) 206ms (total)
+Glyph Cache Size: 0
+Glyph Cache Evictions: 0 (0 bytes)
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/7/71120B277417F57C6496F63EE705197262F7AA.pdf 7 61ms (interpretation) 177ms (rendering) 238ms (total)
+Glyph Cache Size: 0
+Glyph Cache Evictions: 0 (0 bytes)
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/7/71120B277417F57C6496F63EE705197262F7AA.pdf 8 88ms (interpretation) 276ms (rendering) 364ms (total)
+Glyph Cache Size: 0
+Glyph Cache Evictions: 0 (0 bytes)
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/7/71120B277417F57C6496F63EE705197262F7AA.pdf 9 69ms (interpretation) 170ms (rendering) 239ms (total)
+Glyph Cache Size: 0
+Glyph Cache Evictions: 0 (0 bytes)
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/7/71120B277417F57C6496F63EE705197262F7AA.pdf 10
+**CRASH**
+-- attempt to use freed memory; pointer is 0xdddddddc (dddddddd - 1 as early=1 in the jbig2_decode_text_region() function where this happens --
+
+-- And that one happens at a **different page** in the process when run as the first file in the script, though the crash is at the same spot in the code! Here it that second run: --
+'MUTOOL muraster -o "__mujstest/INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/7/%04d-71120B277417F57C6496F63EE705197262F7AA.raster.ppm" -s mt -r 150 -P "INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/7/71120B277417F57C6496F63EE705197262F7AA.pdf"'
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/7/71120B277417F57C6496F63EE705197262F7AA.pdf 1 18ms (interpretation) 277ms (rendering) 295ms (total)
+Glyph Cache Size: 0
+Glyph Cache Evictions: 0 (0 bytes)
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/7/71120B277417F57C6496F63EE705197262F7AA.pdf 2 10ms (interpretation) 37ms (rendering) 47ms (total)
+Glyph Cache Size: 0
+Glyph Cache Evictions: 0 (0 bytes)
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/7/71120B277417F57C6496F63EE705197262F7AA.pdf 3 23ms (interpretation) 136ms (rendering) 159ms (total)
+Glyph Cache Size: 0
+Glyph Cache Evictions: 0 (0 bytes)
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/7/71120B277417F57C6496F63EE705197262F7AA.pdf 4
+
+
+
+
+
+'MUTOOL muraster -o "__mujstest/INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/7/%04d-7C40AD1A6353764F741E9F8C56ECDDA68061BAF0.raster.ppm" -s mt -r 150 -P "INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/7/7C40AD1A6353764F741E9F8C56ECDDA68061BAF0.pdf"'
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/7/7C40AD1A6353764F741E9F8C56ECDDA68061BAF0.pdf 1
+**CRASH** same error location as above, different file though.
+
+'MUTOOL muraster -o "__mujstest/INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/7/%04d-7E70426EE6C56414553F313EE285F64734EBBF.raster.ppm" -s mt -r 150 -P "INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/7/7E70426EE6C56414553F313EE285F64734EBBF.pdf"'
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/7/7E70426EE6C56414553F313EE285F64734EBBF.pdf 1 1ms (interpretation) 184ms (rendering) 185ms (total)
+Glyph Cache Size: 0
+Glyph Cache Evictions: 0 (0 bytes)
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/7/7E70426EE6C56414553F313EE285F64734EBBF.pdf 2
+**CRASH** one more of the same...
+
+
+
+
+
+
+'MUTOOL muraster -o "__mujstest/INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/8/%04d-808CA451AE74835B9BA0DA1DCA9DB4C2A057.raster.ppm" -s mt -r 150 -P "INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/8/808CA451AE74835B9BA0DA1DCA9DB4C2A057.pdf"'
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/8/808CA451AE74835B9BA0DA1DCA9DB4C2A057.pdf 1warning: found duplicate fz_image in the store
+warning: found duplicate fz_image in the store
+ 84ms (interpretation) 2823ms (rendering) 2907ms (total)
+Glyph Cache Size: 0
+Glyph Cache Evictions: 0 (0 bytes)
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/8/808CA451AE74835B9BA0DA1DCA9DB4C2A057.pdf 2warning: found duplicate fz_icc_link in the store
+warning: found duplicate fz_icc_link in the store
+ 7ms (interpretation) 432ms (rendering) 439ms (total)
+Glyph Cache Size: 0
+Glyph Cache Evictions: 0 (0 bytes)
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/8/808CA451AE74835B9BA0DA1DCA9DB4C2A057.pdf 3 13ms (interpretation) 435ms (rendering) 448ms (total)
+Glyph Cache Size: 0
+Glyph Cache Evictions: 0 (0 bytes)
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/8/808CA451AE74835B9BA0DA1DCA9DB4C2A057.pdf 4 14ms (interpretation) 422ms (rendering) 436ms (total)
+Glyph Cache Size: 0
+Glyph Cache Evictions: 0 (0 bytes)
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/8/808CA451AE74835B9BA0DA1DCA9DB4C2A057.pdf 5
+**CRASH** (double free check triggered)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ah, never checked before now:
+
+'MUTOOL mudraw -o "__mujstest/INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/8/%04d-808CA451AE74835B9BA0DA1DCA9DB4C2A057.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l "INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/8/808CA451AE74835B9BA0DA1DCA9DB4C2A057.pdf"'
+Layer configs:
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/8/808CA451AE74835B9BA0DA1DCA9DB4C2A057.pdf 1 colorError opening data file W:\Projects\sites\library.visyond.gov\80\lib\CS\MuPDF\platform\win32\Debug-64/tessdata/eng.traineddata
+Please make sure the TESSDATA_PREFIX environment variable is set to your "tessdata" directory.
+Failed loading language 'eng'
+Tesseract couldn't load any languages!
+error: Tesseract initialisation failed
+warning: dropping unclosed device
+error: cannot draw 'INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/8/808CA451AE74835B9BA0DA1DCA9DB4C2A057.pdf': Tesseract initialisation failed
+Allocations total=4570
+
+-- Looks like mudraw doesn't get a chance to crash as its tesseract throwing a tantrum causing it to fail early???
+
+
+
+
+
+
+
+
+
+
+'MUTOOL muraster -o "__mujstest/INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/8/%04d-844418D91B7D26A2EB20F0D19CE6F625F9E89BD.raster.ppm" -s mt -r 150 -P "INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/8/844418D91B7D26A2EB20F0D19CE6F625F9E89BD.pdf"'
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/8/844418D91B7D26A2EB20F0D19CE6F625F9E89BD.pdf 1warning: found duplicate fz_icc_link in the store
+ 352ms (interpretation) 142ms (rendering) 494ms (total)
+Glyph Cache Size: 591342
+Glyph Cache Evictions: 0 (0 bytes)
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/8/844418D91B7D26A2EB20F0D19CE6F625F9E89BD.pdf 2 43ms (interpretation) 74ms (rendering) 117ms (total)
+Glyph Cache Size: 888632
+Glyph Cache Evictions: 0 (0 bytes)
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/8/844418D91B7D26A2EB20F0D19CE6F625F9E89BD.pdf 3 44ms (interpretation) 85ms (rendering) 129ms (total)
+Glyph Cache Size: 1048502
+Glyph Cache Evictions: 431 (171134 bytes)
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/8/844418D91B7D26A2EB20F0D19CE6F625F9E89BD.pdf 4 27ms (interpretation) 44ms (rendering) 71ms (total)
+Glyph Cache Size: 1048055
+Glyph Cache Evictions: 599 (252755 bytes)
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/8/844418D91B7D26A2EB20F0D19CE6F625F9E89BD.pdf 5 35ms (interpretation) 74ms (rendering) 109ms (total)
+Glyph Cache Size: 1048494
+Glyph Cache Evictions: 661 (288178 bytes)
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/8/844418D91B7D26A2EB20F0D19CE6F625F9E89BD.pdf 6 23ms (interpretation) 33ms (rendering) 56ms (total)
+Glyph Cache Size: 1048569
+Glyph Cache Evictions: 718 (319603 bytes)
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/8/844418D91B7D26A2EB20F0D19CE6F625F9E89BD.pdf 7 52ms (interpretation) 105ms (rendering) 157ms (total)
+Glyph Cache Size: 1048441
+Glyph Cache Evictions: 1226 (571935 bytes)
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/8/844418D91B7D26A2EB20F0D19CE6F625F9E89BD.pdf 8 69ms (interpretation) 108ms (rendering) 177ms (total)
+Glyph Cache Size: 1048542
+Glyph Cache Evictions: 1991 (889107 bytes)
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/8/844418D91B7D26A2EB20F0D19CE6F625F9E89BD.pdf 9 63ms (interpretation) 96ms (rendering) 159ms (total)
+Glyph Cache Size: 1048521
+Glyph Cache Evictions: 2600 (1136154 bytes)
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/8/844418D91B7D26A2EB20F0D19CE6F625F9E89BD.pdf 10 70ms (interpretation) 109ms (rendering) 179ms (total)
+Glyph Cache Size: 1048381
+Glyph Cache Evictions: 3333 (1414130 bytes)
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/8/844418D91B7D26A2EB20F0D19CE6F625F9E89BD.pdf 11 27ms (interpretation) 58ms (rendering) 85ms (total)
+Glyph Cache Size: 1048553
+Glyph Cache Evictions: 3482 (1474532 bytes)
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/8/844418D91B7D26A2EB20F0D19CE6F625F9E89BD.pdf 12 68ms (interpretation) 111ms (rendering) 179ms (total)
+Glyph Cache Size: 1048489
+Glyph Cache Evictions: 4306 (1786230 bytes)
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/8/844418D91B7D26A2EB20F0D19CE6F625F9E89BD.pdf 13 59ms (interpretation) 109ms (rendering) 168ms (total)
+Glyph Cache Size: 1048423
+Glyph Cache Evictions: 4883 (2003378 bytes)
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/8/844418D91B7D26A2EB20F0D19CE6F625F9E89BD.pdf 14 66ms (interpretation) 101ms (rendering) 167ms (total)
+Glyph Cache Size: 1048526
+Glyph Cache Evictions: 5568 (2258130 bytes)
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/8/844418D91B7D26A2EB20F0D19CE6F625F9E89BD.pdf 15error: expected object number
+warning: repairing PDF document
+error: array not closed before end of file
+error: cannot parse object (508 0 R)
+warning: cannot load object (508 0 R) into cache
+error: cannot find object in xref (508 0 R)
+warning: cannot load object (508 0 R) into cache
+error: invalid page object
+error: cannot find object in xref (509 0 R)
+warning: cannot load object (509 0 R) into cache
+error: cannot find object in xref (510 0 R)
+warning: cannot load object (510 0 R) into cache
+error: cannot find object in xref (511 0 R)
+warning: cannot load object (511 0 R) into cache
+ 59ms (interpretation) 76ms (rendering) 135ms (total)
+Glyerror: cannot find object in xref (495 0 R)
+ph Cache Size: 1048339
+Glyph Cacwarning: cannot load object (495 0 R) into cache
+he Evictions: 6error: cannot find object in xref (496 0 R)
+090 (2457644 bytes)
+warning: cannot load object (496 0 R) into cache
+error: cannot find object in xref (497 0 R)
+warning: cannot load object (497 0 R) into cache
+error: cannot find object in xref (498 0 R)
+warning: cannot load object (498 0 R) into cache
+error: cannot find object in xref (499 0 R)
+warning: cannot load object (499 0 R) into cache
+error: cannot find object in xref (500 0 R)
+warning: cannot load object (500 0 R) into cache
+error: cannot find object in xref (501 0 R)
+warning: cannot load object (501 0 R) into cache
+error: cannot find object in xref (502 0 R)
+warning: cannot load object (502 0 R) into cache
+error: cannot find object in xref (503 0 R)
+warning: cannot load object (503 0 R) into cache
+error: cannot find object in xref (504 0 R)
+warning: cannot load object (504 0 R) into cache
+error: cannot find object in xref (505 0 R)
+warning: cannot load object (505 0 R) into cache
+error: cannot find object in xref (506 0 R)
+warning: cannot load object (506 0 R) into cache
+error: cannot find object in xref (507 0 R)
+warning: cannot load object (507 0 R) into cache
+error: cannot find object in xref (509 0 R)
+warning: cannot load object (509 0 R) into cache
+error: cannot find object in xref (510 0 R)
+warning: cannot load object (510 0 R) into cache
+error: cannot find object in xref (511 0 R)
+warning: cannot load object (511 0 R) into cache
+error: cannot find object in xref (153 0 R)
+warning: cannot load object (153 0 R) into cache
+error: cannot find object in xref (153 0 R)
+warning: cannot load object (153 0 R) into cache
+error: cannot find object in xref (153 0 R)
+warning: cannot load object (153 0 R) into cache
+error: cannot find object in xref (153 0 R)
+warning: cannot load object (153 0 R) into cache
+error: cannot find object in xref (153 0 R)
+warning: cannot load object (153 0 R) into cache
+error: cannot find object in xref (153 0 R)
+warning: cannot load object (153 0 R) into cache
+error: cannot find object in xref (153 0 R)
+warning: cannot load object (153 0 R) into cache
+error: cannot find object in xref (153 0 R)
+warning: cannot load object (153 0 R) into cache
+error: cannot find object in xref (153 0 R)
+warning: cannot load object (153 0 R) into cache
+error: cannot find object in xref (153 0 R)
+warning: cannot load object (153 0 R) into cache
+error: cannot find object in xref (153 0 R)
+warning: cannot load object (153 0 R) into cache
+error: cannot find object in xref (153 0 R)
+warning: cannot load object (153 0 R) into cache
+error: cannot find object in xref (153 0 R)
+warning: cannot load object (153 0 R) into cache
+error: cannot find object in xref (153 0 R)
+warning: cannot load object (153 0 R) into cache
+error: cannot find object in xref (153 0 R)
+warning: cannot load object (153 0 R) into cache
+error: cannot find object in xref (153 0 R)
+warning: cannot load object (153 0 R) into cache
+error: cannot find object in xref (153 0 R)
+warning: cannot load object (153 0 R) into cache
+error: cannot find object in xref (153 0 R)
+warning: cannot load object (153 0 R) into cache
+error: cannot find object in xref (153 0 R)
+warning: cannot load object (153 0 R) into cache
+error: cannot find object in xref (153 0 R)
+warning: cannot load object (153 0 R) into cache
+error: cannot find object in xref (153 0 R)
+warning: cannot load object (153 0 R) into cache
+error: cannot find object in xref (153 0 R)
+warning: cannot load object (153 0 R) into cache
+error: cannot find object in xref (939 0 R)
+warning: cannot load object (939 0 R) into cache
+error: cannot find object in xref (153 0 R)
+warning: cannot load object (153 0 R) into cache
+error: cannot find object in xref (153 0 R)
+warning: cannot load object (153 0 R) into cache
+error: cannot find object in xref (153 0 R)
+warning: cannot load object (153 0 R) into cache
+error: cannot find object in xref (153 0 R)
+warning: cannot load object (153 0 R) into cache
+error: cannot find object in xref (153 0 R)
+warning: cannot load object (153 0 R) into cache
+error: cannot find object in xref (153 0 R)
+warning: cannot load object (153 0 R) into cache
+error: cannot find object in xref (153 0 R)
+warning: cannot load object (153 0 R) into cache
+error: cannot find object in xref (153 0 R)
+warning: cannot load object (153 0 R) into cache
+error: cannot find object in xref (153 0 R)
+warning: cannot load object (153 0 R) into cache
+error: cannot find object in xref (153 0 R)
+warning: cannot load object (153 0 R) into cache
+error: cannot find object in xref (153 0 R)
+warning: cannot load object (153 0 R) into cache
+error: cannot find object in xref (153 0 R)
+warning: cannot load object (153 0 R) into cache
+error: cannot find object in xref (153 0 R)
+warning: cannot load object (153 0 R) into cache
+error: cannot find object in xref (153 0 R)
+warning: cannot load object (153 0 R) into cache
+error: cannot find object in xref (153 0 R)
+warning: cannot load object (153 0 R) into cache
+error: cannot find object in xref (153 0 R)
+warning: cannot load object (153 0 R) into cache
+error: cannot find object in xref (153 0 R)
+warning: cannot load object (153 0 R) into cache
+error: cannot find object in xref (153 0 R)
+warning: cannot load object (153 0 R) into cache
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/8/844418D91B7D26A2EB20F0D19CE6F625F9E89BD.pdf 16error: cannot find object in xref (939 0 R)
+warning: cannot load object (939 0 R) into cache
+error: Page not found: 17
+warning: error: Page not found: 17
+error: cannot draw 'INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/8/844418D91B7D26A2EB20F0D19CE6F625F9E89BD.pdf'
+total 2382ms / 15 pages for an average of 158ms
+fastest page 6: 56ms
+slowest page 1: 494ms
+**CRASH** looks like another double free error, now discovered via fz_drop_pixmap()
 
 
 
