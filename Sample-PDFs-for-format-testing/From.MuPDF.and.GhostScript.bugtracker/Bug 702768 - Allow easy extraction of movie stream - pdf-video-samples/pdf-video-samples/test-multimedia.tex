@@ -1,0 +1,33 @@
+\documentclass{beamer}
+\usepackage{graphicx,multimedia}
+
+\begin{document}
+\begin{frame}[fragile]{Embedding a video with \emph{multimedia}}
+  \begin{block}{} 
+    \begin{itemize}
+      \item Uses \emph{Movie annotations} introduced in PDF 1.2.
+      \item Does not physically embed the media file inside the
+            generated PDF document.
+    \end{itemize}
+  \end{block}
+
+  \begin{block}{Example}
+    \begin{verbatim}
+\movie[showcontrols]%
+  {\includegraphics[scale=.3]{testvideo.png}}%
+  {testvideo.avi}
+    \end{verbatim}
+  \end{block}
+\end{frame}
+
+
+\begin{frame}{Embedding a video with \emph{multimedia}}{}
+  \begin{block}{}
+    \begin{center}
+      \movie[showcontrols]%
+        {\includegraphics[scale=.3]{testvideo.png}}%
+        {testvideo.avi}
+    \end{center}
+  \end{block}
+\end{frame}
+\end{document}

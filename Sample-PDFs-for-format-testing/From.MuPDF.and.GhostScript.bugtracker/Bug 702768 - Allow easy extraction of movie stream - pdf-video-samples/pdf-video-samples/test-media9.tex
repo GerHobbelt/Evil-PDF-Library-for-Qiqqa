@@ -1,0 +1,40 @@
+\documentclass{beamer}
+\usepackage{graphicx,media9}
+
+\begin{document}
+\begin{frame}[fragile]{Embedding a video with \emph{media9}}{}
+  \begin{block}{}
+    \begin{itemize}
+      \item Uses non-standard \emph{Rich Media annotations},
+            introduced in Adobe Reader 9 and above.
+      \item Embeds a Flash player to read the video.
+      \item Requires the PDF viewer to be able to execute
+            Flash code.
+    \end{itemize}
+  \end{block}
+
+  \begin{block}{Example}
+    \begin{verbatim}
+\includemedia[%
+  width=4cm,height=2cm,
+  activate=pageopen,
+  addresource=testvideo.avi,
+  flashvars={source=testvideo.avi}]{}%
+  {VPlayer.swf}
+    \end{verbatim}
+  \end{block}
+\end{frame}
+
+\begin{frame}{Embedding a video with \emph{media9}}{}
+  \begin{block}{}
+    \begin{center}
+      \includemedia[%
+        width=4cm,height=2cm,
+        activate=pageopen,
+        addresource=testvideo.avi,
+        flashvars={source=testvideo.avi}]{}%
+        {VPlayer.swf}
+    \end{center}
+  \end{block}
+\end{frame}
+\end{document}

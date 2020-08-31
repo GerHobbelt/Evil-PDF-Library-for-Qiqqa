@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article xmlns="http://docbook.org/ns/docbook"
+  version="15.0">
+
+  <info>
+    <title>Embedding a video with DocBook</title>
+  </info>
+
+  <section>
+    <title>Example</title>
+
+    <programlisting>
+      <![CDATA[
+<mediaobject>
+  <videoobject>
+    <videodata fileref='testvideo.avi' />
+  </videoobject>
+  <imageobject>
+    <imagedata scale="50" fileref='testvideo.png' />
+  </imageobject>
+  <textobject>
+    <para>Fallback text.</para>
+  </textobject>
+</mediaobject>
+    ]]>
+    </programlisting>
+
+  </section>
+
+  <section>
+    <title>Output</title>
+
+    <mediaobject>
+      <videoobject>
+        <videodata fileref='testvideo.avi' />
+      </videoobject>
+      <imageobject>
+        <imagedata scale="50" fileref='testvideo.png' />
+      </imageobject>
+      <textobject>
+        <para>Fallback text.</para>
+      </textobject>
+    </mediaobject>
+
+  </section>
+
+</article>
