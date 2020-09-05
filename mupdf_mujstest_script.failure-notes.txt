@@ -758,4 +758,77 @@ corrupted refcount -572662304?
 
 
 
+L#1527: MUTOOL muraster -o "__mujstest/INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/4/%04d-458B1F6296CFA32442F7CC47752231F74B89E54D.raster.ppm" -s mt -r 150 -P "INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/4/458B1F6296CFA32442F7CC47752231F74B89E54D.pdf"
+BGPrint waiting
+Worker 0 waiting
+Worker 1 waiting
+Worker 2 waiting
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/4/458B1F6296CFA32442F7CC47752231F74B89E54D.pdf 1
+BGPrint woken for pagenum 1
+Using 3 Bands
+Worker 0, Pre-triggering band 0
+Worker 0 woken for band_start 0
+Worker 1, Pre-triggering band 1
+Worker 1 woken for band_start 608
+Worker 2, Pre-triggering band 2
+Waiting for worker 0 to complete band 0
+Worker 2 woken for band_start 1216
+Worker 2 completed band_start 1216 (status=0)
+Worker 2 waiting
+Worker 0 completed band_start 0 (status=0)
+Worker 0 waiting
+Waiting for worker 1 to complete band 1
+Worker 1 completed band_start 608 (status=0)
+Worker 1 waiting
+Waiting for worker 2 to complete band 2
+ 18ms (interpretation) 418ms (rendering) 436ms (total)
+Glyph Cache Size: 0
+Glyph Cache Evictions: 0 (0 bytes)
+BGPrint completed page 1
+BGPrint waiting
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/4/458B1F6296CFA32442F7CC47752231F74B89E54D.pdf 2
+BGPrint woken for pagenum 2
+Using 3 Bands
+Worker 0, Pre-triggering band 0
+Worker 0 woken for band_start 0
+Worker 1, Pre-triggering band 1
+Worker 1 woken for band_start 608
+Worker 2, Pre-triggering band 2
+Waiting for worker 0 to complete band 0
+Worker 2 woken for band_start 1216
+corrupted refcount -572662306?
+corrupted refcount -572662305?
+corrupted refcount -572662304?
+corrupted refcount -572662305?
+corrupted refcount -572662304?
+corrupted refcount -572662305?
+corrupted refcount -572662304?
+corrupted refcount -572662305?
+corrupted refcount -572662304?
+corrupted refcount -572662305?
+corrupted refcount -572662304?
+corrupted refcount -572662305?
+corrupted refcount -572662304?
+corrupted refcount -572662305?
+corrupted refcount -572662304?
+corrupted refcount -572662305?
+corrupted refcount -572662304?
+corrupted refcount -572662305?
+corrupted refcount -572662304?
+corrupted refcount -572662305?
+corrupted refcount -572662304?
+corrupted refcount -572662305?
+corrupted refcount -572662304?
+
+
+
+
+
+
+
+
+
+
+
+
 
