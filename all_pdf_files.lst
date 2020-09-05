@@ -1111,6 +1111,17 @@
 ./Sample-PDFs-for-format-testing/From.MuPDF.and.GhostScript.bugtracker/1905.00116.pdf
 ./Sample-PDFs-for-format-testing/From.MuPDF.and.GhostScript.bugtracker/9-2.pdf
 ./Sample-PDFs-for-format-testing/From.MuPDF.and.GhostScript.bugtracker/A4.3.1.pdf
+./Sample-PDFs-for-format-testing/From.MuPDF.and.GhostScript.bugtracker/booska/ABC.pdf
+./Sample-PDFs-for-format-testing/From.MuPDF.and.GhostScript.bugtracker/Bug 702381 - ghostscript hangs - test2.pdf
+./Sample-PDFs-for-format-testing/From.MuPDF.and.GhostScript.bugtracker/Bug 702381 - ghostscript hangs - test2ii.pdf
+./Sample-PDFs-for-format-testing/From.MuPDF.and.GhostScript.bugtracker/Bug 702566 - memory leak in pdf_new_array - ArabicCIDTrueType.pdf
+./Sample-PDFs-for-format-testing/From.MuPDF.and.GhostScript.bugtracker/Bug 702715 - mutool clean -s spoils layout - files/in_1.pdf
+./Sample-PDFs-for-format-testing/From.MuPDF.and.GhostScript.bugtracker/Bug 702715 - mutool clean -s spoils layout - files/out.pdf
+./Sample-PDFs-for-format-testing/From.MuPDF.and.GhostScript.bugtracker/Bug 702743 - Bad render with fz_new_pixmap_from_page_number for PDF file - pdf2.pdf
+./Sample-PDFs-for-format-testing/From.MuPDF.and.GhostScript.bugtracker/Bug 702768 - Allow easy extraction of movie stream - pdf-video-samples/pdf-video-samples/test-media9.pdf
+./Sample-PDFs-for-format-testing/From.MuPDF.and.GhostScript.bugtracker/Bug 702768 - Allow easy extraction of movie stream - pdf-video-samples/pdf-video-samples/test-movie15.pdf
+./Sample-PDFs-for-format-testing/From.MuPDF.and.GhostScript.bugtracker/Bug 702768 - Allow easy extraction of movie stream - pdf-video-samples/pdf-video-samples/test-multimedia.pdf
+./Sample-PDFs-for-format-testing/From.MuPDF.and.GhostScript.bugtracker/Bug 702768 - Allow easy extraction of movie stream - video_test.pdf
 ./Sample-PDFs-for-format-testing/From.MuPDF.and.GhostScript.bugtracker/bug1192-test.pdf
 ./Sample-PDFs-for-format-testing/From.MuPDF.and.GhostScript.bugtracker/bug1443-test3.pdf
 ./Sample-PDFs-for-format-testing/From.MuPDF.and.GhostScript.bugtracker/bug913-228729.pdf
@@ -1121,7 +1132,9 @@
 ./Sample-PDFs-for-format-testing/From.MuPDF.and.GhostScript.bugtracker/launch-linux-mono.pdf
 ./Sample-PDFs-for-format-testing/From.MuPDF.and.GhostScript.bugtracker/mallocissue.pdf
 ./Sample-PDFs-for-format-testing/From.MuPDF.and.GhostScript.bugtracker/mupdf_explored.pdf
+./Sample-PDFs-for-format-testing/From.MuPDF.and.GhostScript.bugtracker/NV400 (2).pdf
 ./Sample-PDFs-for-format-testing/From.MuPDF.and.GhostScript.bugtracker/NV400.pdf
+./Sample-PDFs-for-format-testing/From.MuPDF.and.GhostScript.bugtracker/NV400_XWLiu_Figure-02_2010-01-27 (2).pdf
 ./Sample-PDFs-for-format-testing/From.MuPDF.and.GhostScript.bugtracker/NV400_XWLiu_Figure-02_2010-01-27.pdf
 ./Sample-PDFs-for-format-testing/From.MuPDF.and.GhostScript.bugtracker/out2.pdf
 ./Sample-PDFs-for-format-testing/From.MuPDF.and.GhostScript.bugtracker/out3.pdf
@@ -1130,7 +1143,10 @@
 ./Sample-PDFs-for-format-testing/From.MuPDF.and.GhostScript.bugtracker/overlap3.pdf
 ./Sample-PDFs-for-format-testing/From.MuPDF.and.GhostScript.bugtracker/PoC_gxblend1_473.pdf
 ./Sample-PDFs-for-format-testing/From.MuPDF.and.GhostScript.bugtracker/spider.pdf
+./Sample-PDFs-for-format-testing/From.MuPDF.and.GhostScript.bugtracker/test.pdf
+./Sample-PDFs-for-format-testing/From.MuPDF.and.GhostScript.bugtracker/trouble with annotations icon too large - uncompressed-a.pdf
 ./Sample-PDFs-for-format-testing/From.MuPDF.and.GhostScript.bugtracker/uninverted-spider.pdf
+./Sample-PDFs-for-format-testing/From.MuPDF.and.GhostScript.bugtracker/XFA masquarading as PDF - go-digital_Autorisierungsantrag.pdf
 ./Sample-PDFs-for-format-testing/isartor-pdfa-2008-08-13/Isartor testsuite/doc/Isartor test suite manual.pdf
 ./Sample-PDFs-for-format-testing/isartor-pdfa-2008-08-13/Isartor testsuite/PDFA-1b/6.1 File structure/6.1.10 Filters/isartor-6-1-10-t01-fail-a.pdf
 ./Sample-PDFs-for-format-testing/isartor-pdfa-2008-08-13/Isartor testsuite/PDFA-1b/6.1 File structure/6.1.10 Filters/isartor-6-1-10-t01-fail-b.pdf

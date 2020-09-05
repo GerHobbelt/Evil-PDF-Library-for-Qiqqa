@@ -28,6 +28,7 @@ pdf_list.forEach((l) => {
 	let bnl = path.basename(l);
 	let bnln = bnl.replace(/\.pdf$/i, '');
 	let lp = path.dirname(l);
+if (0)
 	out.push(`
 % ---------------------------------------------------------------------------------------------------------------
 % PDF: ${l}
@@ -41,7 +42,7 @@ MUTOOL show -o "__mujstest/${lp}/%04d-${bnln}.showT.txt" -b "${l}"  trailer
 MUTOOL show -o "__mujstest/${lp}/%04d-${bnln}.showX.txt" -b "${l}"  xref 
 MUTOOL show -o "__mujstest/${lp}/%04d-${bnln}.showP.txt" -b "${l}"  pages
 
-% MUTOOL show -o "__mujstest/${lp}/%04d-${bnln}.showA.txt" -b "${l}"  trailer xref pages grep outline js form trailer/pages/*
+MUTOOL show -o "__mujstest/${lp}/%04d-${bnln}.showA.txt" -b "${l}"  trailer xref pages grep outline js form trailer/pages/*
 
 	`);
 	out2.push(`
@@ -52,23 +53,23 @@ MUTOOL show -o "__mujstest/${lp}/%04d-${bnln}.showP.txt" -b "${l}"  pages
 % base: ${bnln}
 
 CD ${ __dirname.replace(/[\\]/g, '/') }
-MUTOOL mudraw -o "__mujstest/${lp}/%04d-${bnln}.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l "${l}"
+% MUTOOL mudraw -o "__mujstest/${lp}/%04d-${bnln}.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l "${l}"
 
-MUTOOL muconvert -o "__mujstest/${lp}/%04d-${bnln}.convert.pdf" -W 1200 -H 1800 "${l}"
+% MUTOOL muconvert -o "__mujstest/${lp}/%04d-${bnln}.convert.pdf" -W 1200 -H 1800 "${l}"
 
 MUTOOL muraster -o "__mujstest/${lp}/%04d-${bnln}.raster.ppm" -s mt -r 150 -P "${l}"
 
-MUTOOL trace -o "__mujstest/${lp}/%04d-${bnln}.trace.txt" -W 1200 -H 1800 "${l}"
+% MUTOOL trace -o "__mujstest/${lp}/%04d-${bnln}.trace.txt" -W 1200 -H 1800 "${l}"
 
-MUTOOL clean -gggg -D -c -s -AA "${l}" "__mujstest/${lp}/%04d-${bnln}.clean.pdf"
+% MUTOOL clean -gggg -D -c -s -AA "${l}" "__mujstest/${lp}/%04d-${bnln}.clean.pdf"
 
-MUTOOL extract -o "__mujstest/${lp}/%04d-${bnln}.extract." -r "${l}"
+% MUTOOL extract -o "__mujstest/${lp}/%04d-${bnln}.extract." -r "${l}"
 
-MUTOOL info -o "__mujstest/${lp}/%04d-${bnln}.info.txt" -F -I -M -P -S -X "${l}"
+% MUTOOL info -o "__mujstest/${lp}/%04d-${bnln}.info.txt" -F -I -M -P -S -X "${l}"
 
-MUTOOL pages -o "__mujstest/${lp}/%04d-${bnln}.pages.txt" "${l}"
+% MUTOOL pages -o "__mujstest/${lp}/%04d-${bnln}.pages.txt" "${l}"
 
-MUTOOL show -o "__mujstest/${lp}/%04d-${bnln}.show.txt" -b "${l}"  trailer xref pages grep outline js form trailer/pages/*
+% MUTOOL show -o "__mujstest/${lp}/%04d-${bnln}.show.txt" -b "${l}"  trailer xref pages grep outline js form trailer/pages/*
 
 	`);
 	out3.push(`
