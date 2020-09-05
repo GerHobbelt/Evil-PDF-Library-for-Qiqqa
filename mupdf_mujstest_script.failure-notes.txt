@@ -699,3 +699,40 @@ slowest page 1: 494ms
 
 
 
+L#78062: MUTOOL muraster -o "__mujstest/INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/8/%04d-844418D91B7D26A2EB20F0D19CE6F625F9E89BD.raster.ppm" -s mt -r 150 -P "INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/8/844418D91B7D26A2EB20F0D19CE6F625F9E89BD.pdf"
+**CRASH** with the newer code at num_workers == 1 !!! It's the workers[idx]->pix entry which appears to have been nuked prematurely...
+
+
+
+
+
+
+L#1528: MUTOOL muraster -o "__mujstest/INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/4/%04d-458B1F6296CFA32442F7CC47752231F74B89E54D.raster.ppm" -s mt -r 150 -P "INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/4/458B1F6296CFA32442F7CC47752231F74B89E54D.pdf"
+BGPrint waiting
+Worker 0 waiting
+Worker 1 waiting
+Worker 2 waiting
+page INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/4/458B1F6296CFA32442F7CC47752231F74B89E54D.pdf 1
+BGPrint woken for pagenum 1
+Using 3 Bands
+Worker 0, Pre-triggering band 0
+Worker 0 woken for band_start 0
+Worker 1, Pre-triggering band 1
+Worker 1 woken for band_start 608
+Worker 2, Pre-triggering band 2
+Waiting for worker 0 to complete band 0
+Worker 2 woken for band_start 1216
+corrupted refcount -572662305?
+corrupted refcount -572662305?
+corrupted refcount -572662305?
+corrupted refcount -572662305?
+corrupted refcount -572662304?
+...
+**CRASH** after muraster threads fix was done. Looks like the jbig2 corruption is still there...
+
+
+
+
+
+
+
