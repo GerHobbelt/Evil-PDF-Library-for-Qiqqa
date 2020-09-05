@@ -53,7 +53,7 @@ MUTOOL show -o "__mujstest/${lp}/%04d-${bnln}.showA.txt" -b "${l}"  trailer xref
 % base: ${bnln}
 
 CD ${ __dirname.replace(/[\\]/g, '/') }
-% MUTOOL mudraw -o "__mujstest/${lp}/%04d-${bnln}.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l "${l}"
+MUTOOL mudraw -o "__mujstest/${lp}/%04d-${bnln}.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P "${l}"
 
 % MUTOOL muconvert -o "__mujstest/${lp}/%04d-${bnln}.convert.pdf" -W 1200 -H 1800 "${l}"
 

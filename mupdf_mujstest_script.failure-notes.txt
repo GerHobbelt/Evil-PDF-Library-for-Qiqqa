@@ -704,6 +704,29 @@ L#78062: MUTOOL muraster -o "__mujstest/INTRANET_E57B9774-4712-430E-93E0-E67433F
 
 
 
+---
+-- added commit SHA-1: 0ae30f8b6a058c18acf8be3a793a48ebb2ed2953 
+
+* fix: *finally* got the crash mofo: turns out it always happens when shutting down muraster as the illegal freed memory accesses always happen past these DEBUG_THREAD lines:
+
+```
+Asking workers to shutdown, then destroy their resources
+Worker 0 woken for band_start -1
+Worker 0 completed band_start -1 (status=0)
+Worker 0 shutting down
+Worker 1 woken for band_start -1
+Worker 1 completed band_start -1 (status=0)
+Worker 1 shutting down
+Worker 2 woken for band_start -1
+Worker 2 completed band_start -1 (status=0)
+Worker 2 shutting down
+```
+
+while the callstack at time of failure points to code executing in the bgprint thread, which was cleaned up AFTER the workers all got nuked. Thus the obvious fix is to FIRST stop the bgprint thread and only then shut down all workers.
+
+A short bulk test run (~ minutes, then aborting the mujstest test) DOES NOT pop up any more 'random' crashes/heap corruptions after this fix.
+---
+
 
 
 
