@@ -191,25 +191,29 @@ pdf_list.forEach((l) => {
 % base: ${bnln}
 
 CD ${ __dirname.replace(/[\\]/g, '/') }
-MUTOOL mudraw -o "__mujstest/${lp}/${bnln}/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P "${l}"
+MUTOOL mudraw -o "__unitest/${lp}/${bnln}/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "${l}"
 
-MUTOOL mudraw -o "__mujstest/${lp}/${bnln}/%04d.txt" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P "${l}"
+MUTOOL mudraw -o "__unitest/${lp}/${bnln}/%04d.txt" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "${l}"
 
-% MUTOOL muconvert -o "__mujstest/${lp}/${bnln}.convert.pdf" -W 1200 -H 1800 "${l}"
+MUTOOL mudraw -o "__unitest/${lp}/${bnln}/%04d.stext" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "${l}"
 
-% MUTOOL muraster -o "__mujstest/${lp}/${bnln}/%04d.raster.png" -s mt -r 150 -P "${l}"
+MUTOOL mudraw -o "__unitest/${lp}/${bnln}/%04d.png" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "${l}"
 
-% MUTOOL trace -o "__mujstest/${lp}/${bnln}/%04d.trace.txt" -W 1200 -H 1800 "${l}"
+% MUTOOL muconvert -o "__unitest/${lp}/${bnln}.convert.pdf" -W 1200 -H 1800 "${l}"
 
-% MUTOOL clean -gggg -D -c -s -AA "${l}" "__mujstest/${lp}/${bnln}.clean.pdf"
+MUTOOL muraster -F ppm -o "__unitest/${lp}/${bnln}/%04d.raster.png" -s mt -r 150 -P "${l}"
 
-% MUTOOL extract -o "__mujstest/${lp}/${bnln}.extract." -r "${l}"
+% MUTOOL trace -o "__unitest/${lp}/${bnln}/%04d.trace.txt" -W 1200 -H 1800 "${l}"
 
-MUTOOL info -o "__mujstest/${lp}/${bnln}/%04d.info.txt" -F -I -M -P -S -X "${l}"
+% MUTOOL clean -gggg -D -c -s -AA "${l}" "__unitest/${lp}/${bnln}.clean.pdf"
 
-MUTOOL pages -o "__mujstest/${lp}/${bnln}/%04d.pages.txt" "${l}"
+% MUTOOL extract -o "__unitest/${lp}/${bnln}.extract." -r "${l}"
 
-MUTOOL show -o "__mujstest/${lp}/${bnln}/%04d.show.txt" -b "${l}"  trailer xref pages grep outline js form trailer/* Root/* Root/Metadata 0/* 1/* 2/* 3/* 4/* 5/* 6/* 7/* 8/* 9/* 10/* 11/* 12/* 13/* trailer/Info trailer/Info/Author
+MUTOOL info -o "__unitest/${lp}/${bnln}/%04d.info.txt" -F -I -M -P -S -X "${l}"
+
+MUTOOL pages -o "__unitest/${lp}/${bnln}/%04d.pages.txt" "${l}"
+
+MUTOOL show -o "__unitest/${lp}/${bnln}/%04d.show.txt" -b "${l}"  trailer xref pages grep outline js form trailer/* Root/* Root/Metadata 0/* 1/* 2/* 3/* 4/* 5/* 6/* 7/* 8/* 9/* 10/* 11/* 12/* 13/* trailer/Info trailer/Info/Author
 
 	`);
 });
