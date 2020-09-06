@@ -38,11 +38,11 @@ if (0)
 
 CD ${ __dirname.replace(/[\\]/g, '/') }
 
-MUTOOL show -o "__mujstest/${lp}/%04d-${bnln}.showT.txt" -b "${l}"  trailer 
-MUTOOL show -o "__mujstest/${lp}/%04d-${bnln}.showX.txt" -b "${l}"  xref 
-MUTOOL show -o "__mujstest/${lp}/%04d-${bnln}.showP.txt" -b "${l}"  pages
+MUTOOL show -o "__mujstest/${lp}/${bnln}/%04d.showT.txt" -b "${l}"  trailer 
+MUTOOL show -o "__mujstest/${lp}/${bnln}/%04d.showX.txt" -b "${l}"  xref 
+MUTOOL show -o "__mujstest/${lp}/${bnln}/%04d.showP.txt" -b "${l}"  pages
 
-MUTOOL show -o "__mujstest/${lp}/%04d-${bnln}.showA.txt" -b "${l}"  trailer xref pages grep outline js form trailer/pages/*
+MUTOOL show -o "__mujstest/${lp}/${bnln}/%04d.showA.txt" -b "${l}"  trailer xref pages grep outline js form trailer/* Root/* Root/Metadata 0/* 1/* 2/* 3/* 4/* 5/* 6/* 7/* 8/* 9/* 10/* 11/* 12/* 13/* trailer/Info trailer/Info/Author
 
 	`);
 	out2.push(`
@@ -53,23 +53,42 @@ MUTOOL show -o "__mujstest/${lp}/%04d-${bnln}.showA.txt" -b "${l}"  trailer xref
 % base: ${bnln}
 
 CD ${ __dirname.replace(/[\\]/g, '/') }
-MUTOOL mudraw -o "__mujstest/${lp}/%04d-${bnln}.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P "${l}"
 
-% MUTOOL muconvert -o "__mujstest/${lp}/%04d-${bnln}.convert.pdf" -W 1200 -H 1800 "${l}"
+MUTOOL mudraw -o "__mujstest/${lp}/${bnln}/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "${l}"
 
-MUTOOL muraster -o "__mujstest/${lp}/%04d-${bnln}.raster.ppm" -s mt -r 150 -P "${l}"
+MUTOOL mudraw -o "__mujstest/${lp}/${bnln}/%04d.txt" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "${l}"
 
-% MUTOOL trace -o "__mujstest/${lp}/%04d-${bnln}.trace.txt" -W 1200 -H 1800 "${l}"
+MUTOOL mudraw -o "__mujstest/${lp}/${bnln}/%04d.trace" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "${l}"
 
-% MUTOOL clean -gggg -D -c -s -AA "${l}" "__mujstest/${lp}/%04d-${bnln}.clean.pdf"
+MUTOOL mudraw -o "__mujstest/${lp}/${bnln}/%04d.bbox" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "${l}"
 
-% MUTOOL extract -o "__mujstest/${lp}/%04d-${bnln}.extract." -r "${l}"
+MUTOOL mudraw -o "__mujstest/${lp}/${bnln}/%04d.xmltext" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "${l}"
 
-% MUTOOL info -o "__mujstest/${lp}/%04d-${bnln}.info.txt" -F -I -M -P -S -X "${l}"
+MUTOOL mudraw -o "__mujstest/${lp}/${bnln}/%04d.stext" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "${l}"
 
-% MUTOOL pages -o "__mujstest/${lp}/%04d-${bnln}.pages.txt" "${l}"
+MUTOOL mudraw -o "__mujstest/${lp}/${bnln}/%04d.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "${l}"
 
-% MUTOOL show -o "__mujstest/${lp}/%04d-${bnln}.show.txt" -b "${l}"  trailer xref pages grep outline js form trailer/pages/*
+MUTOOL mudraw -o "__mujstest/${lp}/${bnln}/%04d.img.png" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "${l}"
+
+% MUTOOL mudraw -o "__mujstest/${lp}/${bnln}/%04d.img.psd" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "${l}"
+
+MUTOOL muconvert -o "__mujstest/${lp}/${bnln}.convert.pdf" -W 1200 -H 1800 "${l}"
+
+MUTOOL muraster -o "__mujstest/${lp}/${bnln}/%04d.raster.png" -s mt -r 150 -P "${l}"
+
+MUTOOL trace -o "__mujstest/${lp}/${bnln}/%04d.trace.txt" -W 1200 -H 1800 "${l}"
+
+MUTOOL clean -gggg -D -c -s -AA "${l}" "__mujstest/${lp}/${bnln}.clean.pdf"
+
+% MUTOOL extract -o "__mujstest/${lp}/${bnln}/%04d.extract." -r "${l}"
+
+MUTOOL info -o "__mujstest/${lp}/${bnln}/%04d.info.txt" -F -I -M -P -S -X "${l}"
+
+MUTOOL pages -o "__mujstest/${lp}/${bnln}/%04d.pages.txt" "${l}"
+
+MUTOOL show -o "__mujstest/${lp}/${bnln}/%04d.show.txt" -b "${l}"  trailer xref pages grep outline js form trailer/* Root/* Root/Metadata 0/* 1/* 2/* 3/* 4/* 5/* 6/* 7/* 8/* 9/* 10/* 11/* 12/* 13/* trailer/Info trailer/Info/Author
+
+MUTOOL show -o "__mujstest/${lp}/${bnln}/%04d.xml-meta.txt" -b "${l}"  Root/Metadata 
 
 	`);
 	out3.push(`
@@ -81,30 +100,119 @@ MUTOOL muraster -o "__mujstest/${lp}/%04d-${bnln}.raster.ppm" -s mt -r 150 -P "$
 
 CD ${ __dirname.replace(/[\\]/g, '/') }
 
-MUTOOL muconvert -o "__mujstest/${lp}/%04d-${bnln}.convert.text" -W 1200 -H 1800 "${l}"
-MUTOOL muconvert -o "__mujstest/${lp}/%04d-${bnln}.convert.html" -W 1200 -H 1800 "${l}"
-MUTOOL muconvert -o "__mujstest/${lp}/%04d-${bnln}.convert.stext" -W 1200 -H 1800 "${l}"
-MUTOOL muconvert -o "__mujstest/${lp}/%04d-${bnln}.convert.png" -W 1200 -H 1800 "${l}"
+MUTOOL muconvert -o "__mujstest/${lp}/${bnln}/%04d.convert.text" -W 1200 -H 1800 "${l}"
+MUTOOL muconvert -o "__mujstest/${lp}/${bnln}/%04d.convert.html" -W 1200 -H 1800 "${l}"
+MUTOOL muconvert -o "__mujstest/${lp}/${bnln}/%04d.convert.stext" -W 1200 -H 1800 "${l}"
+MUTOOL muconvert -o "__mujstest/${lp}/${bnln}/%04d.convert.png" -W 1200 -H 1800 "${l}"
 
-MUTOOL muraster -o "__mujstest/${lp}/%04d-${bnln}.raster.pkm" -s mt -r 150 -P "${l}"
+MUTOOL muraster -o "__mujstest/${lp}/${bnln}/%04d.raster.pkm" -s mt -r 150 -P "${l}"
 
-MUTOOL mudraw -o "__mujstest/${lp}/%04d-${bnln}.trace" -s mtf5 -r 150 "${l}"
-MUTOOL mudraw -o "__mujstest/${lp}/%04d-${bnln}.txt" -s mtf5 -r 150 "${l}"
-MUTOOL mudraw -o "__mujstest/${lp}/%04d-${bnln}.stext" -s mtf5 -r 150 "${l}"
-MUTOOL mudraw -o "__mujstest/${lp}/%04d-${bnln}.html" -s mtf5 -r 150 "${l}"
-MUTOOL mudraw -o "__mujstest/${lp}/%04d-${bnln}.png" -s mtf5 -r 150 "${l}"
+%MUTOOL mudraw -o "__mujstest/${lp}/${bnln}/%04d.trace" -s mtf5 -r 150 "${l}"
+%MUTOOL mudraw -o "__mujstest/${lp}/${bnln}/%04d.txt" -s mtf5 -r 150 "${l}"
+%MUTOOL mudraw -o "__mujstest/${lp}/${bnln}/%04d.stext" -s mtf5 -r 150 "${l}"
+%MUTOOL mudraw -o "__mujstest/${lp}/${bnln}/%04d.html" -s mtf5 -r 150 "${l}"
+%MUTOOL mudraw -o "__mujstest/${lp}/${bnln}/%04d.png" -s mtf5 -r 150 "${l}"
 
-MUTOOL show -o "__mujstest/${lp}/%04d-${bnln}.showT.txt" -b "${l}"  trailer 
-MUTOOL show -o "__mujstest/${lp}/%04d-${bnln}.showX.txt" -b "${l}"  xref 
-MUTOOL show -o "__mujstest/${lp}/%04d-${bnln}.showP.txt" -b "${l}"  pages
-MUTOOL show -o "__mujstest/${lp}/%04d-${bnln}.showG.txt" -b "${l}"  grep
-MUTOOL show -o "__mujstest/${lp}/%04d-${bnln}.showO.txt" -b "${l}"  outline
-MUTOOL show -o "__mujstest/${lp}/%04d-${bnln}.showJ.txt" -b "${l}"  js
-MUTOOL show -o "__mujstest/${lp}/%04d-${bnln}.showF.txt" -b "${l}"  form
-MUTOOL show -o "__mujstest/${lp}/%04d-${bnln}.showV.txt" -b "${l}"  trailer/pages/*
+MUTOOL show -o "__mujstest/${lp}/${bnln}/%04d.showT.txt" -b "${l}"  trailer 
+MUTOOL show -o "__mujstest/${lp}/${bnln}/%04d.showX.txt" -b "${l}"  xref 
+MUTOOL show -o "__mujstest/${lp}/${bnln}/%04d.showP.txt" -b "${l}"  pages
+MUTOOL show -o "__mujstest/${lp}/${bnln}/%04d.showG.txt" -b "${l}"  grep
+MUTOOL show -o "__mujstest/${lp}/${bnln}/%04d.showO.txt" -b "${l}"  outline
+MUTOOL show -o "__mujstest/${lp}/${bnln}/%04d.showJ.txt" -b "${l}"  js
+MUTOOL show -o "__mujstest/${lp}/${bnln}/%04d.showA.txt" -b "${l}"  trailer/Info
+MUTOOL show -o "__mujstest/${lp}/${bnln}/%04d.showL.txt" -b "${l}"  Root/Pages/*
 
 	`);
 })
 
 fs.writeFileSync('all_pdf_files.mujstest', out.join('\n') + '\n\n\n' + out2.join('\n') + '\n\n\n' + out3.join('\n'), 'utf8');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// load PDF list:
+pdf_list = fs.readFileSync('unicode_spec_pdf_files.lst', 'utf8')
+	.split('\n')
+	.map((l) => {
+		l = l.trim();
+		l = l.replace(/^\.[\/\\]/, '');
+		l = l.replace(/[\\]/g, '/');
+		return l;
+	})
+	.filter((l) => !!l);
+//console.log(pdf_list);
+
+// generate the mujstest script:
+out = [];
+out2 = [];
+out3 = [];
+out.push(`
+% mujstest script generated by mk_mupdf_mujstest_script
+%
+% Run this script using the latest GerHobbelt/mupdf::mujstest tool
+`);
+
+pdf_list.forEach((l) => {
+	let bnl = path.basename(l);
+	let bnln = bnl.replace(/\.pdf$/i, '');
+	let lp = path.dirname(l);
+
+	out2.push(`
+% ---------------------------------------------------------------------------------------------------------------
+% PDF: ${l}
+% dir: ${lp}
+% name: ${bnl}
+% base: ${bnln}
+
+CD ${ __dirname.replace(/[\\]/g, '/') }
+MUTOOL mudraw -o "__mujstest/${lp}/${bnln}/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P "${l}"
+
+MUTOOL mudraw -o "__mujstest/${lp}/${bnln}/%04d.txt" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P "${l}"
+
+% MUTOOL muconvert -o "__mujstest/${lp}/${bnln}.convert.pdf" -W 1200 -H 1800 "${l}"
+
+% MUTOOL muraster -o "__mujstest/${lp}/${bnln}/%04d.raster.png" -s mt -r 150 -P "${l}"
+
+% MUTOOL trace -o "__mujstest/${lp}/${bnln}/%04d.trace.txt" -W 1200 -H 1800 "${l}"
+
+% MUTOOL clean -gggg -D -c -s -AA "${l}" "__mujstest/${lp}/${bnln}.clean.pdf"
+
+% MUTOOL extract -o "__mujstest/${lp}/${bnln}.extract." -r "${l}"
+
+MUTOOL info -o "__mujstest/${lp}/${bnln}/%04d.info.txt" -F -I -M -P -S -X "${l}"
+
+MUTOOL pages -o "__mujstest/${lp}/${bnln}/%04d.pages.txt" "${l}"
+
+MUTOOL show -o "__mujstest/${lp}/${bnln}/%04d.show.txt" -b "${l}"  trailer xref pages grep outline js form trailer/* Root/* Root/Metadata 0/* 1/* 2/* 3/* 4/* 5/* 6/* 7/* 8/* 9/* 10/* 11/* 12/* 13/* trailer/Info trailer/Info/Author
+
+	`);
+});
+
+fs.writeFileSync('unicode_spec_pdf_files.mujstest', out.join('\n') + '\n\n\n' + out2.join('\n') + '\n\n\n' + out3.join('\n'), 'utf8');
 
