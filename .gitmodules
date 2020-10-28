@@ -1,0 +1,3 @@
+[submodule "veraPDF-corpus"]
+	path = veraPDF-corpus
+	url = git@github.com:GerHobbelt/veraPDF-corpus.git
