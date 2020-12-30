@@ -26,6 +26,7 @@
 *.yaml          text eol=lf
 *.yml           text eol=lf
 
+*.7z*			binary
 *.pdf			binary
 *.psd			binary
 *.pptx			binary
