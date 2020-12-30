@@ -2,7 +2,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const filepath = process.argv[2];
+const filepath = process.argv[2].replace(/[\\]/g, '/').replace(/^\.\//, '');
 
 let src = fs.readFileSync(".gitignore", "utf8");
 if (!src.includes(filepath)) {
