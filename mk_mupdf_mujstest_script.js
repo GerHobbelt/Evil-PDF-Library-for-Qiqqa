@@ -36,7 +36,8 @@ if (0)
 % name: ${bnl}
 % base: ${bnln}
 
-CD ${ __dirname.replace(/[\\]/g, '/') }
+% CD ${ __dirname.replace(/[\\]/g, '/') }
+CD {SCRIPTDIR}
 
 MUTOOL show -o "__mujstest/${lp}/${bnln}/%04d.showT.txt" -b "${l}"  trailer 
 MUTOOL show -o "__mujstest/${lp}/${bnln}/%04d.showX.txt" -b "${l}"  xref 
@@ -52,7 +53,8 @@ MUTOOL show -o "__mujstest/${lp}/${bnln}/%04d.showA.txt" -b "${l}"  trailer xref
 % name: ${bnl}
 % base: ${bnln}
 
-CD ${ __dirname.replace(/[\\]/g, '/') }
+% CD ${ __dirname.replace(/[\\]/g, '/') }
+CD {SCRIPTDIR}
 
 MUTOOL mudraw -o "__mujstest/${lp}/${bnln}/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "${l}"
 
@@ -98,7 +100,8 @@ MUTOOL show -o "__mujstest/${lp}/${bnln}/%04d.xml-meta.txt" -b "${l}"  Root/Meta
 % name: ${bnl}
 % base: ${bnln}
 
-CD ${ __dirname.replace(/[\\]/g, '/') }
+% CD ${ __dirname.replace(/[\\]/g, '/') }
+CD {SCRIPTDIR}
 
 MUTOOL muconvert -o "__mujstest/${lp}/${bnln}/%04d.convert.text" -W 1200 -H 1800 "${l}"
 MUTOOL muconvert -o "__mujstest/${lp}/${bnln}/%04d.convert.html" -W 1200 -H 1800 "${l}"
@@ -190,7 +193,9 @@ pdf_list.forEach((l) => {
 % name: ${bnl}
 % base: ${bnln}
 
-CD ${ __dirname.replace(/[\\]/g, '/') }
+% CD ${ __dirname.replace(/[\\]/g, '/') }
+CD {SCRIPTDIR}
+
 MUTOOL mudraw -o "__unitest/${lp}/${bnln}/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "${l}"
 
 MUTOOL mudraw -o "__unitest/${lp}/${bnln}/%04d.txt" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "${l}"
@@ -284,7 +289,8 @@ pdf_list.forEach((l) => {
 % name: ${bnl}
 % base: ${bnln}
 
-CD ${ __dirname.replace(/[\\]/g, '/') }
+% CD ${ __dirname.replace(/[\\]/g, '/') }
+CD {SCRIPTDIR}
 
 MUTOOL mudraw -o "__mujstest/CrashingFiles-T1/${lp}/${bnln}/%04d-x150.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "${l}"
 

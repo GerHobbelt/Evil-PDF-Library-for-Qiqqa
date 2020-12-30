@@ -12,29 +12,30 @@
 % name: appC.pdf
 % base: appC
 
-CD F:/Qiqqa/evil-base
+CD {SCRIPTDIR}
+# --> e.g. 'CD G:/Qiqqa/evil-base'
 
-MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13 C sample/%04d-appC.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/appC.pdf"
+MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13 C sample/%04d-appC.ocr.html" -s mtf5 -r 300 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/appC.pdf"
 
-MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13 C sample/%04d-appC.txt" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/appC.pdf"
+MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13 C sample/%04d-appC.txt" -s mtf5 -r 300 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/appC.pdf"
 
-MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13 C sample/%04d-appC.trace" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/appC.pdf"
+MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13 C sample/%04d-appC.trace" -s mtf5 -r 300 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/appC.pdf"
 
-MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13 C sample/%04d-appC.bbox" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/appC.pdf"
+MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13 C sample/%04d-appC.bbox" -s mtf5 -r 300 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/appC.pdf"
 
-MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13 C sample/%04d-appC.xmltext" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/appC.pdf"
+MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13 C sample/%04d-appC.xmltext" -s mtf5 -r 300 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/appC.pdf"
 
-MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13 C sample/%04d-appC.stext" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/appC.pdf"
+MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13 C sample/%04d-appC.stext" -s mtf5 -r 300 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/appC.pdf"
 
-MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13 C sample/%04d-appC.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/appC.pdf"
+MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13 C sample/%04d-appC.html" -s mtf5 -r 300 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/appC.pdf"
 
-MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13 C sample/%04d-appC.img.png" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/appC.pdf"
+MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13 C sample/%04d-appC.img.png" -s mtf5 -r 300 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/appC.pdf"
 
-MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13 C sample/%04d-appC.img.psd" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/appC.pdf"
+MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13 C sample/%04d-appC.img.psd" -s mtf5 -r 300 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/appC.pdf"
 
 %MUTOOL muconvert -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13 C sample/appC.convert.pdf" -W 1200 -H 1800 "Sample-PDFs-for-format-testing/Unicode v13/appC.pdf"
 
-MUTOOL muraster -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13 C sample/%04d-appC.raster.png" -s mt -r 150 -P "Sample-PDFs-for-format-testing/Unicode v13/appC.pdf"
+MUTOOL muraster -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13 C sample/%04d-appC.raster.png" -s mt -r 300 -P "Sample-PDFs-for-format-testing/Unicode v13/appC.pdf"
 
 MUTOOL trace -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13 C sample/%04d-appC.trace.txt" -W 1200 -H 1800 "Sample-PDFs-for-format-testing/Unicode v13/appC.pdf"
 
