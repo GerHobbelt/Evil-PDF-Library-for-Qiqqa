@@ -79,23 +79,22 @@ Sample-PDFs-for-format-testing/HTML/
 /__unitest/
 
 # large file split/unsplit support: ignoring the large files.
-
-		
+all_pdf_files.mujstest
 INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/Z/7C8FF9CF43D78A6ED77BB4F8BF3674BF992598-UnicodeStandardDoc-bad-OCR-job.pdf
 Sample-PDFs-for-format-testing/ICJ-CIJ/big/!153-153-20160713-WRI-01-02-EN-bad-page-scans-for-OCR.pdf
 Sample-PDFs-for-format-testing/ICJ-CIJ/big/137-17188.pdf
 Sample-PDFs-for-format-testing/ICJ-CIJ/big/150-17582.pdf
 Sample-PDFs-for-format-testing/ICJ-CIJ/big/152-18530.pdf
 Sample-PDFs-for-format-testing/ICJ-CIJ/big/152-18532.pdf
-Sample-PDFs-for-format-testing/ICJ-CIJ/big/153-153-20160713-WRI-01-04-EN.pdf
-Sample-PDFs-for-format-testing/ICJ-CIJ/big/153-153-20170915-WRI-01-02-EN.pdf
-Sample-PDFs-for-format-testing/ICJ-CIJ/big/157-157-20151208-WRI-01-00-EN.pdf
-Sample-PDFs-for-format-testing/Qiqqa Crash Investigations/0001/Compendium of EIA and CRZ notifications and memos.pdf
 Sample-PDFs-for-format-testing/ICJ-CIJ/big/152-18536.pdf
 Sample-PDFs-for-format-testing/ICJ-CIJ/big/153-153-20160713-WRI-01-01-EN.pdf
 Sample-PDFs-for-format-testing/ICJ-CIJ/big/153-153-20160713-WRI-01-03-EN.pdf
+Sample-PDFs-for-format-testing/ICJ-CIJ/big/153-153-20160713-WRI-01-04-EN.pdf
 Sample-PDFs-for-format-testing/ICJ-CIJ/big/153-153-20170321-WRI-01-01-EN.pdf
 Sample-PDFs-for-format-testing/ICJ-CIJ/big/153-153-20170321-WRI-01-02-EN.pdf
 Sample-PDFs-for-format-testing/ICJ-CIJ/big/153-153-20170321-WRI-01-03-EN.pdf
 Sample-PDFs-for-format-testing/ICJ-CIJ/big/153-153-20170321-WRI-01-04-EN.pdf
 Sample-PDFs-for-format-testing/ICJ-CIJ/big/153-153-20170915-WRI-01-01-EN.pdf
+Sample-PDFs-for-format-testing/ICJ-CIJ/big/153-153-20170915-WRI-01-02-EN.pdf
+Sample-PDFs-for-format-testing/ICJ-CIJ/big/157-157-20151208-WRI-01-00-EN.pdf
+Sample-PDFs-for-format-testing/Qiqqa Crash Investigations/0001/Compendium of EIA and CRZ notifications and memos.pdf

@@ -12,9 +12,8 @@
 % name: appC.pdf
 % base: appC
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/appC/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/appC.pdf"
 
@@ -48,9 +47,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/appC/%04d.s
 % name: appE.pdf
 % base: appE
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/appE/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/appE.pdf"
 
@@ -84,9 +82,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/appE/%04d.s
 % name: appF.pdf
 % base: appF
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/appF/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/appF.pdf"
 
@@ -120,9 +117,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/appF/%04d.s
 % name: ch04.pdf
 % base: ch04
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/ch04/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/ch04.pdf"
 
@@ -156,9 +152,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/ch04/%04d.s
 % name: ch05.pdf
 % base: ch05
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/ch05/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/ch05.pdf"
 
@@ -192,9 +187,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/ch05/%04d.s
 % name: ch07.pdf
 % base: ch07
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/ch07/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/ch07.pdf"
 
@@ -228,9 +222,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/ch07/%04d.s
 % name: ch08.pdf
 % base: ch08
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/ch08/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/ch08.pdf"
 
@@ -264,9 +257,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/ch08/%04d.s
 % name: ch12.pdf
 % base: ch12
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/ch12/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/ch12.pdf"
 
@@ -300,9 +292,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/ch12/%04d.s
 % name: ch13.pdf
 % base: ch13
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/ch13/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/ch13.pdf"
 
@@ -336,9 +327,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/ch13/%04d.s
 % name: ch14.pdf
 % base: ch14
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/ch14/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/ch14.pdf"
 
@@ -372,9 +362,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/ch14/%04d.s
 % name: ch15.pdf
 % base: ch15
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/ch15/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/ch15.pdf"
 
@@ -408,9 +397,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/ch15/%04d.s
 % name: ch16.pdf
 % base: ch16
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/ch16/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/ch16.pdf"
 
@@ -444,9 +432,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/ch16/%04d.s
 % name: ch18.pdf
 % base: ch18
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/ch18/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/ch18.pdf"
 
@@ -480,9 +467,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/ch18/%04d.s
 % name: ch21.pdf
 % base: ch21
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/ch21/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/ch21.pdf"
 
@@ -516,9 +502,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/ch21/%04d.s
 % name: ch22.pdf
 % base: ch22
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/ch22/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/ch22.pdf"
 
@@ -552,9 +537,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/ch22/%04d.s
 % name: ch23.pdf
 % base: ch23
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/ch23/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/ch23.pdf"
 
@@ -588,9 +572,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/ch23/%04d.s
 % name: ch24.pdf
 % base: ch24
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/ch24/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/ch24.pdf"
 
@@ -624,9 +607,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/ch24/%04d.s
 % name: RSIndex.pdf
 % base: RSIndex
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/RSIndex/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/RSIndex.pdf"
 
@@ -660,9 +642,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/RSIndex/%04
 % name: U0000.pdf
 % base: U0000
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0000/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U0000.pdf"
 
@@ -696,9 +677,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0000/%04d.
 % name: U0080.pdf
 % base: U0080
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0080/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U0080.pdf"
 
@@ -732,9 +712,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0080/%04d.
 % name: U0100.pdf
 % base: U0100
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0100/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U0100.pdf"
 
@@ -768,9 +747,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0100/%04d.
 % name: U0180.pdf
 % base: U0180
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0180/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U0180.pdf"
 
@@ -804,9 +782,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0180/%04d.
 % name: U0250.pdf
 % base: U0250
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0250/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U0250.pdf"
 
@@ -840,9 +817,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0250/%04d.
 % name: U02B0.pdf
 % base: U02B0
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U02B0/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U02B0.pdf"
 
@@ -876,9 +852,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U02B0/%04d.
 % name: U0300.pdf
 % base: U0300
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0300/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U0300.pdf"
 
@@ -912,9 +887,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0300/%04d.
 % name: U0370.pdf
 % base: U0370
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0370/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U0370.pdf"
 
@@ -948,7 +922,7 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0370/%04d.
 % name: U0400.pdf
 % base: U0400
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0400/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U0400.pdf"
@@ -983,7 +957,7 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0400/%04d.
 % name: U0500.pdf
 % base: U0500
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0500/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U0500.pdf"
@@ -1018,7 +992,7 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0500/%04d.
 % name: U0530.pdf
 % base: U0530
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0530/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U0530.pdf"
@@ -1053,7 +1027,7 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0530/%04d.
 % name: U0590.pdf
 % base: U0590
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0590/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U0590.pdf"
@@ -1088,9 +1062,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0590/%04d.
 % name: U0600.pdf
 % base: U0600
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0600/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U0600.pdf"
 
@@ -1124,9 +1097,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0600/%04d.
 % name: U0700.pdf
 % base: U0700
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0700/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U0700.pdf"
 
@@ -1160,9 +1132,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0700/%04d.
 % name: U0750.pdf
 % base: U0750
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0750/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U0750.pdf"
 
@@ -1196,9 +1167,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0750/%04d.
 % name: U0780.pdf
 % base: U0780
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0780/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U0780.pdf"
 
@@ -1232,9 +1202,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0780/%04d.
 % name: U07C0.pdf
 % base: U07C0
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U07C0/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U07C0.pdf"
 
@@ -1268,9 +1237,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U07C0/%04d.
 % name: U0800.pdf
 % base: U0800
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0800/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U0800.pdf"
 
@@ -1304,9 +1272,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0800/%04d.
 % name: U0840.pdf
 % base: U0840
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0840/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U0840.pdf"
 
@@ -1340,9 +1307,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0840/%04d.
 % name: U0860.pdf
 % base: U0860
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0860/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U0860.pdf"
 
@@ -1376,9 +1342,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0860/%04d.
 % name: U08A0.pdf
 % base: U08A0
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U08A0/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U08A0.pdf"
 
@@ -1412,9 +1377,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U08A0/%04d.
 % name: U0900.pdf
 % base: U0900
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0900/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U0900.pdf"
 
@@ -1448,9 +1412,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0900/%04d.
 % name: U0980.pdf
 % base: U0980
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0980/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U0980.pdf"
 
@@ -1484,9 +1447,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0980/%04d.
 % name: U0A00.pdf
 % base: U0A00
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0A00/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U0A00.pdf"
 
@@ -1520,9 +1482,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0A00/%04d.
 % name: U0A80.pdf
 % base: U0A80
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0A80/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U0A80.pdf"
 
@@ -1556,9 +1517,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0A80/%04d.
 % name: U0B00.pdf
 % base: U0B00
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0B00/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U0B00.pdf"
 
@@ -1592,9 +1552,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0B00/%04d.
 % name: U0B80.pdf
 % base: U0B80
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0B80/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U0B80.pdf"
 
@@ -1628,9 +1587,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0B80/%04d.
 % name: U0C00.pdf
 % base: U0C00
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0C00/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U0C00.pdf"
 
@@ -1664,9 +1622,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0C00/%04d.
 % name: U0C80.pdf
 % base: U0C80
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0C80/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U0C80.pdf"
 
@@ -1700,9 +1657,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0C80/%04d.
 % name: U0D00.pdf
 % base: U0D00
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0D00/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U0D00.pdf"
 
@@ -1736,9 +1692,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0D00/%04d.
 % name: U0D80.pdf
 % base: U0D80
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0D80/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U0D80.pdf"
 
@@ -1772,9 +1727,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0D80/%04d.
 % name: U0E00.pdf
 % base: U0E00
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0E00/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U0E00.pdf"
 
@@ -1808,9 +1762,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0E00/%04d.
 % name: U0E80.pdf
 % base: U0E80
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0E80/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U0E80.pdf"
 
@@ -1844,9 +1797,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0E80/%04d.
 % name: U0F00.pdf
 % base: U0F00
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0F00/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U0F00.pdf"
 
@@ -1880,9 +1832,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U0F00/%04d.
 % name: U1000.pdf
 % base: U1000
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1000/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1000.pdf"
 
@@ -1916,9 +1867,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1000/%04d.
 % name: U10000.pdf
 % base: U10000
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10000/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U10000.pdf"
 
@@ -1952,9 +1902,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10000/%04d
 % name: U100000.pdf
 % base: U100000
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U100000/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U100000.pdf"
 
@@ -1988,9 +1937,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U100000/%04
 % name: U10080.pdf
 % base: U10080
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10080/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U10080.pdf"
 
@@ -2024,9 +1972,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10080/%04d
 % name: U10100.pdf
 % base: U10100
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10100/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U10100.pdf"
 
@@ -2060,9 +2007,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10100/%04d
 % name: U10140.pdf
 % base: U10140
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10140/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U10140.pdf"
 
@@ -2096,9 +2042,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10140/%04d
 % name: U10190.pdf
 % base: U10190
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10190/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U10190.pdf"
 
@@ -2132,9 +2077,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10190/%04d
 % name: U101D0.pdf
 % base: U101D0
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U101D0/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U101D0.pdf"
 
@@ -2168,9 +2112,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U101D0/%04d
 % name: U10280.pdf
 % base: U10280
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10280/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U10280.pdf"
 
@@ -2204,9 +2147,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10280/%04d
 % name: U102A0.pdf
 % base: U102A0
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U102A0/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U102A0.pdf"
 
@@ -2240,9 +2182,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U102A0/%04d
 % name: U102E0.pdf
 % base: U102E0
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U102E0/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U102E0.pdf"
 
@@ -2276,9 +2217,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U102E0/%04d
 % name: U10300.pdf
 % base: U10300
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10300/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U10300.pdf"
 
@@ -2312,9 +2252,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10300/%04d
 % name: U10330.pdf
 % base: U10330
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10330/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U10330.pdf"
 
@@ -2348,9 +2287,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10330/%04d
 % name: U10350.pdf
 % base: U10350
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10350/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U10350.pdf"
 
@@ -2384,9 +2322,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10350/%04d
 % name: U10380.pdf
 % base: U10380
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10380/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U10380.pdf"
 
@@ -2420,9 +2357,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10380/%04d
 % name: U103A0.pdf
 % base: U103A0
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U103A0/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U103A0.pdf"
 
@@ -2456,9 +2392,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U103A0/%04d
 % name: U10400.pdf
 % base: U10400
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10400/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U10400.pdf"
 
@@ -2492,9 +2427,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10400/%04d
 % name: U10450.pdf
 % base: U10450
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10450/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U10450.pdf"
 
@@ -2528,9 +2462,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10450/%04d
 % name: U10480.pdf
 % base: U10480
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10480/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U10480.pdf"
 
@@ -2564,9 +2497,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10480/%04d
 % name: U104B0.pdf
 % base: U104B0
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U104B0/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U104B0.pdf"
 
@@ -2600,9 +2532,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U104B0/%04d
 % name: U10500.pdf
 % base: U10500
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10500/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U10500.pdf"
 
@@ -2636,9 +2567,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10500/%04d
 % name: U10530.pdf
 % base: U10530
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10530/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U10530.pdf"
 
@@ -2672,9 +2602,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10530/%04d
 % name: U10600.pdf
 % base: U10600
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10600/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U10600.pdf"
 
@@ -2708,9 +2637,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10600/%04d
 % name: U10800.pdf
 % base: U10800
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10800/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U10800.pdf"
 
@@ -2744,9 +2672,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10800/%04d
 % name: U10840.pdf
 % base: U10840
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10840/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U10840.pdf"
 
@@ -2780,9 +2707,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10840/%04d
 % name: U10860.pdf
 % base: U10860
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10860/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U10860.pdf"
 
@@ -2816,9 +2742,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10860/%04d
 % name: U10880.pdf
 % base: U10880
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10880/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U10880.pdf"
 
@@ -2852,9 +2777,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10880/%04d
 % name: U108E0.pdf
 % base: U108E0
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U108E0/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U108E0.pdf"
 
@@ -2888,9 +2812,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U108E0/%04d
 % name: U10900.pdf
 % base: U10900
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10900/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U10900.pdf"
 
@@ -2924,9 +2847,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10900/%04d
 % name: U10920.pdf
 % base: U10920
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10920/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U10920.pdf"
 
@@ -2960,9 +2882,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10920/%04d
 % name: U10980.pdf
 % base: U10980
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10980/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U10980.pdf"
 
@@ -2996,9 +2917,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10980/%04d
 % name: U109A0.pdf
 % base: U109A0
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U109A0/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U109A0.pdf"
 
@@ -3032,9 +2952,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U109A0/%04d
 % name: U10A0.pdf
 % base: U10A0
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10A0/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U10A0.pdf"
 
@@ -3068,9 +2987,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10A0/%04d.
 % name: U10A00.pdf
 % base: U10A00
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10A00/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U10A00.pdf"
 
@@ -3104,9 +3022,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10A00/%04d
 % name: U10A60.pdf
 % base: U10A60
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10A60/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U10A60.pdf"
 
@@ -3140,9 +3057,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10A60/%04d
 % name: U10A80.pdf
 % base: U10A80
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10A80/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U10A80.pdf"
 
@@ -3176,9 +3092,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10A80/%04d
 % name: U10AC0.pdf
 % base: U10AC0
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10AC0/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U10AC0.pdf"
 
@@ -3212,9 +3127,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10AC0/%04d
 % name: U10B00.pdf
 % base: U10B00
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10B00/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U10B00.pdf"
 
@@ -3248,9 +3162,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10B00/%04d
 % name: U10B40.pdf
 % base: U10B40
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10B40/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U10B40.pdf"
 
@@ -3284,9 +3197,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10B40/%04d
 % name: U10B60.pdf
 % base: U10B60
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10B60/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U10B60.pdf"
 
@@ -3320,9 +3232,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10B60/%04d
 % name: U10B80.pdf
 % base: U10B80
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10B80/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U10B80.pdf"
 
@@ -3356,9 +3267,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10B80/%04d
 % name: U10C00.pdf
 % base: U10C00
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10C00/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U10C00.pdf"
 
@@ -3392,9 +3302,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10C00/%04d
 % name: U10C80.pdf
 % base: U10C80
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10C80/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U10C80.pdf"
 
@@ -3428,9 +3337,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10C80/%04d
 % name: U10D00.pdf
 % base: U10D00
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10D00/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U10D00.pdf"
 
@@ -3464,9 +3372,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10D00/%04d
 % name: U10E60.pdf
 % base: U10E60
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10E60/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U10E60.pdf"
 
@@ -3500,9 +3407,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10E60/%04d
 % name: U10E80.pdf
 % base: U10E80
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10E80/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U10E80.pdf"
 
@@ -3536,9 +3442,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10E80/%04d
 % name: U10F00.pdf
 % base: U10F00
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10F00/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U10F00.pdf"
 
@@ -3572,9 +3477,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10F00/%04d
 % name: U10F30.pdf
 % base: U10F30
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10F30/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U10F30.pdf"
 
@@ -3608,9 +3512,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10F30/%04d
 % name: U10FB0.pdf
 % base: U10FB0
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10FB0/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U10FB0.pdf"
 
@@ -3644,9 +3547,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10FB0/%04d
 % name: U10FE0.pdf
 % base: U10FE0
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10FE0/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U10FE0.pdf"
 
@@ -3680,9 +3582,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10FE0/%04d
 % name: U10FF80.pdf
 % base: U10FF80
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10FF80/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U10FF80.pdf"
 
@@ -3716,9 +3617,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U10FF80/%04
 % name: U1100.pdf
 % base: U1100
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1100/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1100.pdf"
 
@@ -3752,9 +3652,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1100/%04d.
 % name: U11000.pdf
 % base: U11000
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U11000/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U11000.pdf"
 
@@ -3788,9 +3687,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U11000/%04d
 % name: U11080.pdf
 % base: U11080
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U11080/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U11080.pdf"
 
@@ -3824,9 +3722,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U11080/%04d
 % name: U110D0.pdf
 % base: U110D0
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U110D0/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U110D0.pdf"
 
@@ -3860,9 +3757,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U110D0/%04d
 % name: U11100.pdf
 % base: U11100
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U11100/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U11100.pdf"
 
@@ -3896,9 +3792,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U11100/%04d
 % name: U11150.pdf
 % base: U11150
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U11150/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U11150.pdf"
 
@@ -3932,9 +3827,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U11150/%04d
 % name: U11180.pdf
 % base: U11180
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U11180/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U11180.pdf"
 
@@ -3968,9 +3862,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U11180/%04d
 % name: U111E0.pdf
 % base: U111E0
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U111E0/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U111E0.pdf"
 
@@ -4004,9 +3897,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U111E0/%04d
 % name: U11200.pdf
 % base: U11200
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U11200/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U11200.pdf"
 
@@ -4040,9 +3932,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U11200/%04d
 % name: U11280.pdf
 % base: U11280
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U11280/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U11280.pdf"
 
@@ -4076,9 +3967,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U11280/%04d
 % name: U112B0.pdf
 % base: U112B0
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U112B0/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U112B0.pdf"
 
@@ -4112,9 +4002,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U112B0/%04d
 % name: U11300.pdf
 % base: U11300
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U11300/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U11300.pdf"
 
@@ -4148,9 +4037,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U11300/%04d
 % name: U11400.pdf
 % base: U11400
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U11400/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U11400.pdf"
 
@@ -4184,9 +4072,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U11400/%04d
 % name: U11480.pdf
 % base: U11480
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U11480/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U11480.pdf"
 
@@ -4220,9 +4107,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U11480/%04d
 % name: U11580.pdf
 % base: U11580
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U11580/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U11580.pdf"
 
@@ -4256,9 +4142,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U11580/%04d
 % name: U11600.pdf
 % base: U11600
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U11600/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U11600.pdf"
 
@@ -4292,9 +4177,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U11600/%04d
 % name: U11660.pdf
 % base: U11660
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U11660/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U11660.pdf"
 
@@ -4328,9 +4212,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U11660/%04d
 % name: U11680.pdf
 % base: U11680
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U11680/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U11680.pdf"
 
@@ -4364,9 +4247,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U11680/%04d
 % name: U11700.pdf
 % base: U11700
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U11700/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U11700.pdf"
 
@@ -4400,9 +4282,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U11700/%04d
 % name: U11800.pdf
 % base: U11800
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U11800/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U11800.pdf"
 
@@ -4436,9 +4317,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U11800/%04d
 % name: U118A0.pdf
 % base: U118A0
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U118A0/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U118A0.pdf"
 
@@ -4472,9 +4352,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U118A0/%04d
 % name: U11900.pdf
 % base: U11900
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U11900/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U11900.pdf"
 
@@ -4508,9 +4387,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U11900/%04d
 % name: U119A0.pdf
 % base: U119A0
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U119A0/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U119A0.pdf"
 
@@ -4544,9 +4422,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U119A0/%04d
 % name: U11A00.pdf
 % base: U11A00
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U11A00/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U11A00.pdf"
 
@@ -4580,9 +4457,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U11A00/%04d
 % name: U11A50.pdf
 % base: U11A50
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U11A50/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U11A50.pdf"
 
@@ -4616,9 +4492,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U11A50/%04d
 % name: U11AC0.pdf
 % base: U11AC0
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U11AC0/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U11AC0.pdf"
 
@@ -4652,9 +4527,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U11AC0/%04d
 % name: U11C00.pdf
 % base: U11C00
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U11C00/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U11C00.pdf"
 
@@ -4688,9 +4562,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U11C00/%04d
 % name: U11C70.pdf
 % base: U11C70
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U11C70/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U11C70.pdf"
 
@@ -4724,9 +4597,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U11C70/%04d
 % name: U11D00.pdf
 % base: U11D00
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U11D00/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U11D00.pdf"
 
@@ -4760,9 +4632,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U11D00/%04d
 % name: U11D60.pdf
 % base: U11D60
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U11D60/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U11D60.pdf"
 
@@ -4796,9 +4667,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U11D60/%04d
 % name: U11EE0.pdf
 % base: U11EE0
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U11EE0/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U11EE0.pdf"
 
@@ -4832,9 +4702,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U11EE0/%04d
 % name: U11FB0.pdf
 % base: U11FB0
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U11FB0/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U11FB0.pdf"
 
@@ -4868,9 +4737,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U11FB0/%04d
 % name: U11FC0.pdf
 % base: U11FC0
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U11FC0/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U11FC0.pdf"
 
@@ -4904,9 +4772,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U11FC0/%04d
 % name: U1200.pdf
 % base: U1200
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1200/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1200.pdf"
 
@@ -4940,9 +4807,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1200/%04d.
 % name: U12000.pdf
 % base: U12000
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U12000/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U12000.pdf"
 
@@ -4976,9 +4842,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U12000/%04d
 % name: U12400.pdf
 % base: U12400
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U12400/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U12400.pdf"
 
@@ -5012,9 +4877,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U12400/%04d
 % name: U12480.pdf
 % base: U12480
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U12480/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U12480.pdf"
 
@@ -5048,9 +4912,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U12480/%04d
 % name: U13000.pdf
 % base: U13000
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U13000/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U13000.pdf"
 
@@ -5084,9 +4947,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U13000/%04d
 % name: U13430.pdf
 % base: U13430
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U13430/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U13430.pdf"
 
@@ -5120,9 +4982,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U13430/%04d
 % name: U1380.pdf
 % base: U1380
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1380/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1380.pdf"
 
@@ -5156,9 +5017,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1380/%04d.
 % name: U13A0.pdf
 % base: U13A0
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U13A0/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U13A0.pdf"
 
@@ -5192,9 +5052,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U13A0/%04d.
 % name: U1400.pdf
 % base: U1400
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1400/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1400.pdf"
 
@@ -5228,9 +5087,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1400/%04d.
 % name: U14400.pdf
 % base: U14400
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U14400/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U14400.pdf"
 
@@ -5264,9 +5122,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U14400/%04d
 % name: U1680.pdf
 % base: U1680
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1680/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1680.pdf"
 
@@ -5300,9 +5157,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1680/%04d.
 % name: U16800.pdf
 % base: U16800
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U16800/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U16800.pdf"
 
@@ -5336,9 +5192,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U16800/%04d
 % name: U16A0.pdf
 % base: U16A0
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U16A0/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U16A0.pdf"
 
@@ -5372,9 +5227,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U16A0/%04d.
 % name: U16A40.pdf
 % base: U16A40
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U16A40/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U16A40.pdf"
 
@@ -5408,9 +5262,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U16A40/%04d
 % name: U16AD0.pdf
 % base: U16AD0
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U16AD0/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U16AD0.pdf"
 
@@ -5444,9 +5297,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U16AD0/%04d
 % name: U16B00.pdf
 % base: U16B00
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U16B00/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U16B00.pdf"
 
@@ -5480,9 +5332,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U16B00/%04d
 % name: U16E40.pdf
 % base: U16E40
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U16E40/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U16E40.pdf"
 
@@ -5516,9 +5367,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U16E40/%04d
 % name: U16F00.pdf
 % base: U16F00
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U16F00/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U16F00.pdf"
 
@@ -5552,9 +5402,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U16F00/%04d
 % name: U16FE0.pdf
 % base: U16FE0
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U16FE0/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U16FE0.pdf"
 
@@ -5588,9 +5437,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U16FE0/%04d
 % name: U1700.pdf
 % base: U1700
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1700/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1700.pdf"
 
@@ -5624,9 +5472,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1700/%04d.
 % name: U17000.pdf
 % base: U17000
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U17000/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U17000.pdf"
 
@@ -5660,9 +5507,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U17000/%04d
 % name: U1720.pdf
 % base: U1720
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1720/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1720.pdf"
 
@@ -5696,9 +5542,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1720/%04d.
 % name: U1740.pdf
 % base: U1740
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1740/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1740.pdf"
 
@@ -5732,9 +5577,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1740/%04d.
 % name: U1760.pdf
 % base: U1760
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1760/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1760.pdf"
 
@@ -5768,9 +5612,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1760/%04d.
 % name: U1780.pdf
 % base: U1780
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1780/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1780.pdf"
 
@@ -5804,9 +5647,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1780/%04d.
 % name: U1800.pdf
 % base: U1800
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1800/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1800.pdf"
 
@@ -5840,9 +5682,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1800/%04d.
 % name: U18800.pdf
 % base: U18800
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U18800/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U18800.pdf"
 
@@ -5876,9 +5717,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U18800/%04d
 % name: U18B0.pdf
 % base: U18B0
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U18B0/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U18B0.pdf"
 
@@ -5912,9 +5752,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U18B0/%04d.
 % name: U18B00.pdf
 % base: U18B00
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U18B00/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U18B00.pdf"
 
@@ -5948,9 +5787,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U18B00/%04d
 % name: U18D00.pdf
 % base: U18D00
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U18D00/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U18D00.pdf"
 
@@ -5984,9 +5822,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U18D00/%04d
 % name: U1900.pdf
 % base: U1900
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1900/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1900.pdf"
 
@@ -6020,9 +5857,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1900/%04d.
 % name: U1950.pdf
 % base: U1950
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1950/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1950.pdf"
 
@@ -6056,9 +5892,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1950/%04d.
 % name: U1980.pdf
 % base: U1980
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1980/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1980.pdf"
 
@@ -6092,9 +5927,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1980/%04d.
 % name: U19E0.pdf
 % base: U19E0
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U19E0/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U19E0.pdf"
 
@@ -6128,9 +5962,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U19E0/%04d.
 % name: U1A00.pdf
 % base: U1A00
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1A00/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1A00.pdf"
 
@@ -6164,9 +5997,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1A00/%04d.
 % name: U1A20.pdf
 % base: U1A20
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1A20/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1A20.pdf"
 
@@ -6200,9 +6032,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1A20/%04d.
 % name: U1AB0.pdf
 % base: U1AB0
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1AB0/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1AB0.pdf"
 
@@ -6236,9 +6067,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1AB0/%04d.
 % name: U1B00.pdf
 % base: U1B00
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1B00/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1B00.pdf"
 
@@ -6272,9 +6102,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1B00/%04d.
 % name: U1B000.pdf
 % base: U1B000
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1B000/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1B000.pdf"
 
@@ -6308,9 +6137,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1B000/%04d
 % name: U1B100.pdf
 % base: U1B100
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1B100/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1B100.pdf"
 
@@ -6344,9 +6172,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1B100/%04d
 % name: U1B130.pdf
 % base: U1B130
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1B130/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1B130.pdf"
 
@@ -6380,9 +6207,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1B130/%04d
 % name: U1B170.pdf
 % base: U1B170
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1B170/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1B170.pdf"
 
@@ -6416,9 +6242,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1B170/%04d
 % name: U1B80.pdf
 % base: U1B80
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1B80/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1B80.pdf"
 
@@ -6452,9 +6277,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1B80/%04d.
 % name: U1BC0.pdf
 % base: U1BC0
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1BC0/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1BC0.pdf"
 
@@ -6488,9 +6312,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1BC0/%04d.
 % name: U1BC00.pdf
 % base: U1BC00
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1BC00/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1BC00.pdf"
 
@@ -6524,9 +6347,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1BC00/%04d
 % name: U1BCA0.pdf
 % base: U1BCA0
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1BCA0/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1BCA0.pdf"
 
@@ -6560,9 +6382,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1BCA0/%04d
 % name: U1C00.pdf
 % base: U1C00
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1C00/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1C00.pdf"
 
@@ -6596,9 +6417,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1C00/%04d.
 % name: U1C50.pdf
 % base: U1C50
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1C50/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1C50.pdf"
 
@@ -6632,9 +6452,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1C50/%04d.
 % name: U1C80.pdf
 % base: U1C80
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1C80/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1C80.pdf"
 
@@ -6668,9 +6487,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1C80/%04d.
 % name: U1C90.pdf
 % base: U1C90
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1C90/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1C90.pdf"
 
@@ -6704,9 +6522,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1C90/%04d.
 % name: U1CC0.pdf
 % base: U1CC0
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1CC0/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1CC0.pdf"
 
@@ -6740,9 +6557,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1CC0/%04d.
 % name: U1CD0.pdf
 % base: U1CD0
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1CD0/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1CD0.pdf"
 
@@ -6776,9 +6592,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1CD0/%04d.
 % name: U1D00.pdf
 % base: U1D00
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1D00/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1D00.pdf"
 
@@ -6812,9 +6627,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1D00/%04d.
 % name: U1D000.pdf
 % base: U1D000
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1D000/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1D000.pdf"
 
@@ -6848,9 +6662,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1D000/%04d
 % name: U1D100.pdf
 % base: U1D100
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1D100/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1D100.pdf"
 
@@ -6884,9 +6697,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1D100/%04d
 % name: U1D200.pdf
 % base: U1D200
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1D200/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1D200.pdf"
 
@@ -6920,9 +6732,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1D200/%04d
 % name: U1D2E0.pdf
 % base: U1D2E0
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1D2E0/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1D2E0.pdf"
 
@@ -6956,9 +6767,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1D2E0/%04d
 % name: U1D300.pdf
 % base: U1D300
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1D300/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1D300.pdf"
 
@@ -6992,9 +6802,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1D300/%04d
 % name: U1D360.pdf
 % base: U1D360
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1D360/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1D360.pdf"
 
@@ -7028,9 +6837,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1D360/%04d
 % name: U1D400.pdf
 % base: U1D400
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1D400/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1D400.pdf"
 
@@ -7064,9 +6872,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1D400/%04d
 % name: U1D80.pdf
 % base: U1D80
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1D80/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1D80.pdf"
 
@@ -7100,9 +6907,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1D80/%04d.
 % name: U1D800.pdf
 % base: U1D800
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1D800/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1D800.pdf"
 
@@ -7136,9 +6942,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1D800/%04d
 % name: U1DC0.pdf
 % base: U1DC0
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1DC0/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1DC0.pdf"
 
@@ -7172,9 +6977,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1DC0/%04d.
 % name: U1E00.pdf
 % base: U1E00
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1E00/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1E00.pdf"
 
@@ -7208,9 +7012,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1E00/%04d.
 % name: U1E000.pdf
 % base: U1E000
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1E000/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1E000.pdf"
 
@@ -7244,9 +7047,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1E000/%04d
 % name: U1E100.pdf
 % base: U1E100
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1E100/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1E100.pdf"
 
@@ -7280,9 +7082,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1E100/%04d
 % name: U1E2C0.pdf
 % base: U1E2C0
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1E2C0/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1E2C0.pdf"
 
@@ -7316,9 +7117,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1E2C0/%04d
 % name: U1E800.pdf
 % base: U1E800
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1E800/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1E800.pdf"
 
@@ -7352,9 +7152,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1E800/%04d
 % name: U1E900.pdf
 % base: U1E900
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1E900/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1E900.pdf"
 
@@ -7388,9 +7187,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1E900/%04d
 % name: U1EC70.pdf
 % base: U1EC70
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1EC70/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1EC70.pdf"
 
@@ -7424,9 +7222,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1EC70/%04d
 % name: U1ED00.pdf
 % base: U1ED00
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1ED00/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1ED00.pdf"
 
@@ -7460,9 +7257,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1ED00/%04d
 % name: U1EE00.pdf
 % base: U1EE00
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1EE00/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1EE00.pdf"
 
@@ -7496,9 +7292,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1EE00/%04d
 % name: U1F00.pdf
 % base: U1F00
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1F00/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1F00.pdf"
 
@@ -7532,9 +7327,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1F00/%04d.
 % name: U1F000.pdf
 % base: U1F000
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1F000/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1F000.pdf"
 
@@ -7568,9 +7362,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1F000/%04d
 % name: U1F030.pdf
 % base: U1F030
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1F030/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1F030.pdf"
 
@@ -7604,9 +7397,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1F030/%04d
 % name: U1F0A0.pdf
 % base: U1F0A0
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1F0A0/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1F0A0.pdf"
 
@@ -7640,9 +7432,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1F0A0/%04d
 % name: U1F100.pdf
 % base: U1F100
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1F100/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1F100.pdf"
 
@@ -7676,9 +7467,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1F100/%04d
 % name: U1F200.pdf
 % base: U1F200
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1F200/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1F200.pdf"
 
@@ -7712,9 +7502,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1F200/%04d
 % name: U1F300.pdf
 % base: U1F300
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1F300/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1F300.pdf"
 
@@ -7748,9 +7537,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1F300/%04d
 % name: U1F600.pdf
 % base: U1F600
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1F600/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1F600.pdf"
 
@@ -7784,9 +7572,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1F600/%04d
 % name: U1F650.pdf
 % base: U1F650
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1F650/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1F650.pdf"
 
@@ -7820,9 +7607,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1F650/%04d
 % name: U1F680.pdf
 % base: U1F680
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1F680/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1F680.pdf"
 
@@ -7856,9 +7642,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1F680/%04d
 % name: U1F700.pdf
 % base: U1F700
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1F700/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1F700.pdf"
 
@@ -7892,9 +7677,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1F700/%04d
 % name: U1F780.pdf
 % base: U1F780
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1F780/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1F780.pdf"
 
@@ -7928,9 +7712,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1F780/%04d
 % name: U1F800.pdf
 % base: U1F800
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1F800/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1F800.pdf"
 
@@ -7964,9 +7747,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1F800/%04d
 % name: U1F900.pdf
 % base: U1F900
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1F900/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1F900.pdf"
 
@@ -8000,9 +7782,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1F900/%04d
 % name: U1FA00.pdf
 % base: U1FA00
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1FA00/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1FA00.pdf"
 
@@ -8036,9 +7817,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1FA00/%04d
 % name: U1FA70.pdf
 % base: U1FA70
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1FA70/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1FA70.pdf"
 
@@ -8072,9 +7852,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1FA70/%04d
 % name: U1FB00.pdf
 % base: U1FB00
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1FB00/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1FB00.pdf"
 
@@ -8108,9 +7887,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1FB00/%04d
 % name: U1FF80.pdf
 % base: U1FF80
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1FF80/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U1FF80.pdf"
 
@@ -8144,9 +7922,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U1FF80/%04d
 % name: U2000.pdf
 % base: U2000
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2000/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U2000.pdf"
 
@@ -8180,9 +7957,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2000/%04d.
 % name: U20000.pdf
 % base: U20000
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U20000/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U20000.pdf"
 
@@ -8216,9 +7992,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U20000/%04d
 % name: U2070.pdf
 % base: U2070
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2070/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U2070.pdf"
 
@@ -8252,9 +8027,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2070/%04d.
 % name: U20A0.pdf
 % base: U20A0
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U20A0/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U20A0.pdf"
 
@@ -8288,9 +8062,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U20A0/%04d.
 % name: U20D0.pdf
 % base: U20D0
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U20D0/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U20D0.pdf"
 
@@ -8324,9 +8097,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U20D0/%04d.
 % name: U2100.pdf
 % base: U2100
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2100/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U2100.pdf"
 
@@ -8360,9 +8132,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2100/%04d.
 % name: U2150.pdf
 % base: U2150
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2150/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U2150.pdf"
 
@@ -8396,9 +8167,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2150/%04d.
 % name: U2190.pdf
 % base: U2190
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2190/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U2190.pdf"
 
@@ -8432,9 +8202,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2190/%04d.
 % name: U2200.pdf
 % base: U2200
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2200/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U2200.pdf"
 
@@ -8468,9 +8237,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2200/%04d.
 % name: U2300.pdf
 % base: U2300
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2300/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U2300.pdf"
 
@@ -8504,9 +8272,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2300/%04d.
 % name: U2400.pdf
 % base: U2400
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2400/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U2400.pdf"
 
@@ -8540,9 +8307,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2400/%04d.
 % name: U2440.pdf
 % base: U2440
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2440/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U2440.pdf"
 
@@ -8576,9 +8342,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2440/%04d.
 % name: U2460.pdf
 % base: U2460
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2460/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U2460.pdf"
 
@@ -8612,9 +8377,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2460/%04d.
 % name: U2500.pdf
 % base: U2500
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2500/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U2500.pdf"
 
@@ -8648,9 +8412,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2500/%04d.
 % name: U2580.pdf
 % base: U2580
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2580/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U2580.pdf"
 
@@ -8684,9 +8447,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2580/%04d.
 % name: U25A0.pdf
 % base: U25A0
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U25A0/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U25A0.pdf"
 
@@ -8720,9 +8482,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U25A0/%04d.
 % name: U2600.pdf
 % base: U2600
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2600/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U2600.pdf"
 
@@ -8756,9 +8517,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2600/%04d.
 % name: U2700.pdf
 % base: U2700
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2700/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U2700.pdf"
 
@@ -8792,9 +8552,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2700/%04d.
 % name: U27C0.pdf
 % base: U27C0
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U27C0/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U27C0.pdf"
 
@@ -8828,9 +8587,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U27C0/%04d.
 % name: U27F0.pdf
 % base: U27F0
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U27F0/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U27F0.pdf"
 
@@ -8864,9 +8622,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U27F0/%04d.
 % name: U2800.pdf
 % base: U2800
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2800/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U2800.pdf"
 
@@ -8900,9 +8657,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2800/%04d.
 % name: U2900.pdf
 % base: U2900
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2900/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U2900.pdf"
 
@@ -8936,9 +8692,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2900/%04d.
 % name: U2980.pdf
 % base: U2980
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2980/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U2980.pdf"
 
@@ -8972,9 +8727,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2980/%04d.
 % name: U2A00.pdf
 % base: U2A00
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2A00/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U2A00.pdf"
 
@@ -9008,9 +8762,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2A00/%04d.
 % name: U2A700.pdf
 % base: U2A700
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2A700/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U2A700.pdf"
 
@@ -9044,9 +8797,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2A700/%04d
 % name: U2B00.pdf
 % base: U2B00
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2B00/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U2B00.pdf"
 
@@ -9080,9 +8832,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2B00/%04d.
 % name: U2B740.pdf
 % base: U2B740
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2B740/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U2B740.pdf"
 
@@ -9116,9 +8867,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2B740/%04d
 % name: U2B820.pdf
 % base: U2B820
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2B820/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U2B820.pdf"
 
@@ -9152,9 +8902,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2B820/%04d
 % name: U2C00.pdf
 % base: U2C00
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2C00/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U2C00.pdf"
 
@@ -9188,9 +8937,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2C00/%04d.
 % name: U2C60.pdf
 % base: U2C60
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2C60/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U2C60.pdf"
 
@@ -9224,9 +8972,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2C60/%04d.
 % name: U2C80.pdf
 % base: U2C80
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2C80/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U2C80.pdf"
 
@@ -9260,9 +9007,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2C80/%04d.
 % name: U2CEB0.pdf
 % base: U2CEB0
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2CEB0/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U2CEB0.pdf"
 
@@ -9296,9 +9042,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2CEB0/%04d
 % name: U2D00.pdf
 % base: U2D00
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2D00/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U2D00.pdf"
 
@@ -9332,9 +9077,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2D00/%04d.
 % name: U2D30.pdf
 % base: U2D30
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2D30/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U2D30.pdf"
 
@@ -9368,9 +9112,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2D30/%04d.
 % name: U2D80.pdf
 % base: U2D80
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2D80/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U2D80.pdf"
 
@@ -9404,9 +9147,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2D80/%04d.
 % name: U2DE0.pdf
 % base: U2DE0
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2DE0/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U2DE0.pdf"
 
@@ -9440,9 +9182,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2DE0/%04d.
 % name: U2E00.pdf
 % base: U2E00
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2E00/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U2E00.pdf"
 
@@ -9476,9 +9217,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2E00/%04d.
 % name: U2E80.pdf
 % base: U2E80
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2E80/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U2E80.pdf"
 
@@ -9512,9 +9252,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2E80/%04d.
 % name: U2F00.pdf
 % base: U2F00
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2F00/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U2F00.pdf"
 
@@ -9548,9 +9287,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2F00/%04d.
 % name: U2F800.pdf
 % base: U2F800
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2F800/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U2F800.pdf"
 
@@ -9584,9 +9322,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2F800/%04d
 % name: U2FF0.pdf
 % base: U2FF0
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2FF0/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U2FF0.pdf"
 
@@ -9620,9 +9357,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2FF0/%04d.
 % name: U2FF80.pdf
 % base: U2FF80
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2FF80/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U2FF80.pdf"
 
@@ -9656,9 +9392,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U2FF80/%04d
 % name: U3000.pdf
 % base: U3000
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U3000/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U3000.pdf"
 
@@ -9692,9 +9427,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U3000/%04d.
 % name: U30000.pdf
 % base: U30000
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U30000/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U30000.pdf"
 
@@ -9728,9 +9462,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U30000/%04d
 % name: U3040.pdf
 % base: U3040
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U3040/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U3040.pdf"
 
@@ -9764,9 +9497,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U3040/%04d.
 % name: U30A0.pdf
 % base: U30A0
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U30A0/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U30A0.pdf"
 
@@ -9800,9 +9532,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U30A0/%04d.
 % name: U3100.pdf
 % base: U3100
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U3100/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U3100.pdf"
 
@@ -9836,9 +9567,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U3100/%04d.
 % name: U3130.pdf
 % base: U3130
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U3130/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U3130.pdf"
 
@@ -9872,9 +9602,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U3130/%04d.
 % name: U3190.pdf
 % base: U3190
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U3190/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U3190.pdf"
 
@@ -9908,9 +9637,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U3190/%04d.
 % name: U31A0.pdf
 % base: U31A0
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U31A0/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U31A0.pdf"
 
@@ -9944,9 +9672,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U31A0/%04d.
 % name: U31C0.pdf
 % base: U31C0
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U31C0/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U31C0.pdf"
 
@@ -9980,9 +9707,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U31C0/%04d.
 % name: U31F0.pdf
 % base: U31F0
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U31F0/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U31F0.pdf"
 
@@ -10016,9 +9742,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U31F0/%04d.
 % name: U3200.pdf
 % base: U3200
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U3200/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U3200.pdf"
 
@@ -10052,9 +9777,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U3200/%04d.
 % name: U3300.pdf
 % base: U3300
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U3300/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U3300.pdf"
 
@@ -10088,9 +9812,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U3300/%04d.
 % name: U3400.pdf
 % base: U3400
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U3400/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U3400.pdf"
 
@@ -10124,9 +9847,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U3400/%04d.
 % name: U3FF80.pdf
 % base: U3FF80
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U3FF80/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U3FF80.pdf"
 
@@ -10160,9 +9882,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U3FF80/%04d
 % name: U4DC0.pdf
 % base: U4DC0
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U4DC0/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U4DC0.pdf"
 
@@ -10196,9 +9917,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U4DC0/%04d.
 % name: U4E00.pdf
 % base: U4E00
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U4E00/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U4E00.pdf"
 
@@ -10232,9 +9952,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U4E00/%04d.
 % name: U4FF80.pdf
 % base: U4FF80
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U4FF80/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U4FF80.pdf"
 
@@ -10268,9 +9987,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U4FF80/%04d
 % name: U5FF80.pdf
 % base: U5FF80
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U5FF80/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U5FF80.pdf"
 
@@ -10304,9 +10022,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U5FF80/%04d
 % name: U6FF80.pdf
 % base: U6FF80
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U6FF80/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U6FF80.pdf"
 
@@ -10340,9 +10057,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U6FF80/%04d
 % name: U7FF80.pdf
 % base: U7FF80
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U7FF80/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U7FF80.pdf"
 
@@ -10376,9 +10092,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U7FF80/%04d
 % name: U8FF80.pdf
 % base: U8FF80
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U8FF80/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U8FF80.pdf"
 
@@ -10412,9 +10127,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U8FF80/%04d
 % name: U9FF80.pdf
 % base: U9FF80
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U9FF80/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/U9FF80.pdf"
 
@@ -10448,9 +10162,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/U9FF80/%04d
 % name: UA000.pdf
 % base: UA000
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UA000/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/UA000.pdf"
 
@@ -10484,9 +10197,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UA000/%04d.
 % name: UA490.pdf
 % base: UA490
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UA490/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/UA490.pdf"
 
@@ -10520,9 +10232,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UA490/%04d.
 % name: UA4D0.pdf
 % base: UA4D0
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UA4D0/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/UA4D0.pdf"
 
@@ -10556,9 +10267,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UA4D0/%04d.
 % name: UA500.pdf
 % base: UA500
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UA500/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/UA500.pdf"
 
@@ -10592,9 +10302,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UA500/%04d.
 % name: UA640.pdf
 % base: UA640
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UA640/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/UA640.pdf"
 
@@ -10628,9 +10337,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UA640/%04d.
 % name: UA6A0.pdf
 % base: UA6A0
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UA6A0/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/UA6A0.pdf"
 
@@ -10664,9 +10372,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UA6A0/%04d.
 % name: UA700.pdf
 % base: UA700
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UA700/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/UA700.pdf"
 
@@ -10700,9 +10407,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UA700/%04d.
 % name: UA720.pdf
 % base: UA720
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UA720/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/UA720.pdf"
 
@@ -10736,9 +10442,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UA720/%04d.
 % name: UA800.pdf
 % base: UA800
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UA800/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/UA800.pdf"
 
@@ -10772,9 +10477,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UA800/%04d.
 % name: UA830.pdf
 % base: UA830
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UA830/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/UA830.pdf"
 
@@ -10808,9 +10512,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UA830/%04d.
 % name: UA840.pdf
 % base: UA840
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UA840/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/UA840.pdf"
 
@@ -10844,9 +10547,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UA840/%04d.
 % name: UA880.pdf
 % base: UA880
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UA880/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/UA880.pdf"
 
@@ -10880,9 +10582,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UA880/%04d.
 % name: UA8E0.pdf
 % base: UA8E0
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UA8E0/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/UA8E0.pdf"
 
@@ -10916,9 +10617,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UA8E0/%04d.
 % name: UA900.pdf
 % base: UA900
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UA900/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/UA900.pdf"
 
@@ -10952,9 +10652,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UA900/%04d.
 % name: UA930.pdf
 % base: UA930
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UA930/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/UA930.pdf"
 
@@ -10988,9 +10687,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UA930/%04d.
 % name: UA960.pdf
 % base: UA960
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UA960/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/UA960.pdf"
 
@@ -11024,9 +10722,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UA960/%04d.
 % name: UA980.pdf
 % base: UA980
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UA980/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/UA980.pdf"
 
@@ -11060,9 +10757,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UA980/%04d.
 % name: UA9E0.pdf
 % base: UA9E0
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UA9E0/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/UA9E0.pdf"
 
@@ -11096,9 +10792,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UA9E0/%04d.
 % name: UAA00.pdf
 % base: UAA00
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UAA00/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/UAA00.pdf"
 
@@ -11132,9 +10827,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UAA00/%04d.
 % name: UAA60.pdf
 % base: UAA60
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UAA60/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/UAA60.pdf"
 
@@ -11168,9 +10862,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UAA60/%04d.
 % name: UAA80.pdf
 % base: UAA80
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UAA80/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/UAA80.pdf"
 
@@ -11204,9 +10897,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UAA80/%04d.
 % name: UAAE0.pdf
 % base: UAAE0
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UAAE0/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/UAAE0.pdf"
 
@@ -11240,9 +10932,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UAAE0/%04d.
 % name: UAB00.pdf
 % base: UAB00
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UAB00/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/UAB00.pdf"
 
@@ -11276,9 +10967,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UAB00/%04d.
 % name: UAB30.pdf
 % base: UAB30
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UAB30/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/UAB30.pdf"
 
@@ -11312,9 +11002,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UAB30/%04d.
 % name: UAB70.pdf
 % base: UAB70
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UAB70/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/UAB70.pdf"
 
@@ -11348,9 +11037,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UAB70/%04d.
 % name: UABC0.pdf
 % base: UABC0
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UABC0/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/UABC0.pdf"
 
@@ -11384,9 +11072,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UABC0/%04d.
 % name: UAC00.pdf
 % base: UAC00
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UAC00/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/UAC00.pdf"
 
@@ -11420,9 +11107,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UAC00/%04d.
 % name: UAFF80.pdf
 % base: UAFF80
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UAFF80/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/UAFF80.pdf"
 
@@ -11456,9 +11142,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UAFF80/%04d
 % name: UBFF80.pdf
 % base: UBFF80
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UBFF80/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/UBFF80.pdf"
 
@@ -11492,9 +11177,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UBFF80/%04d
 % name: UCFF80.pdf
 % base: UCFF80
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UCFF80/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/UCFF80.pdf"
 
@@ -11528,9 +11212,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UCFF80/%04d
 % name: UD7B0.pdf
 % base: UD7B0
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UD7B0/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/UD7B0.pdf"
 
@@ -11564,9 +11247,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UD7B0/%04d.
 % name: UD800.pdf
 % base: UD800
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UD800/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/UD800.pdf"
 
@@ -11600,9 +11282,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UD800/%04d.
 % name: UDC00.pdf
 % base: UDC00
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UDC00/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/UDC00.pdf"
 
@@ -11636,9 +11317,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UDC00/%04d.
 % name: UDFF80.pdf
 % base: UDFF80
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UDFF80/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/UDFF80.pdf"
 
@@ -11672,9 +11352,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UDFF80/%04d
 % name: UE000.pdf
 % base: UE000
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UE000/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/UE000.pdf"
 
@@ -11708,9 +11387,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UE000/%04d.
 % name: UE0000.pdf
 % base: UE0000
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UE0000/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/UE0000.pdf"
 
@@ -11744,9 +11422,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UE0000/%04d
 % name: UE0100.pdf
 % base: UE0100
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UE0100/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/UE0100.pdf"
 
@@ -11780,9 +11457,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UE0100/%04d
 % name: UEFF80.pdf
 % base: UEFF80
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UEFF80/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/UEFF80.pdf"
 
@@ -11816,9 +11492,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UEFF80/%04d
 % name: UF0000.pdf
 % base: UF0000
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UF0000/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/UF0000.pdf"
 
@@ -11852,9 +11527,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UF0000/%04d
 % name: UF900.pdf
 % base: UF900
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UF900/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/UF900.pdf"
 
@@ -11888,9 +11562,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UF900/%04d.
 % name: UFB00.pdf
 % base: UFB00
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UFB00/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/UFB00.pdf"
 
@@ -11924,9 +11597,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UFB00/%04d.
 % name: UFB50.pdf
 % base: UFB50
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UFB50/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/UFB50.pdf"
 
@@ -11960,9 +11632,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UFB50/%04d.
 % name: UFE00.pdf
 % base: UFE00
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UFE00/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/UFE00.pdf"
 
@@ -11996,9 +11667,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UFE00/%04d.
 % name: UFE10.pdf
 % base: UFE10
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UFE10/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/UFE10.pdf"
 
@@ -12032,9 +11702,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UFE10/%04d.
 % name: UFE20.pdf
 % base: UFE20
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UFE20/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/UFE20.pdf"
 
@@ -12068,9 +11737,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UFE20/%04d.
 % name: UFE30.pdf
 % base: UFE30
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UFE30/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/UFE30.pdf"
 
@@ -12104,9 +11772,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UFE30/%04d.
 % name: UFE50.pdf
 % base: UFE50
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UFE50/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/UFE50.pdf"
 
@@ -12140,9 +11807,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UFE50/%04d.
 % name: UFE70.pdf
 % base: UFE70
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UFE70/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/UFE70.pdf"
 
@@ -12176,9 +11842,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UFE70/%04d.
 % name: UFF00.pdf
 % base: UFF00
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UFF00/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/UFF00.pdf"
 
@@ -12212,9 +11877,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UFF00/%04d.
 % name: UFFF0.pdf
 % base: UFFF0
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UFFF0/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/UFFF0.pdf"
 
@@ -12248,9 +11912,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UFFF0/%04d.
 % name: UFFF80.pdf
 % base: UFFF80
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UFFF80/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/UFFF80.pdf"
 
@@ -12284,9 +11947,8 @@ MUTOOL show -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UFFF80/%04d
 % name: UnicodeStandard-13.0.pdf
 % base: UnicodeStandard-13.0
 
-% CD F:/Qiqqa/evil-base
+% CD G:/Qiqqa/evil-base
 CD {SCRIPTDIR}
-
 
 MUTOOL mudraw -o "__unitest/Sample-PDFs-for-format-testing/Unicode v13/UnicodeStandard-13.0/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/Unicode v13/UnicodeStandard-13.0.pdf"
 
