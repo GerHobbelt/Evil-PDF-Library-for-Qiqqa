@@ -1,3 +1,12 @@
 [submodule "veraPDF-corpus"]
 	path = veraPDF-corpus
 	url = git@github.com:GerHobbelt/veraPDF-corpus.git
+[submodule "pdfium_tests"]
+	path = pdfium_tests
+	url = https://pdfium.googlesource.com/pdfium_tests
+[submodule "openpreserve-format-corpus"]
+	path = openpreserve-format-corpus
+	url = git@github.com:GerHobbelt/format-corpus.git
+[submodule "list-of-other-pdf-corpora-out-there"]
+	path = list-of-other-pdf-corpora-out-there
+	url = git@github.com:GerHobbelt/pdf-corpora.git
