@@ -27,10 +27,10 @@ out.push(`
 pdf_list.forEach((l, idx) => {
 	let bnl = path.basename(l);
 	let bnln = bnl.replace(/\.pdf$/i, '');
-	let lp = path.dirname(l);
+	let lp = path.dirname(l).replace(/\.\.\//g, '');
 
 
-if (0)
+if (0) {
 	out.push(`
 % ---------------------------------------------------------------------------------------------------------------
 % PDF: ${l}
@@ -49,7 +49,6 @@ MUTOOL show -o "__mujstest/${lp}/${bnln}/%04d.showP.txt" -b "${l}"  pages
 MUTOOL show -o "__mujstest/${lp}/${bnln}/%04d.showA.txt" -b "${l}"  trailer xref pages grep outline js form trailer/* Root/* Root/Metadata 0/* 1/* 2/* 3/* 4/* 5/* 6/* 7/* 8/* 9/* 10/* 11/* 12/* 13/* trailer/Info trailer/Info/Author
 
 	`);
-
 
 	out2.push(`
 % ---------------------------------------------------------------------------------------------------------------
@@ -119,7 +118,7 @@ MUTOOL clean -gggg -D -c -s -AA "${l}" "__mujstest/${lp}/${bnln}.clean.pdf"
 
 ECHO T:${idx}h1
 
-MUTOOL info -o "__mujstest/${lp}/${bnln}/%04d.info.txt" -F -I -M -P -S -X "${l}"
+MUTOOL info -o "__mujstest/${lp}/${bnln}/%04d.info.txt" -F -I -M -P -S -X -A -U "${l}"
 
 ECHO T:${idx}p1
 
@@ -134,6 +133,7 @@ MUTOOL show -o "__mujstest/${lp}/${bnln}/%04d.show.txt" -b "${l}"  trailer xref 
 MUTOOL show -o "__mujstest/${lp}/${bnln}/%04d.xml-meta.txt" -b "${l}"  Root/Metadata 
 
 	`);
+
 	out3.push(`
 % ---------------------------------------------------------------------------------------------------------------
 % PDF: ${l}
@@ -175,9 +175,28 @@ MUTOOL show -o "__mujstest/${lp}/${bnln}/%04d.showA.txt" -b "${l}"  trailer/Info
 MUTOOL show -o "__mujstest/${lp}/${bnln}/%04d.showL.txt" -b "${l}"  Root/Pages/*
 
 	`);
-})
+}	
 
-fs.writeFileSync('all_pdf_files.mujstest', out.join('\n') + '\n\n\n' + out2.join('\n') + '\n\n\n' + out3.join('\n'), 'utf8');
+	out2.push(`
+% ---------------------------------------------------------------------------------------------------------------
+% PDF: ${l}
+% dir: ${lp}
+% name: ${bnl}
+% base: ${bnln}
+
+% CD ${ __dirname.replace(/[\\]/g, '/') }
+CD {SCRIPTDIR}
+
+ECHO T:${idx}h1
+
+MUTOOL multipurp -o "__mujstest/${lp}/${bnln}/%04d.info.json" "${l}"
+
+	`);
+
+
+});
+
+fs.writeFileSync('all_pdf_files.info-test.mujstest', out.join('\n') + '\n\n\n' + out2.join('\n') + '\n\n\n' + out3.join('\n'), 'utf8');
 
 
 
@@ -263,7 +282,7 @@ MUTOOL muraster -F ppm -o "__unitest/${lp}/${bnln}/%04d.raster.png" -s mt -r 150
 
 % MUTOOL extract -o "__unitest/${lp}/${bnln}.extract." -r "${l}"
 
-MUTOOL info -o "__unitest/${lp}/${bnln}/%04d.info.txt" -F -I -M -P -S -X "${l}"
+MUTOOL info -o "__unitest/${lp}/${bnln}/%04d.info.txt" -F -I -M -P -S -X -A -U "${l}"
 
 MUTOOL pages -o "__unitest/${lp}/${bnln}/%04d.pages.txt" "${l}"
 
@@ -361,7 +380,7 @@ MUTOOL clean -gggg -D -c -s -AA "${l}" "__mujstest/CrashingFiles-T1/${lp}/${bnln
 
 % MUTOOL extract -o "__mujstest/CrashingFiles-T1/${lp}/${bnln}.extract." -r "${l}"
 
-MUTOOL info -o "__mujstest/CrashingFiles-T1/${lp}/${bnln}/%04d.info.txt" -F -I -M -P -S -X "${l}"
+MUTOOL info -o "__mujstest/CrashingFiles-T1/${lp}/${bnln}/%04d.info.txt" -F -I -M -P -S -X -A -U "${l}"
 
 MUTOOL pages -o "__mujstest/CrashingFiles-T1/${lp}/${bnln}/%04d.pages.txt" "${l}"
 
