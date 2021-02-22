@@ -1,6 +1,6 @@
-# Evil PDF Library for Qiqqa
+# Evil PDF Library / Corpus for Qiqqa
 
-A Qiqqa Test Library which contains various PDF document samples, etc. collected from live Qiqqa libraries to showcase issues and check regressions in the software.
+A Qiqqa Test Library / Test Corpus which contains various PDF document samples, etc. collected from live Qiqqa libraries to showcase issues and check regressions in the software.
 
 This includes coping with PDFs in various states of disarray and broken-ness: some of these files have been corrupted during download or at the originating server.
 Several other PDFs have been included which test the reach and stability of the Qiqqa Viewer, Search, Content Extraction, Metadata Extraction and OCR subsystems, due to various quirks and features in a PDF file which the toolchain has to contend with.
