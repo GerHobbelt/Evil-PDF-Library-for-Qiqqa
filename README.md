@@ -13,8 +13,10 @@ Several other PDFs have been included which test the reach and stability of the 
 - I (Ger Hobbelt) use a dedicated 1TB SSD drive for this. Running a full test suite can hammer the drive quite prettily (mostly *read access*); when you run scripts or other means to extend the System Tests (done in C#/.NET), *write access* can become a bottleneck, hence a dedicated SSD is strongly advised.
  
 - Also consider (when running on Windows or storing this on an NTFS file system, like I do) setting the "compression" attribute for the entire directory tree as many PDFs benefit from the compression. 
+
+  See also https://superuser.com/questions/1136329/ntfs-compression-on-ssd-ups-and-downs if you need a bit of general background on this thing.
  
-- **When you expect to run Unit or System Tests with these files, *NTFS compression* is a real boon as it will reduce disk spacee costs of the resulting output & referencee JSON and LOG files _immensely_!**
+- **When you expect to run Unit or System Tests with these files, *NTFS compression* is a real boon as it will reduce disk space costs of the resulting output & reference JSON and LOG files _immensely_!**
  
 - Personally, I'd rather NOT set "NTFS compression" at *disk level*, but rather go in and set it up for a NTFS directory (and all files and directories therein, per the suggested 'attribute inheritance').
 
