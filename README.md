@@ -62,6 +62,8 @@ Several other PDFs have been included which test the reach and stability of the 
 - When fully expanded, including *git submodules*, this corpus will consume somewhere between 0.5 and 1 TByte. Make sure you have that kind of disk space available before starting.
 
 - I (Ger Hobbelt) use a dedicated 1TB SSD drive for this. Running a full test suite can hammer the drive quite prettily (mostly *read access*); when you run scripts or other means to extend the System Tests (done in C#/.NET), *write access* can become a bottleneck, hence a dedicated SSD is strongly advised.
+
+  For example, the MuPDF bulk tests produce a LOG file of about 500 MByte. When you're bulk testing close to 100K PDFs, expect your logs and test files' number to scale accordingly. :wink:
  
 - Also consider (when running on Windows or storing this on an NTFS file system, like I do) setting the "compression" attribute for the entire directory tree as many PDFs benefit from the compression. 
 
