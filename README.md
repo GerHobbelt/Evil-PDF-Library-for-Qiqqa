@@ -6,6 +6,57 @@ This includes coping with PDFs in various states of disarray and broken-ness: so
 Several other PDFs have been included which test the reach and stability of the Qiqqa Viewer, Search, Content Extraction, Metadata Extraction and OCR subsystems, due to various quirks and features in a PDF file which the toolchain has to contend with.
 
 
+
+# TOC
+
+- [Note for users](#note-for-users)
+
+- [Mode A: Setup / Install for use by Qiqqa as a 'library'](#mode-a-setup--install-for-use-by-qiqqa-as-a-library)
+
+  - [Qiqqa Folder Watch feature <br><sup>to find & import new PDFs into the library</sup>](#qiqqa-folder-watch-feature-to-find--import-new-pdfs-into-the-library)
+
+    - [Directory 1: the 'Z' subdirectory](#directory-1-the-z-subdirectory)
+    - [Directory 2: the 'Sample-PDFs-for-format-testing' subdirectory](#directory-2-the-sample-pdfs-for-format-testing-subdirectory)
+
+- [Mode B: Setup / Install for use by Qiqqa as a 'watched folder'](#mode-b-setup--install-for-use-by-qiqqa-as-a-watched-folder)
+
+  - [`git clone`-ing this repo to use it in this mode](#git-clone-ing-this-repo-to-use-it-in-this-mode)
+
+- [Mode C: Setup / Install for other uses](#mode-c-setup--install-for-other-uses)
+
+- [Security Considerations](#security-considerations)
+
+- [License Disclaimer](#license-disclaimer)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Note for users
 
 - When fully expanded, including *git submodules*, this corpus will consume somewhere between 0.5 and 1 TByte. Make sure you have that kind of disk space available before starting.
@@ -110,6 +161,8 @@ When you install this repo as a 'Qiqqa library', there's also plenty PDFs in her
 
 #### Directory 1: the 'Z' subdirectory
 
+> **Purpose**: this directory is included in the 'Qiqqa Library' layout to help test the Qiqqa library recovery mechanisms, which SHOULD discoveer these otherwise "hidden" PDFs too!
+
 The "source PDFs" to be found and imported by Qiqqa are located in the 
 
 ```
@@ -121,7 +174,12 @@ directory. In Qiqqa,  you'll have to point the Folder Watcher for this library t
 > Generally the state of the library as saved in this repo is "already up-to-date". but when you wish to test the Folder Watch feature, you can trigger a hard rescan by deleting the `documents/1/` ..to.. `documents/F/` directories **and** the **INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/Qiqqa.folder_watcher** file.
 
 
-### Directory 2: the 'Sample-PDFs-for-format-testing' subdirectory
+#### Directory 2: the 'Sample-PDFs-for-format-testing' subdirectory
+
+> **Purpose**: this directory serves as one of the Qiqqa "Watch Folders".
+> 
+> Do note that the other (git submodule'd) test corpuses each have their own main/base directory next to this one: those would then be additional "Watch Folders". This helps test Qiqqa with *multiple* Watch folders for a *single* library.
+
 
 The `Sample-PDFs-for-format-testing` directory has an additional set of source PDFs to feed into Qiqqa for ability and stability testing (how well do the tools cope with the various pieces of crud in there?). 
 
