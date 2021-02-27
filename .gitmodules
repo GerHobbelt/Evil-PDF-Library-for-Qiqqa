@@ -10,3 +10,6 @@
 [submodule "list-of-other-pdf-corpora-out-there"]
 	path = list-of-other-pdf-corpora-out-there
 	url = git@github.com:GerHobbelt/pdf-corpora.git
+[submodule "artifex-mupdf-test-corpus"]
+	path = artifex-mupdf-test-corpus
+	url = git@github.com:GerHobbelt/artifex-mupdf-test-corpus.git
