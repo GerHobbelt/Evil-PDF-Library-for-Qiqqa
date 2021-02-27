@@ -236,7 +236,7 @@ In that case, this will serve as a generic PDF test set. *MAYBE* you can also us
 
 The `*.mujstest` files and `*.js` + `*.sh` scripts in the root directory are my own little toolbox to run this test corpus through [an augmented MuPDF toolchain](https://github.com/GerHobbelt/mupdf) as a production-level acid test: the tools MUST survive any and all contained in this repo.
 
-Anyway, the "*installation procedure*" is eexactly the same as for "Mode B", see above. It's the usual thing when you work with git repositories: `git clone` + `git submodule update --init --recursive` to fetch it all.
+Anyway, the "*installation procedure*" is exactly the same as for "Mode B", see above. It's the usual thing when you work with git repositories: `git clone` + `git submodule update --init --recursive` to fetch it all.
 
 
 
