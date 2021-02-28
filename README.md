@@ -216,7 +216,7 @@ As usual, report any (fatal) failures occurring in the Qiqqa issue tracker at ht
         remote: Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
         Receiving objects: 100% (5/5), 13.11 KiB | 2.19 MiB/s, done.
    
-7. If you wish the *entire* test corpus to be present, you must also clone the *git submodules*. That's most easily done by entering the cloneed directory and then executing `git submodule update --init --recursive` like this:
+7. If you wish the *entire* test corpus to be present, you must also clone the *git submodules*. That's most easily done by entering the cloned directory and then executing `git submodule update --init --recursive` like this:
 
        cd qiqqa-corpus
        git submodule update --init --recursive
