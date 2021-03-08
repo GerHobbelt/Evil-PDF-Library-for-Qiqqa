@@ -205,7 +205,7 @@ CD {SCRIPTDIR}
 
 ECHO T:%1h1
 
-MUTOOL multipurp -o "__mujstest/%3/%5/%04d.info.json" "%2"
+MUTOOL metadump -o "__mujstest/%3/%5/%04d.info.json" "%2"
 
 	`);
 
