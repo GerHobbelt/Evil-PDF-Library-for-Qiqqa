@@ -55,7 +55,7 @@ pdf_list = pdf_list.map((l, idx) => {
 	let root = __dirname.replace(/[\\]/g, '/');
 
 	//          1:idx     2:pdf   3:pdfdir    4:pdfname    5:pdfbasename   6:rootdir
-	let line = `${ idx}  "${ l}"  "${ lp}"    "${ bnl}"      "${ bnln}"      "${ root}"`;
+	let line = `${ idx+1}  "${ l}"  "${ lp}"    "${ bnl}"      "${ bnln}"      "${ root}"`;
 	return line;
 });
 
@@ -228,7 +228,7 @@ CD {SCRIPTDIR}
 
 ECHO T:%1h1
 
-MUTOOL metadump -o "__mujstest/%3/%5/%04d.info.json" "%2"
+MUTOOL metadump -o "__mujstest/%3/%5.info.json" "%2"
 
 	`);
 
@@ -296,7 +296,7 @@ pdf_list = pdf_list.map((l, idx) => {
 	let root = __dirname.replace(/[\\]/g, '/');
 
 	//          1:idx     2:pdf   3:pdfdir    4:pdfname    5:pdfbasename   6:rootdir
-	let line = `${ idx}  "${ l}"  "${ lp}"    "${ bnl}"      "${ bnln}"      "${ root}"`;
+	let line = `${ idx+1}  "${ l}"  "${ lp}"    "${ bnl}"      "${ bnln}"      "${ root}"`;
 	return line;
 });
 
@@ -402,7 +402,7 @@ pdf_list = pdf_list.map((l, idx) => {
 	let root = __dirname.replace(/[\\]/g, '/');
 
 	//          1:idx     2:pdf   3:pdfdir    4:pdfname    5:pdfbasename   6:rootdir
-	let line = `${ idx}  "${ l}"  "${ lp}"    "${ bnl}"      "${ bnln}"      "${ root}"`;
+	let line = `${ idx+1}  "${ l}"  "${ lp}"    "${ bnl}"      "${ bnln}"      "${ root}"`;
 	return line;
 });
 
