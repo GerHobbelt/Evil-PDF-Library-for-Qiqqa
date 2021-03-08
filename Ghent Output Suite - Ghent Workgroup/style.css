@@ -1,0 +1,1226 @@
+/*** uncss> filename: style.css ***/
+/*** uncss> filename: styles.css ***/
+/*** uncss> filename: html_assets/common-skeleton.min.css ***/ 
+/*** uncss> filename: html_assets/all.css ***/@font-face{font-family:"Font Awesome 5 Brands";font-style:normal;font-weight:normal;src:url(../webfonts/fa-brands-400.eot);src:url(../webfonts/fa-brands-400.eot?#iefix) format("embedded-opentype"),url(../webfonts/fa-brands-400.woff2) format("woff2"),url(../webfonts/fa-brands-400.woff) format("woff"),url(../webfonts/fa-brands-400.ttf) format("truetype"),url(../webfonts/fa-brands-400.svg#fontawesome) format("svg")}@font-face{font-family:"Font Awesome 5 Free";font-style:normal;font-weight:400;src:url(../webfonts/fa-regular-400.eot);src:url(../webfonts/fa-regular-400.eot?#iefix) format("embedded-opentype"),url(../webfonts/fa-regular-400.woff2) format("woff2"),url(../webfonts/fa-regular-400.woff) format("woff"),url(../webfonts/fa-regular-400.ttf) format("truetype"),url(../webfonts/fa-regular-400.svg#fontawesome) format("svg")}@font-face{font-family:"Font Awesome 5 Free";font-style:normal;font-weight:900;src:url(../webfonts/fa-solid-900.eot);src:url(../webfonts/fa-solid-900.eot?#iefix) format("embedded-opentype"),url(../webfonts/fa-solid-900.woff2) format("woff2"),url(../webfonts/fa-solid-900.woff) format("woff"),url(../webfonts/fa-solid-900.ttf) format("truetype"),url(../webfonts/fa-solid-900.svg#fontawesome) format("svg")} 
+/*** uncss> filename: html_assets/bootstrap.css ***/
+
+ 
+/*** uncss> filename: html_assets/bootstrap.min.css ***/
+/*!
+ * Bootstrap v3.0.2 by @fat and @mdo
+ * Copyright 2014 Twitter, Inc.
+ * Licensed under http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Designed and built with all the love in the world by @mdo and @fat.
+ */
+
+/*! normalize.css v2.1.3 | MIT License | git.io/normalize */article,footer,header,nav,section{display:block}html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}body{margin:0}a{background:transparent}a:focus{outline:thin dotted}a:active,a:hover{outline:0}h1{margin:.67em 0;font-size:2em}strong{font-weight:bold}img{border:0}@media print{*{color:#000!important;text-shadow:none!important;background:transparent!important;box-shadow:none!important}a,a:visited{text-decoration:underline}a[href]:after{content:" (" attr(href) ")"}img{page-break-inside:avoid}img{max-width:100%!important}@page{margin:2cm .5cm}p,h2{orphans:3;widows:3}h2{page-break-after:avoid}}*,*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}html{font-size:62.5%;-webkit-tap-highlight-color:rgba(0,0,0,0)}body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;line-height:1.428571429;color:#333;background-color:#fff}a{color:#428bca;text-decoration:none}a:hover,a:focus{color:#2a6496;text-decoration:underline}a:focus{outline:thin dotted #333;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}img{vertical-align:middle}p{margin:0 0 10px}h1,h2{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:500;line-height:1.1;color:inherit}h1,h2{margin-top:20px;margin-bottom:10px}h1{font-size:36px}h2{font-size:30px}ul{margin-top:0;margin-bottom:10px}.container{padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}.container:before,.container:after{display:table;content:" "}.container:after{clear:both}.container:before,.container:after{display:table;content:" "}.container:after{clear:both}.row{margin-right:-15px;margin-left:-15px}.row:before,.row:after{display:table;content:" "}.row:after{clear:both}.row:before,.row:after{display:table;content:" "}.row:after{clear:both}.col-sm-6,.col-sm-12{position:relative;min-height:1px;padding-right:15px;padding-left:15px}@media(min-width:768px){.container{width:750px}.col-sm-6{float:left}.col-sm-12{width:100%}.col-sm-6{width:50%}}@media(min-width:992px){.container{width:970px}}@media(min-width:1200px){.container{width:1170px}}.clearfix:before,.clearfix:after{display:table;content:" "}.clearfix:after{clear:both}@-ms-viewport{width:device-width} 
+/*** uncss> filename: html_assets/style.css ***/
+/* LICENSE & DETAILS
+==================================================
+
+	Theme Name: Dante
+	Theme URI: http://dante.swiftideas.net
+	Author: Swift Ideas
+	Author URI: www.swiftideas.net
+	Description: <strong>A Retina Responsive Multi-Purpose WordPress Theme, Designed & Developed by Swift Ideas</strong> - <a href="http://www.swiftideas.net">www.swiftideas.net</a>. Follow us for update notifications:<br/> <a href='http://twitter.com/swiftideas'>Twitter</a><br/> | <a href='http://www.facebook.com/SwiftIdeas'>Facebook</a>
+	Version: 3.4.0
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Tags: translation-ready, threaded-comments, theme-options, sticky-post, post-formats, full-width-template, flexible-header, featured-images, custom-menu, custom-header, custom-colors, custom-background, flexible-width
+
+	All files, unless otherwise stated, are released under the GNU General Public License
+	version 3.0 (http://www.gnu.org/licenses/gpl-3.0.html)
+
+==================================================
+*/
+
+/* Table of Contents
+==================================================
+
+	#Custom Boostrap Classes
+	#Page Builder Override Classes
+	#Default @font-face
+	#General
+	#Header
+	#Footer
+	#Swift Slider
+	#Portfolio
+	#Blog
+	#Team
+	#Sidebar
+	#Comments
+	#Contact
+	#Shortcodes
+	#WooCommerce
+	#CSS3 Keyframes
+	#Style Switcher
+	#Retina Styles
+	#Responsive Styles
+
+   ==================================================
+*/
+
+/* #Custom Bootstrap Classes
+==================================================
+	Support for columns width sidebars
+================================================== */
+
+@media only screen and (max-width: 767px) {
+	.col-sm-6, .col-sm-12 {
+		margin-bottom: 30px;
+	}
+
+}
+
+/* #Page Builder Override Classes
+==================================================
+	Classes to override asset styling
+================================================== */
+
+/* #Default @font-face
+================================================== */
+
+@font-face {
+    font-family: 'source_sans_proregular';
+    src: url('css/font/sourcesanspro-regular-webfont.eot');
+    src: url('css/font/sourcesanspro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('css/font/sourcesanspro-regular-webfont.woff') format('woff'),
+         url('css/font/sourcesanspro-regular-webfont.ttf') format('truetype'),
+         url('css/font/sourcesanspro-regular-webfont.svg#source_sans_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'source_sans_probold';
+    src: url('css/font/sourcesanspro-bold-webfont.eot');
+    src: url('css/font/sourcesanspro-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('css/font/sourcesanspro-bold-webfont.woff') format('woff'),
+         url('css/font/sourcesanspro-bold-webfont.ttf') format('truetype'),
+         url('css/font/sourcesanspro-bold-webfont.svg#source_sans_probold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Museo500Regular';
+    src: url('css/font/Museo500-Regular-webfont.eot');
+    src: url('css/font/Museo500-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('css/font/Museo500-Regular-webfont.woff') format('woff'),
+         url('css/font/Museo500-Regular-webfont.ttf') format('truetype'),
+         url('css/font/Museo500-Regular-webfont.svg#Museo300Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+	font-family: "source_sans_proregular", Arial, Helvetica, Tahoma, sans-serif;
+}
+h1, h2 {
+	font-family: "Museo500Regular", Arial, Helvetica, Tahoma, sans-serif;
+}
+strong {
+	font-family: "source_sans_probold", Arial, Helvetica, Tahoma, sans-serif;
+	letter-spacing: 1.8px;
+	font-weight: normal!important;
+}
+
+/* #General
+================================================== */
+
+body {
+	padding: 0;
+	margin: 0;
+	font-size: 14px;
+	-webkit-font-smoothing: antialiased;
+}
+a {
+	outline: none!important;
+	transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+}
+a:hover, a:focus {
+	text-decoration: none;
+}
+a:active {
+	outline: none;
+}
+a:focus {
+	-moz-outline-style: none;
+	outline: none;
+	text-decoration: none;
+}
+h1 {
+	font-size: 30px;
+	line-height: 42px;
+}
+h2 {
+	font-size: 24px;
+	line-height: 32px;
+}
+p {
+	font-size: 14px;
+	line-height: 170%;
+	margin: 0 0 24px;
+}
+ul {
+	list-style: none;
+	margin: 0 0 20px;
+	padding: 0;
+}
+.clearfix {
+	clear: none!important;
+}
+#container {
+	position: relative;
+	z-index: 99;
+	-webkit-transition: -webkit-transform 0.5s;
+	transition: transform 0.5s;
+	-webkit-transform-origin: 50% 1%;
+	transform-origin: 50% 1%;
+	-webkit-transform-style: flat;
+	transform-style: flat;
+}
+#page-wrap {
+	overflow: hidden;
+	width: 100%;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+div.entry-title {
+	display: none;
+}
+.container {
+	max-width: 100%;
+} 
+
+
+/* --------------------------------------------
+	STANDARD MEDIA STYLING
+-------------------------------------------- */
+
+/* --------------------------------------------
+	iLIGHTBOX
+-------------------------------------------- */
+
+/* Reset Styles */
+
+/* Disable & Hide Scrollbar */
+/*.ilightbox-noscroll {
+	overflow: hidden;
+}*/
+/* Style arrow buttons */
+/* Style mobile devices */
+
+/* --------------------------------------------
+	iLIGHTBOX - WHITE
+-------------------------------------------- */
+/* Style toolbar */
+/* Style thumbnails */
+/* Configure arrow buttons */
+
+/* --------------------------------------------
+	iLIGHTBOX - DARK
+-------------------------------------------- */
+/* Style toolbar */
+/* Style thumbnails */
+/* Configure arrow buttons */
+
+/* --------------------------------------------
+	GRID EFFECTS
+-------------------------------------------- */
+
+/* Effect 1: opacity */
+
+/* Effect 2: Move Up */
+
+/* Effect 3: Scale up */
+
+/* Effect 4: fall perspective */
+
+/* Effect 5: fly (based on http://lab.hakim.se/scroll-effects/ by @hakimel) */
+
+/* Effect 6: flip (based on http://lab.hakim.se/scroll-effects/ by @hakimel) */
+
+/* Effect 7: helix (based on http://lab.hakim.se/scroll-effects/ by @hakimel) */
+
+/* Effect 8:  */
+
+
+/* --------------------------------------------
+	LOAD IN ANIMATIONS
+-------------------------------------------- */
+
+
+/* --------------------------------------------
+	FLEXSLIDER / REVSLIDER / LAYERSLIDER
+-------------------------------------------- */
+
+/* --------------------------------------------
+	PRETTYPHOTO
+-------------------------------------------- */
+
+/* --------------------------------------------
+	WORDPRESS ASSET STYLING
+-------------------------------------------- */
+
+/* --------------------------------------------
+	ISOTOPE
+-------------------------------------------- */
+
+/**** disabling Isotope CSS3 transitions ****/
+
+
+/* --------------------------------------------
+	LAYOUT
+-------------------------------------------- */
+#main-container {
+	display: block;
+	min-height: 500px;
+	overflow: visible;
+	max-width: 100%;
+}
+.inner-page-wrap {
+	margin-top: 50px;
+	margin-bottom: 60px;
+	min-height: 500px;
+}
+.page-content {
+	border-bottom: 0 solid transparent;
+}
+/*.asset-bg {
+	-moz-box-shadow: inset 0 0 5px rgba(0,0,0,.1);
+	-webkit-box-shadow: inset 0 0 5px rgba(0,0,0,.1);
+	box-shadow: inset 0 0 5px rgba(0,0,0,.1);
+}*/
+
+/* --------------------------------------------
+	PAGE HEADING
+-------------------------------------------- */
+
+.page-heading {
+	padding-top: 35px;
+	padding-bottom: 35px;
+	margin-top: 0;
+	margin-bottom: 0!important;
+	position: relative;
+	text-align: left;
+	border-bottom: 1px solid transparent;
+	border-top: 0!important;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+.page-heading .heading-text {
+	float: left;
+}
+.page-heading h1 {
+	margin-top: 0;
+	margin-bottom: 0;
+	white-space: nowrap;
+}
+
+/* --------------------------------------------
+	PAGINATION
+-------------------------------------------- */
+
+/* --------------------------------------------
+	SEARCH FORM
+-------------------------------------------- */
+
+/* --------------------------------------------
+	TOOLTIPS
+-------------------------------------------- */
+
+/* #Header
+================================================== */
+
+.layout-fullwidth .fw-header .container {
+	width: 100%;
+	padding: 0 30px;
+}
+
+/* --------------------------------------------
+	MOBILE MENU
+-------------------------------------------- */
+
+/* --------------------------------------------
+	SUPER SEARCH
+-------------------------------------------- */
+
+/* --------------------------------------------
+	TOP BAR
+-------------------------------------------- */
+
+#top-bar {
+	font-size: 11px;
+	z-index: 8;
+	padding: 5px 0;
+	position: relative;
+}
+#top-bar .container {
+	max-width: 100%;
+}
+
+/* --------------------------------------------
+	TOP BAR SOCIAL
+-------------------------------------------- */
+
+/* --------------------------------------------
+	HEADER SUBSCRIBE
+-------------------------------------------- */
+
+/* --------------------------------------------
+	HEADER LOGIN
+-------------------------------------------- */
+
+/* --------------------------------------------
+	HEADER LANGUAGE SELECTOR
+-------------------------------------------- */
+
+
+/* --------------------------------------------
+	HEADER CART VIEW
+-------------------------------------------- */
+
+/* --------------------------------------------
+	MAIN HEADER
+-------------------------------------------- */
+
+.header-wrap {
+	position: relative;
+	z-index: 10;
+}
+#header-section {
+	position: relative;
+	z-index: 7;
+	width: 100%;
+	display: block;
+}
+.header-shadow #header-section {
+	-moz-box-shadow: 0 3px 5px rgba(0,0,0,.1);
+	-webkit-box-shadow: 0 3px 5px rgba(0,0,0,.1);
+	box-shadow: 0 3px 5px rgba(0,0,0,.1);
+}
+#header-section:before {
+	content: "";
+	display: block;
+	position: absolute;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+}
+/*.header-3#header-section:before, .header-4#header-section:before {
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.header-5#header-section:before {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}*/
+.header-shadow #header-section:before {
+	-moz-box-shadow: 0 3px 5px rgba(0,0,0,.05);
+	-webkit-box-shadow: 0 3px 5px rgba(0,0,0,.05);
+	box-shadow: 0 3px 5px rgba(0,0,0,.05);
+}
+#header-section #header {
+	padding: 25px 0;
+}
+#header-section.header-7 #header {
+	padding: 0;
+}
+#top-header {
+	border-bottom: 1px solid #e4e4e4;
+}
+#top-header .container {
+	max-width: 100%;
+}
+#top-header .th-left {
+	padding-left: 15px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	line-height: 44px;
+	font-size: 11px;
+	margin-bottom: 0;
+}
+#top-header .th-right {
+	padding-right: 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-bottom: 0;
+}
+#top-header .th-right > nav {
+	float: right;
+	margin-right: -8px;
+}
+#header .header-container {
+	max-width: 100%;
+	padding-top: 20px;
+	-webkit-animation-fill-mode: both;
+	-moz-animation-fill-mode: both;
+	-o-animation-fill-mode: both;
+	animation-fill-mode: both;
+	transition: padding 0.5s ease-in-out;
+	-moz-transition: padding 0.5s ease-in-out;
+	-webkit-transition: padding 0.5s ease-in-out;
+	-o-transition: padding 0.5s ease-in-out;
+}
+.header-7 #top-header .th-left {
+	padding-left: 0;
+}
+.header-7 #top-header .th-right {
+	padding-right: 0;
+}
+.header-7 .container {
+	position: relative;
+}
+nav.std-menu .menu {
+	height: auto;
+	margin: 0;
+	position: relative;
+	padding: 0;
+}
+nav.std-menu .menu li {
+	position: relative;
+	display: inline-block;
+	float: left;
+	font-size: 14px;
+	margin: 8px 0;
+}
+nav.std-menu .menu li:first-child {
+	background: none;
+}
+nav.std-menu .menu li > a {
+	text-decoration: none;
+	padding: 2px 0;
+	margin: 0 10px;
+	display: block;
+	white-space: nowrap;
+	background: transparent;
+}
+nav.std-menu .menu > li:first-child > a {
+	padding-left: 0;
+}
+nav.std-menu .menu > li:first-child:before {
+	display: none;
+}
+
+/* --------------------------------------------
+	MEGA MENU
+-------------------------------------------- */
+
+
+/* --------------------------------------------
+	STICKY HEADER
+-------------------------------------------- */
+
+#header .is-sticky .sticky-header {
+	width: 100%;
+	max-width: 940px;
+	background: #fff;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	-webkit-animation-fill-mode: both;
+	-moz-animation-fill-mode: both;
+	-o-animation-fill-mode: both;
+	animation-fill-mode: both;
+	transition: padding 0.5s ease-in-out;
+	-moz-transition: padding 0.5s ease-in-out;
+	-webkit-transition: padding 0.5s ease-in-out;
+	-o-transition: padding 0.5s ease-in-out;
+	-moz-box-shadow: 0 3px 5px rgba(0,0,0,.1);
+	-webkit-box-shadow: 0 3px 5px rgba(0,0,0,.1);
+	box-shadow: 0 3px 5px rgba(0,0,0,.1);
+}
+.header-container > .row {
+	-webkit-animation-fill-mode: both;
+	-moz-animation-fill-mode: both;
+	-o-animation-fill-mode: both;
+	animation-fill-mode: both;
+	transition: height 0.5s ease-in-out, width 0.5s ease-in-out;
+	-moz-transition: height 0.5s ease-in-out, width 0.5s ease-in-out;
+	-webkit-transition: height 0.5s ease-in-out, width 0.5s ease-in-out;
+	-o-transition: height 0.5s ease-in-out, width 0.5s ease-in-out;
+}
+.header-7 #header .is-sticky .sticky-header {
+	max-width: none;
+}
+.header-7 #header .is-sticky .sticky-header.sticky-header-resized .header-container {
+	padding-top: 10px;
+}
+
+/* --------------------------------------------
+	NAKED HEADER
+-------------------------------------------- */
+
+/* #Widgets
+================================================== */
+/* display none until init */
+/* mouse grab icon */
+/* fix */
+
+/* #Footer
+================================================== */
+
+#footer {
+	padding: 40px 0 0;
+	border-top: 0 solid transparent;
+}
+#footer.footer-divider {
+	border-top-width: 1px;
+}
+#copyright {
+	padding: 15px 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	height: auto;
+	overflow: hidden;
+	font-size: 12px;
+	border-top: 0 solid transparent;
+}
+#copyright.copyright-divider {
+	border-top-width: 1px;
+}
+#copyright p {
+	font-size: 11px;
+	float: left;
+	margin-bottom: 0;
+	line-height: 24px;
+}
+#copyright a, #copyright a:hover {
+	text-decoration: none;
+}
+#copyright nav .menu {
+	float: right;
+}
+#copyright nav .menu li {
+	font-size: 12px;
+	margin: 0;
+	border-left: 1px solid #e4e4e4;
+}
+#copyright nav .menu li:first-child {
+	border-left: 0;
+}
+
+/* #Swift Slider
+================================================== */
+
+/* #Portfolio
+================================================== */
+.body-text {
+	margin-bottom: 30px;
+}
+.body-text p:last-child {
+	margin-bottom: 0;
+}
+.body-text ul {
+	list-style: disc inside;
+}
+.link-pages, .page-content .link-pages {
+	margin-top: 30px;
+	border: 1px solid #e4e4e4;
+	padding: 10px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+}
+.link-pages {
+	margin-bottom: 0;
+}
+.link-pages:empty, .page-content .link-pages:empty {
+	display: none;
+}
+
+
+/* --------------------------------------------
+	PORTFOLIO MASONRY
+-------------------------------------------- */
+
+
+/* --------------------------------------------
+	PORTFOLIO SHOWCASE
+-------------------------------------------- */
+
+/* #Blog
+================================================== */
+
+/* --------------------------------------------
+	BLOG AUX
+-------------------------------------------- */
+
+/* --------------------------------------------
+	STANDARD
+-------------------------------------------- */
+
+/* --------------------------------------------
+	MASONRY
+-------------------------------------------- */
+
+/* --------------------------------------------
+	BLOG MEDIA DISPLAY
+-------------------------------------------- */
+
+/* --------------------------------------------
+	DETAILS
+-------------------------------------------- */
+
+/* --------------------------------------------
+	POST
+-------------------------------------------- */
+
+.article-meta {
+	display: none!important;
+}
+.post-info {
+	width: 100%;
+	margin: 0 0 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #e4e4e4;
+}
+.post-info a {
+	border-bottom: 1px dotted #e3e3e3;
+}
+.tags-link-wrap {
+	padding: 0 0 20px;
+}
+.article-body-wrap {
+	margin-bottom: 50px;
+}
+
+/* #Team
+================================================== */
+
+
+/* #Sidebar
+================================================== */
+
+
+/* #Comments
+================================================== */
+
+/* Pingbacks */
+
+/* Trackbacks */
+
+/* --------------------------------------------
+	COMMENT FORM
+-------------------------------------------- */
+
+
+/* #Contact
+================================================== */
+
+
+/* #Shortcodes
+================================================== */
+
+/* --------------------------------------------
+	FULL WIDTH VIDEO SHORTCODE
+-------------------------------------------- */
+
+/* --------------------------------------------
+	GALLERY SHORTCODE
+-------------------------------------------- */
+
+/* --------------------------------------------
+	COUNT SHORTCODE
+-------------------------------------------- */
+
+
+/* --------------------------------------------
+	COUNTDOWN SHORTCODE
+-------------------------------------------- */
+
+/* --------------------------------------------
+	IMAGE BANNER SHORTCODE
+-------------------------------------------- */
+
+/* --------------------------------------------
+	TEXT BLOCK SHORTCODE
+-------------------------------------------- */
+
+/* --------------------------------------------
+	SHOWCASE SHORTCODE
+-------------------------------------------- */
+
+
+/* --------------------------------------------
+	CLIENTS SHORTCODE
+-------------------------------------------- */
+
+/* --------------------------------------------
+	BOXED CONTENT SHORTCODE
+-------------------------------------------- */
+
+/* --------------------------------------------
+	CONTACT FORM SHORTCODE
+-------------------------------------------- */
+
+
+/* --------------------------------------------
+	CODE SHORTCODE
+-------------------------------------------- */
+
+/* --------------------------------------------
+	TABLE SHORTCODE
+-------------------------------------------- */
+
+/* --------------------------------------------
+	PRICING TABLE SHORTCODE
+-------------------------------------------- */
+
+/* --------------------------------------------
+	DIVIDER SHORTCODE
+-------------------------------------------- */
+
+/* --------------------------------------------
+	BUTTON SHORTCODE
+-------------------------------------------- */
+
+/* --------------------------------------------
+	ALERT SHORTCODE
+-------------------------------------------- */
+
+/* --------------------------------------------
+	IMAGE SHORTCODE
+-------------------------------------------- */
+
+/* --------------------------------------------
+	TESTIMONIALS SHORTCODE
+-------------------------------------------- */
+
+/* --------------------------------------------
+	JOBS SHORTCODE
+-------------------------------------------- */
+
+/* --------------------------------------------
+	SEARCH SHORTCODE
+-------------------------------------------- */
+
+/* --------------------------------------------
+	FAQS SHORTCODE
+-------------------------------------------- */
+
+/* --------------------------------------------
+	COLUMN SHORTCODE
+-------------------------------------------- */
+
+/* --------------------------------------------
+	SITEMAP SHORTCODE
+-------------------------------------------- */
+
+/* --------------------------------------------
+	MAP SHORTCODE
+-------------------------------------------- */
+
+
+/* --------------------------------------------
+	PARALLAX SHORTCODE
+-------------------------------------------- */
+
+/* --------------------------------------------
+	HR SHORTCODE
+-------------------------------------------- */
+
+/* --------------------------------------------
+	CLIENT BOX SHORTCODE
+-------------------------------------------- */
+
+/* --------------------------------------------
+	GOOGLE CHART SHORTCODE
+-------------------------------------------- */
+
+/* --------------------------------------------
+	ICON SHORTCODE
+-------------------------------------------- */
+
+
+/* --------------------------------------------
+	ICON BOX SHORTCODE
+-------------------------------------------- */
+
+/* --------------------------------------------
+	TYPOGRAPHY SHORTCODE
+-------------------------------------------- */
+
+/* --------------------------------------------
+	LIST SHORTCODE
+-------------------------------------------- */
+
+/* --------------------------------------------
+	SOCIAL SHORTCODE
+-------------------------------------------- */
+
+/* --------------------------------------------
+	PROGRESS SHORTCODE
+-------------------------------------------- */
+
+/* --------------------------------------------
+	CHART SHORTCODE
+-------------------------------------------- */
+
+/* --------------------------------------------
+	LATEST TWEET SHORTCODE
+-------------------------------------------- */
+
+/* --------------------------------------------
+	TWEET SLIDER SHORTCODE
+-------------------------------------------- */
+
+/* --------------------------------------------
+	GALLERY SHORTCODE
+-------------------------------------------- */
+
+/* --------------------------------------------
+	ACCORDION SHORTCODE
+-------------------------------------------- */
+
+
+/* --------------------------------------------
+	TABS SHORTCODE
+-------------------------------------------- */
+
+/* --------------------------------------------
+	TOGGLE ASSET
+-------------------------------------------- */
+
+/* --------------------------------------------
+	CALENDAR WIDGET
+-------------------------------------------- */
+
+
+/* #WooCommerce
+================================================== */
+
+/* --------------------------------------------
+	SHOP PAGE
+-------------------------------------------- */
+
+
+/* --------------------------------------------
+	SINGLE PRODUCT
+-------------------------------------------- */
+/* WooCommerce 3.0.0 Gallery */
+
+/* --------------------------------------------
+	SHOPPING BAG
+-------------------------------------------- */
+
+/* --------------------------------------------
+	PRODUCT PAGE BUILDER ASSETS
+-------------------------------------------- */
+
+/* --------------------------------------------
+	SHOPPING BAG EMPTY
+-------------------------------------------- */
+
+
+/* --------------------------------------------
+	CHECKOUT PAGE
+-------------------------------------------- */
+
+/* --------------------------------------------
+	MY ACCOUNT PAGE
+-------------------------------------------- */
+
+/* --------------------------------------------
+	WOOCOMMERCE 2.6 MY ACCOUNT
+-------------------------------------------- */
+
+/* --------------------------------------------
+	WOOCOMMERCE PRODUCT CATEGORIES
+-------------------------------------------- */
+
+/* --------------------------------------------
+	WOOCOMMERCE WIDGETS
+-------------------------------------------- */
+
+/* TO ORGANIZE */
+
+/* #CSS3 Keyframes
+================================================== */
+
+
+/* #Style Switcher
+================================================== */
+
+
+/* #Retina Styles
+================================================== */
+
+/*
+* Swift Framework Retina Stylesheet v1.0
+* Retina Stylesheet for Retina Dislay Devices
+* Copyright 2014, Swift Ideas
+*/
+
+/* #Mobile Styles
+================================================== */
+ 
+/*** uncss> filename: html_assets/responsive.css ***/
+/* #Responsive Styles
+================================================== */
+
+/*
+* Swift Framework Responsive Stylesheet v1.0
+* Responsive Stylesheet for Display on Devices
+* Copyright 2014, Swift Ideas
+*/
+
+/* --------------------------------------------
+	LARGE DISPLAYS
+-------------------------------------------- */
+
+@media only screen and (min-width: 1200px) {
+
+	/* LAYOUT */
+
+	/* HEADER */
+	#header .is-sticky .sticky-header {
+		max-width: 1140px;
+	}
+
+	/* SWIFT SLIDER */
+
+	/* PORTFOLIO */
+
+	/* PRODUCTS */
+
+	/* WIDGETS */
+}
+
+@media only screen and (min-width: 1250px) {
+
+	/* LAYOUT */
+
+}
+
+@media only screen and (min-width: 1500px) {
+
+	/* BLOG */
+	
+}
+
+/* --------------------------------------------
+	iPAD/TABLET LANDSCAPE
+-------------------------------------------- */
+
+@media only screen and (max-width: 1024px) {
+
+	/* HEADER */
+	#header .sticky-wrapper {
+		height: auto!important;
+	}
+
+	/* GENERAL */
+
+	/* BLOG */
+}
+
+/* --------------------------------------------
+	iPAD/TABLET PORTRAIT
+-------------------------------------------- */
+
+@media only screen and (max-width: 991px) {
+
+	/* LAYOUT */
+
+	/* HEADER */
+	#header .is-sticky .sticky-header {
+		left: 0;
+	}
+	#header .header-container {
+		height: auto;
+		overflow: hidden;
+		padding-bottom: 10px;
+	}
+
+	/* FOOTER */
+	#footer-wrap {
+		position: relative;
+	}
+	#copyright {
+		padding: 20px;
+	}
+	#copyright p {
+		float: none;
+		text-align: center;
+	}
+	#copyright nav .menu {
+		float: none;
+		width: 100%;
+		text-align: center;
+		margin-top: 20px;
+	}
+	#copyright nav .menu li {
+		float: none;
+	}
+
+	/* SWIFT SLIDER */
+
+	/* POSTS */
+
+
+	/* PRODUCTS */
+
+	/* TEAM MEMBER */
+
+	/* WIDGETS */
+
+	/* SHORTCODES */
+
+	/* WOOCOMMERCE */
+}
+
+
+/* --------------------------------------------
+	iPHONE LANDSCAPE
+-------------------------------------------- */
+
+@media only screen and (max-width: 767px) {
+
+	/* LAYOUT */
+	.container {
+		padding: 0 30px;
+	}
+	.inner-page-wrap {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.page-heading h1 {
+		word-wrap: normal;
+		white-space: normal;
+		word-break: break-word;
+	}
+	.page-heading .heading-text {
+		margin-left: 0;
+	}
+
+	/* GENERAL */
+	.page-heading .heading-text {
+		float: none;
+	}
+
+	/* HEADER */
+	#top-header {
+		display: none;
+	}
+	#header .sticky-wrapper {
+		height: auto!important;
+	}
+	#header .is-sticky .sticky-header {
+		padding-top: 10px;
+	}
+	#header-section:before, #header .is-sticky .sticky-header {
+		top: 0!important;
+	}
+	#top-bar {
+		padding: 0 20px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	#header-section #header {
+		padding: 0;
+	}
+	.layout-fullwidth .fw-header .container {
+		padding: 15px;
+	}
+	#top-header .th-left, #top-header .th-right {
+		margin-bottom: 0;
+	}
+	#top-header .th-right > nav,   {
+		display: none;
+	}
+
+
+	/* SWIFT SLIDER */
+
+	/* FOOTER */
+	#footer {
+		padding: 10px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	#copyright nav .menu li {
+		float: none;
+		width: auto;
+		border-top-width: 0;
+	}
+
+	/* POST */
+
+	/* PORTFOLIO */
+
+	/* PRODUCTS */
+
+	/* WIDGETS */
+	.post-info > span {
+		display: inline-block;
+		max-width: 70%;
+	}
+
+	/* SHORTCODES */
+
+	/* WOOCOMMERCE */
+	
+	/* Prettyphoto */
+}
+
+/* --------------------------------------------
+	iPHONE PORTRAIT
+-------------------------------------------- */
+
+@media only screen and (max-width: 479px) {
+
+	/* GENERAL */
+
+	/* HEADER */
+
+	/* FOOTER */
+	#copyright nav .menu li {
+		border-top-width: 1px;
+		border-left: 0;
+	}
+	#copyright nav .menu li:first-child {
+		border-top-width: 0;
+	}
+
+	/* SWIFT SLIDER */
+
+	/* BLOG */
+	.post-info > span {
+		margin-bottom: 10px;
+		max-width: 100%;
+	}
+
+	/* PORTFOLIO */
+
+
+	/* SHORTCODES */
+
+	/* WOOCOMMERCE */
+}
