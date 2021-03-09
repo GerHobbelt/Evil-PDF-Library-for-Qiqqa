@@ -832,3 +832,115 @@ corrupted refcount -572662304?
 
 
 
+--------------------------------------------------------------------------------------------------------------
+
+new mujstest. new tests (mutool metadump)
+
+6288  "digitalcorpora.org/govdocs1/025/025454.pdf"  "digitalcorpora.org/govdocs1/025"    "025454.pdf"      "025454"      "G:/Qiqqa/evil-base"
+
+^ has to recover json depth for almost(?) every page. That's unusual in write_level_guarantee_level().
+--> turns out this PDF has type:'UNKNOWN' annotations!
+
+^ has unsupported FICLblablabla annotations, which are reported as UNKNOWN (of course)
+
+
+
+13715  "digitalcorpora.org/govdocs1/999/999686.pdf"  "digitalcorpora.org/govdocs1/999"    "999686.pdf"      "999686"      "G:/Qiqqa/evil-base"
+
+^ has to recover json depth for almost(?) every page. That's unusual in write_level_guarantee_level().
+
+
+
+
+14835  "openpreserve-format-corpus/pdfCabinetOfHorrors/embedded_video_avi.pdf"  "openpreserve-format-corpus/pdfCabinetOfHorrors"    "embedded_video_avi.pdf"      "embedded_video_avi"      "G:/Qiqqa/evil-base"
+
+^ ditto
+
+
+15189  "pdfium_tests/fx/FRC_8.5_part2/FRC_8.5_PC_GoToE_T_R&P&A.pdf"  "pdfium_tests/fx/FRC_8.5_part2"    "FRC_8.5_PC_GoToE_T_R&P&A.pdf"      "FRC_8.5_PC_GoToE_T_R&P&A"      "G:/Qiqqa/evil-base"
+
+
+
+
+
+15819  "Sample-PDFs-for-format-testing/doc - html to pdf - text runs off the right edge of the pages.pdf"  "Sample-PDFs-for-format-testing"    "doc - html to pdf - text runs off the right edge of the pages.pdf"      "doc - html to pdf - text runs off the right edge of the pages"      "G:/Qiqqa/evil-base"
+
+^ superslow
+
+
+
+16586  "Sample-PDFs-for-format-testing/isartor-pdfa-2008-08-13/Isartor testsuite/PDFA-1b/6.1 File structure/6.1.12 Implementation Limits/isartor-6-1-12-t01-fail-a.pdf"  "Sample-PDFs-for-format-testing/isartor-pdfa-2008-08-13/Isartor testsuite/PDFA-1b/6.1 File structure/6.1.12 Implementation Limits"    "isartor-6-1-12-t01-fail-a.pdf"      "isartor-6-1-12-t01-fail-a"      "G:/Qiqqa/evil-base"
+
+^ superslow
+
+
+18260  "Sample-PDFs-for-format-testing/Qiqqa Tools - test collection/insane-authors-list/Guidelines for the use and interpretation of assays for monitoring autophagy 3rd edition.pdf"  "Sample-PDFs-for-format-testing/Qiqqa Tools - test collection/insane-authors-list"    "Guidelines for the use and interpretation of assays for monitoring autophagy 3rd edition.pdf"      "Guidelines for the use and interpretation of assays for monitoring autophagy 3rd edition"      "G:/Qiqqa/evil-base"
+
+^ memory corruption? json @ 500MBytes?! (ah, happened in x86/Win32 build. realloc of 1GB happened just before that in fz_putc handler)
+
+
+
+
+
+
+
+
+
+
+
+
+952  "W:/Sopkonijn/!OmniPage-input-dir/__store/F571F789DCFBE5FCDEE03A6695F0285719708479.pdf"  "W/Sopkonijn/!OmniPage-input-dir/_store"    "F571F789DCFBE5FCDEE03A6695F0285719708479.pdf"      "F571F789DCFBE5FCDEE03A6695F0285719708479"      "G:/Qiqqa/evil-base"
+
+^ insane output size; seems like the Attachedfiles item is going completely overboard. Weirdly enough with lots of Links?!?!
+
+
+
+1897  "W:/Sopkonijn/!PaperPort-base-dir/B/B01BB061FFBF8A7873E55134575AB44C633042C.pdf"  "W/Sopkonijn/!PaperPort-base-dir/B"    "B01BB061FFBF8A7873E55134575AB44C633042C.pdf"      "B01BB061FFBF8A7873E55134575AB44C633042C"      "G:/Qiqqa/evil-base"
+
+^ did not output anything for the Attachedfiles object while debugging?
+
+
+
+
+1473  "W:/Sopkonijn/!PaperPort-base-dir/1/10822C58B7CE8328698EEB29F438183AB224482.pdf"  "W/Sopkonijn/!PaperPort-base-dir/1"    "10822C58B7CE8328698EEB29F438183AB224482.pdf"      "10822C58B7CE8328698EEB29F438183AB224482"      "G:/Qiqqa/evil-base"
+
+^ a bit of nastiness around an empty stream, which results in the ludicrous "cannot parse as XML" error. Well, DUH!
+
+
+
+1526  "W:/Sopkonijn/!PaperPort-base-dir/2/288765F82241BB31D94F35E58F41C0BCE4A44B0.pdf"  "W/Sopkonijn/!PaperPort-base-dir/2"    "288765F82241BB31D94F35E58F41C0BCE4A44B0.pdf"      "288765F82241BB31D94F35E58F41C0BCE4A44B0"      "G:/Qiqqa/evil-base"
+
+^ another run-away that's kept in check by the "restricted mode"
+
+
+
+
+3890  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__nontext/67A9624514511BF3C88DACAA32618EDFFC6F1.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__nontext"    "67A9624514511BF3C88DACAA32618EDFFC6F1.pdf"      "67A9624514511BF3C88DACAA32618EDFFC6F1"      "G:/Qiqqa/evil-base"
+
+^ has UNKNOWN annotations. 
+
+
+
+7103  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__possibly_erroneous/EBA9C2BAC1E301AEFA99296E0BF43CEBDA4D175.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__possibly_erroneous"    "EBA9C2BAC1E301AEFA99296E0BF43CEBDA4D175.pdf"      "EBA9C2BAC1E301AEFA99296E0BF43CEBDA4D175"      "G:/Qiqqa/evil-base"
+
+^ *extremely* long running metadump. (Long stream of dots on the console too.)
+
+warning: cannot load object (1267 0 R) into cache
+error: object out of range (1267 0 R); xref size 1249
+warning: cannot load object (1267 0 R) into cache
+error: object out of range (1267 0 R); xref size 1249
+warning: cannot load object (1267 0 R) into cache
+warning: non-page object in page tree ({NULL})
+error: object out of range (1270 0 R); xref size 1249
+
+etc.etc.etc.
+
+
+
+
+
+
+
+
+
+

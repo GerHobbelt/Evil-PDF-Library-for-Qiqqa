@@ -79,6 +79,7 @@ Sample-PDFs-for-format-testing/HTML/
 # mujstest script generator runtime output dir:
 /__mujstest/
 /__unitest/
+/__bulktest/
 
 # large file split/unsplit support: ignoring the large files.
 all_pdf_files.mujstest
