@@ -1217,6 +1217,72 @@ Then: slow but quiet:
 43354  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__store/E7575B93AB1DEEBEF155152AC989BF4F866645.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__store"    "E7575B93AB1DEEBEF155152AC989BF4F866645.pdf"      "E7575B93AB1DEEBEF155152AC989BF4F866645"      "G:/Qiqqa/evil-base"
 78842  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__store/__decrypted/C99DBCFC1B7CFC2DCE3094D9887E790C4BA4293.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__store/__decrypted"    "C99DBCFC1B7CFC2DCE3094D9887E790C4BA4293.pdf"      "C99DBCFC1B7CFC2DCE3094D9887E790C4BA4293"      "G:/Qiqqa/evil-base"
 
+78841 --> long running
+78909
+78914
+78984
+79045
+79095
+79150
+79308
+79493
+80050
+
+-->
+
+78841  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__store/__decrypted/C98FF828C3A8ECCF8942C41EE00F9DE7EC5663B.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__store/__decrypted"    "C98FF828C3A8ECCF8942C41EE00F9DE7EC5663B.pdf"      "C98FF828C3A8ECCF8942C41EE00F9DE7EC5663B"      "G:/Qiqqa/evil-base"
+78909  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__store/__decrypted/CEB76A97C04941386A4196E08DDCEBDD23815.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__store/__decrypted"    "CEB76A97C04941386A4196E08DDCEBDD23815.pdf"      "CEB76A97C04941386A4196E08DDCEBDD23815"      "G:/Qiqqa/evil-base"
+78914  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__store/__decrypted/CEDEE4FFED79289710C2C813C71C283EF76ECBC.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__store/__decrypted"    "CEDEE4FFED79289710C2C813C71C283EF76ECBC.pdf"      "CEDEE4FFED79289710C2C813C71C283EF76ECBC"      "G:/Qiqqa/evil-base"
+78984  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__store/__decrypted/D41F7F488641921FA3A6CA99077664A7CA453C.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__store/__decrypted"    "D41F7F488641921FA3A6CA99077664A7CA453C.pdf"      "D41F7F488641921FA3A6CA99077664A7CA453C"      "G:/Qiqqa/evil-base"
+79045  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__store/__decrypted/D83010D867FD6E8053A8974B59AAB8B7FC24940.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__store/__decrypted"    "D83010D867FD6E8053A8974B59AAB8B7FC24940.pdf"      "D83010D867FD6E8053A8974B59AAB8B7FC24940"      "G:/Qiqqa/evil-base"
+79095  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__store/__decrypted/DB1D61FC999EAC6750B7AA456116377035CFB612.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__store/__decrypted"    "DB1D61FC999EAC6750B7AA456116377035CFB612.pdf"      "DB1D61FC999EAC6750B7AA456116377035CFB612"      "G:/Qiqqa/evil-base"
+79150  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__store/__decrypted/DE242ACFFB486163801EDBACCB74244D287B8EF8.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__store/__decrypted"    "DE242ACFFB486163801EDBACCB74244D287B8EF8.pdf"      "DE242ACFFB486163801EDBACCB74244D287B8EF8"      "G:/Qiqqa/evil-base"
+79308  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__store/__decrypted/E37FB9822BB48F3542188ACE70ED56A01B5B7A4.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__store/__decrypted"    "E37FB9822BB48F3542188ACE70ED56A01B5B7A4.pdf"      "E37FB9822BB48F3542188ACE70ED56A01B5B7A4"      "G:/Qiqqa/evil-base"
+79493  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__store/__decrypted/F5F86A559370767F7089CF6317E65255EAC1C99A.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__store/__decrypted"    "F5F86A559370767F7089CF6317E65255EAC1C99A.pdf"      "F5F86A559370767F7089CF6317E65255EAC1C99A"      "G:/Qiqqa/evil-base"
+80050  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__store/__decrypted/095DFE3BB8DD7FEB83BBAADE6F06DE059A1AC26.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__store/__decrypted"    "095DFE3BB8DD7FEB83BBAADE6F06DE059A1AC26.pdf"      "095DFE3BB8DD7FEB83BBAADE6F06DE059A1AC26"      "G:/Qiqqa/evil-base"
+
+
+
+
+Now let's see what last night delivered in terms of totally ludicrous JSON file sizes: we now 'restrict' single subtree dumps to ~10K, so shouldn't expect to see 10M+ filesizes unless we missed a few spots (I bet we did!):
+
+78841  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__store/__decrypted/C98FF828C3A8ECCF8942C41EE00F9DE7EC5663B.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__store/__decrypted"    "C98FF828C3A8ECCF8942C41EE00F9DE7EC5663B.pdf"      
+
+--> turns out to produce >600MB JSON
+
+85187 --> hits the doc repair 0x02 mode (while we were scanning the dump directories, so "off topic")
+
+85187  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__store/3D8E405C60709DA3BCCCCA75B203FA37C441BEB.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__store"    "3D8E405C60709DA3BCCCCA75B203FA37C441BEB.pdf"      "3D8E405C60709DA3BCCCCA75B203FA37C441BEB"      "G:/Qiqqa/evil-base"
+
+
+decrypted 865DD2BB2769B17A83D8BB9EB1AE2D31FCC2A88 @ 900MByte JSON
+decrypted 56831E9293475B87B10CB53E84AAD11B8455397 --> ditto
+store/buffer 865DD2BB2769B17A83D8BB9EB1AE2D31FCC2A88
+decrypted 36BA264A071B71E904D7F75D81BB7453676D5D2 --> ~600MB
+1A6FF143434A295D1D2B2C3CC0EFA41AE4DAC
+28A75398587080FE7F293EB4D91795E05DDD27F5
+2DEF82859E4194D1D91541DF71C440FC54AD67E
+DE242ACFFB486163801EDBACCB74244D287B8EF8
+AE67D091CDA8EEC1713814711543C58B0317A74
+3CE72EB0DEB05339F712F44C8256F037EF4C8BC4
+28CECE527DA34A239261953F6DC64ADDEAD48C1
+85AEA5A933422550131CD76D37AF7F24C7E6027
+A377F2BEFE9575BD1622375433BF34FF7A518  (two versions of this file exist apparently, different JSON output sizes!)
+EA757B9EA4D9A54BEDF26FCA33DB195EE4A864F
+61857B878C1E9E0867C8821FA52AD389560C1E3
+79BA47CBA2BE573449449C8DB324C7846A8653
+4F81216F1ED595FEE3F4666D75F5B010A73F68
+
+^ this selection ranges from >900MB JSON output down to a "measly" 12MByte (while `mutool metadump` already restricts many subtree dumps to 10K only, so these need to be investigated to see where we're leaking more of that crazy)
+
+
+90249 --> long running
+
+90249  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__store/56831E9293475B87B10CB53E84AAD11B8455397.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__store"    "56831E9293475B87B10CB53E84AAD11B8455397.pdf"      "56831E9293475B87B10CB53E84AAD11B8455397"      "G:/Qiqqa/evil-base"
+
+
+
+
 
 
 
