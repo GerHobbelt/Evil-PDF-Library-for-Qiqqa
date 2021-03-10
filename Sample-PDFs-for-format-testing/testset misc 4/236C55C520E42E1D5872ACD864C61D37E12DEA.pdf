@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Academia.edu</title>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+      .text-center { text-align: center; }
+      .logo-container { margin-top: 20px; margin-bottom: 20px; }
+    </style>
+  </head>
+
+  <body>
+
+    <div class="logo-container text-center">
+      <a href="https://www.academia.edu">
+        <img alt="Academia.edu Logo" src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJIAAAATCAYAAAB7l1TzAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABV1JREFUeNrsWs112kAQxn7crVQQuQJIBYhDLrkgVwBUIFMBpgKgAssVWL7kkgOiAssVWK4gSgXJLpn1Gw8z+yNkvxwy7+nhJ2l3Z2e/+eZHPusJMv76LVY/Mbld7X58b3otRM0XqZ8hutWouaqA8XpshO+p8WXvv/wT0rc8S9R1S+4t1LUJBM9MXVMCIvNc/xTq2nqAIlXXkoyfq3G5Q4cbOs4iGthajzsJ5Gq+3y1tPTZ7VHNo2+5c7wWuv1LjbjzmN054ZlnjFs4Nyxeb459b1tIHTNknC2SQR3WtAUQFGElv4Iu6cgSQHWzeJhxgpi49wLhXzF4OasKzDTzXel5rvZU+O2BlKpf60AT9xujSTldbAHsFv1QmFpumlrlycm8szF/AM5vcMfesZ3/mYJOfoR6DQLRDoShXY+bMe9cANB9P1If6zB2sGld7AHsHLMt6Jex3TTyxAb0qD2Z4ZQQy5zPY4Wh/AIx7Mo8O+Z8CmOJoXcG+oef3SPUCWzehjDQT7k89whkGUQPeybHFxuK1vvp4s6SDuRoAOzZyBGwZtZ1T2jua/+gexzygQxqoQtXSHJmga9omtBnA0IOeOQy7JgbKHQn61nNzoj4d541zxoDrEwCaQzjhJA5w1lQA3sU75M6pYOssCEhAbUOYaOXLDii5xrJ3KF3AGrUjN4jBw7aMB3cGJgiThWDYkCo1gURfz3klhJPP0kEyzirlTsMuEQS2jARbDwEb3oxkkHcHHuWbdKeh9KoPTsd4R54zQezVKukOlD0D1iRwjolHtWgYyeqsKKzVJPRK4fEUmTpsnXkBicTiXKiYYsGwseDhp3iIYTkN5gLCJNUnESqstlJ55jNv2AVYKAEG9WFJ490bh3OkiL3fjZHAhonD1hxbsoxkYnGJQLD1ZIHRO8RrcyAFyrWCy9MOJPbQcwfXvSdTGDs3DEhwGMEssRec7aNszSbd57awRlilDEy6u6ZarE/5AUl3aAWE+0hzoW9F81AsD9zeEUtUFnYffrCtj0J2n6G2IQpfNx4IxrRcc3TZNryhpN+Er4SsFdOk29Xpfkd5wQm10mXQ+9vcdJX+e1PdqTG04tX2fSGHW/b8O/VBxQGyp8vWh9QG77dvCQ8+ymYESE9CSKg9KoUR07QM1WcqJIihkjC5Xhk4h2aYXx75UUMq2JnQeiiY97G+ZUdsFGJrEUgz1EuphUrk2oLMUhhTegCysVSBvvokpzAgkgETtkLbCKXZN+oU465yxITMrRCiX8Oa7rLDN8ou2Qi3bVbCayPiYDq1WZhcqs/0D2opPKh3aoauX5EJmyzJghoMCwelDinYTtAn69m7yT6VC00mVyee1ZoBzYABXwV7ook9TXgbEgJPLXJSBNgbyzklUmpzbku0hFLelXQvmFaBLddaCvlVa306OnQj81MYDr53JaBvQ3MkJmRyFXIRmPiHSuZhay7pzt5UbagykHoVtmbdm8ODD5w011ly3Wf4CGnWfWH6GW30kTrdka1s1n+DPikBUS6wFpULwYuXNOzDugl6xwoaBsgx00eLfHI9R0HjCuElQxKHNc7gj1uknH55z3zJTiAnmTGHcmhcqTEL8v4t2XQFSegFHFiMxh8+I3StDzQHl0KJXIMXDsDoETrMlfDV/x7migXmeBJyisN/QAA7T8net/C8hjXwfyrMoaKLYa8T2160neDdZY//PldDn2gBDpcRIO2p86Cwlkm27qOqqnbEXNMaqHx6GUCFl3CQZvMY/ZWgeNf6NADeB4unPcFVoQah692eB1PuGW8eCfsrhPBWIEYdwX5KS0Js3o09bDMg88VC0RPD3OJ8fwQYAFM6mAcGp6ltAAAAAElFTkSuQmCC'/>
+      </a>
+    </div>
+
+    <div class="jumbotron">
+      <div class="container text-center">
+        <h2>Page Not Found</h2>
+        <p class="lead">
+          Sorry. We can't find the page you're looking for.
+        </p>
+      </div>
+    </div>
+
+  </body>
+</html>

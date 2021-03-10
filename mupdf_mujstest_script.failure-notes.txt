@@ -1060,7 +1060,150 @@ T:6467h1........................................................................
 
 6467  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__possibly_erroneous/2C5E75BAEDF9155B4F86A1AAE4E014444D3B73C6.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__possibly_erroneous"    "2C5E75BAEDF9155B4F86A1AAE4E014444D3B73C6.pdf"      "2C5E75BAEDF9155B4F86A1AAE4E014444D3B73C6"      "G:/Qiqqa/evil-base"
 
+^ another one with b0rked page index list.
+
 6528  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__possibly_erroneous/3D8E405C60709DA3BCCCCA75B203FA37C441BEB.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__possibly_erroneous"    "3D8E405C60709DA3BCCCCA75B203FA37C441BEB.pdf"      "3D8E405C60709DA3BCCCCA75B203FA37C441BEB"      "G:/Qiqqa/evil-base"
+
+^ another one with b0rked page index list. But also has other issues beefore that: still long running after the O(N^2) fix.
+
+
+
+
+6792  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__possibly_erroneous/824EFA4775A1EC0C518DCD5EA89274ABBF594.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__possibly_erroneous"    "824EFA4775A1EC0C518DCD5EA89274ABBF594.pdf"      "824EFA4775A1EC0C518DCD5EA89274ABBF594"      "G:/Qiqqa/evil-base"
+
+^ long running, many dots. To be analyzed.
+
+
+
+
+7103  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__possibly_erroneous/EBA9C2BAC1E301AEFA99296E0BF43CEBDA4D175.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__possibly_erroneous"    "EBA9C2BAC1E301AEFA99296E0BF43CEBDA4D175.pdf"      "EBA9C2BAC1E301AEFA99296E0BF43CEBDA4D175"      "G:/Qiqqa/evil-base"
+
+^ one more for the b0rked page index list.
+
+
+
+7164  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__prot/095DFE3BB8DD7FEB83BBAADE6F06DE059A1AC26.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__prot"    "095DFE3BB8DD7FEB83BBAADE6F06DE059A1AC26.pdf"      "095DFE3BB8DD7FEB83BBAADE6F06DE059A1AC26"      "G:/Qiqqa/evil-base"
+
+^ long running
+
+
+
+
+7631  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__prot/468CC099AC8AF0C781E0FBFA7F909913BBAA576C.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__prot"    "468CC099AC8AF0C781E0FBFA7F909913BBAA576C.pdf"      "468CC099AC8AF0C781E0FBFA7F909913BBAA576C"      "G:/Qiqqa/evil-base"
+
+^ long running, many dots
+
+
+
+
+8143  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__prot/832EA3DF23EF67A5E589E65A46BC7380DEFB84E.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__prot"    "832EA3DF23EF67A5E589E65A46BC7380DEFB84E.pdf"      "832EA3DF23EF67A5E589E65A46BC7380DEFB84E"      "G:/Qiqqa/evil-base"
+
+^ much to report: many dots?
+
+
+
+All with many dots:
+8666
+8822
+8997
+9235
+9278
+9702
+10106
+10214
+10361
+10737
+10893
+11068
+11242
+11812
+13149
+
+
+
+
+
+
+Then: slow but quiet:
+9740
+10686
+10940
+11456
+11836
+13207
+13783
+14513   <-- takes a very long time!
+15201
+
+20106   <-- takes an extremely long time! (and quiet)
+
+-->
+
+8666  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__prot/BFD232C63E13E740D28CB1B31843FA3EE6967A.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__prot"    "BFD232C63E13E740D28CB1B31843FA3EE6967A.pdf"      "BFD232C63E13E740D28CB1B31843FA3EE6967A"      "G:/Qiqqa/evil-base"
+8822  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__prot/CEDEE4FFED79289710C2C813C71C283EF76ECBC.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__prot"    "CEDEE4FFED79289710C2C813C71C283EF76ECBC.pdf"      "CEDEE4FFED79289710C2C813C71C283EF76ECBC"      "G:/Qiqqa/evil-base"
+8997  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__prot/E465BF1C5FD1CEFF2F6D30514F517F381B28AC31.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__prot"    "E465BF1C5FD1CEFF2F6D30514F517F381B28AC31.pdf"      "E465BF1C5FD1CEFF2F6D30514F517F381B28AC31"      "G:/Qiqqa/evil-base"
+9235  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__prot/__decrypted/095DFE3BB8DD7FEB83BBAADE6F06DE059A1AC26.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__prot/__decrypted"    "095DFE3BB8DD7FEB83BBAADE6F06DE059A1AC26.pdf"      "095DFE3BB8DD7FEB83BBAADE6F06DE059A1AC26"      "G:/Qiqqa/evil-base"
+9278  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__prot/__decrypted/14FE638AC0D5C68DAB666BF2ACA4EEB66BB39B.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__prot/__decrypted"    "14FE638AC0D5C68DAB666BF2ACA4EEB66BB39B.pdf"      "14FE638AC0D5C68DAB666BF2ACA4EEB66BB39B"      "G:/Qiqqa/evil-base"
+9702  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__prot/__decrypted/468CC099AC8AF0C781E0FBFA7F909913BBAA576C.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__prot/__decrypted"    "468CC099AC8AF0C781E0FBFA7F909913BBAA576C.pdf"      "468CC099AC8AF0C781E0FBFA7F909913BBAA576C"      "G:/Qiqqa/evil-base"
+10106  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__prot/__decrypted/73BCDE7DA27138A2E2AB1E9F3C6EFF53F5F457.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__prot/__decrypted"    "73BCDE7DA27138A2E2AB1E9F3C6EFF53F5F457.pdf"      "73BCDE7DA27138A2E2AB1E9F3C6EFF53F5F457"      "G:/Qiqqa/evil-base"
+10214  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__prot/__decrypted/832EA3DF23EF67A5E589E65A46BC7380DEFB84E.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__prot/__decrypted"    "832EA3DF23EF67A5E589E65A46BC7380DEFB84E.pdf"      "832EA3DF23EF67A5E589E65A46BC7380DEFB84E"      "G:/Qiqqa/evil-base"
+10361  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__prot/__decrypted/95DA8A14E63FF9B6EF1275206742B2F5E6FDFB41.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__prot/__decrypted"    "95DA8A14E63FF9B6EF1275206742B2F5E6FDFB41.pdf"      "95DA8A14E63FF9B6EF1275206742B2F5E6FDFB41"      "G:/Qiqqa/evil-base"
+10737  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__prot/__decrypted/BFD232C63E13E740D28CB1B31843FA3EE6967A.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__prot/__decrypted"    "BFD232C63E13E740D28CB1B31843FA3EE6967A.pdf"      "BFD232C63E13E740D28CB1B31843FA3EE6967A"      "G:/Qiqqa/evil-base"
+10893  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__prot/__decrypted/CEDEE4FFED79289710C2C813C71C283EF76ECBC.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__prot/__decrypted"    "CEDEE4FFED79289710C2C813C71C283EF76ECBC.pdf"      "CEDEE4FFED79289710C2C813C71C283EF76ECBC"      "G:/Qiqqa/evil-base"
+11068  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__prot/__decrypted/E465BF1C5FD1CEFF2F6D30514F517F381B28AC31.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__prot/__decrypted"    "E465BF1C5FD1CEFF2F6D30514F517F381B28AC31.pdf"      "E465BF1C5FD1CEFF2F6D30514F517F381B28AC31"      "G:/Qiqqa/evil-base"
+11242  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__prot/__decrypted/F883D33E62AF8683A9437C9D654213E66D76CB0.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__prot/__decrypted"    "F883D33E62AF8683A9437C9D654213E66D76CB0.pdf"      "F883D33E62AF8683A9437C9D654213E66D76CB0"      "G:/Qiqqa/evil-base"
+11812  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__store/5963BDCC1E23D4D6121E5E6B7D66180DF01555.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__store"    "5963BDCC1E23D4D6121E5E6B7D66180DF01555.pdf"      "5963BDCC1E23D4D6121E5E6B7D66180DF01555"      "G:/Qiqqa/evil-base"
+13149  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__store/AC295877350E7F61E182DF991061BEE6EECE37.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__store"    "AC295877350E7F61E182DF991061BEE6EECE37.pdf"      "AC295877350E7F61E182DF991061BEE6EECE37"      "G:/Qiqqa/evil-base"
+9740  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__prot/__decrypted/4BBC72EB2F387BF10C4C01044105ACA5D6844C.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__prot/__decrypted"    "4BBC72EB2F387BF10C4C01044105ACA5D6844C.pdf"      "4BBC72EB2F387BF10C4C01044105ACA5D6844C"      "G:/Qiqqa/evil-base"
+10686  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__prot/__decrypted/BA9D5F2A69C7DE1A2A1E3C8EB5B4325EDC5DE3.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__prot/__decrypted"    "BA9D5F2A69C7DE1A2A1E3C8EB5B4325EDC5DE3.pdf"      "BA9D5F2A69C7DE1A2A1E3C8EB5B4325EDC5DE3"      "G:/Qiqqa/evil-base"
+10940  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__prot/__decrypted/D477415B6C5A46639F1CA89CA128B8886AABBBC.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__prot/__decrypted"    "D477415B6C5A46639F1CA89CA128B8886AABBBC.pdf"      "D477415B6C5A46639F1CA89CA128B8886AABBBC"      "G:/Qiqqa/evil-base"
+11456  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__store/9686D3A65FA5BFE595E8FE745D068204F983.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__store"    "9686D3A65FA5BFE595E8FE745D068204F983.pdf"      "9686D3A65FA5BFE595E8FE745D068204F983"      "G:/Qiqqa/evil-base"
+11836  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__store/2DEF82859E4194D1D91541DF71C440FC54AD67E.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__store"    "2DEF82859E4194D1D91541DF71C440FC54AD67E.pdf"      "2DEF82859E4194D1D91541DF71C440FC54AD67E"      "G:/Qiqqa/evil-base"
+13207  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__store/114B6EDE5750B9B4FB7B8D842B10CBE259F9C783.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__store"    "114B6EDE5750B9B4FB7B8D842B10CBE259F9C783.pdf"      "114B6EDE5750B9B4FB7B8D842B10CBE259F9C783"      "G:/Qiqqa/evil-base"
+13783  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__store/25F7DE75CF43954B18717CFDFAE79D7B6F704C.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__store"    "25F7DE75CF43954B18717CFDFAE79D7B6F704C.pdf"      "25F7DE75CF43954B18717CFDFAE79D7B6F704C"      "G:/Qiqqa/evil-base"
+14513  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__store/36BA264A071B71E904D7F75D81BB7453676D5D2.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__store"    "36BA264A071B71E904D7F75D81BB7453676D5D2.pdf"      "36BA264A071B71E904D7F75D81BB7453676D5D2"      "G:/Qiqqa/evil-base"
+15201  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__store/40B7F6A375FEBBCF434966E53493C9E16EE5C443.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__store"    "40B7F6A375FEBBCF434966E53493C9E16EE5C443.pdf"      "40B7F6A375FEBBCF434966E53493C9E16EE5C443"      "G:/Qiqqa/evil-base"
+20106  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__store/865DD2BB2769B17A83D8BB9EB1AE2D31FCC2A88.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__store"    "865DD2BB2769B17A83D8BB9EB1AE2D31FCC2A88.pdf"      "865DD2BB2769B17A83D8BB9EB1AE2D31FCC2A88"      "G:/Qiqqa/evil-base"
+
+
+
+
+
+
+
+
+
+
+
+
+
+22638 -> another b0rked page list
+23450
+24649 -> slow & quiet
+24629
+
+-->
+
+22638  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__store/EBA9C2BAC1E301AEFA99296E0BF43CEBDA4D175.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__store"    "EBA9C2BAC1E301AEFA99296E0BF43CEBDA4D175.pdf"      "EBA9C2BAC1E301AEFA99296E0BF43CEBDA4D175"      "G:/Qiqqa/evil-base"
+23450  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__store/E3C5755DB55A9F878E6429C59F8E40D574429E3C.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__store"    "E3C5755DB55A9F878E6429C59F8E40D574429E3C.pdf"      "E3C5755DB55A9F878E6429C59F8E40D574429E3C"      "G:/Qiqqa/evil-base"
+24649  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__store/DE242ACFFB486163801EDBACCB74244D287B8EF8.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__store"    "DE242ACFFB486163801EDBACCB74244D287B8EF8.pdf"      "DE242ACFFB486163801EDBACCB74244D287B8EF8"      "G:/Qiqqa/evil-base"
+24629  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__store/D477415B6C5A46639F1CA89CA128B8886AABBBC.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__store"    "D477415B6C5A46639F1CA89CA128B8886AABBBC.pdf"      "D477415B6C5A46639F1CA89CA128B8886AABBBC"      "G:/Qiqqa/evil-base"
+
+
+
+
+
+35976 --> another b0rked page list
+36220 --> slow & quiet
+36437
+
+
+
+
+
+
+
+
 
 
 
