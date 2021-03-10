@@ -1200,6 +1200,23 @@ Then: slow but quiet:
 38216
 38294
 38818
+43210
+43354
+78842 --> long running, some *weird* I/O MessageBox (it's a commandline tool we're running here!?!?!) -- hmmm, whole system is deterirated now. Rebooting Win10. Running the bulktest in MSVC debugger overnight is not a good idea?!
+
+--> and then THIS happened too: https://github.com/GerHobbelt/qiqqa-open-source/blob/master/docs-src/Technology/Odds%20'n'%20Ends/git%20-%20recovering%20from%20b0rked%20repos%20and%20systems.md
+
+35976  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__store/F0875819EB7BFC459CCF4F80912D9EC66E8B092.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__store"    "F0875819EB7BFC459CCF4F80912D9EC66E8B092.pdf"      "F0875819EB7BFC459CCF4F80912D9EC66E8B092"      "G:/Qiqqa/evil-base"
+36220  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__store/F41F239D58A72CF188B7B4C714AF5A77D9964E8A.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__store"    "F41F239D58A72CF188B7B4C714AF5A77D9964E8A.pdf"      "F41F239D58A72CF188B7B4C714AF5A77D9964E8A"      "G:/Qiqqa/evil-base"
+36437  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__store/824EFA4775A1EC0C518DCD5EA89274ABBF594.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__store"    "824EFA4775A1EC0C518DCD5EA89274ABBF594.pdf"      "824EFA4775A1EC0C518DCD5EA89274ABBF594"      "G:/Qiqqa/evil-base"
+38107  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__store/37C5C8FC564E38D8F35F86908888A2BBCEB6FCE.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__store"    "37C5C8FC564E38D8F35F86908888A2BBCEB6FCE.pdf"      "37C5C8FC564E38D8F35F86908888A2BBCEB6FCE"      "G:/Qiqqa/evil-base"
+38216  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__store/4F81216F1ED595FEE3F4666D75F5B010A73F68.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__store"    "4F81216F1ED595FEE3F4666D75F5B010A73F68.pdf"      "4F81216F1ED595FEE3F4666D75F5B010A73F68"      "G:/Qiqqa/evil-base"
+38294  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__store/8474931999DBDF9BBAA31CFBF4E9C4F74FBC2E7.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__store"    "8474931999DBDF9BBAA31CFBF4E9C4F74FBC2E7.pdf"      "8474931999DBDF9BBAA31CFBF4E9C4F74FBC2E7"      "G:/Qiqqa/evil-base"
+38818  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__store/CEDEE4FFED79289710C2C813C71C283EF76ECBC.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__store"    "CEDEE4FFED79289710C2C813C71C283EF76ECBC.pdf"      "CEDEE4FFED79289710C2C813C71C283EF76ECBC"      "G:/Qiqqa/evil-base"
+43210  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__store/CAC1DDB10D944721C9E8EA8D99C76917EDE8238.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__store"    "CAC1DDB10D944721C9E8EA8D99C76917EDE8238.pdf"      "CAC1DDB10D944721C9E8EA8D99C76917EDE8238"      "G:/Qiqqa/evil-base"
+43354  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__store/E7575B93AB1DEEBEF155152AC989BF4F866645.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__store"    "E7575B93AB1DEEBEF155152AC989BF4F866645.pdf"      "E7575B93AB1DEEBEF155152AC989BF4F866645"      "G:/Qiqqa/evil-base"
+78842  "W:/Sopkonijn/!QIQQA-pdf-buffer-dir/__store/__decrypted/C99DBCFC1B7CFC2DCE3094D9887E790C4BA4293.pdf"  "W/Sopkonijn/!QIQQA-pdf-buffer-dir/__store/__decrypted"    "C99DBCFC1B7CFC2DCE3094D9887E790C4BA4293.pdf"      "C99DBCFC1B7CFC2DCE3094D9887E790C4BA4293"      "G:/Qiqqa/evil-base"
+
 
 
 

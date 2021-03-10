@@ -3,6 +3,8 @@
 %
 % Run this script using the latest GerHobbelt/mupdf::bulktest tool
 
+SKIP_UNTIL_DATALINE 788000
+
 
 
 
