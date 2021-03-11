@@ -230,6 +230,10 @@ ECHO T:%1h1
 
 MUTOOL metadump -o "__bulktest/%3/%5.info.json" "%2"
 
+MUTOOL qiqqa_fingerprint0 -o "__bulktest/%3/%5.qhash1.txt" "%2"
+
+MUTOOL qiqqa_fingerprint1 -o "__bulktest/%3/%5.qhash2.txt" "%2"
+
 	`);
 
 
@@ -321,6 +325,10 @@ CD {SCRIPTDIR}
 ECHO T:%1h1
 
 MUTOOL metadump -o "__bulktest/%3/%5.info.json" "%2"
+
+MUTOOL qiqqa_fingerprint0 -o "__bulktest/%3/%5.qhash1.txt" "%2"
+
+MUTOOL qiqqa_fingerprint1 -o "__bulktest/%3/%5.qhash2.txt" "%2"
 
 	`);
 
