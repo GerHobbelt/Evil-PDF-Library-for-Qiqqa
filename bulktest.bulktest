@@ -12,6 +12,8 @@ ECHO Starting metadump bulktest
 
 BULKTEST -T all_pdf_files_on_drive_W.info-test.bulktest all_pdf_files_on_drive_W.info-test.tsv
 
+CD {SCRIPTDIR}
+
 ECHO More bulktesting metadump...
 
 BULKTEST -T all_pdf_files.info-test.bulktest all_pdf_files.info-test.tsv

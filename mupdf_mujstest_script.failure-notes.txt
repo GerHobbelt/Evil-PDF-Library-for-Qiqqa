@@ -1306,6 +1306,8 @@ For working on the hash functions, I need a couple of PDFs which exhibit the b0r
 
 
 
+53331 -> long running 
+(2139 in evil repo itself too: long running still, after the mutool updates, 2166, 2144, etc.)
 
 
 
@@ -1318,8 +1320,21 @@ For working on the hash functions, I need a couple of PDFs which exhibit the b0r
 
 
 
+-------------------------
 
 
+43EA89C8D11BC2821EE1CEE0BD48F51F956E6
+
+--> weird double text extracts: for SOME lines: same line produces two overlapping hocr outputs which are slightly different too
+
+Also note that SOME images are still in the hOCR output, despite this setting:
+
+     -x preserve-ligatures,preserve-whitespace,preserve-spans
+
+so not request to FZ_STEXT_PRESERVE_IMAGES !
+
+PLUS images are 1px high: these SHOULD ideally be consoolidated into single (larger/higher) images.
+(This 1px height images sequence construct has been observed in other PDFs as well.)
 
 
 

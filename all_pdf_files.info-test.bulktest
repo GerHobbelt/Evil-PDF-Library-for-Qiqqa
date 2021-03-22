@@ -25,6 +25,22 @@ MUTOOL qiqqa_fingerprint0 -o "__bulktest/%3/%5.qhash1.txt" "%2"
 
 MUTOOL qiqqa_fingerprint1 -o "__bulktest/%3/%5.qhash2.txt" "%2"
 
-	
+MUTOOL muconvert -o "__bulktest/%3/%5.W1200H1800.convert.html" -W 1200 -H 1800 -O preserve-ligatures,preserve-whitespace,preserve-spans "%2"
+
+MUTOOL muconvert -o "__bulktest/%3/%5.R300.convert.html" -r 300 -O preserve-ligatures,preserve-whitespace,preserve-spans "%2"
+
+MUTOOL muconvert -o "__bulktest/%3/%5.DFLT.convert.html" -O preserve-ligatures,preserve-whitespace,preserve-spans "%2"
+
+MUTOOL muraster -o "__bulktest/%3/%5.raster.R300.####.png" -s mt -r 300 -P "%2"
+
+MUTOOL muraster -o "__bulktest/%3/%5.raster.DFLT.####.png" -s mt -P "%2"
+
+MUTOOL mudraw -o "__bulktest/%3/%5.draw.R300.####.png" -s mtf5 -r 300 -y l -P -B 50 "%2"
+
+MUTOOL mudraw -o "__bulktest/%3/%5.draw.DFLT.####.png" -s mtf5 -y l -P -B 50 "%2"
+
+MUTOOL mudraw -o "__bulktest/%3/%5.draw.R300.ocr.html" -s mtf5 -r 300 -x preserve-ligatures,preserve-whitespace,preserve-spans -y l -P -B 50 "%2"
+
+MUTOOL mudraw -o "__bulktest/%3/%5.draw.DFLT.ocr.html" -s mtf5 -x preserve-ligatures,preserve-whitespace,preserve-spans -y l -P -B 50 "%2"
 
 
