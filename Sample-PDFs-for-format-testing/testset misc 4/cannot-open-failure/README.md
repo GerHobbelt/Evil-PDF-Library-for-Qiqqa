@@ -2,7 +2,7 @@
 
 These files have file names which cause our MuPDF toolchain (including the bulktest rig and other surroundings) grief, failing to open while being perfectly acceptable content-wise.
 
-These therefor serve as a *filesystem access litmus test*: when the tool/code cannot OPEEN a file, it doesn't matter how good or b0rked it is inside. And we want to be able to *at least* be able to OPEN these files for further inspection -- the idea here is that a user can throw **anything** at us, downloaded from the Internet or otherwise, and we should be *robust* against such input.
+These therefor serve as a *filesystem access litmus test*: when the tool/code cannot OPEN a file, it doesn't matter how good or b0rked it is inside. And we want to be able to *at least* be able to OPEN these files for further inspection -- the idea here is that a user can throw **anything** at us, downloaded from the Internet or otherwise, and we should be *robust* against such input.
 
 ## Just In Case: a Note
 
