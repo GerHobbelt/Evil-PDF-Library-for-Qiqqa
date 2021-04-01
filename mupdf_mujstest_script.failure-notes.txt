@@ -1338,3 +1338,58 @@ PLUS images are 1px high: these SHOULD ideally be consoolidated into single (lar
 
 
 
+
+
+
+
+
+
+--------------------------------
+
+Qiqqa fails/notes:
+
+
+metadump -m 1 -o -  "G:\Qiqqa\evil\Guest\documents\2\2B5BAEDB61348943BE6A18621F3B9FBF299FB42A.pdf"
+
+"Z:\lib\tooling\qiqqa\Qiqqa\bin\Debug\MuPDF\mutool.exe" metadump -m 1 -o -  "G:\Qiqqa\evil\Guest\documents\3\348417B141E4A3AEEDF8845E703A62BEFCB7B2DC.pdf"
+
+
+DoS attack by logging a lot to stderr:
+
+metadump -m 1 -o -  "G:\Qiqqa\evil\Guest\documents\3\3D8E405C60709DA3BCCCCA75B203FA37C441BEB.pdf"
+
+
+
+Turns out metadump hangs when Qiqqa exists: the stdout feed does not signal the termination of the parent (Qiqqa) application and thus blocks forever on writing to stdout?
+Or does it do something special? Since these took 1 CPU each:
+
+"Z:\lib\tooling\qiqqa\Qiqqa\bin\Debug\MuPDF\mutool.exe" metadump -m 1 -o -  "G:\Qiqqa\evil\Guest\documents\6\6733C042A613BA992BA66A85AECB967A8CB1B9F0.pdf"
+
+"Z:\lib\tooling\qiqqa\Qiqqa\bin\Debug\MuPDF\mutool.exe" metadump -m 1 -o -  "G:\Qiqqa\evil\Guest\documents\C\C8169F3C9BDFAD4B677D698F7096FED5AC4C413B.pdf"
+
+"Z:\lib\tooling\qiqqa\Qiqqa\bin\Debug\MuPDF\mutool.exe" metadump -m 1 -o -  "G:\Qiqqa\evil\Guest\documents\C\C8169F3C9BDFAD4B677D698F7096FED5AC4C413B.pdf"
+
+
+
+error 1 without further report ?!?!
+
+metadump -m 1 -o -  "G:\Qiqqa\evil\Guest\documents\1\127447489B6D6EF9FFD58702657DA6456A42.pdf"
+
+
+
+
+
+
+
+
+mudraw -o "G:/__bulktest/test.####.html" -r 100 -f -w 2400 -h 3600  -O preserve-ligatures,preserve-whitespace,preserve-spans,preserve-images  "W:/Sopkonijn/!OmniPage-input-dir/1C1C256136122FD38CA5D232DF3A2DB6BCAE7CBB.pdf"  2-12
+
+
+
+
+
+
+draw -T0 -stmf -w 0 -h 0 -r 80 -o -  "G:\Qiqqa\evil\INTRANET_2B8E19DE-A7C5-4867-93E8-C3177957E09C\documents\4\4D14D229A3F84C891584332FF786BEBA8E25F1C.pdf" 7
+
+
+
