@@ -4,6 +4,17 @@
 # this is the way to archive larger binary files in a git repo when you have some.
 # 
 
+wd="$( pwd )";
+
+pushd $( dirname "$0" )                                                                                     2> /dev/null  > /dev/null
+scriptdir="$( pwd )";
+
+# return to intended processing root directory
+cd "$wd"
+
+
+
+
 if test "$#" -eq 2; then
 	echo ""
 	echo ""
@@ -17,7 +28,7 @@ if test "$#" -eq 2; then
 	    else
 	    	echo "7ZIP split archive already exists for '$2'"
 	    fi
-		node ./update_gitignore_for_large_files.js "$2"
+		node "$scriptdir/update_gitignore_for_large_files.js" "$2"
     elif test "$1" == "UNSPLIT"; then
     	echo "UNsplit $2"
     	echo ""
@@ -32,10 +43,13 @@ if test "$#" -eq 2; then
 	    	echo "Large target file '$t' already exists in '$d/'"
 	    fi
     	popd     											 > /dev/null 2>&1
-		node ./update_gitignore_for_large_files.js "$d/$t"
+		node "$scriptdir/update_gitignore_for_large_files.js" "$d/$t"
     else
     	echo "unknown subcommand."
     fi
 else
-	find . -type f -size +45M -a ! -ipath '*.git/*' -a ! -ipath './__mujstest/*' -a ! -ipath './__unitest/*' -a ! -iname '*.log' -print0 | xargs -0 -n 1 "$0" SPLIT
+	find . -type f -size +45M -a ! -ipath '*.git/*' -a ! -ipath './__mujstest/*' -a ! -ipath './__unitest/*' -a ! -ipath './__bulktest/*' -a ! -iname '*.log' -a ! -iname '*.[tc]sv' -print0 | xargs -0 -n 1 "$0" SPLIT
 fi
+
+
+popd                                                                                                    2> /dev/null  > /dev/null
