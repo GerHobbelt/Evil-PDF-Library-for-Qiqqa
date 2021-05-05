@@ -11,6 +11,8 @@ echo "scan directory tree and collect all pdf files..."
 
 find Sample-PDFs-for-format-testing/Unicode* -iname '*.pdf' 								| sort > unicode_spec_pdf_files.lst
 
+find Sample-PDFs-for-format-testing/pdfdraw-text-extract-horrors-and-low-quality-files -iname '*.pdf' | sort > text_extract_spec_pdf_files.lst
+
 if test -d /w/SopKonijn/ ; then
 	./DirScanner.exe -s -c -r X -o all_pdf_files_on_drive_W.lst "W:/SopKonijn/*.pdf"
 fi
