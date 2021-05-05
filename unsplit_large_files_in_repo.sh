@@ -14,7 +14,6 @@ cd "$wd"
 
 
 
-
 if test "$#" -eq 2; then
 	echo ""
 	echo ""
