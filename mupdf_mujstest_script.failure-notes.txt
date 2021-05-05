@@ -1407,3 +1407,79 @@ draw -T0 -stmf -w 0 -h 0 -r 80 -o -  "G:\Qiqqa\evil\INTRANET_2B8E19DE-A7C5-4867-
 
 
 
+mutool.exe draw -T0 -stmf -w 1432 -h 1853 -r 0 -o -  "G:\Qiqqa\evil\INTRANET_2B8E19DE-A7C5-4867-93E8-C3177957E09C\documents\6\6FA7489225ACDB9F802B3F1CD9FBB8FB9D1A76E3.pdf" 4
+
+
+metadump -m 1 -o -  "G:\Qiqqa\evil\Guest\documents\1\121725C8CBB97A9F7C7B43336BA1DBC87EDA15C.pdf"
+
+
+
+
+metadump -m 1 -o -  "G:\Qiqqa\evil\INTRANET_2B8E19DE-A7C5-4867-93E8-C3177957E09C\documents\E\EE10447C1B31E2BDFFCD36F2B3B7C2A5963C257.pdf"
+-->
+ZERO pages, but still exit code 0 instead of error report and exit 1+
+
+
+
+metadump -m 1 -o -  "G:\Qiqqa\evil\INTRANET_2B8E19DE-A7C5-4867-93E8-C3177957E09C\documents\1\148174D1E91C25CD3CF77CA84675C7184669EC4.pdf"
+
+
+metadump -m 1 -o -  "G:\Qiqqa\evil\INTRANET_2B8E19DE-A7C5-4867-93E8-C3177957E09C\documents\F\FEE4F241F6FA6397B723489A2B4B98C35B21B27.pdf"
+-->
+error: cannot recognize version marker: expected '%PDF-n.n', but reading '%PDF'
+warning: trying to repair broken xref after encountering error: cannot recognize version marker: expected '%PDF-n.n', but reading '%PDF'
+warning: repairing PDF document
+error: invalid key in dict (tok = 9)
+warning: ignoring object with invalid object number (0 0 R)
+error: array not closed before end of file
+--EXIT:1--
+
+
+
+
+metadump -m 1 -o -  "G:\Qiqqa\evil\INTRANET_2B8E19DE-A7C5-4867-93E8-C3177957E09C\documents\6\6CED40AF808A4198B01D4A2959564EED92FD223C.pdf"
+-->
+warning: aes padding out of range
+error: cannot authenticate password: G:\Qiqqa\evil\INTRANET_2B8E19DE-A7C5-4867-93E8-C3177957E09C\documents\6\6CED40AF808A4198B01D4A2959564EED92FD223C.pdf
+--EXIT:1--
+
+
+
+
+
+
+G:\Qiqqa\evil\INTRANET_2B8E19DE-A7C5-4867-93E8-C3177957E09C\documents\C\C7C55FA6CE5C263D46BB2D1C51476245BACE6BE7.pdf
+--> no pagecount / corrupted doc
+
+
+
+
+metadump -m 1 -o -  "G:\Qiqqa\evil\INTRANET_2B8E19DE-A7C5-4867-93E8-C3177957E09C\documents\B\BD23D4D2FC4C13CFAC627171C742BB384D71E9FE.pdf"
+-->
+error: object number out of range
+warning: trying to repair broken xref after encountering error: object number out of range
+warning: repairing PDF document
+warning: ignoring object with invalid object number (0 0 R)
+warning: expected 'endobj' or 'stream' keyword (47 0 R)
+warning: ignoring zlib error: incorrect header check
+error: corrupt object stream (48 0 R)
+warning: ignoring broken object stream (48 0 R)
+warning: ignoring zlib error: incorrect header check
+error: corrupt object stream (49 0 R)
+warning: ignoring broken object stream (49 0 R)
+warning: ignoring zlib error: unknown compression method
+error: corrupt object stream (50 0 R)
+warning: ignoring broken object stream (50 0 R)
+warning: ignoring zlib error: incorrect header check
+error: corrupt object stream (51 0 R)
+warning: ignoring broken object stream (51 0 R)
+warning: ignoring zlib error: incorrect header check
+error: corrupt object stream (52 0 R)
+warning: ignoring broken object stream (52 0 R)
+error: cannot authenticate password: G:\Qiqqa\evil\INTRANET_2B8E19DE-A7C5-4867-93E8-C3177957E09C\documents\B\BD23D4D2FC4C13CFAC627171C742BB384D71E9FE.pdf
+--EXIT:1--
+
+
+
+
+
