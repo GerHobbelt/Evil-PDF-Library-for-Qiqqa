@@ -1,0 +1,27 @@
+# large file split/unsplit support: ignoring the large files.
+# run unsplit script to reproduce the original (very large!) PDFs
+
+doc - html to pdf - text runs off the right edge of the pages.pdf
+ICJ-CIJ/big/!153-153-20160713-WRI-01-02-EN-bad-page-scans-for-OCR.pdf
+ICJ-CIJ/big/137-17188.pdf
+ICJ-CIJ/big/150-17582.pdf
+ICJ-CIJ/big/152-18530.pdf
+ICJ-CIJ/big/152-18532.pdf
+ICJ-CIJ/big/152-18536.pdf
+ICJ-CIJ/big/153-153-20160713-WRI-01-01-EN.pdf
+ICJ-CIJ/big/153-153-20160713-WRI-01-03-EN.pdf
+ICJ-CIJ/big/153-153-20160713-WRI-01-04-EN.pdf
+ICJ-CIJ/big/153-153-20170321-WRI-01-01-EN.pdf
+ICJ-CIJ/big/153-153-20170321-WRI-01-02-EN.pdf
+ICJ-CIJ/big/153-153-20170321-WRI-01-03-EN.pdf
+ICJ-CIJ/big/153-153-20170321-WRI-01-04-EN.pdf
+ICJ-CIJ/big/153-153-20170915-WRI-01-01-EN.pdf
+ICJ-CIJ/big/153-153-20170915-WRI-01-02-EN.pdf
+ICJ-CIJ/big/157-157-20151208-WRI-01-00-EN.pdf
+pdfdraw-text-extract-horrors-and-low-quality-files/1246A3C11DB7EF762F3CA2BCD01222361B079.pdf
+pdfdraw-text-extract-horrors-and-low-quality-files/15D97AA3F0B43E0F3CE3DF26EAB668D966E10.pdf
+pdfdraw-text-extract-horrors-and-low-quality-files/169845858512367BBD45946202889E03BDDD21D.pdf
+Qiqqa Crash Investigations/0001/Compendium of EIA and CRZ notifications and memos.pdf
+testset misc 4/28CECE527DA34A239261953F6DC64ADDEAD48C1.pdf
+testset misc 4/unprocessed/28CECE527DA34A239261953F6DC64ADDEAD48C1.pdf
+
