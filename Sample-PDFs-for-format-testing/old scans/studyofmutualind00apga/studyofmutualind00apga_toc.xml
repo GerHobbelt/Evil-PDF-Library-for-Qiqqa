@@ -1,0 +1,240 @@
+<ocr_analysis>
+  <version>1</version>
+  <toc>
+    <!-- 8: Fage Introduction. - 3 -->
+    <!-- 8: Theory - 3 -->
+    <!-- 8: Special Apparatus - 13 -->
+    <!-- 8: Preliminary Measurements. - 14 -->
+    <!-- 8: Coil Constants - 16 -->
+    <!-- 8: Oscillograph Connections - 19 -->
+    <!-- 8: Oscillograms - 20 -->
+    <!-- 8: Index to Oscillograms - 22 -->
+    <!-- 8: Conclusions - 23 -->
+    <entry>
+      <level>1</level>
+      <refpage>
+        <page>
+          <name>3</name>
+          <leaf>13</leaf>
+          <index>12</index>
+        </page>
+      </refpage>
+      <title>
+        <word>
+          <text>Fage</text>
+          <box>2214 798 2345 747</box>
+        </word>
+        <word>
+          <text>Introduction.</text>
+          <box>501 848 936 805</box>
+        </word>
+      </title>
+      <tocpage>
+        <page>
+          <leaf>9</leaf>
+          <index>8</index>
+        </page>
+      </tocpage>
+    </entry>
+    <entry>
+      <level>1</level>
+      <refpage>
+        <page>
+          <name>3</name>
+          <leaf>13</leaf>
+          <index>12</index>
+        </page>
+      </refpage>
+      <title>
+        <word>
+          <text>Theory</text>
+          <box>494 974 700 925</box>
+        </word>
+      </title>
+      <tocpage>
+        <page>
+          <leaf>9</leaf>
+          <index>8</index>
+        </page>
+      </tocpage>
+    </entry>
+    <entry>
+      <level>1</level>
+      <refpage>
+        <page>
+          <name>13</name>
+          <leaf>33</leaf>
+          <index>32</index>
+        </page>
+      </refpage>
+      <title>
+        <word>
+          <text>Special</text>
+          <box>496 1088 734 1040</box>
+        </word>
+        <word>
+          <text>Apparatus</text>
+          <box>774 1087 1084 1041</box>
+        </word>
+      </title>
+      <tocpage>
+        <page>
+          <leaf>9</leaf>
+          <index>8</index>
+        </page>
+      </tocpage>
+    </entry>
+    <entry>
+      <level>1</level>
+      <refpage>
+        <page>
+          <name>14</name>
+          <leaf>35</leaf>
+          <index>34</index>
+        </page>
+      </refpage>
+      <title>
+        <word>
+          <text>Preliminary</text>
+          <box>496 1206 873 1158</box>
+        </word>
+        <word>
+          <text>Measurements.</text>
+          <box>913 1197 1355 1157</box>
+        </word>
+      </title>
+      <tocpage>
+        <page>
+          <leaf>9</leaf>
+          <index>8</index>
+        </page>
+      </tocpage>
+    </entry>
+    <entry>
+      <level>1</level>
+      <refpage>
+        <page>
+          <name>16</name>
+          <leaf>39</leaf>
+          <index>38</index>
+        </page>
+      </refpage>
+      <title>
+        <word>
+          <text>Coil</text>
+          <box>492 1314 630 1274</box>
+        </word>
+        <word>
+          <text>Constants</text>
+          <box>671 1313 978 1274</box>
+        </word>
+      </title>
+      <tocpage>
+        <page>
+          <leaf>9</leaf>
+          <index>8</index>
+        </page>
+      </tocpage>
+    </entry>
+    <entry>
+      <level>1</level>
+      <refpage>
+        <page>
+          <name>19</name>
+          <leaf>45</leaf>
+          <index>44</index>
+        </page>
+      </refpage>
+      <title>
+        <word>
+          <text>Oscillograph</text>
+          <box>496 1440 910 1390</box>
+        </word>
+        <word>
+          <text>Connections</text>
+          <box>948 1428 1326 1389</box>
+        </word>
+      </title>
+      <tocpage>
+        <page>
+          <leaf>9</leaf>
+          <index>8</index>
+        </page>
+      </tocpage>
+    </entry>
+    <entry>
+      <level>1</level>
+      <refpage>
+        <page>
+          <name>20</name>
+          <leaf>47</leaf>
+          <index>46</index>
+        </page>
+      </refpage>
+      <title>
+        <word>
+          <text>Oscillograms</text>
+          <box>494 1557 907 1507</box>
+        </word>
+      </title>
+      <tocpage>
+        <page>
+          <leaf>9</leaf>
+          <index>8</index>
+        </page>
+      </tocpage>
+    </entry>
+    <entry>
+      <level>1</level>
+      <refpage>
+        <page>
+          <name>22</name>
+          <leaf>51</leaf>
+          <index>50</index>
+        </page>
+      </refpage>
+      <title>
+        <word>
+          <text>Index</text>
+          <box>498 1664 663 1624</box>
+        </word>
+        <word>
+          <text>to</text>
+          <box>706 1664 766 1626</box>
+        </word>
+        <word>
+          <text>Oscillograms</text>
+          <box>809 1675 1222 1624</box>
+        </word>
+      </title>
+      <tocpage>
+        <page>
+          <leaf>9</leaf>
+          <index>8</index>
+        </page>
+      </tocpage>
+    </entry>
+    <entry>
+      <level>1</level>
+      <refpage>
+        <page>
+          <name>23</name>
+          <leaf>53</leaf>
+          <index>52</index>
+        </page>
+      </refpage>
+      <title>
+        <word>
+          <text>Conclusions</text>
+          <box>493 1780 872 1742</box>
+        </word>
+      </title>
+      <tocpage>
+        <page>
+          <leaf>9</leaf>
+          <index>8</index>
+        </page>
+      </tocpage>
+    </entry>
+  </toc>
+</ocr_analysis>

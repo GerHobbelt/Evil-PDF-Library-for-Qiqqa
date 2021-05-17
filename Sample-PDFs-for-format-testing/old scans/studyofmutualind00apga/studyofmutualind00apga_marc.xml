@@ -1,0 +1,59 @@
+<record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>00744ctm a2200229Ia 4500</leader>
+  <controlfield tag="001">5976581</controlfield>
+  <controlfield tag="005">20090805134931.0</controlfield>
+  <controlfield tag="008">090805s1912    xx ao    m    000 0 eng d</controlfield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(OCoLC)ocn429280218</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">UIU</subfield>
+    <subfield code="c">UIU</subfield>
+    <subfield code="d">UIU</subfield>
+  </datafield>
+  <datafield tag="049" ind1=" " ind2=" ">
+    <subfield code="a">UIUU</subfield>
+  </datafield>
+  <datafield tag="100" ind1="1" ind2=" ">
+    <subfield code="a">Apgar, Leo Mahlon.</subfield>
+  </datafield>
+  <datafield tag="245" ind1="1" ind2="2">
+    <subfield code="a">A study of mutual inductance in coils by transient effect /</subfield>
+    <subfield code="c">by Leo Mahlon Apgar and Rudolph McDermet.</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">1912.</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">34 leaves :</subfield>
+    <subfield code="b">ill., photographs ;</subfield>
+    <subfield code="c">29 cm.</subfield>
+  </datafield>
+  <datafield tag="502" ind1=" " ind2=" ">
+    <subfield code="a">Thesis (B.S.)--University of Illinois, 1912.</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Typescript.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Induction coils</subfield>
+    <subfield code="x">Research.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Mutual inductance</subfield>
+    <subfield code="x">Research.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="4">
+    <subfield code="a">Theses</subfield>
+    <subfield code="x">UIUC</subfield>
+    <subfield code="y">1912</subfield>
+    <subfield code="x">Electrical Engineering.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">McDermet, Rudolph.</subfield>
+  </datafield>
+  <datafield tag="994" ind1=" " ind2=" ">
+    <subfield code="a">C0</subfield>
+    <subfield code="b">UIU</subfield>
+  </datafield>
+</record>

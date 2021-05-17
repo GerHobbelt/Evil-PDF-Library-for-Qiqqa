@@ -1,0 +1,1649 @@
+! 
+
+
+
+•* ' t 
+
+
+
+A Study of Mutual Inductance 
+
+
+
+i . 
+
+
+
+in Coils by fi r^Rsicnt Effect 
+
+
+
+R.S. 
+
+
+
+1912 
+
+
+
+TTNTV.OV? 
+> UUDTOXB 
+
+
+
+I 
+
+H 
+
+
+
+Ij5» 
+
+
+
+
+
+A STUDY OF MUTUAL INDUCTANCE 
+
+
+
+IN COILS BY TRANSIENT EFFECT 
+
+
+
+BY 
+
+
+
+LEO MAHLON APGAR 
+
+AND 
+
+RUDOLPH McDERMET 
+
+
+
+THESIS 
+
+FOR THE 
+
+DEGREE OF BACHELOR OF SCIENCE 
+
+IN 
+
+ELECTRICAL ENGINEERING 
+
+
+
+COLLEGE OF ENGINEERING 
+UNIVERSITY OF ILLINOIS 
+1912 
+
+
+
+f 
+
+
+
+Ml 
+
+UNIVERSITY OF ILLINOIS 
+
+May 26, 19*>2 
+
+THIS IS TO CERTIFY THAT THE THESIS PREPARED UNDER MY SUPERVISION BY 
+L^O KAHLOH A? OAR AUD RUDOLPH FC WSSMET 
+
+ENTITLED A STIIHYLjQJL. MUTUAL IBDnCTAUCB 
+
+IN COILS. BY SMaimJEBBSfil 
+
+IS APPROVED BY ME AS FULFILLING THIS PART OF THE REQUIREMENTS FOR THE 
+
+DEGREE OF- BACHBLQB OF SCIENCE TTI SL^CT RTCAL KNGTN^RI^Q 
+
+
+
+Approved: 
+
+
+
+
+HEAD OF DEPARTMENT OF ISL^.CTr! TCAL BHG.IHB3RIEG* 
+
+
+
+2 1 5 »449 
+
+
+
+UIUC 
+
+V 
+
+
+
+Table of Contents. 
+
+Fage 
+
+Introduction. 3 
+
+Theory 3 
+
+Special Apparatus 13 
+
+Preliminary Measurements. 14 
+
+Coil Constants 16 
+
+Oscillograph Connections 19 
+
+Oscillograms 20 
+
+Index to Oscillograms 22 
+
+Conclusions 23 
+
+
+
+Digitized by the Internet Archive 
+in 2014 
+
+
+
+http://archive.org/details/studyofmutualindOOapga 
+
+
+
+2 
+
+
+
+Table of Figures. 
+
+Page 
+
+(1) Schematic Circuit Mutual Inductance. 5 
+
+(2) Coil and Core Dimentions. 13 
+
+(3) Connections Resistance and Inductance. 15 
+
+(4) Connections Mutual Inductance. 15 
+
+(5) Oscillograph Connections Break. 18 
+
+(6) Oscillograph Connection Make. 18 
+
+(7) Transient Curves. 26 -29 
+(6) Oscillograms. 34 
+
+
+
+3 
+
+. THE STUDY OF MUTUAL INDUCTANCE IN COILS 
+
+BY 
+
+TRANSIENT EFFECT. 
+I. INTRODUCTION. 
+
+It is customary in the study of mutual inductance in coils 
+to employ alternating currents; it is the purpose of this thesis, 
+however, to investigate the feasibility of studying the same 
+phenomena by the use of direct current. In other words it is 
+proposed to investigate by oscillographic records the transient 
+effect induced in one circuit by a definite non-periodic variation 
+of current in another circuit, the magnetic fields of which are 
+mutua llyinterlinked thru air paths. 
+
+This investigation is not concerned with measurements of 
+more precision than can ordinarily be obtained with an oscillograph 
+Itwill also be facilitated by the employment of coils exactly 
+similar in form and with identical electric constants. Under such 
+conditions it is possible to foretell the transient variation in 
+the current of one circuit under a known variation of the current 
+in the second circuit. It has been proved by experience and is 
+reasonable to expect that the condition most easily and accurately 
+controlledis that of complete and sudden interruptionof a 
+continuous unvarying current in one circuit. The problem, therefore , 
+resolves itself into the comparison of oscillographic records 
+with curves plotted from theoretical considerations and such 
+deductions as may be made therefrom. 
+
+II. THEORY. 
+
+The electromotive force impressed on any series circuit 
+
+
+
+may be expressed by an equation of the form: 4 
+
+(1) e = r i + >$-g- f x cJ 1 d 9 
+".'here e = e.m.f. 
+
+r = Ohmic resistance, 
+x z 2/rfL z inductive reactance. 
+
+i 
+
+x c z 21ttC - Con^ensive reactance. 
+
+L z Inductance. 
+
+C Z Capacity. 
+
+f - Frequency. 
+If instead of the variable "0" the variable time "t" be 
+introduced and the relation between the variables is defined as: 
+
+9 = 2/rft. 
+the equation reduces to the form: 
+
+(2) e = r i + + Cjidt. 
+
+In equation (2) both "L" and "C", while defined as the inductance 
+and capacity respectively, are, in reality proportionality factors 
+representing the stored energy in the magnetic and dielectric 
+fields in space. In usual circuits at normal voltages the dielectric 
+energy represented by the constant "C" will be entirely insignifi- 
+cant . 
+
+If, however the magnetic flux produced by the current 
+is interlinked not only with its own circuit, but also with 
+another circuit, such that by its change, it generates an e.m.f. 
+in the second circuit, and part of the flux produced by the 
+current accompanying this e.m.f. is interlinked with the first 
+circuit, and by its changes produces reactions in it; then this 
+equation no longer holds and must be increased by another quantity. 
+
+(3) ei = Pjij ♦ L|*4_ - M ^2_ + c/ijdt. 
+
+As long as air paths alone are involved, current and flux are 
+
+
+
+5 
+
+
+
+exactly related and observe the same rate of variation. 
+
+"di" "d^" 
+
+The def ferentials dt and dt (where flux) may therefore 
+be used interchangeably with the proper constants. 
+
+
+
+between the circuits: that is, the number of interlinkages of 
+one circuit with the flux produced by the second circuit, "ij being 
+the current in one and "±2" being the current in the other circuit. 
+It is thus seen that the flow of current can never be utterly 
+independent of the currents inadjacent circuits. Equation (3) is 
+therefore perfectly general and applies to all circuits whose 
+physical constants do not vary from instant to instant. If the 
+circuit contains only infinitesmal capacity (3) reduces to the 
+form of (4) . 
+
+
+
+In both (3) and (4) the question of algebraic sign is entirely 
+a matter of convention and convenience. The negative sign appearing 
+before "M" is intended to show that the two currents are relativly 
+in opposite directions. 
+
+
+
+inductance between the two circuits by two coaxial coils "M M" 
+while the self inductance is shown by a single coil 
+and the resistance by a zig-zag line as in fig. I. 
+
+
+
+In equation (3) "M" is defined as the mutual inductance 
+
+
+
+(4) 
+
+
+
+Dia grama t icaly it is customary to represent the mutual 
+
+
+
+
+M 
+
+
+
+
+F<9 1 
+
+
+
+The notation of Fig. (I) will be observed in the equations which 6 
+follow. 
+
+Tith the aid of equation (4) the circuit conditions of 
+figure (I) may be completely expressed. 
+(5) e-L = ♦ 
+
+
+
+dt 
+
+
+
+(6) 
+
+
+
+e? = r 2 i 2 + L. 
+
+
+
+dig 
+
+
+
+di 
+
+
+
+' dt dt 
+
+By the fundamental op-rations of algebra and calculus it is the 
+intention to convert equations (5) and (6) into a single simpler 
+form which shall express the relation between the current "i 2 " 
+and the time "t" . 
+
+
+
+(7) 
+
+
+
+Differentiating (6) and considering "eg" as a constant 
+dip J d 2 i 2 d 2 i 
+
+
+
+: dt' 
+
+
+
+dt' 
+
+
+
+Solving (5) for 
+
+
+
+(8) 
+
+
+
+di, 
+
+
+
+M 
+
+
+
+Differentiating (8) 
+
+
+
+(9) 
+
+
+
+d^i 
+
+
+
+2 _ 
+
+
+
+dt' 
+
+
+
+= M 
+
+
+
+r-i di- 
+dt 
+
+
+
+1- 
+
+
+
+d-i- 
+
+
+
+dt' 
+
+
+
+Substituting both (8) and (9) in (7) 
+- r 2 
+
+
+
+(10) 
+
+
+
+= T 
+
+
+
+M 
+
+
+
+di 
+
+
+
+Transposing into standard differential form, 
+
+
+
+(11) 
+(12) 
+(13) 
+
+
+
+L . M 
+
+
+
+d"i 
+
+dt? 
+
+d 2 i 
+
+
+
+W Vi 
+
+
+
+M 
+
+
+
+dt M M 
+
+
+
+d 2 i 
+
+
+
+dt' 
+
+
+
+dt' 
+L- | r 2 ^L p r 1 
+
+
+
+l r 2 + L 2 r l 
+
+
+
+di 
+
+
+
+d _l_ + r 1 r 2 i 1 = r a e x . 
+
+
+
+LiL 2 -K' 
+
+
+
+ILL . r l r 2 i ] c r r 2 e j 
+dt L]_L 2 -M a L]_L 2 -H 2 
+
+
+
+Equation (13) is a standard integration form. It involves 
+complicated constants, however, and the further develcpement 
+
+
+
+will be facilitated by the substitution of the form 
+
+
+
+r . L l r 2+ L 2 r 'l 
+
+
+
+r l r 2 
+a= L1L2-M 2 
+
+b " L^-M* 
+
+Equation (14) may most easily be integrated by the 
+substitution: 
+
+From the relation above, 
+
+dz - dy 
+dx " dx 
+
+d 2 z _ d 2 y 
+
+dx^ dx' 
+
+
+
+By these substitutions (14) is converted into (15). 
+
+(15) d£z_ dz 1 
+dx^ r ^° dx +az " 
+
+Equation (15) is integrated by the equation: 
+
+zr At x A - Integration Constant. 
+
+k - Constant. 
+
+£ 1 Base Naperian Logarithms. 
+
+dx 
+
+d 2 z _ k 2 Ag" kx 
+dx 2 
+
+Equation (15) in the integrated form is, therefore: 
+
+(16) A£~ kx (k 2 -2ck+a) z 
+
+Equation (16) can be true only on the condition that the quantity 
+within the parenthesis shall be equal to zero. 
+( 16a) k 2 -2ck -fa z 0. 
+
+Equation (16a) is a pure quadratic having two real roots. 
+
+
+
+Equation (15) in the integrated form is then: 
+
+(17) | z A lC - k l x + Aoe" k 2 x 
+
+(18) y = A x e" k l x + Aoe" k2x - -J- 
+
+e l 
+
+(19) h 1 "^* ^ 1 e- 1: , t + A 2 e" k2t 
+
+By a precisely similar cycle of operations beginning 
+with equation (5) an expression for " io" lQa y De developed. 
+
+Co 
+
+(20) igs _ + B 1 £" k l t + Eo6-k2t 
+
+Both equations (19) and (20) involve integration constants 
+
+"A^jAojB^ Bo" which must be determined. Obviously the terms 
+e i eo 
+
+• ^— and — =_ represent stationary conditions of current 
+r t zh 
+
+intensity and must not be confounded with the transient effect. 
+
+In the determination of the integration constants in (19) 
+and (20) it is necessary to direct attention at the conditions 
+in the circuits which exist at any arbitrary chosen instant. 
+One of these instants may conveniently be that from which time 
+was counted. The following relations are then apparent if the 
+transient in the second circuit is to appear at "make", 
+t = i x = io= 
+
+This is in accordance with the assumption made regarding 
+the measurement of time. Solving equations (19) and (20) with 
+these substitutions: 
+
+e l 
+
+A 2 = -(A 1+ I X ) Il= vT 
+
+e 2 
+
+B2" — ( B]_+ I 2 ) 1 2 = fZT 
+
+(21) i x Z I 1+ A 1 6' k l t -(A^I^g-^t 
+
+(22) i 2 = I.+ B^-^l 1 — {B 1 4S i )e~^ t 
+Multiplying equation (5 ) by "L 2 " and (6) by "U" 
+
+
+
+I 
+
+
+
+(23) L P e 1= Lor n i, -HL,L r . dl l — LoM d % 
+
+dt dt 
+
+dio di. 
+
+(24) Me 2 = Mr 2 i 2 +ML 2 — -M 2 -^ . 
+
+
+
+Adding (23) and (24) and solving for " i " 
+
+Lr>e n f- Men— r n L i-* — ( L -M 2 ) , 1 
+(25) i 2 = ! ilf-i L 2 WZ 
+
+
+
+Mr 2 
+
+
+
+Differentiating equation (21) and substituting in (25) 
+
+( 26 > dt^ a **i A i i ~ klt tM A i+ I i> € ~ k2t 
+
+
+
+(27) i 2 z llr 2 ["L 2 e 1 -«.le 2 -r 1 L 1 i 1 -(L 1 L 2 ^ 2 ) (k^i " k l t -k 2 ^ifH) 
+
+Here,as before, at the instant from which time was counted: 
+
+tz ij = i 2 : 
+
+Solving from (27) 
+
+L 2 e 1 + Me 2 -k ^ ( L}_ L 2 — M 2 ) 
+
+( 28 ) A 1= ( k ^ 2 )( L] Lg^ 
+
+A 2 = -(A^f I x ) 
+
+L 2 e 1 +Me 2 - k, I, (L-,L 2 - M 2 ) 
+
+(29) A 2 = — * 
+
+(k x - k 2 ) (L X L 2 - M 2 ) 
+
+By am method of solution precisely similar , exactly 
+symetrical expressions may be derived for "B^" and "Bg" . 
+L 1 e 1 +Me 1 -kglgCLjLo- M 2 ) 
+
+
+
+(30) B 1= 
+
+
+
+(31) Bo: 
+
+
+
+(kj_-k 2 ) (L X L 2 -M 2 ) 
+l~ k l I 2^ L i L 2' 
+
+
+
+L x e 2 + Me 1 -k 1 lg(L X 2 - M 2 ) 
+
+
+
+(kj-kg) (L-j_Lg— M 2 ) 
+The equations have now been reduce to a form free from 
+differential notation without affecting their generality in 
+the least. It is desirable in this thesis, however, to apply 
+them only to the specific case in v/hich one of the coils shall 
+
+
+
+10 
+
+be short circuited. 
+
+
+
+exist . 
+
+
+
+On short circuit it is obvious that the following relations 
+
+
+
+e 2 = I 2 = 0. 
+
+
+
+Loe n - k I-> (L,L Q - M 2 ) 
+
+(32) A,z- 
+
+
+
+(33) An= 
+C 
+
+
+
+1 ( k x - k 2 ) (L-j^Lo- M 2 ) 
+1 I 1 (L 1 L 2 
+
+
+
+L 2 e 1 -k,I, (L,L P - M 2 ) 
+
+
+
+"TT 
+
+
+
+(k x - k 2 ) (L^-M*) 
+From the solution of (22) 
+
+B 2 " ~ B l 
+
+(34) B 2 - 
+
+
+
+Me x 
+
+
+
+(k x -ko) (L X L 2 -M 2 ) 
+Equation (22) under the short circuit condition, therefore, 
+reduces to the simpler form: 
+
+(35) uz zUl (i-^-r^) 
+
+(k 1 -k 2 )(L 1 Lo-M t ') 
+If, however, the transient current is to appear in the 
+second circuit at the" break" a different set of conditions applies 
+at the instant the current is interrupted 
+
+e l 
+
+i-,1 ig= t = 0. 
+
+r l 
+
+Substituting and solving equations (19) and (20) with 
+these conditions. 
+
+A 2 r " A l 
+
+B 2 = -Cl 2 f B X ) 
+
+(21a) i 1= I 1+ A 1 £' k l t - A l€ ' k2t 
+
+(22a) i 2 r Igf Bjfe ^l 1 -{B^gf 
+
+Differentiating equation (21a) and substituting in (25) 
+
+(26a) z A 1 (-k 1 £- k l t +k 2 e" k 2M 
+
+
+
+-1 
+
+
+
+(27a) 
+
+
+
+X 2 "Ere 
+
+
+
+r " rr 
+
+|L 2ei + Meg-f-r^i^L^M 2 ) A 1 (k ] C ' ,k l t -k 2 €~ k 2tj 
+
+
+
+Here at the instant from which time was counted " break" 
+
+
+
+t = 
+
+
+
+(28a) 
+
+
+
+1 Pl 
+Solving from (27a) 
+
+L2&1+ Meo -|-L^e^ 
+
+1 (L3L2- M 2 ) (ki-ko) 
+
+II 13 'I 
+
+
+
+The equations for "B-^ and Bo in this case are identical 
+with those of (30) and (31). 
+
+If the circuits had been previously constructed so that 
+they should be perfectly simi lar , then ; 
+
+r 1 z r 2 z R. 
+Li - L 2 r L. 
+
+7ith this provision the constants "k^" and "kg" introduced in 
+
+equation (17) are readily determinate. From the defining equations 
+
+given in connection with (14). 
+
+L R 
+
+
+
+e ~ 
+
+
+
+a =- 
+
+
+
+
+b I 
+
+
+
+k 1= 
+
+
+
+1,2-M 2 
+R 
+
+
+
+L-M 
+
+R 
+
+LfM " 
+
+
+
+k-,-kp; 2MR__ 
+1 2 L 2 -M2 
+
+Substituting these values in (35) 
+
+
+
+(36) 
+
+
+
+x 2 Z 
+
+
+
+e l 
+2R~ 
+
+
+
+-Rt 
+
+
+
+-Rt 
+
+
+
+e L-M- " e l -m 
+
+Equation (36) is the most general form for short circuited 
+secondary circuit and similar coils. 
+
+
+
+In the previous developement no assumption has been made 
+regarding the flux interlinkages between the two circuits. It 
+should be perfectly possible, if not probable , that all magnetic 
+"lines from one circuit should be interlinked with the other 
+circuit. In that case the mutual inductance would be said to be 
+perfect, and from the manner of definition the mathematical 
+condition is evidently: 
+
+
+
+L-jLg : M 2 . 
+
+
+
+If in equation (11) substitutions are made on the supposition 
+
+
+
+of perfect mutual inductance; 
+
+
+
+(37) 
+
+
+
+di 
+
+
+
+'l r 2 
+
+
+
+r 2 e l 
+
+
+
+dt 
+
+
+
+L x r 2 4- L 2 r x 
+
+
+
+L l r 2' 
+
+
+
+L 2 r l 
+
+
+
+Gimilairly for the second circuit; 
+
+
+
+(38) 
+
+
+
+di, 
+
+t 
+
+"dt" 
+
+
+
+ri r 
+
+
+
++ 
+
+
+
+l x 2 
+
+
+
+rv-e 
+
+
+
+2 e l 
+
+
+
+L l r 2+ L 2 r l Ll^ 2 + L 2 r l 
+For the short circuit condition; 
+
+dio 
+
+
+
+(39) 
+
+
+
+dt 
+
+
+
++ r±r2 - 
+
+L l r 2+- L 2 r l 
+
+
+
+Equations (37), (36) and (39) are differentials of the first order 
+and may be immediatly integrated, 
+e. 
+
+
+
+(40) 
+
+
+
+(41) 
+
+
+
+(42) 
+
+
+
+1 1 = ~FJ" 
+
+
+
+1- 
+
+
+
+L l r 2~ Mr l 
+
+
+
+e 2 
+
+
+
+?2 
+
+
+
+L l r 2+ L 2 r l 
+1 L 2 r l^ r 2 
+
+
+
+Me. 
+
+
+
+i 2" L 1 r 2 +^2^1 2 L^rg-f- 1*2?\ 
+
+Equation (36) was the primary form desired and applies 
+only to short circuited secondary and identical coils. Equation 
+(42) is to be considered the limiting condition for (36). 
+
+
+
+L l r 2+ L 2 r l 
+-rj.r 2 t 
+
+
+
+-r 1 r 2 t 
+
+-r^r 2 t 
+6 L 1^2"*" L 2 r l 
+
+
+
+13 
+
+III. APPARATUS. 
+
+It would be infered from the method of attack under "Theory' 
+that the problem would be investigated only for identical coils. 
+Such was the case. The first difficulty arose , therefore , in the 
+winding of the coils. 
+
+Two lathe turned wood cores of equal dimensions were first 
+made with a proximately the size indicated below. 
+
+
+
+
+Dimensions were not of importance as long as the cores were 
+precisely alike. Holes were bored in each core while running in 
+the lathe, and a spindle was subsequently turned to size so 
+that the coils might be displaced from each other witnout shifting 
+their axial position. By this method the distance between coils 
+could be easily and accurately varied. 
+
+In winding the coils every precaution was used in obtaining 
+equal reactance' and resistance. Similarity in shape was insured 
+by the cores. New double cotton covered number sixteen (16) 
+Brown and Sharpe guage wire was employed, and the winding was 
+done in a lathe at constant speed and tension, care being taken 
+
+
+
+to manipulate the wire as little as possible. 7,'nen finished 14 
+each coil had ninety three (93) turns in three (3) equal layers 
+and the leads were wound together and brought out to eliminate 
+inductive effect. As was subsequently proved the precautions 
+were ' sufficient for the purpose at hand. 
+
+Preliminary Measurements. 
+
+The ohmic resistance of the coils was determined by the 
+potential drop method. Storage battery current and precision 
+instruments were used to minimize error, and the final value 
+selected was the mean of many trials extending over several days 
+to eliminate the effect of heating due to currents in the coil. 
+Atmospheric temperature both during the time of making the 
+measurements and the later trials did not vary enough to introduce 
+
+a consistant error. 
+
+The inductive reactance was obtained from the ohmic 
+resistance and impedance drop. Sixty (60) cycle current having a 
+wave shape closely approximating a sine was employed. 
+
+The mutual reactance of the coils furnished a more difficul 
+subject. 771 th currents of ordinary frequency the inductive effect 
+bet7/een the two circuits was so small that it could not be measured 
+with the instruments available. As a last. resort recourse was had 
+to an inverted converter which was capable of yielding a desirable 
+wave shape at two thousand (2000) cycles per second. This permitted 
+the use of instruments of the available range. No correction was 
+made for the inaccuracies of the metering instruments at this 
+high frequency. It is to be expected that the instruments would 
+show considerable deviation from correct readings chargeable 
+princ ipally to their own reactance. The voltmeter exhibited high 
+
+
+
+
+Fig + 
+
+
+
+\ 
+
+
+
+reactance and apparently had a negligible current capacity. At 
+least its effect was not apparent in the current taken by the 
+primary coil. No allowance was made therefore-; for the voltmeter 
+current in calculating the mutual inductance. 
+
+Measurements were made for four (4) distances between 
+coils one of which was zero and the maximum of which was two (2) 
+inches. It was impossible to exceed this distance on account of 
+flux leakage, and inability of the instruments to measure the 
+small currents and voltages. Primary current was limited by the 
+capacity of the converter to about seventy five (75) hundreths 
+amperes . 
+
+"Owing to the transformer action between coils that coil 
+upon which the e.m.f. was impressed has been and will be designated 
+in what follows as the primary. The other, of course, will be 
+designated as the secondary." 
+
+Methods of connection are illustrated in fig. (3) and (4). 
+
+Coil Constants. 
+
+As explained under" Preliminary Measurements" the methods 
+of determining the constants of the coils were more or less rough. 
+They were, however, consistant with the purpose of this thesis. 
+The oscillograph, while capable of recording extremely rapid 
+fluctuations of current, is not capable of making records which 
+admit of more than rough measurement. Under a weakened galvanometer 
+field it may require as much as one ampere to operate the element. 
+The accuracy of the data is therefore well within the accuracy 
+of the oscillograph. 
+
+
+
+Trimary 
+
+
+
+Impedance 
+Resistance 
+Reactance 
+Inductance 
+
+
+
+2.123 ohms 
+1.761 ohms 
+1.357 ohms 
+.003599 
+
+
+
+Secondary 
+
+
+
+Impedance 
+Resistance 
+Reactance 
+Inductance 
+
+
+
+2.133 ohms 
+1.744 ohms 
+1.232 ohms 
+.003258 
+
+
+
+Distance . 
+Zero 
+
+
+
+3ll 
+
+4 
+
+
+
+II' 
+
+2" 
+
+
+
+Primary and Secondary. 
+
+Mutual Reactance 
+5.447 
+4.027 
+3. 132 
+2.221 
+
+
+
+Mutual Inductance. 
+.0004330 
+.0003205 
+.000249 
+.0001769 
+
+
+
+In the tabulations above the maximum variation in percent 
+f the least corresponding value is ten (10) percent and occurs 
+ith the inductive reactance. 
+
+
+
+Rfl 
+
+
+
+Element "JL 
+
+
+
+171 
+
+
+
+18 
+
+Element 
+
+
+
+I — VAV^WW 
+
+
+
+Aw 
+
+
+
+: i 
+
+
+
+I I 
+
+LJ 
+
+
+
+^,7 J" 
+
+
+
+Calibration 
+a aaa a Circuit 
+
+
+
+Shutter 
+— Circuit 
+
+
+
+May* I 
+
+
+
+Element *JL 
+
+
+
+TI 
+
+
+
+Element 
+
+
+
+■4VWWVW 
+
+^ ■ 
+
+
+
+
+1 _®- 
+
+
+
+Calibration 
+
+Circuit 
+
+
+
+Shutter Circuit 
+
+
+
+L 1 
+
+
+
+^6 
+
+
+
+19 
+
+OSCILLOGRAPH CONNECTIONS. 
+
+' The diagram of oscillograph connections is shown in Fig. (5). 
+
+The following remarks are explanatory of this figure. 
+
+The method of operation was briefly as follows: one 
+
+element of the oscillograph was connected in to photograph the 
+
+primary circuit; another to photograph the transient current 
+
+« 
+
+in the secondary circuit, while the third was to record upon the 
+film a sixty (60) cycle timing wave. 
+
+It was not preferable to connect the oscillograph element 
+in series with the secondary coil for the reason that the resistan- 
+ces were approximately in the relation of one and seventy five 
+hundreths to one (1.75 to 1). This would introduce a very formidable 
+error in the assumption that the secondary coil was short circuited. 
+Neither was it possible on account of non uniform flux distribution 
+to connect the oscillograph element as a shunt to a portion of 
+the coil. It was therefore necessary to short ' c ircuit the secondary 
+thru as small a resistance as possible and regulate the primary 
+circuit so that the transient current thru the parallel paths 
+would be of sufficient magnitude to opperate the element. As a 
+result the permanent primary current was approximately fifteen (15) 
+amperes. With this value of current it was necessary also to 
+shunt the primary element across a calibrating resistance. Both 
+of these resistances were made by winding wire between a row of 
+staggered nails at opposite ends of a short board. 
+
+The timing element was shunted around a resistance, 
+the current thru which was controlled by a thirty two candle 
+power incandescent lamp on a one hundred ten volt a.c. lighting 
+circuit . 
+
+
+
+It was expected that the phenomena und,er observation 
+could best be observed on breaking the circuit after the current 
+had attained a steady value. Accordingly a double break switch 
+was arranged to open the circuit in air thru the action of a weight 
+released automatically by the oscillograph shutter. The plane of 
+contact of this switch was arranged perpendicular to the direction 
+of motion and the whole was made as frictionless as* possible. 
+Its action under the impetus of a twelve pound falling weight was 
+extremely rapid. It was subsequently arranged to break between 
+zinc contact 6 and under a heavy blast of compressed air. 
+
+The oscillograph shutter was electro-magneticaly controlled 
+and in series with the relay controlling the circuit switch. 
+It was found by experiment that the rapidity of the switch action 
+exceeded that of the shutter. A second relay was therefore 
+introduced which should control the current thru the trip switch 
+and introduce enough lag to allow the shutter to fully open. 
+
+In the case where the circuit was to be made and the 
+photograph of the transient and primary rise taken, the operation 
+of the triping switch was reversed and the second relay eliminated. 
+Every effort in this case was made to cut the time lag as low 
+as possible. 
+
+Oscillograms. 
+
+A glance at the oscillograms of Fig. (7) immediately 
+indicates that the transient of th. circuit does not follow the 
+theoretical law. The curve of the primary break suggests the 
+reason; arcing at the switch contacts. The records show that the 
+arcing rarely endures for more than one one-hundredth part of a 
+second which, as time goes, is a very small interval. Small as it 
+
+
+
+1*5, however, it is very formidable in this connection. Viewed 
+with the eye only the switch action seemed almost instantaneous 
+with practical ly no visible arcing. As recorded by the oscillograph 
+the switch opening was followed first by a very sudden decrease 
+of current, then by an appreciable period of arcing, and finally 
+by another sudden decrease of current as the arc broke. The two 
+sudden decreases of current produce a transient of two nodes t 
+neither of which has the apparent magnitude of the calculated value 
+
+The use of a non-arcing contact such as zinc improves the 
+condition very little. It, however, smooths out the more violent 
+fluctuations in both primary and secondary currents. Breaking 
+the contact in a compressed air blast has a more gratifying effect, 
+in that, arcing is almost entirely suppressed and the transient 
+current approches the theoretical condition. 
+
+The attempts at photographing the transient on "make" 
+were uniformly failures; so much so that after securing some 
+bromide prints in which the effect was observed no attempt was 
+made to secure films. The difficulty arose in the matter of getting 
+an instantaneous contact of constant resistance. With the metal 
+surfaces the resistance of the contact varied with the pressure 
+and friction for the first few intervals of time. This effect;, 
+superi mj osed upon the inductance of the external storage battery 
+circuity practicaly eliminated the transient in the secondary. It 
+appears extremely doubtful whether it would be possible to design 
+any form of contact which would entirely eliminate these objections 
+Accordingly as was . presupposed it seems most fear ible to study 
+the phenomena at break. 
+
+
+
+22 
+
+Index to Oscillograms . 
+
+(8a) Oscillograph element in series with coil Air break. 
+
+(8b ^ Coils together.... ...Air break. 
+
+(8c) Coil distance f ... ...Air break. 
+
+(8d) Coil distance ... ...Air break. 
+
+(8e) Coil distance 2" ... ...Air break. 
+
+(8f) Coil distance lV . . . ..Zinc contact 
+
+(8g) Ceils together.. . ...Air blast. 
+
+(8h) Coils together... ...Air blast. 
+
+Of this series (8a) has no special significance. It i.s 
+included to show in exagirated detail the effect of the varying 
+resistance arc on the transient current. 
+
+(8i) Bromide print. Coils together. ."Make" 
+
+
+
+23 
+
+CONCLUSIONS. 
+
+Certain inferences may be drawn from the progress of this 
+thesis, part of which concern themselves with the difficulties 
+of manipulation, and part with the significance of the results 
+obtained . 
+
+It is obviously not possible to interupt a circuit 
+instantly, for , if it were possible, the instaneousi power develope 
+would be infinite. A certain amount of arcing is therefore 
+inevitable at"break" , and any arc of varying length is of varying 
+resistance. The primary objection to arcing is, therefore, in 
+the introduction of this fluctuating resistance. Any attempt to 
+eliminate arcing, therefore, can only result in deminishing the 
+interval during which it occurs, and not in entirely supressing 
+it. Short intervals of time ordinarily insignificant are of the 
+greatest importance. 
+
+Of the methods employed in suppressing the arc that of 
+a compressed air blast of high velocity is the most uniformly 
+successful. A magnetic blowout of equal shifting effect lacks the 
+cooling action of the blast, and non-arcing alloys require an 
+appreciable time in which to become effective. Breaking in 
+liquids requires even a longer time to overcome the sluggishness 
+of the liquid. There is, in general, no advantage to be observed 
+in suppressing the arc beyond that of eliminating the 
+fluctuations in the resistance of it. 
+
+The difficulties at "make" are insurmountable. The 
+completion of the circuit between rigid contacts with suddenly 
+applied pressure produces a variable resistance; between liquid 
+contacts there is sure to be a certain amount of spatting and 
+
+
+
+24 
+
+inequalities of contact area, which produce the came effect; the 
+application of the current thru the breakdown of a dielectric 
+is very likely to be oscillatory. Superimposed upon these 
+objections is the inductance of the external circuit. The method 
+of "make" is therefore inherently more difficult than that of 
+"break", and neither of them has the convenience or the general 
+desirability of the measurements with alternating current. 
+
+Capacity between turns of trie coils has 'been entirely 
+neglected. It. is, however, apt to be and seems to be a formidable 
+factor. Its calculation is one of the most tedious in electrical 
+circuits, and with inductive e.m.f's. can be made accurate only 
+with uniform distribution of magnetic flux. There is no logical 
+reason for assuming that flux distribution can be uniform. It was 
+for this reason that the accuracy of the occillograms was impaire 
+by connecting an additional distance in the secondary circuit 
+instead of including part of the coils for this resistance. Any 
+attempt to include capacity calculations would invariably result 
+in an approximation. 
+
+In the transient current the effect of capacity is to 
+prolong and diminish the peak and in some cases to produce 
+oscillations, ^.uch oscillations actually appear in the record 
+with the element directly short circuiting the secondary. 
+They may be due, however, to the inertia of the element, in the 
+damping fluid. The latter explanation is the most probable. 
+It is interesting to note that, due to the phase difference 
+between charging and magnetizing current, the results obtained 
+with alternating current are surely of less accuracy than those 
+obtained with direct current, and transient effect. Of the 
+curves shown in the series of Fig. (7) the calculated values 
+
+
+
+are arbitrarily selected as the criterion. Due to the effect of 
+capacity which can not be eliminated or calculated with precision 
+the oscillograph records are the more accurate and most truly 
+represent the effect of mutual inductance; that is, with capacity 
+the effect of mutual inductance can not be measured as accurately 
+with alternating current as with direct currents. This is the 
+only gratifying result of the investigation. 
+
+
+
+
+
+u. cr i. ». s. ro*M » 
+
+
+
+
+U- or >■ •- •■ roMM i 
+
+
+
+1 
+
+
+
+31 
+
+
+
+
+r 
+
+
+
+33 
+
+
+
+
