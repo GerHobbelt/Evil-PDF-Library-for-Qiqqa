@@ -17,9 +17,14 @@
 % CD %6
 CD {SCRIPTDIR}
 
-MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%04d-x150-lwd.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "%2"
+MUTOOL qiqqa_fingerprint0 -o "__bulktest/TextExtractFiles-T1/%3/%5/qiqqa-SHA1B-hash.txt" "%2"
 
-MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%04d-x150.html" -s mtf5 -r 150 -y l -T 3 -P -B 50 "%2"
+MUTOOL qiqqa_fingerprint1 -o "__bulktest/TextExtractFiles-T1/%3/%5/qiqqa-BLAKE3+B58X-hash.txt" "%2"
+
+
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%04d-x150-lwd.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l "%2"
+
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%04d-x150.html" -s mtf5 -r 150 -y l "%2"
 
 
 MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%04d-x72.html" -s mtf5 -y l "%2"
@@ -60,23 +65,74 @@ MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%04d-x300.xhtml" -s mtf5 -r
 MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%04d-x300.bbox" -s mtf5 -r 300 -y l "%2"
 
 
+
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%5-x150-lwd.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l "%2"
+
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%5-x150.html" -s mtf5 -r 150 -y l "%2"
+
+
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%5-x72.html" -s mtf5 -y l "%2"
+
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%5-x72.txt" -s mtf5 -y l "%2"
+
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%5-x72.stext" -s mtf5 -y l "%2"
+
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%5-x72.xml" -s mtf5 -y l "%2"
+
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%5-x72.trace" -s mtf5 -y l "%2"
+
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%5-x72.pdf" -s mtf5 -y l "%2"
+
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%5-x72.stext.json" -s mtf5 -y l "%2"
+
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%5-x72.xhtml" -s mtf5 -y l "%2"
+
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%5-x72.bbox" -s mtf5 -y l "%2"
+
+
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%5-x300.html" -s mtf5 -r 300 -y l "%2"
+
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%5-x300.txt" -s mtf5 -r 300 -y l "%2"
+
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%5-x300.stext" -s mtf5 -r 300 -y l "%2"
+
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%5-x300.xml" -s mtf5 -r 300 -y l "%2"
+
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%5-x300.trace" -s mtf5 -r 300 -y l "%2"
+
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%5-x300.pdf" -s mtf5 -r 300 -y l "%2"
+
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%5-x300.stext.json" -s mtf5 -r 300 -y l "%2"
+
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%5-x300.xhtml" -s mtf5 -r 300 -y l "%2"
+
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%5-x300.bbox" -s mtf5 -r 300 -y l "%2"
+
+
+
 MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%04d-x72.svg" -s mtf5 -y l "%2"
 
 MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%04d-x72.pclm" -s mtf5 -y l "%2"
 
-MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%04d-x72.png" -s mtf5 -y l "%2"
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%04d-x72.png" -s mtf5 -y l -T 3 -P -B 50 "%2"
 
 MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%04d-x72.psd" -s mtf5 -y l "%2"
 
 MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%04d-x72.ps" -s mtf5 -y l "%2"
 
-MUTOOL muconvert -o "__bulktest/TextExtractFiles-T1/%3/%5.convert.pdf" -W 1200 -H 1800 "%2"
+MUTOOL convert -o "__bulktest/TextExtractFiles-T1/%3/%5.convert.pdf" -W 1200 -H 1800 -O decompress,garbage,sanitize,pretty "%2"
 
-MUTOOL muraster -F ppm -o "__bulktest/TextExtractFiles-T1/%3/%5/%04d.raster.png" -s mt -r 150 -P "%2"
+MUTOOL convert -o "__bulktest/TextExtractFiles-T1/%3/%04d.convert-text.svg" -W 1200 -H 1800 -O text=text "%2"
+
+MUTOOL convert -o "__bulktest/TextExtractFiles-T1/%3/%04d.convert-path.svg" -W 1200 -H 1800 -O text=path "%2"
+
+MUTOOL raster -F ppm -o "__bulktest/TextExtractFiles-T1/%3/%5/%04d.raster.png" -s mt -r 150 -P "%2"
 
 MUTOOL trace -o "__bulktest/TextExtractFiles-T1/%3/%5/%04d.trace.txt" -W 1200 -H 1800 "%2"
 
 MUTOOL clean -gggg -D -c -s -AA "%2" "__bulktest/TextExtractFiles-T1/%3/%5.clean.pdf"
+
+MUTOOL metadump -o "__bulktest/TextExtractFiles-T1/%3/%5.extract." -m 2 -i p  "%2"
 
 MUTOOL extract -o "__bulktest/TextExtractFiles-T1/%3/%5.extract." -r "%2"
 
