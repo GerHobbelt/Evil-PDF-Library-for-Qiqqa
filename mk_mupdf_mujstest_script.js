@@ -337,3 +337,69 @@ pdf_list = pdf_list.map((l, idx) => {
 
 fs.writeFileSync('text_extract_pdf_files.info-test.tsv', tsv_banner + '\n\n\n' + pdf_list.join('\n') + '\n', 'utf8');
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if (fs.existsSync('mupdf_test_files_in_dev_drive_Z.lst')) {
+
+// load PDF list:
+let pdf_list = fs.readFileSync('mupdf_test_files_in_dev_drive_Z.lst', 'utf8')
+	.split('\n')
+	.map((l) => {
+		l = l.trim();
+		l = l.replace(/^\.[\/\\]/, '');
+		l = l.replace(/[\\]/g, '/');
+		return l;
+	})
+	.filter((l) => !!l);
+//console.log(pdf_list);
+
+
+pdf_list = pdf_list.map((l, idx) => {
+	let bnl = path.basename(l);
+	let bnln = bnl.replace(/\.pdf$/i, '');
+	let lp = path.dirname(l).replace(/\.\.\//g, '').replace(/:/g, '');
+	// CD ${ __dirname.replace(/[\\]/g, '/') }
+	let root = __dirname.replace(/[\\]/g, '/');
+
+	//          2:pdf     3:pdfdir   4:pdfname    5:pdfbasename   6:rootdir
+	let line = `"${ l}"  "${ lp}"    "${ bnl}"    "${ bnln}"      "${ root}"`;
+	return line;
+});
+
+
+fs.writeFileSync('mupdf_test_files_in_dev_drive_Z.info-test.tsv', tsv_banner + '\n\n\n' + pdf_list.join('\n') + '\n', 'utf8');
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
