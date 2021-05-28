@@ -12,16 +12,16 @@ const tsv_banner = `
 #
 # Every line is an argv-cli style record (row), with the following parameters:
 #
-#     %1 %2 %3 %4 %5 %6
+#     %2 %3 %4 %5 %6
 #
 # where:
 #
-# nr.:     %1           -- index number of the test record
-# PDF:     %2           -- full RELATIVE path to the PDF
-# dir:     %3           -- basedir = path part of that
-# name:    %4           -- filename = PDF filename part of that one (with .pdf extension)
-# base:    %5           -- basename = PDF filename "    "  "    "   (without the .pdf extension)
-# cd root: %6           -- path to root of the repo
+# nr.:     %datarow     -- index number of the test record
+# PDF:     %1           -- full RELATIVE path to the PDF
+# dir:     %2           -- basedir = path part of that
+# name:    %3           -- filename = PDF filename part of that one (with .pdf extension)
+# base:    %4           -- basename = PDF filename "    "  "    "   (without the .pdf extension)
+# cd root: %5           -- path to root of the repo
 `;
 
 
@@ -54,8 +54,8 @@ pdf_list = pdf_list.map((l, idx) => {
 	// CD ${ __dirname.replace(/[\\]/g, '/') }
 	let root = __dirname.replace(/[\\]/g, '/');
 
-	//          1:idx     2:pdf   3:pdfdir    4:pdfname    5:pdfbasename   6:rootdir
-	let line = `${ idx+1}  "${ l}"  "${ lp}"    "${ bnl}"      "${ bnln}"      "${ root}"`;
+	//          1:pdf     2:pdfdir   3:pdfname      4:pdfbasename   5:rootdir
+	let line = `"${ l}"  "${ lp}"    "${ bnl}"      "${ bnln}"      "${ root}"`;
 	return line;
 });
 
@@ -64,193 +64,193 @@ pdf_list = pdf_list.map((l, idx) => {
 if (0) {
 	out.push(`
 % ---------------------------------------------------------------------------------------------------------------
-% nr.:     %1
-% PDF:     %2
-% dir:     %3
-% name:    %4
-% base:    %5
-% cd root: %6
+% nr.:     %{datarow}
+% PDF:     %1
+% dir:     %2
+% name:    %3
+% base:    %4
+% cd root: %5
 
-% CD %1
+% CD %5
 CD {SCRIPTDIR}
-ECHO T:%1s1
+ECHO T:%{datarow}s1
 
-MUTOOL show -o "__bulktest/%3/%5/%04d.showT.txt" -b "%2"  trailer 
-MUTOOL show -o "__bulktest/%3/%5/%04d.showX.txt" -b "%2"  xref 
-MUTOOL show -o "__bulktest/%3/%5/%04d.showP.txt" -b "%2"  pages
+MUTOOL show -o "__bulktest/%2/%4/%04d.showT.txt" -b "%1"  trailer 
+MUTOOL show -o "__bulktest/%2/%4/%04d.showX.txt" -b "%1"  xref 
+MUTOOL show -o "__bulktest/%2/%4/%04d.showP.txt" -b "%1"  pages
 
-MUTOOL show -o "__bulktest/%3/%5/%04d.showA.txt" -b "%2"  trailer xref pages grep outline js form trailer/* Root/* Root/Metadata 0/* 1/* 2/* 3/* 4/* 5/* 6/* 7/* 8/* 9/* 10/* 11/* 12/* 13/* trailer/Info trailer/Info/Author
+MUTOOL show -o "__bulktest/%2/%4/%04d.showA.txt" -b "%1"  trailer xref pages grep outline js form trailer/* Root/* Root/Metadata 0/* 1/* 2/* 3/* 4/* 5/* 6/* 7/* 8/* 9/* 10/* 11/* 12/* 13/* trailer/Info trailer/Info/Author
 
 	`);
 
 	out2.push(`
 % ---------------------------------------------------------------------------------------------------------------
-% nr.:     %1
-% PDF:     %2
-% dir:     %3
-% name:    %4
-% base:    %5
-% cd root: %6
+% nr.:     %{datarow}
+% PDF:     %1
+% dir:     %2
+% name:    %3
+% base:    %4
+% cd root: %5
 
-% CD %6
+% CD %5
 CD {SCRIPTDIR}
 
-ECHO T:%1d1
+ECHO T:%{datarow}d1
 
-MUTOOL mudraw -o "__bulktest/%3/%5/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "%2"
+MUTOOL mudraw -o "__bulktest/%2/%4/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "%1"
 
-ECHO T:%1d2
+ECHO T:%{datarow}d2
 
-MUTOOL mudraw -o "__bulktest/%3/%5/%04d.txt" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "%2"
+MUTOOL mudraw -o "__bulktest/%2/%4/%04d.txt" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "%1"
 
-ECHO T:%1d3
+ECHO T:%{datarow}d3
 
-MUTOOL mudraw -o "__bulktest/%3/%5/%04d.trace" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "%2"
+MUTOOL mudraw -o "__bulktest/%2/%4/%04d.trace" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "%1"
 
-ECHO T:%1d4
+ECHO T:%{datarow}d4
 
-MUTOOL mudraw -o "__bulktest/%3/%5/%04d.bbox" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "%2"
+MUTOOL mudraw -o "__bulktest/%2/%4/%04d.bbox" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "%1"
 
-ECHO T:%1d5
+ECHO T:{datarow}d5
 
-MUTOOL mudraw -o "__bulktest/%3/%5/%04d.xmltext" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "%2"
+MUTOOL mudraw -o "__bulktest/%2/%4/%04d.xmltext" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "%1"
 
-ECHO T:%1d6
+ECHO T:{datarow}d6
 
-MUTOOL mudraw -o "__bulktest/%3/%5/%04d.stext" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "%2"
+MUTOOL mudraw -o "__bulktest/%2/%4/%04d.stext" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "%1"
 
-ECHO T:%1d7
+ECHO T:{datarow}d7
 
-MUTOOL mudraw -o "__bulktest/%3/%5/%04d.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "%2"
+MUTOOL mudraw -o "__bulktest/%2/%4/%04d.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "%1"
 
-ECHO T:%1d8
+ECHO T:{datarow}d8
 
-MUTOOL mudraw -o "__bulktest/%3/%5/%04d.img.png" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "%2"
+MUTOOL mudraw -o "__bulktest/%2/%4/%04d.img.png" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "%1"
 
-ECHO T:%1d9
+ECHO T:{datarow}d9
 
-% MUTOOL mudraw -o "__bulktest/%3/%5/%04d.img.psd" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "%2"
+% MUTOOL mudraw -o "__bulktest/%2/%4/%04d.img.psd" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "%1"
 
-ECHO T:%1c1
+ECHO T:{datarow}c1
 
-MUTOOL muconvert -o "__bulktest/%3/%5.convert.pdf" -W 1200 -H 1800 "%2"
+MUTOOL muconvert -o "__bulktest/%2/%4.convert.pdf" -W 1200 -H 1800 "%1"
 
-ECHO T:%1r1
+ECHO T:{datarow}r1
 
-MUTOOL muraster -o "__bulktest/%3/%5/%04d.raster.png" -s mt -r 150 -P "%2"
+MUTOOL muraster -o "__bulktest/%2/%4/%04d.raster.png" -s mt -r 150 -P "%1"
 
-ECHO T:%1t1
+ECHO T:{datarow}t1
 
-MUTOOL trace -o "__bulktest/%3/%5/%04d.trace.txt" -W 1200 -H 1800 "%2"
+MUTOOL trace -o "__bulktest/%2/%4/%04d.trace.txt" -W 1200 -H 1800 "%1"
 
-ECHO T:%1c1
+ECHO T:{datarow}c1
 
-MUTOOL clean -gggg -D -c -s -AA "%2" "__bulktest/%3/%5.clean.pdf"
+MUTOOL clean -gggg -D -c -s -AA "%1" "__bulktest/%2/%4.clean.pdf"
 
-% ECHO T:%1e1
+% ECHO T:{datarow}e1
 
-% MUTOOL extract -o "__bulktest/%3/%5/%04d.extract." -r "%2"
+% MUTOOL extract -o "__bulktest/%2/%4/%04d.extract." -r "%1"
 
-ECHO T:%1h1
+ECHO T:{datarow}h1
 
-MUTOOL info -o "__bulktest/%3/%5/%04d.info.txt" -F -I -M -P -S -X -A -U "%2"
+MUTOOL info -o "__bulktest/%2/%4/%04d.info.txt" -F -I -M -P -S -X -A -U "%1"
 
-ECHO T:%1p1
+ECHO T:{datarow}p1
 
-MUTOOL pages -o "__bulktest/%3/%5/%04d.pages.txt" "%2"
+MUTOOL pages -o "__bulktest/%2/%4/%04d.pages.txt" "%1"
 
-ECHO T:%1s1
+ECHO T:{datarow}s1
 
-MUTOOL show -o "__bulktest/%3/%5/%04d.show.txt" -b "%2"  trailer xref pages grep outline js form trailer/* Root/* Root/Metadata 0/* 1/* 2/* 3/* 4/* 5/* 6/* 7/* 8/* 9/* 10/* 11/* 12/* 13/* trailer/Info trailer/Info/Author
+MUTOOL show -o "__bulktest/%2/%4/%04d.show.txt" -b "%1"  trailer xref pages grep outline js form trailer/* Root/* Root/Metadata 0/* 1/* 2/* 3/* 4/* 5/* 6/* 7/* 8/* 9/* 10/* 11/* 12/* 13/* trailer/Info trailer/Info/Author
 
-% ECHO T:%1s2
+% ECHO T:{datarow}s2
 
-MUTOOL show -o "__bulktest/%3/%5/%04d.xml-meta.txt" -b "%2"  Root/Metadata 
+MUTOOL show -o "__bulktest/%2/%4/%04d.xml-meta.txt" -b "%1"  Root/Metadata 
 
 	`);
 
 	out3.push(`
 % ---------------------------------------------------------------------------------------------------------------
-% nr.:     %1
-% PDF:     %2
-% dir:     %3
-% name:    %4
-% base:    %5
-% cd root: %6
+% nr.:     %{datarow}
+% PDF:     %1
+% dir:     %2
+% name:    %3
+% base:    %4
+% cd root: %5
 
-% CD %6
+% CD %5
 CD {SCRIPTDIR}
 
-ECHO T:%1c2
+ECHO T:{datarow}c2
 
-MUTOOL muconvert -o "__bulktest/%3/%5/%04d.convert.text" -W 1200 -H 1800 "%2"
-MUTOOL muconvert -o "__bulktest/%3/%5/%04d.convert.html" -W 1200 -H 1800 "%2"
-MUTOOL muconvert -o "__bulktest/%3/%5/%04d.convert.stext" -W 1200 -H 1800 "%2"
-MUTOOL muconvert -o "__bulktest/%3/%5/%04d.convert.png" -W 1200 -H 1800 "%2"
+MUTOOL muconvert -o "__bulktest/%2/%4/%04d.convert.text" -W 1200 -H 1800 "%1"
+MUTOOL muconvert -o "__bulktest/%2/%4/%04d.convert.html" -W 1200 -H 1800 "%1"
+MUTOOL muconvert -o "__bulktest/%2/%4/%04d.convert.stext" -W 1200 -H 1800 "%1"
+MUTOOL muconvert -o "__bulktest/%2/%4/%04d.convert.png" -W 1200 -H 1800 "%1"
 
-ECHO T:%1r2
+ECHO T:{datarow}r2
 
-MUTOOL muraster -o "__bulktest/%3/%5/%04d.raster.pkm" -s mt -r 150 -P "%2"
+MUTOOL muraster -o "__bulktest/%2/%4/%04d.raster.pkm" -s mt -r 150 -P "%1"
 
-%ECHO T:%1d10
+%ECHO T:{datarow}d10
 
-%MUTOOL mudraw -o "__bulktest/%3/%5/%04d.trace" -s mtf5 -r 150 "%2"
-%MUTOOL mudraw -o "__bulktest/%3/%5/%04d.txt" -s mtf5 -r 150 "%2"
-%MUTOOL mudraw -o "__bulktest/%3/%5/%04d.stext" -s mtf5 -r 150 "%2"
-%MUTOOL mudraw -o "__bulktest/%3/%5/%04d.html" -s mtf5 -r 150 "%2"
-%MUTOOL mudraw -o "__bulktest/%3/%5/%04d.png" -s mtf5 -r 150 "%2"
+%MUTOOL mudraw -o "__bulktest/%2/%4/%04d.trace" -s mtf5 -r 150 "%1"
+%MUTOOL mudraw -o "__bulktest/%2/%4/%04d.txt" -s mtf5 -r 150 "%1"
+%MUTOOL mudraw -o "__bulktest/%2/%4/%04d.stext" -s mtf5 -r 150 "%1"
+%MUTOOL mudraw -o "__bulktest/%2/%4/%04d.html" -s mtf5 -r 150 "%1"
+%MUTOOL mudraw -o "__bulktest/%2/%4/%04d.png" -s mtf5 -r 150 "%1"
 
-ECHO T:%1s3
+ECHO T:{datarow}s3
 
-MUTOOL show -o "__bulktest/%3/%5/%04d.showT.txt" -b "%2"  trailer 
-MUTOOL show -o "__bulktest/%3/%5/%04d.showX.txt" -b "%2"  xref 
-MUTOOL show -o "__bulktest/%3/%5/%04d.showP.txt" -b "%2"  pages
-MUTOOL show -o "__bulktest/%3/%5/%04d.showG.txt" -b "%2"  grep
-MUTOOL show -o "__bulktest/%3/%5/%04d.showO.txt" -b "%2"  outline
-MUTOOL show -o "__bulktest/%3/%5/%04d.showJ.txt" -b "%2"  js
-MUTOOL show -o "__bulktest/%3/%5/%04d.showA.txt" -b "%2"  trailer/Info
-MUTOOL show -o "__bulktest/%3/%5/%04d.showL.txt" -b "%2"  Root/Pages/*
+MUTOOL show -o "__bulktest/%2/%4/%04d.showT.txt" -b "%1"  trailer 
+MUTOOL show -o "__bulktest/%2/%4/%04d.showX.txt" -b "%1"  xref 
+MUTOOL show -o "__bulktest/%2/%4/%04d.showP.txt" -b "%1"  pages
+MUTOOL show -o "__bulktest/%2/%4/%04d.showG.txt" -b "%1"  grep
+MUTOOL show -o "__bulktest/%2/%4/%04d.showO.txt" -b "%1"  outline
+MUTOOL show -o "__bulktest/%2/%4/%04d.showJ.txt" -b "%1"  js
+MUTOOL show -o "__bulktest/%2/%4/%04d.showA.txt" -b "%1"  trailer/Info
+MUTOOL show -o "__bulktest/%2/%4/%04d.showL.txt" -b "%1"  Root/Pages/*
 
 	`);
 }	
 
 	out2.push(`
 % ---------------------------------------------------------------------------------------------------------------
-% nr.:     %1
-% PDF:     %2
-% dir:     %3
-% name:    %4
-% base:    %5
-% cd root: %6
+% nr.:     %{datarow}
+% PDF:     %1
+% dir:     %2
+% name:    %3
+% base:    %4
+% cd root: %5
 
-% CD %6
+% CD %5
 CD {SCRIPTDIR}
 
-ECHO T:%1h1
+ECHO T:{datarow}h1
 
-MUTOOL metadump -o "__bulktest/%3/%5.info.json" "%2"
+MUTOOL metadump -o "__bulktest/%2/%4.info.json" "%1"
 
-MUTOOL qiqqa_fingerprint0 -o "__bulktest/%3/%5.qhash1.txt" "%2"
+MUTOOL qiqqa_fingerprint0 -o "__bulktest/%2/%4.qhash1.txt" "%1"
 
-MUTOOL qiqqa_fingerprint1 -o "__bulktest/%3/%5.qhash2.txt" "%2"
+MUTOOL qiqqa_fingerprint1 -o "__bulktest/%2/%4.qhash2.txt" "%1"
 
-MUTOOL muconvert -o "__bulktest/%3/%5.W1200H1800.convert.html" -W 1200 -H 1800 -O preserve-ligatures,preserve-whitespace,preserve-spans "%2"
+MUTOOL muconvert -o "__bulktest/%2/%4.W1200H1800.convert.html" -W 1200 -H 1800 -O preserve-ligatures,preserve-whitespace,preserve-spans "%1"
 
-MUTOOL muconvert -o "__bulktest/%3/%5.R300.convert.html" -r 300 -O preserve-ligatures,preserve-whitespace,preserve-spans "%2"
+MUTOOL muconvert -o "__bulktest/%2/%4.R300.convert.html" -r 300 -O preserve-ligatures,preserve-whitespace,preserve-spans "%1"
 
-MUTOOL muconvert -o "__bulktest/%3/%5.DFLT.convert.html" -O preserve-ligatures,preserve-whitespace,preserve-spans "%2"
+MUTOOL muconvert -o "__bulktest/%2/%4.DFLT.convert.html" -O preserve-ligatures,preserve-whitespace,preserve-spans "%1"
 
-MUTOOL muraster -o "__bulktest/%3/%5.raster.R300.####.png" -s mt -r 300 -P "%2"
+MUTOOL muraster -o "__bulktest/%2/%4.raster.R300.####.png" -s mt -r 300 -P "%1"
 
-MUTOOL muraster -o "__bulktest/%3/%5.raster.DFLT.####.png" -s mt -P "%2"
+MUTOOL muraster -o "__bulktest/%2/%4.raster.DFLT.####.png" -s mt -P "%1"
 
-MUTOOL mudraw -o "__bulktest/%3/%5.draw.R300.####.png" -s mtf5 -r 300 -y l -P -B 50 "%2"
+MUTOOL mudraw -o "__bulktest/%2/%4.draw.R300.####.png" -s mtf5 -r 300 -y l -P -B 50 "%1"
 
-MUTOOL mudraw -o "__bulktest/%3/%5.draw.DFLT.####.png" -s mtf5 -y l -P -B 50 "%2"
+MUTOOL mudraw -o "__bulktest/%2/%4.draw.DFLT.####.png" -s mtf5 -y l -P -B 50 "%1"
 
-MUTOOL mudraw -o "__bulktest/%3/%5.draw.R300.ocr.html" -s mtf5 -r 300 -x preserve-ligatures,preserve-whitespace,preserve-spans -y l -P -B 50 "%2"
+MUTOOL mudraw -o "__bulktest/%2/%4.draw.R300.ocr.html" -s mtf5 -r 300 -x preserve-ligatures,preserve-whitespace,preserve-spans -y l -P -B 50 "%1"
 
-MUTOOL mudraw -o "__bulktest/%3/%5.draw.DFLT.ocr.html" -s mtf5 -x preserve-ligatures,preserve-whitespace,preserve-spans -y l -P -B 50 "%2"
+MUTOOL mudraw -o "__bulktest/%2/%4.draw.DFLT.ocr.html" -s mtf5 -x preserve-ligatures,preserve-whitespace,preserve-spans -y l -P -B 50 "%1"
 
 	`);
 
@@ -321,8 +321,8 @@ pdf_list = pdf_list.map((l, idx) => {
 	// CD ${ __dirname.replace(/[\\]/g, '/') }
 	let root = __dirname.replace(/[\\]/g, '/');
 
-	//          1:idx     2:pdf   3:pdfdir    4:pdfname    5:pdfbasename   6:rootdir
-	let line = `${ idx+1}  "${ l}"  "${ lp}"    "${ bnl}"      "${ bnln}"      "${ root}"`;
+	//          2:pdf     3:pdfdir   4:pdfname    5:pdfbasename   6:rootdir
+	let line = `"${ l}"  "${ lp}"    "${ bnl}"    "${ bnln}"      "${ root}"`;
 	return line;
 });
 
@@ -340,31 +340,31 @@ pdf_list = pdf_list.map((l, idx) => {
 % CD %6
 CD {SCRIPTDIR}
 
-ECHO T:%1h1
+ECHO T:{datarow}h1
 
-MUTOOL metadump -o "__bulktest/%3/%5.info.json" "%2"
+MUTOOL metadump -o "__bulktest/%2/%4.info.json" "%2"
 
-MUTOOL qiqqa_fingerprint0 -o "__bulktest/%3/%5.qhash1.txt" "%2"
+MUTOOL qiqqa_fingerprint0 -o "__bulktest/%2/%4.qhash1.txt" "%2"
 
-MUTOOL qiqqa_fingerprint1 -o "__bulktest/%3/%5.qhash2.txt" "%2"
+MUTOOL qiqqa_fingerprint1 -o "__bulktest/%2/%4.qhash2.txt" "%2"
 
-MUTOOL muconvert -o "__bulktest/%3/%5.W1200H1800.convert.html" -W 1200 -H 1800 -O preserve-ligatures,preserve-whitespace,preserve-spans "%2"
+MUTOOL muconvert -o "__bulktest/%2/%4.W1200H1800.convert.html" -W 1200 -H 1800 -O preserve-ligatures,preserve-whitespace,preserve-spans "%2"
 
-MUTOOL muconvert -o "__bulktest/%3/%5.R300.convert.html" -r 300 -O preserve-ligatures,preserve-whitespace,preserve-spans "%2"
+MUTOOL muconvert -o "__bulktest/%2/%4.R300.convert.html" -r 300 -O preserve-ligatures,preserve-whitespace,preserve-spans "%2"
 
-MUTOOL muconvert -o "__bulktest/%3/%5.DFLT.convert.html" -O preserve-ligatures,preserve-whitespace,preserve-spans "%2"
+MUTOOL muconvert -o "__bulktest/%2/%4.DFLT.convert.html" -O preserve-ligatures,preserve-whitespace,preserve-spans "%2"
 
-MUTOOL muraster -o "__bulktest/%3/%5.raster.R300.####.png" -s mt -r 300 -P "%2"
+MUTOOL muraster -o "__bulktest/%2/%4.raster.R300.####.png" -s mt -r 300 -P "%2"
 
-MUTOOL muraster -o "__bulktest/%3/%5.raster.DFLT.####.png" -s mt -P "%2"
+MUTOOL muraster -o "__bulktest/%2/%4.raster.DFLT.####.png" -s mt -P "%2"
 
-MUTOOL mudraw -o "__bulktest/%3/%5.draw.R300.####.png" -s mtf5 -r 300 -y l -P -B 50 "%2"
+MUTOOL mudraw -o "__bulktest/%2/%4.draw.R300.####.png" -s mtf5 -r 300 -y l -P -B 50 "%1"
 
-MUTOOL mudraw -o "__bulktest/%3/%5.draw.DFLT.####.png" -s mtf5 -y l -P -B 50 "%2"
+MUTOOL mudraw -o "__bulktest/%2/%4.draw.DFLT.####.png" -s mtf5 -y l -P -B 50 "%1"
 
-MUTOOL mudraw -o "__bulktest/%3/%5.draw.R300.ocr.html" -s mtf5 -r 300 -x preserve-ligatures,preserve-whitespace,preserve-spans -y l -P -B 50 "%2"
+MUTOOL mudraw -o "__bulktest/%2/%4.draw.R300.ocr.html" -s mtf5 -r 300 -x preserve-ligatures,preserve-whitespace,preserve-spans -y l -P -B 50 "%1"
 
-MUTOOL mudraw -o "__bulktest/%3/%5.draw.DFLT.ocr.html" -s mtf5 -x preserve-ligatures,preserve-whitespace,preserve-spans -y l -P -B 50 "%2"
+MUTOOL mudraw -o "__bulktest/%2/%4.draw.DFLT.ocr.html" -s mtf5 -x preserve-ligatures,preserve-whitespace,preserve-spans -y l -P -B 50 "%1"
 
 	`);
 
@@ -432,8 +432,8 @@ pdf_list = pdf_list.map((l, idx) => {
 	// CD ${ __dirname.replace(/[\\]/g, '/') }
 	let root = __dirname.replace(/[\\]/g, '/');
 
-	//          1:idx     2:pdf   3:pdfdir    4:pdfname    5:pdfbasename   6:rootdir
-	let line = `${ idx+1}  "${ l}"  "${ lp}"    "${ bnl}"      "${ bnln}"      "${ root}"`;
+	//          2:pdf     3:pdfdir   4:pdfname    5:pdfbasename   6:rootdir
+	let line = `"${ l}"  "${ lp}"    "${ bnl}"    "${ bnln}"      "${ root}"`;
 	return line;
 });
 
@@ -449,29 +449,29 @@ pdf_list = pdf_list.map((l, idx) => {
 % CD %6
 CD {SCRIPTDIR}
 
-MUTOOL mudraw -o "__unitest/%3/%5/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "%2"
+MUTOOL mudraw -o "__unitest/%2/%4/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "%1"
 
-MUTOOL mudraw -o "__unitest/%3/%5/%04d.txt" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "%2"
+MUTOOL mudraw -o "__unitest/%2/%4/%04d.txt" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "%1"
 
-MUTOOL mudraw -o "__unitest/%3/%5/%04d.stext" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "%2"
+MUTOOL mudraw -o "__unitest/%2/%4/%04d.stext" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "%1"
 
-MUTOOL mudraw -o "__unitest/%3/%5/%04d.png" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "%2"
+MUTOOL mudraw -o "__unitest/%2/%4/%04d.png" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "%1"
 
-% MUTOOL muconvert -o "__unitest/%3/%5.convert.pdf" -W 1200 -H 1800 "%2"
+% MUTOOL muconvert -o "__unitest/%2/%4.convert.pdf" -W 1200 -H 1800 "%2"
 
-MUTOOL muraster -F ppm -o "__unitest/%3/%5/%04d.raster.png" -s mt -r 150 -P "%2"
+MUTOOL muraster -F ppm -o "__unitest/%2/%4/%04d.raster.png" -s mt -r 150 -P "%2"
 
-% MUTOOL trace -o "__unitest/%3/%5/%04d.trace.txt" -W 1200 -H 1800 "%2"
+% MUTOOL trace -o "__unitest/%2/%4/%04d.trace.txt" -W 1200 -H 1800 "%2"
 
-% MUTOOL clean -gggg -D -c -s -AA "%2" "__unitest/%3/%5.clean.pdf"
+% MUTOOL clean -gggg -D -c -s -AA "%2" "__unitest/%2/%4.clean.pdf"
 
-% MUTOOL extract -o "__unitest/%3/%5.extract." -r "%2"
+% MUTOOL extract -o "__unitest/%2/%4.extract." -r "%2"
 
-MUTOOL info -o "__unitest/%3/%5/%04d.info.txt" -F -I -M -P -S -X -A -U "%2"
+MUTOOL info -o "__unitest/%2/%4/%04d.info.txt" -F -I -M -P -S -X -A -U "%2"
 
-MUTOOL pages -o "__unitest/%3/%5/%04d.pages.txt" "%2"
+MUTOOL pages -o "__unitest/%2/%4/%04d.pages.txt" "%2"
 
-MUTOOL show -o "__unitest/%3/%5/%04d.show.txt" -b "%2"  trailer xref pages grep outline js form trailer/* Root/* Root/Metadata 0/* 1/* 2/* 3/* 4/* 5/* 6/* 7/* 8/* 9/* 10/* 11/* 12/* 13/* trailer/Info trailer/Info/Author
+MUTOOL show -o "__unitest/%2/%4/%04d.show.txt" -b "%2"  trailer xref pages grep outline js form trailer/* Root/* Root/Metadata 0/* 1/* 2/* 3/* 4/* 5/* 6/* 7/* 8/* 9/* 10/* 11/* 12/* 13/* trailer/Info trailer/Info/Author
 
 	`);
 
@@ -538,8 +538,8 @@ pdf_list = pdf_list.map((l, idx) => {
 	// CD ${ __dirname.replace(/[\\]/g, '/') }
 	let root = __dirname.replace(/[\\]/g, '/');
 
-	//          1:idx     2:pdf   3:pdfdir    4:pdfname    5:pdfbasename   6:rootdir
-	let line = `${ idx+1}  "${ l}"  "${ lp}"    "${ bnl}"      "${ bnln}"      "${ root}"`;
+	//          2:pdf    3:pdfdir    4:pdfname    5:pdfbasename   6:rootdir
+	let line = `"${ l}"  "${ lp}"    "${ bnl}"    "${ bnln}"      "${ root}"`;
 	return line;
 });
 
@@ -556,51 +556,51 @@ pdf_list = pdf_list.map((l, idx) => {
 % CD %6
 CD {SCRIPTDIR}
 
-MUTOOL mudraw -o "__bulktest/CrashingFiles-T1/%3/%5/%04d-x150.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "%2"
+MUTOOL mudraw -o "__bulktest/CrashingFiles-T1/%2/%4/%04d-x150.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "%1"
 
-MUTOOL mudraw -o "__bulktest/CrashingFiles-T1/%3/%5/%04d-x72.ocr.html" -s mtf5 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l "%2"
+MUTOOL mudraw -o "__bulktest/CrashingFiles-T1/%2/%4/%04d-x72.ocr.html" -s mtf5 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l "%2"
 
-MUTOOL mudraw -o "__bulktest/CrashingFiles-T1/%3/%5/%04d.txt" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "%2"
+MUTOOL mudraw -o "__bulktest/CrashingFiles-T1/%2/%4/%04d.txt" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "%1"
 
-MUTOOL mudraw -o "__bulktest/CrashingFiles-T1/%3/%5/%04d.stext" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "%2"
+MUTOOL mudraw -o "__bulktest/CrashingFiles-T1/%2/%4/%04d.stext" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "%1"
 
-MUTOOL mudraw -o "__bulktest/CrashingFiles-T1/%3/%5/%04d.png" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "%2"
+MUTOOL mudraw -o "__bulktest/CrashingFiles-T1/%2/%4/%04d.png" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "%1"
 
-% MUTOOL muconvert -o "__bulktest/CrashingFiles-T1/%3/%5.convert.pdf" -W 1200 -H 1800 "%2"
+% MUTOOL muconvert -o "__bulktest/CrashingFiles-T1/%2/%4.convert.pdf" -W 1200 -H 1800 "%2"
 
-MUTOOL muraster -F ppm -o "__bulktest/CrashingFiles-T1/%3/%5/%04d.raster.png" -s mt -r 150 -P "%2"
+MUTOOL muraster -F ppm -o "__bulktest/CrashingFiles-T1/%2/%4/%04d.raster.png" -s mt -r 150 -P "%2"
 
-% MUTOOL trace -o "__bulktest/CrashingFiles-T1/%3/%5/%04d.trace.txt" -W 1200 -H 1800 "%2"
+% MUTOOL trace -o "__bulktest/CrashingFiles-T1/%2/%4/%04d.trace.txt" -W 1200 -H 1800 "%2"
 
-MUTOOL clean -gggg -D -c -s -AA "%2" "__bulktest/CrashingFiles-T1/%3/%5.clean.pdf"
+MUTOOL clean -gggg -D -c -s -AA "%2" "__bulktest/CrashingFiles-T1/%2/%4.clean.pdf"
 
-% MUTOOL extract -o "__bulktest/CrashingFiles-T1/%3/%5.extract." -r "%2"
+% MUTOOL extract -o "__bulktest/CrashingFiles-T1/%2/%4.extract." -r "%2"
 
-MUTOOL info -o "__bulktest/CrashingFiles-T1/%3/%5/%04d.info.txt" -F -I -M -P -S -X -A -U "%2"
+MUTOOL info -o "__bulktest/CrashingFiles-T1/%2/%4/%04d.info.txt" -F -I -M -P -S -X -A -U "%2"
 
-MUTOOL pages -o "__bulktest/CrashingFiles-T1/%3/%5/%04d.pages.txt" "%2"
+MUTOOL pages -o "__bulktest/CrashingFiles-T1/%2/%4/%04d.pages.txt" "%2"
 
-MUTOOL show -o "__bulktest/CrashingFiles-T1/%3/%5/%04d.show.txt" -b "%2"  trailer xref pages grep outline js form trailer/* Root/* Root/Metadata 0/* 1/* 2/* 3/* 4/* 5/* 6/* 7/* 8/* 9/* 10/* 11/* 12/* 13/* trailer/Info trailer/Info/Author
+MUTOOL show -o "__bulktest/CrashingFiles-T1/%2/%4/%04d.show.txt" -b "%2"  trailer xref pages grep outline js form trailer/* Root/* Root/Metadata 0/* 1/* 2/* 3/* 4/* 5/* 6/* 7/* 8/* 9/* 10/* 11/* 12/* 13/* trailer/Info trailer/Info/Author
 
-MUTOOL mudraw -o "__bulktest/CrashingFiles-T1/%3/%5/%04d-x300.ocr.html" -s mtf5 -r 300 -y l -T 3 -P -B 50 "%2"
+MUTOOL mudraw -o "__bulktest/CrashingFiles-T1/%2/%4/%04d-x300.ocr.html" -s mtf5 -r 300 -y l -T 3 -P -B 50 "%1"
 
-MUTOOL mudraw -o "__bulktest/CrashingFiles-T1/%3/%5/%04d-x300.txt" -s mtf5 -r 300 -y l -T 3 -P -B 50 "%2"
+MUTOOL mudraw -o "__bulktest/CrashingFiles-T1/%2/%4/%04d-x300.txt" -s mtf5 -r 300 -y l -T 3 -P -B 50 "%1"
 
-MUTOOL mudraw -o "__bulktest/CrashingFiles-T1/%3/%5/%04d-x300.trace" -s mtf5 -r 300 -y l -T 3 -P -B 50 "%2"
+MUTOOL mudraw -o "__bulktest/CrashingFiles-T1/%2/%4/%04d-x300.trace" -s mtf5 -r 300 -y l -T 3 -P -B 50 "%1"
 
-MUTOOL mudraw -o "__bulktest/CrashingFiles-T1/%3/%5/%04d-x300.bbox" -s mtf5 -r 300 -y l -T 3 -P -B 50 "%2"
+MUTOOL mudraw -o "__bulktest/CrashingFiles-T1/%2/%4/%04d-x300.bbox" -s mtf5 -r 300 -y l -T 3 -P -B 50 "%1"
 
-MUTOOL mudraw -o "__bulktest/CrashingFiles-T1/%3/%5/%04d-x300.xmltext" -s mtf5 -r 300 -y l -T 3 -P -B 50 "%2"
+MUTOOL mudraw -o "__bulktest/CrashingFiles-T1/%2/%4/%04d-x300.xmltext" -s mtf5 -r 300 -y l -T 3 -P -B 50 "%1"
 
-MUTOOL mudraw -o "__bulktest/CrashingFiles-T1/%3/%5/%04d-x300.stext" -s mtf5 -r 300 -y l -T 3 -P -B 50 "%2"
+MUTOOL mudraw -o "__bulktest/CrashingFiles-T1/%2/%4/%04d-x300.stext" -s mtf5 -r 300 -y l -T 3 -P -B 50 "%1"
 
-MUTOOL mudraw -o "__bulktest/CrashingFiles-T1/%3/%5/%04d-x300.html" -s mtf5 -r 300 -y l -T 3 -P -B 50 "%2"
+MUTOOL mudraw -o "__bulktest/CrashingFiles-T1/%2/%4/%04d-x300.html" -s mtf5 -r 300 -y l -T 3 -P -B 50 "%1"
 
-MUTOOL mudraw -o "__bulktest/CrashingFiles-T1/%3/%5/%04d-x300.img.png" -s mtf5 -r 300 -y l -T 3 -P -B 50 "%2"
+MUTOOL mudraw -o "__bulktest/CrashingFiles-T1/%2/%4/%04d-x300.img.png" -s mtf5 -r 300 -y l -T 3 -P -B 50 "%1"
 
-% MUTOOL mudraw -o "__bulktest/CrashingFiles-T1/%3/%5/%04d-x300.img.psd" -s mtf5 -r 300 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "%2"
+% MUTOOL mudraw -o "__bulktest/CrashingFiles-T1/%2/%4/%04d-x300.img.psd" -s mtf5 -r 300 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "%1"
 
-MUTOOL show -o "__bulktest/CrashingFiles-T1/%3/%5/%04d.xml-meta.txt" -b "%2"  Root/Metadata 
+MUTOOL show -o "__bulktest/CrashingFiles-T1/%2/%4/%04d.xml-meta.txt" -b "%2"  Root/Metadata 
 
 	`);
 
@@ -663,8 +663,8 @@ pdf_list = pdf_list.map((l, idx) => {
 	// CD ${ __dirname.replace(/[\\]/g, '/') }
 	let root = __dirname.replace(/[\\]/g, '/');
 
-	//          1:idx     2:pdf   3:pdfdir    4:pdfname    5:pdfbasename   6:rootdir
-	let line = `${ idx+1}  "${ l}"  "${ lp}"    "${ bnl}"      "${ bnln}"      "${ root}"`;
+	//          2:pdf    3:pdfdir    4:pdfname    5:pdfbasename   6:rootdir
+	let line = `"${ l}"  "${ lp}"    "${ bnl}"    "${ bnln}"      "${ root}"`;
 	return line;
 });
 
@@ -680,29 +680,29 @@ pdf_list = pdf_list.map((l, idx) => {
 % CD %6
 CD {SCRIPTDIR}
 
-MUTOOL mudraw -o "__unitest/%3/%5/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "%2"
+MUTOOL mudraw -o "__unitest/%2/%4/%04d.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "%1"
 
-MUTOOL mudraw -o "__unitest/%3/%5/%04d.txt" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "%2"
+MUTOOL mudraw -o "__unitest/%2/%4/%04d.txt" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "%1"
 
-MUTOOL mudraw -o "__unitest/%3/%5/%04d.stext" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "%2"
+MUTOOL mudraw -o "__unitest/%2/%4/%04d.stext" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "%1"
 
-MUTOOL mudraw -o "__unitest/%3/%5/%04d.png" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "%2"
+MUTOOL mudraw -o "__unitest/%2/%4/%04d.png" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "%1"
 
-% MUTOOL muconvert -o "__unitest/%3/%5.convert.pdf" -W 1200 -H 1800 "%2"
+% MUTOOL muconvert -o "__unitest/%2/%4.convert.pdf" -W 1200 -H 1800 "%2"
 
-MUTOOL muraster -F ppm -o "__unitest/%3/%5/%04d.raster.png" -s mt -r 150 -P "%2"
+MUTOOL muraster -F ppm -o "__unitest/%2/%4/%04d.raster.png" -s mt -r 150 -P "%2"
 
-% MUTOOL trace -o "__unitest/%3/%5/%04d.trace.txt" -W 1200 -H 1800 "%2"
+% MUTOOL trace -o "__unitest/%2/%4/%04d.trace.txt" -W 1200 -H 1800 "%2"
 
-% MUTOOL clean -gggg -D -c -s -AA "%2" "__unitest/%3/%5.clean.pdf"
+% MUTOOL clean -gggg -D -c -s -AA "%2" "__unitest/%2/%4.clean.pdf"
 
-% MUTOOL extract -o "__unitest/%3/%5.extract." -r "%2"
+% MUTOOL extract -o "__unitest/%2/%4.extract." -r "%2"
 
-MUTOOL info -o "__unitest/%3/%5/%04d.info.txt" -F -I -M -P -S -X -A -U "%2"
+MUTOOL info -o "__unitest/%2/%4/%04d.info.txt" -F -I -M -P -S -X -A -U "%2"
 
-MUTOOL pages -o "__unitest/%3/%5/%04d.pages.txt" "%2"
+MUTOOL pages -o "__unitest/%2/%4/%04d.pages.txt" "%2"
 
-MUTOOL show -o "__unitest/%3/%5/%04d.show.txt" -b "%2"  trailer xref pages grep outline js form trailer/* Root/* Root/Metadata 0/* 1/* 2/* 3/* 4/* 5/* 6/* 7/* 8/* 9/* 10/* 11/* 12/* 13/* trailer/Info trailer/Info/Author
+MUTOOL show -o "__unitest/%2/%4/%04d.show.txt" -b "%2"  trailer xref pages grep outline js form trailer/* Root/* Root/Metadata 0/* 1/* 2/* 3/* 4/* 5/* 6/* 7/* 8/* 9/* 10/* 11/* 12/* 13/* trailer/Info trailer/Info/Author
 
 	`);
 
@@ -769,8 +769,8 @@ pdf_list = pdf_list.map((l, idx) => {
 	// CD ${ __dirname.replace(/[\\]/g, '/') }
 	let root = __dirname.replace(/[\\]/g, '/');
 
-	//          1:idx     2:pdf   3:pdfdir    4:pdfname    5:pdfbasename   6:rootdir
-	let line = `${ idx+1}  "${ l}"  "${ lp}"    "${ bnl}"      "${ bnln}"      "${ root}"`;
+	//          2:pdf    3:pdfdir    4:pdfname    5:pdfbasename   6:rootdir
+	let line = `"${ l}"  "${ lp}"    "${ bnl}"    "${ bnln}"      "${ root}"`;
 	return line;
 });
 
@@ -787,134 +787,134 @@ pdf_list = pdf_list.map((l, idx) => {
 % CD %6
 CD {SCRIPTDIR}
 
-MUTOOL qiqqa_fingerprint0 -o "__bulktest/TextExtractFiles-T1/%3/%5/qiqqa-SHA1B-hash.txt" "%2"
+MUTOOL qiqqa_fingerprint0 -o "__bulktest/TextExtractFiles-T1/%2/%4/qiqqa-SHA1B-hash.txt" "%2"
 
-MUTOOL qiqqa_fingerprint1 -o "__bulktest/TextExtractFiles-T1/%3/%5/qiqqa-BLAKE3+B58X-hash.txt" "%2"
-
-
-MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%04d-x150-lwd.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l "%2"
-
-MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%04d-x150.html" -s mtf5 -r 150 -y l "%2"
+MUTOOL qiqqa_fingerprint1 -o "__bulktest/TextExtractFiles-T1/%2/%4/qiqqa-BLAKE3+B58X-hash.txt" "%2"
 
 
-MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%04d-x72.html" -s mtf5 -y l "%2"
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/%04d-x150-lwd.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l "%2"
 
-MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%04d-x72.txt" -s mtf5 -y l "%2"
-
-MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%04d-x72.stext" -s mtf5 -y l "%2"
-
-MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%04d-x72.xml" -s mtf5 -y l "%2"
-
-MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%04d-x72.trace" -s mtf5 -y l "%2"
-
-MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%04d-x72.pdf" -s mtf5 -y l "%2"
-
-MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%04d-x72.stext.json" -s mtf5 -y l "%2"
-
-MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%04d-x72.xhtml" -s mtf5 -y l "%2"
-
-MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%04d-x72.bbox" -s mtf5 -y l "%2"
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/%04d-x150.html" -s mtf5 -r 150 -y l "%2"
 
 
-MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%04d-x300.html" -s mtf5 -r 300 -y l "%2"
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/%04d-x72.html" -s mtf5 -y l "%2"
 
-MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%04d-x300.txt" -s mtf5 -r 300 -y l "%2"
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/%04d-x72.txt" -s mtf5 -y l "%2"
 
-MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%04d-x300.stext" -s mtf5 -r 300 -y l "%2"
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/%04d-x72.stext" -s mtf5 -y l "%2"
 
-MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%04d-x300.xml" -s mtf5 -r 300 -y l "%2"
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/%04d-x72.xml" -s mtf5 -y l "%2"
 
-MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%04d-x300.trace" -s mtf5 -r 300 -y l "%2"
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/%04d-x72.trace" -s mtf5 -y l "%2"
 
-MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%04d-x300.pdf" -s mtf5 -r 300 -y l "%2"
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/%04d-x72.pdf" -s mtf5 -y l "%2"
 
-MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%04d-x300.stext.json" -s mtf5 -r 300 -y l "%2"
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/%04d-x72.stext.json" -s mtf5 -y l "%2"
 
-MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%04d-x300.xhtml" -s mtf5 -r 300 -y l "%2"
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/%04d-x72.xhtml" -s mtf5 -y l "%2"
 
-MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%04d-x300.bbox" -s mtf5 -r 300 -y l "%2"
-
-
-
-MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%5-x150-lwd.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l "%2"
-
-MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%5-x150.html" -s mtf5 -r 150 -y l "%2"
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/%04d-x72.bbox" -s mtf5 -y l "%2"
 
 
-MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%5-x72.html" -s mtf5 -y l "%2"
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/%04d-x300.html" -s mtf5 -r 300 -y l "%2"
 
-MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%5-x72.txt" -s mtf5 -y l "%2"
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/%04d-x300.txt" -s mtf5 -r 300 -y l "%2"
 
-MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%5-x72.stext" -s mtf5 -y l "%2"
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/%04d-x300.stext" -s mtf5 -r 300 -y l "%2"
 
-MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%5-x72.xml" -s mtf5 -y l "%2"
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/%04d-x300.xml" -s mtf5 -r 300 -y l "%2"
 
-MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%5-x72.trace" -s mtf5 -y l "%2"
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/%04d-x300.trace" -s mtf5 -r 300 -y l "%2"
 
-MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%5-x72.pdf" -s mtf5 -y l "%2"
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/%04d-x300.pdf" -s mtf5 -r 300 -y l "%2"
 
-MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%5-x72.stext.json" -s mtf5 -y l "%2"
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/%04d-x300.stext.json" -s mtf5 -r 300 -y l "%2"
 
-MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%5-x72.xhtml" -s mtf5 -y l "%2"
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/%04d-x300.xhtml" -s mtf5 -r 300 -y l "%2"
 
-MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%5-x72.bbox" -s mtf5 -y l "%2"
-
-
-MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%5-x300.html" -s mtf5 -r 300 -y l "%2"
-
-MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%5-x300.txt" -s mtf5 -r 300 -y l "%2"
-
-MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%5-x300.stext" -s mtf5 -r 300 -y l "%2"
-
-MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%5-x300.xml" -s mtf5 -r 300 -y l "%2"
-
-MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%5-x300.trace" -s mtf5 -r 300 -y l "%2"
-
-MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%5-x300.pdf" -s mtf5 -r 300 -y l "%2"
-
-MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%5-x300.stext.json" -s mtf5 -r 300 -y l "%2"
-
-MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%5-x300.xhtml" -s mtf5 -r 300 -y l "%2"
-
-MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%5-x300.bbox" -s mtf5 -r 300 -y l "%2"
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/%04d-x300.bbox" -s mtf5 -r 300 -y l "%2"
 
 
 
-MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%04d-x72.svg" -s mtf5 -y l "%2"
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/%5-x150-lwd.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l "%2"
 
-MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%04d-x72.pclm" -s mtf5 -y l "%2"
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/%5-x150.html" -s mtf5 -r 150 -y l "%2"
 
-MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%04d-x72.png" -s mtf5 -y l -T 3 -P -B 50 "%2"
 
-MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%04d-x72.psd" -s mtf5 -y l "%2"
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/%5-x72.html" -s mtf5 -y l "%2"
 
-MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%3/%5/%04d-x72.ps" -s mtf5 -y l "%2"
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/%5-x72.txt" -s mtf5 -y l "%2"
 
-MUTOOL convert -o "__bulktest/TextExtractFiles-T1/%3/%5.convert.pdf" -W 1200 -H 1800 -O decompress,garbage,sanitize,pretty "%2"
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/%5-x72.stext" -s mtf5 -y l "%2"
+
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/%5-x72.xml" -s mtf5 -y l "%2"
+
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/%5-x72.trace" -s mtf5 -y l "%2"
+
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/%5-x72.pdf" -s mtf5 -y l "%2"
+
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/%5-x72.stext.json" -s mtf5 -y l "%2"
+
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/%5-x72.xhtml" -s mtf5 -y l "%2"
+
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/%5-x72.bbox" -s mtf5 -y l "%2"
+
+
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/%5-x300.html" -s mtf5 -r 300 -y l "%2"
+
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/%5-x300.txt" -s mtf5 -r 300 -y l "%2"
+
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/%5-x300.stext" -s mtf5 -r 300 -y l "%2"
+
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/%5-x300.xml" -s mtf5 -r 300 -y l "%2"
+
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/%5-x300.trace" -s mtf5 -r 300 -y l "%2"
+
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/%5-x300.pdf" -s mtf5 -r 300 -y l "%2"
+
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/%5-x300.stext.json" -s mtf5 -r 300 -y l "%2"
+
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/%5-x300.xhtml" -s mtf5 -r 300 -y l "%2"
+
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/%5-x300.bbox" -s mtf5 -r 300 -y l "%2"
+
+
+
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/%04d-x72.svg" -s mtf5 -y l "%2"
+
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/%04d-x72.pclm" -s mtf5 -y l "%2"
+
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/%04d-x72.png" -s mtf5 -y l -T 3 -P -B 50 "%1"
+
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/%04d-x72.psd" -s mtf5 -y l "%2"
+
+MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/%04d-x72.ps" -s mtf5 -y l "%2"
+
+MUTOOL convert -o "__bulktest/TextExtractFiles-T1/%2/%4.convert.pdf" -W 1200 -H 1800 -O decompress,garbage,sanitize,pretty "%2"
 
 MUTOOL convert -o "__bulktest/TextExtractFiles-T1/%3/%04d.convert-text.svg" -W 1200 -H 1800 -O text=text "%2"
 
 MUTOOL convert -o "__bulktest/TextExtractFiles-T1/%3/%04d.convert-path.svg" -W 1200 -H 1800 -O text=path "%2"
 
-MUTOOL raster -F ppm -o "__bulktest/TextExtractFiles-T1/%3/%5/%04d.raster.png" -s mt -r 150 -P "%2"
+MUTOOL raster -F ppm -o "__bulktest/TextExtractFiles-T1/%2/%4/%04d.raster.png" -s mt -r 150 -P "%2"
 
-MUTOOL trace -o "__bulktest/TextExtractFiles-T1/%3/%5/%04d.trace.txt" -W 1200 -H 1800 "%2"
+MUTOOL trace -o "__bulktest/TextExtractFiles-T1/%2/%4/%04d.trace.txt" -W 1200 -H 1800 "%2"
 
-MUTOOL clean -gggg -D -c -s -AA "%2" "__bulktest/TextExtractFiles-T1/%3/%5.clean.pdf"
+MUTOOL clean -gggg -D -c -s -AA "%2" "__bulktest/TextExtractFiles-T1/%2/%4.clean.pdf"
 
-MUTOOL metadump -o "__bulktest/TextExtractFiles-T1/%3/%5.extract." -m 2 -i p  "%2"
+MUTOOL metadump -o "__bulktest/TextExtractFiles-T1/%2/%4.extract." -m 2 -i p  "%2"
 
-MUTOOL extract -o "__bulktest/TextExtractFiles-T1/%3/%5.extract." -r "%2"
+MUTOOL extract -o "__bulktest/TextExtractFiles-T1/%2/%4.extract." -r "%2"
 
-MUTOOL info -o "__bulktest/TextExtractFiles-T1/%3/%5/%04d.info.txt" -F -I -M -P -S -X -A -U "%2"
+MUTOOL info -o "__bulktest/TextExtractFiles-T1/%2/%4/%04d.info.txt" -F -I -M -P -S -X -A -U "%2"
 
-MUTOOL pages -o "__bulktest/TextExtractFiles-T1/%3/%5/%04d.pages.txt" "%2"
+MUTOOL pages -o "__bulktest/TextExtractFiles-T1/%2/%4/%04d.pages.txt" "%2"
 
-MUTOOL show -o "__bulktest/TextExtractFiles-T1/%3/%5/%04d.show.txt" -b "%2"  trailer xref pages grep outline js form trailer/* Root/* Root/Metadata 0/* 1/* 2/* 3/* 4/* 5/* 6/* 7/* 8/* 9/* 10/* 11/* 12/* 13/* trailer/Info trailer/Info/Author
+MUTOOL show -o "__bulktest/TextExtractFiles-T1/%2/%4/%04d.show.txt" -b "%2"  trailer xref pages grep outline js form trailer/* Root/* Root/Metadata 0/* 1/* 2/* 3/* 4/* 5/* 6/* 7/* 8/* 9/* 10/* 11/* 12/* 13/* trailer/Info trailer/Info/Author
 
-MUTOOL mudraw -o "__bulktest/TextExtractFiles-T1/%3/%5/%04d-x300.ocr.html" -s mtf5 -r 300 -y l -T 3 -P -B 50 "%2"
+MUTOOL mudraw -o "__bulktest/TextExtractFiles-T1/%2/%4/%04d-x300.ocr.html" -s mtf5 -r 300 -y l -T 3 -P -B 50 "%1"
 
-MUTOOL show -o "__bulktest/TextExtractFiles-T1/%3/%5/%04d.xml-meta.txt" -b "%2"  Root/Metadata 
+MUTOOL show -o "__bulktest/TextExtractFiles-T1/%2/%4/%04d.xml-meta.txt" -b "%2"  Root/Metadata 
 
 	`);
 
