@@ -7,41 +7,41 @@
 
 
 % ---------------------------------------------------------------------------------------------------------------
-% nr.:     %1
-% PDF:     %2
-% dir:     %3
-% name:    %4
-% base:    %5
-% cd root: %6
+% nr.:     %datarow
+% PDF:     %1
+% dir:     %2
+% name:    %3
+% base:    %4
+% cd root: %5
 
-% CD %6
+% CD %5
 CD {SCRIPTDIR}
 
-ECHO T:%1h1
+ECHO T:%{datarow}h1
 
-MUTOOL metadump -o "__bulktest/%3/%5.info.json" "%2"
+MUTOOL metadump -o "__bulktest/%2/%4/%04d.info.json" "%1"
 
-MUTOOL qiqqa_fingerprint0 -o "__bulktest/%3/%5.qhash1.txt" "%2"
+MUTOOL qiqqa_fingerprint0 -o "__bulktest/%2/%4/%04d.qhash1.txt" "%1"
 
-MUTOOL qiqqa_fingerprint1 -o "__bulktest/%3/%5.qhash2.txt" "%2"
+MUTOOL qiqqa_fingerprint1 -o "__bulktest/%2/%4/%04d.qhash2.txt" "%1"
 
-MUTOOL muconvert -o "__bulktest/%3/%5.W1200H1800.convert.html" -W 1200 -H 1800 -O preserve-ligatures,preserve-whitespace,preserve-spans "%2"
+MUTOOL muconvert -o "__bulktest/%2/%4/%04d.W1200H1800.convert.html" -W 1200 -H 1800 -O preserve-ligatures,preserve-whitespace,preserve-spans "%1"
 
-MUTOOL muconvert -o "__bulktest/%3/%5.R300.convert.html" -r 300 -O preserve-ligatures,preserve-whitespace,preserve-spans "%2"
+MUTOOL muconvert -o "__bulktest/%2/%4/%04d.R300.convert.html" -r 300 -O preserve-ligatures,preserve-whitespace,preserve-spans "%1"
 
-MUTOOL muconvert -o "__bulktest/%3/%5.DFLT.convert.html" -O preserve-ligatures,preserve-whitespace,preserve-spans "%2"
+MUTOOL muconvert -o "__bulktest/%2/%4/%04d.DFLT.convert.html" -O preserve-ligatures,preserve-whitespace,preserve-spans "%1"
 
-MUTOOL muraster -o "__bulktest/%3/%5.raster.R300.####.png" -s mt -r 300 -P "%2"
+MUTOOL muraster -o "__bulktest/%2/%4/%04d.raster.R300.####.png" -s mt -r 300 -P "%1"
 
-MUTOOL muraster -o "__bulktest/%3/%5.raster.DFLT.####.png" -s mt -P "%2"
+MUTOOL muraster -o "__bulktest/%2/%4/%04d.raster.DFLT.####.png" -s mt -P "%1"
 
-MUTOOL mudraw -o "__bulktest/%3/%5.draw.R300.####.png" -s mtf5 -r 300 -y l -P -B 50 "%2"
+MUTOOL mudraw -o "__bulktest/%2/%4/%04d.draw.R300.####.png" -s mtf5 -r 300 -y l -P -B 50 "%1"
 
-MUTOOL mudraw -o "__bulktest/%3/%5.draw.DFLT.####.png" -s mtf5 -y l -P -B 50 "%2"
+MUTOOL mudraw -o "__bulktest/%2/%4/%04d.draw.DFLT.####.png" -s mtf5 -y l -P -B 50 "%1"
 
-MUTOOL mudraw -o "__bulktest/%3/%5.draw.R300.ocr.html" -s mtf5 -r 300 -x preserve-ligatures,preserve-whitespace,preserve-spans -y l -P -B 50 "%2"
+MUTOOL mudraw -o "__bulktest/%2/%4/%04d.draw.R300.ocr.html" -s mtf5 -r 300 -x preserve-ligatures,preserve-whitespace,preserve-spans -y l -P -B 50 "%1"
 
-MUTOOL mudraw -o "__bulktest/%3/%5.draw.DFLT.ocr.html" -s mtf5 -x preserve-ligatures,preserve-whitespace,preserve-spans -y l -P -B 50 "%2"
+MUTOOL mudraw -o "__bulktest/%2/%4/%04d.draw.DFLT.ocr.html" -s mtf5 -x preserve-ligatures,preserve-whitespace,preserve-spans -y l -P -B 50 "%1"
 
 	
 
