@@ -85,8 +85,15 @@ Several other PDFs have been included which test the reach and stability of the 
 > The bit missing that way is the Qiqqa `ocr` directory as that one's shared (by Qiqqa) among all Qiqqa libraries. Alas.
 > 
 
-1. We assume you have your Qiqqa 'data directory' located in `D:\Qiqqa\` — fill in your own setup's data path for this one.
-2. Open a shell (`cmd`, `powershell` or `bash`) and `cd` to that data directory:
+1. We assume you have your Qiqqa 'data *base directory*' located in `D:\Qiqqa\base\` — fill in your own setup's data path for this one.
+
+   We also assume that your `D:\Qiqqa\` directory is pointing to a large amount of free storage, so we can download (a.k.a. `git clone`) this corpus there.
+   
+   > NOTE: as mentioned in the note above, we first *download* the corpus to a directory which is *outside* the Qiqqa base directory tree. Once we have the corpus downloaded and ready, we *link* a library directory *within* the Qiqqa library base directory tree to the corpus directory to enable Qiqqa to 'discover' this new *library*. 
+   > 
+   > That process happens in the steps below.
+
+2. Open a shell (`cmd`, `powershell` or `bash`) and `cd` to the storage directory:
    
        cd /d D:\Qiqqa\
 
@@ -104,6 +111,19 @@ Several other PDFs have been included which test the reach and stability of the 
         remote: Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
         Receiving objects: 100% (5/5), 13.11 KiB | 2.19 MiB/s, done.
     
+   and end up with quite a bit of data in the `D:\Qiqqa\evil-base\` directory tree.
+   
+3. This corpus is an amalgamte of my own collection and several other public corpuses, which are referenced as git submodules. We now *clone* (download) those with the `git submodule update` command shown here:
+
+        $ cd evil-base
+        $ pwd
+        --> D:\Qiqqa\evil-base\
+        $ git submodule update --init --recursive
+        
+   This will take some time as `git` will be busy fetching each referenced corpus and download (clone) it in place.
+   
+   Once this is done, you have the entire corpus collection available for use in `D:\Qiqqa\evil-base\` -- all we need to do now is make Qiqqa aware there's a new library available, which includes already *some* of these 'evil' documents and can be used to import and test the entire Evil Corpus by using several Qiqqa features:
+   
 4. To make the library available to Qiqqa, you can link the data into the qiqqa base directory tree like this:
 
    1. [Open a `cmd` shell **in Administrator mode**](https://learn-powershell.net/2013/07/16/creating-a-symbolic-link-using-powershell/)
@@ -163,7 +183,7 @@ When you install this repo as a 'Qiqqa library', there's also plenty PDFs in her
 
 #### Directory 1: the 'Z' subdirectory
 
-> **Purpose**: this directory is included in the 'Qiqqa Library' layout to help test the Qiqqa library recovery mechanisms, which SHOULD discoveer these otherwise "hidden" PDFs too!
+> **Purpose**: this directory is included in the 'Qiqqa Library' layout to help test the Qiqqa library recovery mechanisms, which SHOULD discover these otherwise "hidden" PDFs too!
 
 The "source PDFs" to be found and imported by Qiqqa are located in the 
 
@@ -195,6 +215,8 @@ As this test corpus is filled with a lot of crufty PDFs, you are advised NOT to 
 Hence is it advised to create a fresh **new** empty Qiqqa library using the regular Qiqqa UI and then add the directory where you `git clone`d this Test Corpus as a "**Watch folder**" for that specific Qiqqa library. When you do that, Qiqqa will take a little while and then recursively scan this directory tree and add every PDF it finds to your library. Which will then become pretty *huge*.
 
 As usual, report any (fatal) failures occurring in the Qiqqa issue tracker at https://github.com/jimmejardine/qiqqa-open-source/issues.
+
+
 
 ### `git clone`-ing this repo to use it in this mode
 
