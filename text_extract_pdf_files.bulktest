@@ -19,63 +19,73 @@ CD {SCRIPTDIR}
 
 ECHO T:%{datarow}e1
 
-IF 0
+IF 10
 
 	MUTOOL qiqqa_fingerprint0 -o "__bulktest/TextExtractFiles-T1/%2/%4/qiqqa-SHA1B-hash.txt" "%1"
 
 	MUTOOL qiqqa_fingerprint1 -o "__bulktest/TextExtractFiles-T1/%2/%4/qiqqa-BLAKE3+B58X-hash.txt" "%1"
 
 
-	MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x150-lwd.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l "%1"
-
-	MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x150.html" -s mtf5 -r 150 -y l "%1"
-
-
-	MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.html" -s mtf5 -y l "%1"
-
-	MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.txt" -s mtf5 -y l "%1"
-
-	MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.stext" -s mtf5 -y l "%1"
-
-	MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.xml" -s mtf5 -y l "%1"
-
-	MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.trace" -s mtf5 -y l "%1"
-
-	MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.pdf" -s mtf5 -y l "%1"
-
-	MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.stext.json" -s mtf5 -y l "%1"
-
-	MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.xhtml" -s mtf5 -y l "%1"
-
-	MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.bbox" -s mtf5 -y l "%1"
-
+	MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwd.html" -s mtf5 -r 300 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l "%1"
 
 	MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.html" -s mtf5 -r 300 -y l "%1"
 
-	MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.txt" -s mtf5 -r 300 -y l "%1"
 
-	MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.stext" -s mtf5 -r 300 -y l "%1"
+	IF 0
 
-	MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.xml" -s mtf5 -r 300 -y l "%1"
+		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.html" -s mtf5 -y l "%1"
 
-	MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.trace" -s mtf5 -r 300 -y l "%1"
+		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.txt" -s mtf5 -y l "%1"
 
-	MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.pdf" -s mtf5 -r 300 -y l "%1"
+		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.stext" -s mtf5 -y l "%1"
 
-	MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.stext.json" -s mtf5 -r 300 -y l "%1"
+		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.xml" -s mtf5 -y l "%1"
 
-	MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.xhtml" -s mtf5 -r 300 -y l "%1"
+		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.trace" -s mtf5 -y l "%1"
 
-	MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.bbox" -s mtf5 -r 300 -y l "%1"
+		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.pdf" -s mtf5 -y l "%1"
+
+		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.stext.json" -s mtf5 -y l "%1"
+
+		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.xhtml" -s mtf5 -y l "%1"
+
+		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.bbox" -s mtf5 -y l "%1"
+
+	ENDIF
+
+
+	IF 10
+
+		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.html" -s mtf5 -r 300 -y l "%1"
+
+		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.txt" -s mtf5 -r 300 -y l "%1"
+
+		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.stext" -s mtf5 -r 300 -y l "%1"
+
+		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.xml" -s mtf5 -r 300 -y l "%1"
+
+		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.trace" -s mtf5 -r 300 -y l "%1"
+
+		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.pdf" -s mtf5 -r 300 -y l "%1"
+
+		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.stext.json" -s mtf5 -r 300 -y l "%1"
+
+%		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.xhtml" -s mtf5 -r 300 -y l "%1"
+
+		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.bbox" -s mtf5 -r 300 -y l "%1"
+
+	ENDIF
 
 
 	MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.svg" -s mtf5 -y l "%1"
 
-	MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.pclm" -s mtf5 -y l "%1"
+%	MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.pclm" -s mtf5 -y l "%1"
 
 	MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.png" -s mtf5 -y l -T 3 -P -B 50 "%1"
 
-	MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.psd" -s mtf5 -y l "%1"
+	MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.webp" -s mtf5 -y l -T 3 -P -B 50 "%1"
+
+%	MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.psd" -s mtf5 -y l "%1"
 
 	MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.ps" -s mtf5 -y l "%1"
 
@@ -104,9 +114,9 @@ IF 0
 
 ENDIF
 
-MUTOOL mudraw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.ocr.html" -s mtf5 -r 300 -y l -T 3 -P -B 50 "%1"
-
 MUTOOL mudraw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.ocr.txt" -s mtf5 -r 72 -y l -T 3 -P -B 50 "%1"
+
+MUTOOL mudraw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.ocr.html" -s mtf5 -r 300 -y l -T 3 -P -B 50 "%1"
 
 MUTOOL show -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC.show.xml-meta.txt" -b "%1"  Root/Metadata 
 
