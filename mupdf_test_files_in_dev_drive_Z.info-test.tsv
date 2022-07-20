@@ -20,6 +20,13 @@
 
 
 
+#"Z:/lib/tooling/qiqqa/MuPDF/tests/issue-349-1.pdf"  "Z/lib/tooling/qiqqa/MuPDF/tests"    "issue-349-1.pdf"    "issue-349-1"      "G:/Qiqqa/evil-base"
+#"Z:/lib/tooling/qiqqa/MuPDF/tests/issue-349-2.pdf"  "Z/lib/tooling/qiqqa/MuPDF/tests"    "issue-349-2.pdf"    "issue-349-2"      "G:/Qiqqa/evil-base"
+#"Z:/lib/tooling/qiqqa/MuPDF/tests/issue-349-6-annotated-edited.pdf"  "Z/lib/tooling/qiqqa/MuPDF/tests"    "issue-349-6-annotated-edited.pdf"    "issue-349-6-annotated-edited"      "G:/Qiqqa/evil-base"
+#"Z:/lib/tooling/qiqqa/MuPDF/tests/issue-349-3.pdf"  "Z/lib/tooling/qiqqa/MuPDF/tests"    "issue-349-3.pdf"    "issue-349-3"      "G:/Qiqqa/evil-base"
+#"Z:/lib/tooling/qiqqa/MuPDF/tests/issue-349-6-annotated.pdf"  "Z/lib/tooling/qiqqa/MuPDF/tests"    "issue-349-6-annotated.pdf"    "issue-349-6-annotated"      "G:/Qiqqa/evil-base"
+#"Z:/lib/tooling/qiqqa/MuPDF/tests/issue-349-4.pdf"  "Z/lib/tooling/qiqqa/MuPDF/tests"    "issue-349-4.pdf"    "issue-349-4"      "G:/Qiqqa/evil-base"
+#"Z:/lib/tooling/qiqqa/MuPDF/tests/issue-349-5.pdf"  "Z/lib/tooling/qiqqa/MuPDF/tests"    "issue-349-5.pdf"    "issue-349-5"      "G:/Qiqqa/evil-base"
 "Z:/lib/tooling/qiqqa/MuPDF/tests/annotation-tests-2-foxit.pdf"  "Z/lib/tooling/qiqqa/MuPDF/tests"    "annotation-tests-2-foxit.pdf"    "annotation-tests-2-foxit"      "G:/Qiqqa/evil-base"
 "Z:/lib/tooling/qiqqa/MuPDF/tests/annotation-tests-2-PDFannotator.pdf"  "Z/lib/tooling/qiqqa/MuPDF/tests"    "annotation-tests-2-PDFannotator.pdf"    "annotation-tests-2-PDFannotator"      "G:/Qiqqa/evil-base"
 "Z:/lib/tooling/qiqqa/MuPDF/tests/1905.07689.pdf"  "Z/lib/tooling/qiqqa/MuPDF/tests"    "1905.07689.pdf"    "1905.07689"      "G:/Qiqqa/evil-base"
