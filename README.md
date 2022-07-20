@@ -113,7 +113,7 @@ Several other PDFs have been included which test the reach and stability of the 
     
    and end up with quite a bit of data in the `D:\Qiqqa\evil-base\` directory tree.
    
-3. This corpus is an amalgamte of my own collection and several other public corpuses, which are referenced as git submodules. We now *clone* (download) those with the `git submodule update` command shown here:
+3. This corpus is an amalgamate of my own collection and several other public corpuses, which are referenced as git submodules. We now *clone* (download) those with the `git submodule update` command shown here:
 
         $ cd evil-base
         $ pwd
