@@ -31,16 +31,12 @@ fi
 BD=$( dirname $( ./DirScanner.exe  -c  "*.sh" | head -1 ) )
 echo BD=${BD}
 
+#echo "generate mujstest script..."
+node "$( basename "$0" '.sh' ).js" GENSCRIPTS
+
 # now process all test files: remove the abs.path for every file that's situated in the evil-base repo:
 for f in *.lst *.tsv ; do
   node "$( basename "$0" '.sh' ).js" MKREL "$f" "${BD}"
 done
-
-if true ; then
-
-#echo "generate mujstest script..."
-node "$( basename "$0" '.sh' ).js" GENSCRIPTS
-
-fi
 
 popd                                                                     2> /dev/null  > /dev/null

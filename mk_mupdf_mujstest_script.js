@@ -426,16 +426,20 @@ else if (cmd === "MKREL") {
 	let content = fs.readFileSync(testfilename, 'utf8');
 	let repl_re = new RegExp( 
 		basedirname
-		.replace(/\\/g, '[\\\\\\//]')
+		.replace(/\\/g, '[\\\\\\/]')
 		.replace(/:/g, '[:]')
+	        + '[\\\\\\/]?'  // [\\/]? --> also match any dir separator that happens to follow the basepath
 	, 'g');
 	// console.log({ repl_re });
 
 	let new_content = content
 	.replace(repl_re, './');
 	
+	// console.log({ new_content });
+	
 	if (new_content !== content) {
 		fs.writeFileSync(testfilename, new_content, 'utf8');
+		console.log("Updated file:", testfilename);
 	}
 }
 else {

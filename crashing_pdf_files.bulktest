@@ -14,57 +14,57 @@
 % base:    %4
 % cd root: %5
 
-% CD %5
-CD {SCRIPTDIR}
+CD %{scriptdir}
+CD %5
 
 ECHO T:%{datarow}c1
 
 
-MUTOOL mudraw -o "__bulktest/CrashingFiles-T1/%2/%4/%04d-x150.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "%1"
+MUTOOL mudraw -o "__bulktest/CrashingFiles-T1/%2/%4/%04d-x150.ocr.html" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l -T 3 -P -B 50 "%{dataspecdir}/%1"
 
-MUTOOL mudraw -o "__bulktest/CrashingFiles-T1/%2/%4/%04d-x72.ocr.html" -s mtf5 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l "%1"
+MUTOOL mudraw -o "__bulktest/CrashingFiles-T1/%2/%4/%04d-x72.ocr.html" -s mtf5 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l "%{dataspecdir}/%1"
 
-MUTOOL mudraw -o "__bulktest/CrashingFiles-T1/%2/%4/%04d.txt" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "%1"
+MUTOOL mudraw -o "__bulktest/CrashingFiles-T1/%2/%4/%04d.txt" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "%{dataspecdir}/%1"
 
-MUTOOL mudraw -o "__bulktest/CrashingFiles-T1/%2/%4/%04d.stext" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "%1"
+MUTOOL mudraw -o "__bulktest/CrashingFiles-T1/%2/%4/%04d.stext" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "%{dataspecdir}/%1"
 
-MUTOOL mudraw -o "__bulktest/CrashingFiles-T1/%2/%4/%04d.png" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "%1"
+MUTOOL mudraw -o "__bulktest/CrashingFiles-T1/%2/%4/%04d.png" -s mtf5 -r 150 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "%{dataspecdir}/%1"
 
-% MUTOOL muconvert -o "__bulktest/CrashingFiles-T1/%2/%4.convert.pdf" -W 1200 -H 1800 "%1"
+% MUTOOL muconvert -o "__bulktest/CrashingFiles-T1/%2/%4.convert.pdf" -W 1200 -H 1800 "%{dataspecdir}/%1"
 
-MUTOOL muraster -F ppm -o "__bulktest/CrashingFiles-T1/%2/%4/%04d.raster.png" -s mt -r 150 -P "%1"
+MUTOOL muraster -F ppm -o "__bulktest/CrashingFiles-T1/%2/%4/%04d.raster.png" -s mt -r 150 -P "%{dataspecdir}/%1"
 
-% MUTOOL trace -o "__bulktest/CrashingFiles-T1/%2/%4/%04d.trace.txt" -W 1200 -H 1800 "%1"
+% MUTOOL trace -o "__bulktest/CrashingFiles-T1/%2/%4/%04d.trace.txt" -W 1200 -H 1800 "%{dataspecdir}/%1"
 
-MUTOOL clean -gggg -D -c -s -AA "%1" "__bulktest/CrashingFiles-T1/%2/%4.clean.pdf"
+MUTOOL clean -gggg -D -c -s -AA "%{dataspecdir}/%1" "__bulktest/CrashingFiles-T1/%2/%4.clean.pdf"
 
-% MUTOOL extract -o "__bulktest/CrashingFiles-T1/%2/%4.extract." -r "%1"
+% MUTOOL extract -o "__bulktest/CrashingFiles-T1/%2/%4.extract." -r "%{dataspecdir}/%1"
 
-MUTOOL info -o "__bulktest/CrashingFiles-T1/%2/%4/%04d.info.txt" -F -I -M -P -S -X -A -U "%1"
+MUTOOL info -o "__bulktest/CrashingFiles-T1/%2/%4/%04d.info.txt" -F -I -M -P -S -X -A -U "%{dataspecdir}/%1"
 
-MUTOOL pages -o "__bulktest/CrashingFiles-T1/%2/%4/%04d.pages.txt" "%1"
+MUTOOL pages -o "__bulktest/CrashingFiles-T1/%2/%4/%04d.pages.txt" "%{dataspecdir}/%1"
 
-MUTOOL show -o "__bulktest/CrashingFiles-T1/%2/%4/%04d.show.txt" -b "%1"  trailer xref pages grep outline js form trailer/* Root/* Root/Metadata 0/* 1/* 2/* 3/* 4/* 5/* 6/* 7/* 8/* 9/* 10/* 11/* 12/* 13/* trailer/Info trailer/Info/Author
+MUTOOL show -o "__bulktest/CrashingFiles-T1/%2/%4/%04d.show.txt" -b "%{dataspecdir}/%1"  trailer xref pages grep outline js form trailer/* Root/* Root/Metadata 0/* 1/* 2/* 3/* 4/* 5/* 6/* 7/* 8/* 9/* 10/* 11/* 12/* 13/* trailer/Info trailer/Info/Author
 
-MUTOOL mudraw -o "__bulktest/CrashingFiles-T1/%2/%4/%04d-x300.ocr.html" -s mtf5 -r 300 -y l -T 3 -P -B 50 "%1"
+MUTOOL mudraw -o "__bulktest/CrashingFiles-T1/%2/%4/%04d-x300.ocr.html" -s mtf5 -r 300 -y l -T 3 -P -B 50 "%{dataspecdir}/%1"
 
-MUTOOL mudraw -o "__bulktest/CrashingFiles-T1/%2/%4/%04d-x300.txt" -s mtf5 -r 300 -y l -T 3 -P -B 50 "%1"
+MUTOOL mudraw -o "__bulktest/CrashingFiles-T1/%2/%4/%04d-x300.txt" -s mtf5 -r 300 -y l -T 3 -P -B 50 "%{dataspecdir}/%1"
 
-MUTOOL mudraw -o "__bulktest/CrashingFiles-T1/%2/%4/%04d-x300.trace" -s mtf5 -r 300 -y l -T 3 -P -B 50 "%1"
+MUTOOL mudraw -o "__bulktest/CrashingFiles-T1/%2/%4/%04d-x300.trace" -s mtf5 -r 300 -y l -T 3 -P -B 50 "%{dataspecdir}/%1"
 
-MUTOOL mudraw -o "__bulktest/CrashingFiles-T1/%2/%4/%04d-x300.bbox" -s mtf5 -r 300 -y l -T 3 -P -B 50 "%1"
+MUTOOL mudraw -o "__bulktest/CrashingFiles-T1/%2/%4/%04d-x300.bbox" -s mtf5 -r 300 -y l -T 3 -P -B 50 "%{dataspecdir}/%1"
 
-MUTOOL mudraw -o "__bulktest/CrashingFiles-T1/%2/%4/%04d-x300.xmltext" -s mtf5 -r 300 -y l -T 3 -P -B 50 "%1"
+MUTOOL mudraw -o "__bulktest/CrashingFiles-T1/%2/%4/%04d-x300.xmltext" -s mtf5 -r 300 -y l -T 3 -P -B 50 "%{dataspecdir}/%1"
 
-MUTOOL mudraw -o "__bulktest/CrashingFiles-T1/%2/%4/%04d-x300.stext" -s mtf5 -r 300 -y l -T 3 -P -B 50 "%1"
+MUTOOL mudraw -o "__bulktest/CrashingFiles-T1/%2/%4/%04d-x300.stext" -s mtf5 -r 300 -y l -T 3 -P -B 50 "%{dataspecdir}/%1"
 
-MUTOOL mudraw -o "__bulktest/CrashingFiles-T1/%2/%4/%04d-x300.html" -s mtf5 -r 300 -y l -T 3 -P -B 50 "%1"
+MUTOOL mudraw -o "__bulktest/CrashingFiles-T1/%2/%4/%04d-x300.html" -s mtf5 -r 300 -y l -T 3 -P -B 50 "%{dataspecdir}/%1"
 
-MUTOOL mudraw -o "__bulktest/CrashingFiles-T1/%2/%4/%04d-x300.img.png" -s mtf5 -r 300 -y l -T 3 -P -B 50 "%1"
+MUTOOL mudraw -o "__bulktest/CrashingFiles-T1/%2/%4/%04d-x300.img.png" -s mtf5 -r 300 -y l -T 3 -P -B 50 "%{dataspecdir}/%1"
 
-% MUTOOL mudraw -o "__bulktest/CrashingFiles-T1/%2/%4/%04d-x300.img.psd" -s mtf5 -r 300 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "%1"
+% MUTOOL mudraw -o "__bulktest/CrashingFiles-T1/%2/%4/%04d-x300.img.psd" -s mtf5 -r 300 -x preserve-ligatures,preserve-whitespace -y l -T 3 -P -B 50 "%{dataspecdir}/%1"
 
-MUTOOL show -o "__bulktest/CrashingFiles-T1/%2/%4/%04d.xml-meta.txt" -b "%1"  Root/Metadata 
+MUTOOL show -o "__bulktest/CrashingFiles-T1/%2/%4/%04d.xml-meta.txt" -b "%{dataspecdir}/%1"  Root/Metadata 
 
 	
 
