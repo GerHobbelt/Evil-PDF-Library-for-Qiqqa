@@ -22,7 +22,25 @@ if test -d /z/lib/tooling/qiqqa/MuPDF/tests/ ; then
 	./DirScanner.exe -s -c -r X -o mupdf_test_files_in_dev_drive_Z.lst "Z:/lib/tooling/qiqqa/MuPDF/tests/*.pdf"
 fi
 
+
+# determine current base directory, so we can make all these tests relative against the evil-base repo whenever we can:
+# this prevents changes showing up in the generated test files ONLY BECAUSE we mounted the test drive on a different drive letter
+# (it happens...)
+
+# as we are running bash, which doesn't do native Windows paths, we 'abuse' DirScanner to deliver us the basepath as-is:
+BD=$( dirname $( ./DirScanner.exe  -c  "*.sh" | head -1 ) )
+echo BD=${BD}
+
+# now process all test files: remove the abs.path for every file that's situated in the evil-base repo:
+for f in *.lst *.tsv ; do
+  node "$( basename "$0" '.sh' ).js" MKREL "$f" "${BD}"
+done
+
+if true ; then
+
 #echo "generate mujstest script..."
-node "$( basename "$0" '.sh' ).js"
+node "$( basename "$0" '.sh' ).js" GENSCRIPTS
+
+fi
 
 popd                                                                     2> /dev/null  > /dev/null
