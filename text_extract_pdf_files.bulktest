@@ -7,12 +7,14 @@
 
 
 % ---------------------------------------------------------------------------------------------------------------
-% nr.:     %datarow
-% PDF:     %1
-% dir:     %2
-% name:    %3
-% base:    %4
-% cd root: %5
+% nr.:       %datarow
+% PDF:       %1
+% dir:       %2
+% name:      %3
+% base:      %4
+% cd root:   %5
+% SCRIPTDIR: %{scriptdir}
+% DATADIR:   %{dataspecdir}
 
 CD %{scriptdir}
 CD %5
@@ -21,160 +23,176 @@ ECHO T:%{datarow}:: %1 ::
 
 IF 10
 
-	MUTOOL qiqqa_fingerprint0 -o "__bulktest/TextExtractFiles-T1/%2/%4/qiqqa-SHA1B-hash.txt" "%{dataspecdir}/%1"
+	MUTOOL qiqqa_fingerprint0 -o "__bulktest/TextExtractFiles-T1/%2/%4/qiqqa-SHA1B-hash.txt" "%1"
 
-	MUTOOL qiqqa_fingerprint1 -o "__bulktest/TextExtractFiles-T1/%2/%4/qiqqa-BLAKE3+B58X-hash.txt" "%{dataspecdir}/%1"
+	MUTOOL qiqqa_fingerprint1 -o "__bulktest/TextExtractFiles-T1/%2/%4/qiqqa-BLAKE3+B58X-hash.txt" "%1"
 
-
-
-	IF 10
-
-		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwd.xml" -s mtf -r 300 -x preserve-ligatures,preserve-spans,preserve-whitespace,preserve-images,reference-images,reuse-images,mediabox-clip=no -j everything "%{dataspecdir}/%1"
-
-		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwd.xhtml" -s mtf -r 300 -x preserve-ligatures,preserve-spans,preserve-whitespace,preserve-images,reference-images,reuse-images,mediabox-clip=no -j everything "%{dataspecdir}/%1"
-
-		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwd.html" -s mtf -r 300 -x preserve-ligatures,preserve-spans,preserve-whitespace,preserve-images,reference-images,reuse-images,mediabox-clip=no -j everything "%{dataspecdir}/%1"
-
-		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwd.text" -s mtf -r 300 -x preserve-ligatures,preserve-spans,preserve-whitespace,preserve-images,reference-images,reuse-images,mediabox-clip=no -j everything "%{dataspecdir}/%1"
-
-		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwd.stext" -s mtf -r 300 -x preserve-ligatures,preserve-spans,preserve-whitespace,preserve-images,reference-images,reuse-images,mediabox-clip=no -j everything "%{dataspecdir}/%1"
-
-		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwd.trace" -s mtf -r 300 -x preserve-ligatures,preserve-spans,preserve-whitespace,preserve-images,reference-images,reuse-images,mediabox-clip=no -j everything "%{dataspecdir}/%1"
-
-		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwd.bbox" -s mtf -r 300 -x preserve-ligatures,preserve-spans,preserve-whitespace,preserve-images,reference-images,reuse-images,mediabox-clip=no -j everything "%{dataspecdir}/%1"
-
-	ENDIF
-
-	IF 10
-
-		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwdclip.xml" -s mtf -r 300 -x preserve-ligatures,preserve-spans,preserve-whitespace,preserve-images,reference-images,reuse-images,mediabox-clip=yes -j everything "%{dataspecdir}/%1"
-
-		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwdclip.xhtml" -s mtf -r 300 -x preserve-ligatures,preserve-spans,preserve-whitespace,preserve-images,reference-images,reuse-images,mediabox-clip=yes -j everything "%{dataspecdir}/%1"
-
-		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwdclip.html" -s mtf -r 300 -x preserve-ligatures,preserve-spans,preserve-whitespace,preserve-images,reference-images,reuse-images,mediabox-clip=yes -j everything "%{dataspecdir}/%1"
-
-		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwdclip.text" -s mtf -r 300 -x preserve-ligatures,preserve-spans,preserve-whitespace,preserve-images,reference-images,reuse-images,mediabox-clip=yes -j everything "%{dataspecdir}/%1"
-
-		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwdclip.stext" -s mtf -r 300 -x preserve-ligatures,preserve-spans,preserve-whitespace,preserve-images,reference-images,reuse-images,mediabox-clip=yes -j everything "%{dataspecdir}/%1"
-
-		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwdclip.trace" -s mtf -r 300 -x preserve-ligatures,preserve-spans,preserve-whitespace,preserve-images,reference-images,reuse-images,mediabox-clip=yes -j everything "%{dataspecdir}/%1"
-
-		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwdclip.bbox" -s mtf -r 300 -x preserve-ligatures,preserve-spans,preserve-whitespace,preserve-images,reference-images,reuse-images,mediabox-clip=yes -j everything "%{dataspecdir}/%1"
-
-	ENDIF
-
-
-	IF 0
-
-		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwd.html" -s mtf -r 300 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l "%{dataspecdir}/%1"
-
-		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.html" -s mtf -r 300 -y l "%{dataspecdir}/%1"
-
-	ENDIF
-
-
-	IF 0
-
-		MUTOOL mudraw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.ocr.txt" -s mtf -r 72 -y l -T 3 -P -B 50 "%{dataspecdir}/%1"
-
-		MUTOOL mudraw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.ocr.html" -s mtf -r 300 -y l -T 3 -P -B 50 "%{dataspecdir}/%1"
-
-		MUTOOL show -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC.show.xml-meta.txt" -b "%{dataspecdir}/%1"  Root/Metadata 
-
-	ENDIF
-
-
-	IF 0
-
-		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.html" -s mtf -y l "%{dataspecdir}/%1"
-
-		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.txt" -s mtf -y l "%{dataspecdir}/%1"
-
-		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.stext" -s mtf -y l "%{dataspecdir}/%1"
-
-		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.xml" -s mtf -y l "%{dataspecdir}/%1"
-
-		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.trace" -s mtf -y l "%{dataspecdir}/%1"
-
-		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.pdf" -s mtf -y l "%{dataspecdir}/%1"
-
-		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.stext.json" -s mtf -y l "%{dataspecdir}/%1"
-
-		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.xhtml" -s mtf -y l "%{dataspecdir}/%1"
-
-		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.bbox" -s mtf -y l "%{dataspecdir}/%1"
-
-	ENDIF
-
-
-	IF 0
-
-		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.html" -s mtf -r 300 -y l "%{dataspecdir}/%1"
-
-		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.txt" -s mtf -r 300 -y l "%{dataspecdir}/%1"
-
-		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.stext" -s mtf -r 300 -y l "%{dataspecdir}/%1"
-
-		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.xml" -s mtf -r 300 -y l "%{dataspecdir}/%1"
-
-		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.trace" -s mtf -r 300 -y l "%{dataspecdir}/%1"
-
-		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.pdf" -s mtf -r 300 -y l "%{dataspecdir}/%1"
-
-		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.stext.json" -s mtf -r 300 -y l "%{dataspecdir}/%1"
-
-%		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.xhtml" -s mtf -r 300 -y l "%{dataspecdir}/%1"
-
-		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.bbox" -s mtf -r 300 -y l "%{dataspecdir}/%1"
-
-	ENDIF
 
 
 	IF 10
 
-		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.svg" -s mtf -y l "%{dataspecdir}/%1"
+		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwd.xml" -s mtf -r 300 -x preserve-ligatures,preserve-spans,preserve-whitespace,preserve-images,reference-images,reuse-images,mediabox-clip=no -j everything "%1"
 
-%		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.pclm" -s mtf -y l "%{dataspecdir}/%1"
+		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwd.xhtml" -s mtf -r 300 -x preserve-ligatures,preserve-spans,preserve-whitespace,preserve-images,reference-images,reuse-images,mediabox-clip=no -j everything "%1"
 
-		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.png" -s mtf -y l -T 3 -P -B 50 "%{dataspecdir}/%1"
+		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwd.html" -s mtf -r 300 -x preserve-ligatures,preserve-spans,preserve-whitespace,preserve-images,reference-images,reuse-images,mediabox-clip=no -j everything "%1"
 
-		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.webp" -s mtf -y l -T 3 -P -B 50 "%{dataspecdir}/%1"
+		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwd.text" -s mtf -r 300 -x preserve-ligatures,preserve-spans,preserve-whitespace,preserve-images,reference-images,reuse-images,mediabox-clip=no -j everything "%1"
 
-%		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.psd" -s mtf -y l "%{dataspecdir}/%1"
+		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwd.stext" -s mtf -r 300 -x preserve-ligatures,preserve-spans,preserve-whitespace,preserve-images,reference-images,reuse-images,mediabox-clip=no -j everything "%1"
 
-%		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.ps" -s mtf -y l "%{dataspecdir}/%1"
+		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwd.trace" -s mtf -r 300 -x preserve-ligatures,preserve-spans,preserve-whitespace,preserve-images,reference-images,reuse-images,mediabox-clip=no -j everything "%1"
+
+		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwd.bbox" -s mtf -r 300 -x preserve-ligatures,preserve-spans,preserve-whitespace,preserve-images,reference-images,reuse-images,mediabox-clip=no -j everything "%1"
+
+	ENDIF
+
+	IF 10
+
+		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwdclip.xml" -s mtf -r 300 -x preserve-ligatures,preserve-spans,preserve-whitespace,preserve-images,reference-images,reuse-images,mediabox-clip=yes -j everything "%1"
+
+		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwdclip.xhtml" -s mtf -r 300 -x preserve-ligatures,preserve-spans,preserve-whitespace,preserve-images,reference-images,reuse-images,mediabox-clip=yes -j everything "%1"
+
+		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwdclip.html" -s mtf -r 300 -x preserve-ligatures,preserve-spans,preserve-whitespace,preserve-images,reference-images,reuse-images,mediabox-clip=yes -j everything "%1"
+
+		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwdclip.text" -s mtf -r 300 -x preserve-ligatures,preserve-spans,preserve-whitespace,preserve-images,reference-images,reuse-images,mediabox-clip=yes -j everything "%1"
+
+		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwdclip.stext" -s mtf -r 300 -x preserve-ligatures,preserve-spans,preserve-whitespace,preserve-images,reference-images,reuse-images,mediabox-clip=yes -j everything "%1"
+
+		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwdclip.trace" -s mtf -r 300 -x preserve-ligatures,preserve-spans,preserve-whitespace,preserve-images,reference-images,reuse-images,mediabox-clip=yes -j everything "%1"
+
+		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwdclip.bbox" -s mtf -r 300 -x preserve-ligatures,preserve-spans,preserve-whitespace,preserve-images,reference-images,reuse-images,mediabox-clip=yes -j everything "%1"
 
 	ENDIF
 
 
 	IF 0
 
-		MUTOOL convert -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC.convert.pdf" -W 1200 -H 1800 -O decompress,garbage,sanitize,pretty "%{dataspecdir}/%1"
+		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwd.html" -s mtf -r 300 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l "%1"
 
-		MUTOOL convert -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC.convert-text.svg" -W 1200 -H 1800 -O text=text "%{dataspecdir}/%1"
+		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.html" -s mtf -r 300 -y l "%1"
 
-		MUTOOL convert -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC.convert-path.svg" -W 1200 -H 1800 -O text=path "%{dataspecdir}/%1"
+	ENDIF
 
-		MUTOOL raster -F webp -o "__bulktest/TextExtractFiles-T1/%2/%4/%04d.raster.webp" -s mt -r 150 -P "%{dataspecdir}/%1"
+
+	IF 0
+
+		MUTOOL mudraw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.ocr.txt" -s mtf -r 72 -y l -T 3 -P -B 50 "%1"
+
+		MUTOOL mudraw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.ocr.html" -s mtf -r 300 -y l -T 3 -P -B 50 "%1"
+
+		MUTOOL show -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC.show.xml-meta.txt" -b "%1"  Root/Metadata 
+
+	ENDIF
+
+
+	IF 0
+
+		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.html" -s mtf -y l "%1"
+
+		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.txt" -s mtf -y l "%1"
+
+		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.stext" -s mtf -y l "%1"
+
+		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.xml" -s mtf -y l "%1"
+
+		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.trace" -s mtf -y l "%1"
+
+		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.pdf" -s mtf -y l "%1"
+
+		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.stext.json" -s mtf -y l "%1"
+
+		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.xhtml" -s mtf -y l "%1"
+
+		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.bbox" -s mtf -y l "%1"
+
+	ENDIF
+
+
+	IF 0
+
+		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.html" -s mtf -r 300 -y l "%1"
+
+		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.txt" -s mtf -r 300 -y l "%1"
+
+		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.stext" -s mtf -r 300 -y l "%1"
+
+		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.xml" -s mtf -r 300 -y l "%1"
+
+		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.trace" -s mtf -r 300 -y l "%1"
+
+		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.pdf" -s mtf -r 300 -y l "%1"
+
+		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.stext.json" -s mtf -r 300 -y l "%1"
+
+%		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.xhtml" -s mtf -r 300 -y l "%1"
+
+		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.bbox" -s mtf -r 300 -y l "%1"
 
 	ENDIF
 
 
 	IF 10
 
-		MUTOOL trace -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC.trace.txt" -W 1200 -H 1800 "%{dataspecdir}/%1"
+		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.svg" -s mtf -y l "%1"
 
-		MUTOOL clean -gggg -D -c -s -AA "%{dataspecdir}/%1" "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC.clean.pdf"
+%		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.pclm" -s mtf -y l "%1"
 
-		MUTOOL metadump -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC.extract.meta.json" -m 2 -i p  "%{dataspecdir}/%1"
+		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.png" -s mtf -y l -T 3 -P -B 50 "%1"
 
-		MUTOOL extract -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC.extract.dump" -r "%{dataspecdir}/%1"
+		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.webp" -s mtf -y l -T 3 -P -B 50 "%1"
 
-		MUTOOL info -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC.info.txt" -F -I -M -P -S -X -A -U "%{dataspecdir}/%1"
+%		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.psd" -s mtf -y l "%1"
 
-		MUTOOL pages -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC.pages.txt" "%{dataspecdir}/%1"
+%		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.ps" -s mtf -y l "%1"
 
-		MUTOOL show -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC.show.txt" -b "%{dataspecdir}/%1"  trailer xref pages grep outline js form trailer/* Root/* Root/Metadata 0/* 1/* 2/* 3/* 4/* 5/* 6/* 7/* 8/* 9/* 10/* 11/* 12/* 13/* trailer/Info trailer/Info/Author
+	ENDIF
+
+
+	IF 10
+
+		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.svg" -s mtf -r 300 -y l "%1"
+
+%		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.pclm" -s mtf -r 300 -y l "%1"
+
+		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.png" -s mtf -r 300 -y l -T 3 -P -B 50 "%1"
+
+		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.webp" -s mtf -r 300 -y l -T 3 -P -B 50 "%1"
+
+%		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.psd" -s mtf -r 300 -y l "%1"
+
+%		MUTOOL draw -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.ps" -s mtf -r 300 -y l "%1"
+
+	ENDIF
+
+	IF 10
+
+		MUTOOL convert -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC.convert.pdf" -W 1200 -H 1800 -O decompress,garbage,sanitize,pretty "%1"
+
+		MUTOOL convert -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC.convert-text.svg" -W 1200 -H 1800 -O text=text "%1"
+
+		MUTOOL convert -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC.convert-path.svg" -W 1200 -H 1800 -O text=path "%1"
+
+		MUTOOL raster -F webp -o "__bulktest/TextExtractFiles-T1/%2/%4/%04d.raster.webp" -s mt -r 150 -P "%1"
+
+	ENDIF
+
+
+	IF 10
+
+		MUTOOL trace -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC.trace.txt" -W 1200 -H 1800 "%1"
+
+		MUTOOL clean -gggg -D -c -s -AA "%1" "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC.clean.pdf"
+
+		MUTOOL metadump -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC.extract.meta.json" -m 2 -i p  "%1"
+
+		MUTOOL extract -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC.extract.dump" -r "%1"
+
+		MUTOOL info -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC.info.txt" -F -I -M -P -S -X "%1"
+
+		MUTOOL pages -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC.pages.txt" "%1"
+
+		MUTOOL show -o "__bulktest/TextExtractFiles-T1/%2/%4/FULL-DOC.show.txt" -b "%1"  trailer xref pages grep outline js form trailer/* Root/* Root/Metadata 0/* 1/* 2/* 3/* 4/* 5/* 6/* 7/* 8/* 9/* 10/* 11/* 12/* 13/* trailer/Info trailer/Info/Author
 
 	ENDIF
 
