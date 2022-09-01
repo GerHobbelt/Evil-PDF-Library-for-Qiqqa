@@ -5,16 +5,16 @@
 
 
 
-
-% ---------------------------------------------------------------------------------------------------------------
-% nr.:       %datarow
-% PDF:       %1
-% dir:       %2
-% name:      %3
-% base:      %4
-% cd root:   %5
-% SCRIPTDIR: %{scriptdir}
-% DATADIR:   %{dataspecdir}
+% `:` at start of line is SOFT ECHO: log these lines, but don't echo them to stdout if you don't have to...
+: ---------------------------------------------------------------------------------------------------------------
+: nr.:       %datarow
+: PDF:       %1
+: dir:       %2
+: name:      %3
+: base:      %4
+: cd root:   %5
+: SCRIPTDIR: %{scriptdir}
+: DATADIR:   %{dataspecdir}
 
 CD %{scriptdir}
 CD %5
@@ -23,9 +23,9 @@ ECHO T:%{datarow}:: %1 ::
 
 IF 10
 
-	MUTOOL qiqqa_fingerprint0 -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/qiqqa-SHA1B-hash.txt" "%1"
+%	MUTOOL qiqqa_fingerprint0 -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/qiqqa-SHA1B-hash.txt" "%1"
 
-	MUTOOL qiqqa_fingerprint1 -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/qiqqa-BLAKE3+B58X-hash.txt" "%1"
+%	MUTOOL qiqqa_fingerprint1 -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/qiqqa-BLAKE3+B58X-hash.txt" "%1"
 
 
 
@@ -134,7 +134,7 @@ IF 10
 
 	IF 0
 
-		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.svg" -s mtf -y l "%1"
+%		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.svg" -s mtf -y l "%1"
 
 %		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.pclm" -s mtf -y l "%1"
 
@@ -151,7 +151,7 @@ IF 10
 
 	IF 10
 
-		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.svg" -s mtf -r 300 -y l "%1"
+%		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.svg" -s mtf -r 300 -y l "%1"
 
 %		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.pclm" -s mtf -r 300 -y l "%1"
 
@@ -169,9 +169,9 @@ IF 10
 
 		MUTOOL convert -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC.convert.pdf" -W 1200 -H 1800 -O decompress,garbage,sanitize,pretty "%1"
 
-		MUTOOL convert -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC.convert-text.svg" -W 1200 -H 1800 -O text=text "%1"
+%		MUTOOL convert -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC.convert-text.svg" -W 1200 -H 1800 -O text=text "%1"
 
-		MUTOOL convert -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC.convert-path.svg" -W 1200 -H 1800 -O text=path "%1"
+%		MUTOOL convert -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC.convert-path.svg" -W 1200 -H 1800 -O text=path "%1"
 
 		MUTOOL raster -F png -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/%04d.raster.png" -s mt -r 150 -P "%1"
 

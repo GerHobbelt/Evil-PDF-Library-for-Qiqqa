@@ -1483,3 +1483,160 @@ error: cannot authenticate password: G:\Qiqqa\evil\INTRANET_2B8E19DE-A7C5-4867-9
 
 
 
+
+
+
+MUTOOL draw -o "J:/__bulktest/______/_/Y_/Qiqqa/Qiqqa-Test-DrvE/evil-base/__bulktest/TextExtractFiles-T1/Sample-PDFs-for-format-testing/testset misc 3 OCR/Theory of Thermionic Vacuum Tubes E. Chaffee (1933)/FULL-DOC-x300.png" -s mtf -r 300 -y l -T 3 -P -B 50 "Sample-PDFs-for-format-testing/testset misc 3 OCR/Theory of Thermionic Vacuum Tubes E. Chaffee (1933).pdf"
+
+another crash thanks to heap corruption in JBig2Dec :-((
+
+--> looks like JBig2Dec is NOT THREADSAFE as the other (single-threaded!) output format runs did NOT fail for this same file.
+
+
+
+
+MUTOOL draw -o J:/__bulktest/______/_/Y_/Qiqqa/Qiqqa-Test-DrvE/evil-base/__bulktest/TextExtractFiles-T1/digitalcorpora.org/govdocs1/999/999891/FULL-DOC-x300.png -s mtf -r 300 -y l -T 3 -P -B 50 digitalcorpora.org/govdocs1/999/999891.pdf
+
+CRASH: invalid heap access in LCMS2; have not observed JBIG2, so this looks, at first glance, to be an issue in conjuction with these warnings -- though DO NOTE that those warnings also showed up for other PDFs in the test before and those DID NOT cause a crash. Another conundrum, therefore:
+
+warning: found duplicate fz_icc_link in the store
+warning: found duplicate fz_icc_link in the store
+warning: found duplicate fz_icc_link in the store
+
+
+
+
+
+MUTOOL draw -o J:/__bulktest/______/_/Y_/Qiqqa/Qiqqa-Test-DrvE/evil-base/__bulktest/TextExtractFiles-T1/digitalcorpora.org/govdocs1/050/050600/FULL-DOC-x300.png -s mtf -r 300 -y l -T 3 -P -B 50 digitalcorpora.org/govdocs1/050/050600.pdf
+
+- first file in the bulktest which uses JPX format. Nothing weird to report otherwise.
+
+- second file found:
+ 
+MUTOOL raster -F png -o J:/__bulktest/______/_/Y_/Qiqqa/Qiqqa-Test-DrvE/evil-base/__bulktest/TextExtractFiles-T1/digitalcorpora.org/govdocs1/039/039354/%04d.raster.png -s mt -r 150 -P digitalcorpora.org/govdocs1/039/039354.pdf
+
+
+
+
+
+MUTOOL raster -F png -o J:/__bulktest/______/_/Y_/Qiqqa/Qiqqa-Test-DrvE/evil-base/__bulktest/TextExtractFiles-T1/artifex-mupdf-test-corpus/pdf/Jbig2_042_18/%04d.raster.png -s mt -r 150 -P artifex-mupdf-test-corpus/pdf/Jbig2_042_18.pdf
+
+another JBIG2 using command, which triggers different debugger breakpoints in there. No crash yet, but DOES exercise different code paths inside JBIG2.
+DID trigger a crash due to a bug in the tracking code I added to the refcounted allocations in there. (IBO pointer NULL access attempt)
+
+
+
+
+MUTOOL draw -o J:/__bulktest/______/_/Y_/Qiqqa/Qiqqa-Test-DrvE/evil-base/__bulktest/TextExtractFiles-T1/digitalcorpora.org/govdocs1/031/031172/FULL-DOC-x300.png -s mtf -r 300 -y l -T 3 -P -B 50 digitalcorpora.org/govdocs1/031/031172.pdf
+
+fails with a crash in fitz/colorspace after fz_find_icc_link() delivered an illegal pointer value.
+
+
+Maybe relevant warnings? ::
+
+	page 1 file digitalcorpora.org/govdocs1/031/031172.pdf features:  color
+	warning: found duplicate fz_icc_link in the store
+	warning: found duplicate fz_icc_link in the store
+	warning: found duplicate fz_icc_link in the store
+	warning: ... repeated 28 times...
+	warning: found duplicate fz_image in the store
+	warning: ... repeated 27 times...
+	warning: found duplicate fz_image in the store
+	warning: found duplicate fz_icc_link in the store
+
+
+Another crasher like that:
+
+MUTOOL draw -o //?/J:/__bulktest/DATA/__bulktest/TextExtractFiles-T1/digitalcorpora.org/govdocs1/003/003737/FULL-DOC-x300.webp -s mtf -r 300 -y l -T 3 -P -B 50 digitalcorpora.org/govdocs1/003/003737.pdf
+
+
+
+
+MUTOOL raster -F png -o //?/J:/__bulktest/DATA/__bulktest/TextExtractFiles-T1/artifex-mupdf-test-corpus/pdf/Jbig2_042_24/%04d.raster.png -s mt -r 150 -P artifex-mupdf-test-corpus/pdf/Jbig2_042_24.pdf
+
+--> JBIG2 memleak; at least assertion failures at cleanup time.
+
+
+
+
+MUTOOL extract -o "//?/J:/__bulktest/DATA/__bulktest/TextExtractFiles-T1/Sample-PDFs-for-format-testing/testset misc 4/E3C5755DB55A9F878E6429C59F8E40D574429E3C/FULL-DOC.extract.dump" -r "Sample-PDFs-for-format-testing/testset misc 4/E3C5755DB55A9F878E6429C59F8E40D574429E3C.pdf"
+
+--> corrupted refcount in JBIG2 reported, while accessing already-freed memory @ dict->glyphs[i=50] 
+
+
+
+
+MUTOOL draw -o //?/J:/__bulktest/DATA/__bulktest/TextExtractFiles-T1/Sample-PDFs-for-format-testing/pdfium/testing/resources/goto_action/FULL-DOC-x300.png -s mtf -r 300 -y l -T 3 -P -B 50 Sample-PDFs-for-format-testing/pdfium/testing/resources/goto_action.pdf
+
+--> hard crash in pdf_load_link thanks to uninitialized `uri` pointer.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/1/13D1943F462ACBAA5B1C9B883B4FD2742B996F1.pdf"  "INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/1"    "13D1943F462ACBAA5B1C9B883B4FD2742B996F1.pdf"      "13D1943F462ACBAA5B1C9B883B4FD2742B996F1"      "./"
+
+--> dumps 3 TTF files and a metric ton of images, which look like they're all small text chunks that make up the page in this PDF. No errors per see, but a weird way of doing this and certainly something to look into once we get to optimizing our PDF render output for HTML/etc. with a minimum number of (MERGED) images.
+
+This is different from the single-pixel image stripes I've seen many times before and would therefor serve as a good testcase for any image bbox merging code that we may introduce to optimize mixed text+image outputs!
+
+
+
+
+"INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/1/17B556D9C5585C798D5C29922FCF03899E5221E.pdf"  "INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/1"    "17B556D9C5585C798D5C29922FCF03899E5221E.pdf"      "17B556D9C5585C798D5C29922FCF03899E5221E"      "./"
+
+--> No errors per se, but another good test sample for our purposes: this one has SCANNED IMAGES (one per page?) where you can see the scan/copier artifacts too. I expect this one doesn't come with a text overlay (TO BE CHECKED) and thus would serve well for testing our 'has proper text embedded' check code!
+
+Another candidate like that (this is an otherwise clean electronics datasheet, no copier artifacts):
+
+"INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/3/396E7C1B38A2268EA1082453FFAC5D6778DEB6.pdf"  "INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/3"    "396E7C1B38A2268EA1082453FFAC5D6778DEB6.pdf"      "396E7C1B38A2268EA1082453FFAC5D6778DEB6"      "./"
+
+
+
+Another good one for testing: the old 405 "current dumping amplifier" instruction booklet:
+
+"INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/4/4CFF7BE82F8A4A6AC84DA26FD7DDBF815777DD4.pdf"  "INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/4"    "4CFF7BE82F8A4A6AC84DA26FD7DDBF815777DD4.pdf"      "4CFF7BE82F8A4A6AC84DA26FD7DDBF815777DD4"      "./"
+
+
+
+For detecting and processing extensive MATH blocks in the extract:
+
+"INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/4/47B017728D26B8D23891D2DC2184D1122C4369E.pdf"  "INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/4"    "47B017728D26B8D23891D2DC2184D1122C4369E.pdf"      "47B017728D26B8D23891D2DC2184D1122C4369E"      "./"
+
+
+
+
+
+
+Ueber-slow and memleaking? (Or is it due to bulktest collecting memleaks by running all the shoddy PDFs through the system all at once? ...):
+
+MUTOOL draw -o //?/J:/__bulktest/DATA/__bulktest/TextExtractFiles-T1/Sample-PDFs-for-format-testing/ICJ-CIJ/57-9421/FULL-DOC-x300.webp -s mtf -r 300 -y l -T 3 -P -B 50 Sample-PDFs-for-format-testing/ICJ-CIJ/57-9421.pdf
+
+--> at least page render takes a solid 10 seconds per page, so that needs cleaning up.
+
+Oh, and this bugger is eating GIGABYTES (8 by now, halfway through) as seen in the deebugger system summary view!
+
+
+
+
+
+
