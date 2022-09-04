@@ -77,9 +77,9 @@ IF 10
 
 	IF 0
 
-		MUTOOL mudraw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.ocr.txt" -s mtf -r 72 -y l -T 3 -P -B 50 "%1"
+		MUTOOL mudraw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.ocr.txt" -s mtf -r 72 -y l -P -B 50 "%1"
 
-		MUTOOL mudraw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.ocr.html" -s mtf -r 300 -y l -T 3 -P -B 50 "%1"
+		MUTOOL mudraw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.ocr.html" -s mtf -r 300 -y l -P -B 50 "%1"
 
 		MUTOOL show -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC.show.xml-meta.txt" -b "%1"  Root/Metadata 
 
@@ -138,9 +138,9 @@ IF 10
 
 %		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.pclm" -s mtf -y l "%1"
 
-		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.png" -s mtf -y l -T 3 -P -B 50 "%1"
+		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.png" -s mtf -y l -P -B 50 "%1"
 
-		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.webp" -s mtf -y l -T 3 -P -B 50 "%1"
+		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.webp" -s mtf -y l -P -B 50 "%1"
 
 %		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.psd" -s mtf -y l "%1"
 
@@ -155,9 +155,9 @@ IF 10
 
 %		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.pclm" -s mtf -r 300 -y l "%1"
 
-		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.png" -s mtf -r 300 -y l -T 3 -P -B 50 "%1"
+		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.png" -s mtf -r 300 -y l -P -B 50 "%1"
 
-		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.webp" -s mtf -r 300 -y l -T 3 -P -B 50 "%1"
+		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.webp" -s mtf -r 300 -y l -P -B 50 "%1"
 
 %		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.psd" -s mtf -r 300 -y l "%1"
 
