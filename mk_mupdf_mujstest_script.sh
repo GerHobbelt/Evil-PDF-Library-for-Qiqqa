@@ -27,7 +27,9 @@ fi
 if test -d /y/ ; then
 	./DirScanner.exe -s -c -o all_pdf_files_on_test_drive.RAW.lst "Y:/*.pdf"
 
-	./DirScanner.exe -s -c -o -r X all_pdf_files_on_test_drive.lst "Y:/*.pdf"
+	./DirScanner.exe -s -c -r X -o all_pdf_files_on_test_drive.lst "Y:/*.pdf"
+
+	./DirScanner.exe -s -c -r X -o all_qiqqa_libraries_on_test_drive.lst "Y:/*.library" "Y:/*.dump" "Y:/*.s3db" "C:/Users/Ger/Downloads/*.library" "C:/Users/Ger/Downloads/*.dump" "C:/Users/Ger/Downloads/*.s3db" "W:/Users/Ger/*.library" "W:/Users/Ger/*.dump" "W:/Users/Ger/*.s3db"
 fi
 
 
