@@ -31,46 +31,46 @@ IF 10
 
 	IF 0
 
-		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwd.xml" -s mtf -r 300 -x preserve-ligatures,preserve-spans,preserve-whitespace,preserve-images,reference-images=assets/img,reuse-images,mediabox-clip=no -j everything "%1"
+		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwd.xml" -s mtf -r 300 -w 3840 -h 3840 -x preserve-ligatures,preserve-spans,preserve-whitespace,preserve-images,reference-images=assets/img,reuse-images,mediabox-clip=no -j everything "%1"
 
-		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwd.xhtml" -s mtf -r 300 -x preserve-ligatures,preserve-spans,preserve-whitespace,preserve-images,reference-images=assets/img,reuse-images,mediabox-clip=no -j everything "%1"
+		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwd.xhtml" -s mtf -r 300 -w 3840 -h 3840 -x preserve-ligatures,preserve-spans,preserve-whitespace,preserve-images,reference-images=assets/img,reuse-images,mediabox-clip=no -j everything "%1"
 
-		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwd.html" -s mtf -r 300 -x preserve-ligatures,preserve-spans,preserve-whitespace,preserve-images,reference-images=assets/img,reuse-images,mediabox-clip=no -j everything "%1"
+		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwd.html" -s mtf -r 300 -w 3840 -h 3840 -x preserve-ligatures,preserve-spans,preserve-whitespace,preserve-images,reference-images=assets/img,reuse-images,mediabox-clip=no -j everything "%1"
 
-		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwd.text" -s mtf -r 300 -x preserve-ligatures,preserve-spans,preserve-whitespace,preserve-images,reference-images=assets/img,reuse-images,mediabox-clip=no -j everything "%1"
+		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwd.text" -s mtf -r 300 -w 3840 -h 3840 -x preserve-ligatures,preserve-spans,preserve-whitespace,preserve-images,reference-images=assets/img,reuse-images,mediabox-clip=no -j everything "%1"
 
-		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwd.stext" -s mtf -r 300 -x preserve-ligatures,preserve-spans,preserve-whitespace,preserve-images,reference-images=assets/img,reuse-images,mediabox-clip=no -j everything "%1"
+		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwd.stext" -s mtf -r 300 -w 3840 -h 3840 -x preserve-ligatures,preserve-spans,preserve-whitespace,preserve-images,reference-images=assets/img,reuse-images,mediabox-clip=no -j everything "%1"
 
-		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwd.trace" -s mtf -r 300 -x preserve-ligatures,preserve-spans,preserve-whitespace,preserve-images,reference-images=assets/img,reuse-images,mediabox-clip=no -j everything "%1"
+		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwd.trace" -s mtf -r 300 -w 3840 -h 3840 -x preserve-ligatures,preserve-spans,preserve-whitespace,preserve-images,reference-images=assets/img,reuse-images,mediabox-clip=no -j everything "%1"
 
-		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwd.bbox" -s mtf -r 300 -x preserve-ligatures,preserve-spans,preserve-whitespace,preserve-images,reference-images=assets/img,reuse-images,mediabox-clip=no -j everything "%1"
+		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwd.bbox" -s mtf -r 300 -w 3840 -h 3840 -x preserve-ligatures,preserve-spans,preserve-whitespace,preserve-images,reference-images=assets/img,reuse-images,mediabox-clip=no -j everything "%1"
 
 	ENDIF
 
 	IF 0
 
-		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwdclip.xml" -s mtf -r 300 -x preserve-ligatures,preserve-spans,preserve-whitespace,preserve-images,reference-images=assets/img,reuse-images,mediabox-clip=yes -j everything "%1"
+		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwdclip.xml" -s mtf -r 300 -w 3840 -h 3840 -x preserve-ligatures,preserve-spans,preserve-whitespace,preserve-images,reference-images=assets/img,reuse-images,mediabox-clip=yes -j everything "%1"
 
-		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwdclip.xhtml" -s mtf -r 300 -x preserve-ligatures,preserve-spans,preserve-whitespace,preserve-images,reference-images=assets/img,reuse-images,mediabox-clip=yes -j everything "%1"
+		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwdclip.xhtml" -s mtf -r 300 -w 3840 -h 3840 -x preserve-ligatures,preserve-spans,preserve-whitespace,preserve-images,reference-images=assets/img,reuse-images,mediabox-clip=yes -j everything "%1"
 
-		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwdclip.html" -s mtf -r 300 -x preserve-ligatures,preserve-spans,preserve-whitespace,preserve-images,reference-images=assets/img,reuse-images,mediabox-clip=yes -j everything "%1"
+		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwdclip.html" -s mtf -r 300 -w 3840 -h 3840 -x preserve-ligatures,preserve-spans,preserve-whitespace,preserve-images,reference-images=assets/img,reuse-images,mediabox-clip=yes -j everything "%1"
 
-		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwdclip.text" -s mtf -r 300 -x preserve-ligatures,preserve-spans,preserve-whitespace,preserve-images,reference-images=assets/img,reuse-images,mediabox-clip=yes -j everything "%1"
+		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwdclip.text" -s mtf -r 300 -w 3840 -h 3840 -x preserve-ligatures,preserve-spans,preserve-whitespace,preserve-images,reference-images=assets/img,reuse-images,mediabox-clip=yes -j everything "%1"
 
-		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwdclip.stext" -s mtf -r 300 -x preserve-ligatures,preserve-spans,preserve-whitespace,preserve-images,reference-images=assets/img,reuse-images,mediabox-clip=yes -j everything "%1"
+		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwdclip.stext" -s mtf -r 300 -w 3840 -h 3840 -x preserve-ligatures,preserve-spans,preserve-whitespace,preserve-images,reference-images=assets/img,reuse-images,mediabox-clip=yes -j everything "%1"
 
-		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwdclip.trace" -s mtf -r 300 -x preserve-ligatures,preserve-spans,preserve-whitespace,preserve-images,reference-images=assets/img,reuse-images,mediabox-clip=yes -j everything "%1"
+		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwdclip.trace" -s mtf -r 300 -w 3840 -h 3840 -x preserve-ligatures,preserve-spans,preserve-whitespace,preserve-images,reference-images=assets/img,reuse-images,mediabox-clip=yes -j everything "%1"
 
-		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwdclip.bbox" -s mtf -r 300 -x preserve-ligatures,preserve-spans,preserve-whitespace,preserve-images,reference-images=assets/img,reuse-images,mediabox-clip=yes -j everything "%1"
+		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwdclip.bbox" -s mtf -r 300 -w 3840 -h 3840 -x preserve-ligatures,preserve-spans,preserve-whitespace,preserve-images,reference-images=assets/img,reuse-images,mediabox-clip=yes -j everything "%1"
 
 	ENDIF
 
 
 	IF 0
 
-		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwdpd.html" -s mtf -r 300 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l "%1"
+		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300-lwdpd.html" -s mtf -r 300 -w 3840 -h 3840 -x preserve-ligatures,preserve-whitespace,dehyphenate -y l "%1"
 
-		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.html" -s mtf -r 300 -y l "%1"
+		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.html" -s mtf -r 300 -w 3840 -h 3840 -y l "%1"
 
 	ENDIF
 
@@ -79,7 +79,7 @@ IF 10
 
 		MUTOOL mudraw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.ocr.txt" -s mtf -r 72 -y l -P -B 50 "%1"
 
-		MUTOOL mudraw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.ocr.html" -s mtf -r 300 -y l -P -B 50 "%1"
+		MUTOOL mudraw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.ocr.html" -s mtf -r 300 -w 3840 -h 3840 -y l -P -B 50 "%1"
 
 		MUTOOL show -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC.show.xml-meta.txt" -b "%1"  Root/Metadata 
 
@@ -109,30 +109,30 @@ IF 10
 	ENDIF
 
 
-	IF 0
+	IF 10
 
-		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.html" -s mtf -r 300 -y l "%1"
+%		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.html" -s mtf -r 300 -w 3840 -h 3840 -y l "%1"
 
-		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.txt" -s mtf -r 300 -y l "%1"
+		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.txt" -s mtf -r 300 -w 3840 -h 3840 -y l "%1"
 
-		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.stext" -s mtf -r 300 -y l "%1"
+		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.stext" -s mtf -r 300 -w 3840 -h 3840 -y l "%1"
 
-		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.xml" -s mtf -r 300 -y l "%1"
+%		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.xml" -s mtf -r 300 -w 3840 -h 3840 -y l "%1"
 
-		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.trace" -s mtf -r 300 -y l "%1"
+%		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.trace" -s mtf -r 300 -w 3840 -h 3840 -y l "%1"
 
-		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.pdf" -s mtf -r 300 -y l "%1"
+		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.pdf" -s mtf -r 300 -w 3840 -h 3840 -y l "%1"
 
-		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.stext.json" -s mtf -r 300 -y l "%1"
+%		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.stext.json" -s mtf -r 300 -w 3840 -h 3840 -y l "%1"
 
-%		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.xhtml" -s mtf -r 300 -y l "%1"
+%		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.xhtml" -s mtf -r 300 -w 3840 -h 3840 -y l "%1"
 
-		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.bbox" -s mtf -r 300 -y l "%1"
+%		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.bbox" -s mtf -r 300 -w 3840 -h 3840 -y l "%1"
 
 	ENDIF
 
 
-	IF 0
+	IF 10
 
 %		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.svg" -s mtf -y l "%1"
 
@@ -140,7 +140,7 @@ IF 10
 
 		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.png" -s mtf -y l -P -B 50 "%1"
 
-		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.webp" -s mtf -y l -P -B 50 "%1"
+%		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.webp" -s mtf -y l -P -B 50 "%1"
 
 %		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x72.psd" -s mtf -y l "%1"
 
@@ -151,17 +151,19 @@ IF 10
 
 	IF 10
 
-%		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.svg" -s mtf -r 300 -y l "%1"
+%		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.svg" -s mtf -r 300 -w 3840 -h 3840 -y l "%1"
 
-%		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.pclm" -s mtf -r 300 -y l "%1"
+%		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.pclm" -s mtf -r 300 -w 3840 -h 3840 -y l "%1"
 
-		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.png" -s mtf -r 300 -y l -P -B 50 "%1"
+		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.png" -s mtf -r 300 -w 3840 -h 3840 -y l -P -B 50 "%1"
 
-		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.webp" -s mtf -r 300 -y l -P -B 50 "%1"
+		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.png" -s mtf -r 300 -w 3840 -h 3840 -y l -P "%1"
 
-%		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.psd" -s mtf -r 300 -y l "%1"
+%		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.webp" -s mtf -r 300 -w 3840 -h 3840 -y l -P -B 50 "%1"
 
-%		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.ps" -s mtf -r 300 -y l "%1"
+%		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.psd" -s mtf -r 300 -w 3840 -h 3840 -y l "%1"
+
+%		MUTOOL draw -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC-x300.ps" -s mtf -r 300 -w 3840 -h 3840 -y l "%1"
 
 	ENDIF
 
@@ -169,11 +171,53 @@ IF 10
 
 		MUTOOL convert -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC.convert.pdf" -W 1200 -H 1800 -O decompress,garbage,sanitize,pretty "%1"
 
+%		MUTOOL convert -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC.convert-2.pdf" -W 1200 -H 1800 -O decompress,pretty "%1"
+
+%		MUTOOL convert -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC.convert-2G.pdf" -W 1200 -H 1800 -O decompress,garbage,pretty "%1"
+
+%		MUTOOL convert -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC.convert-2S.pdf" -W 1200 -H 1800 -O decompress,sanitize,pretty "%1"
+
+		MUTOOL convert -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC.convert-1D.pdf" -W 1200 -H 1800 -O decompress "%1"
+
+		MUTOOL convert -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC.convert-1P.pdf" -W 1200 -H 1800 -O pretty "%1"
+
+		MUTOOL convert -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC.convert-0A.pdf" -W 1200 -H 1800 "%1"
+
+		MUTOOL convert -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC.convert-0B.pdf" "%1"
+
 %		MUTOOL convert -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC.convert-text.svg" -W 1200 -H 1800 -O text=text "%1"
 
 %		MUTOOL convert -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC.convert-path.svg" -W 1200 -H 1800 -O text=path "%1"
 
-		MUTOOL raster -F png -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/%04d.raster.png" -s mt -r 150 -P "%1"
+	ENDIF
+
+	IF 10
+
+		MUTOOL clean -D -m -s "%1"                "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC.clean-basic.pdf"
+
+		MUTOOL clean -D -d -z -f -i -s "%1"       "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC.clean-recompressed.pdf" 
+
+		MUTOOL clean -D -m -s -l "%1"             "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC.clean-linear.pdf" 
+
+		MUTOOL clean -D -m -s -c -g "%1"          "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC.clean-medium.pdf" 
+
+		MUTOOL clean -D -m -s -c -gggg "%1"       "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC.clean-heavy.pdf" 
+
+		MUTOOL clean -D -m -s -c -dd -z -f -i -AA -gggg "%1"   "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC.clean-insane.pdf" 
+
+		MUTOOL clean -l -D -m -s -c -d -z -f -i -AA -gggg "%1" "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/FULL-DOC.clean-linear-insane.pdf" 
+
+	ENDIF
+
+	IF 10
+
+%		MUTOOL raster -F ppm -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/%04d.raster-x150.ppm" -s mt -r 150 -P "%1"
+
+%		MUTOOL raster -F ppm -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/%04d.raster.ppm" -s mt "%1"
+
+		MUTOOL raster -F png -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/%04d-raster-x150.png" -s mt -r 150 -w 3840 -h 3840 "%1"
+
+		MUTOOL raster -F png -o "%{remap(__bulktest)}/TextExtractFiles-T1/%2/%4/%04d-raster.png" -s mt "%1"
 
 	ENDIF
 

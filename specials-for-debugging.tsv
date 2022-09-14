@@ -17,7 +17,12 @@
 # name:    %3           -- filename = PDF filename part of that one (with .pdf extension)
 # base:    %4           -- basename = PDF filename "    "  "    "   (without the .pdf extension)
 # cd root: %5           -- path to root of the repo
+#
+# Note: latest `bulktest` tool also accepts one-file-per-line input:
+# Lines MAY also be a single argument: the full path to the test file.
+#
 
+Y:\Qiqqa\Qiqqa-Alt3-old.D.drv\base\101B96DE-F964-44E7-ACD4-3EC8939BB83C\documents\2\2B43E0F081A99E8B15C7DA1783224E9BDCC5849.pdf
 
 
 "Sample-PDFs-for-format-testing/testset misc 3 OCR/Theory of Thermionic Vacuum Tubes E. Chaffee (1933).pdf"  "Sample-PDFs-for-format-testing/testset misc 3 OCR"    "Theory of Thermionic Vacuum Tubes E. Chaffee (1933).pdf"      "Theory of Thermionic Vacuum Tubes E. Chaffee (1933)"      "./"
