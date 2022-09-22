@@ -417,24 +417,60 @@ let cmd = process.argv[2];
 let testfilename = process.argv[3];
 let basedirname = process.argv[4];
 
-console.log({cmd, testfilename });
+console.log({cmd, testfilename, basedirname });
 
 if (cmd === "GENSCRIPTS") {
 	gen_bulktest_scripts();
 }
 else if (cmd === "MKREL") {
 	let content = fs.readFileSync(testfilename, 'utf8');
-	let repl_re = new RegExp( 
-		basedirname
+	let basedirpath = basedirname
 		.replace(/\\/g, '[\\\\\\/]')
 		.replace(/:/g, '[:]')
+
+	let repl_re = new RegExp( 
+		basedirpath
 	        + '[\\\\\\/]?'  // [\\/]? --> also match any dir separator that happens to follow the basepath
 	, 'g');
 	// console.log({ repl_re });
 
 	let new_content = content
 	.replace(repl_re, './');
-	
+
+
+	let dotdot = '../';
+	while (basedirname.includes('\\')) {
+		let base = path.basename(basedirname);
+		if (base === '')
+			break;
+		let parent = path.dirname(basedirname);
+		// stop once we've hit thee drive root directory, e.g. "Y:/"
+		if (/[:][\\\/]$/.test(parent))
+			break;
+		// another way of checking for the same fact:
+		if (path.basename(parent) === '')
+			break;
+
+		console.log({ base, parent, dotdot })
+
+		// now process the parent / grandparent / ... path as well:
+		basedirpath = parent
+			.replace(/\\/g, '[\\\\\\/]')
+			.replace(/:/g, '[:]')
+
+		repl_re = new RegExp( 
+			basedirpath
+			+ '[\\\\\\/]?'  // [\\/]? --> also match any dir separator that happens to follow the basepath
+		, 'g');
+		// console.log({ repl_re });
+
+		new_content = new_content
+		.replace(repl_re, dotdot);
+
+		// and prep for the next round: the parent of this parent dir!
+		dotdot += '../';
+		basedirname = parent;
+	}
 	// console.log({ new_content });
 	
 	if (new_content !== content) {
