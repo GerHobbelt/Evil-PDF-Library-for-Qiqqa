@@ -6,13 +6,13 @@
 % This script is used to run other (bulktest) scripts in this directory
 
 
-CD {SCRIPTDIR}
+CD %{scriptdir}
 
 ECHO Starting metadump bulktest 
 
 BULKTEST -T all_pdf_files_on_drive_W.info-test.bulktest all_pdf_files_on_drive_W.info-test.tsv
 
-CD {SCRIPTDIR}
+CD %{scriptdir}
 
 ECHO More bulktesting metadump...
 
