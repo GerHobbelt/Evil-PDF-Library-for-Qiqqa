@@ -1,15 +1,15 @@
 [submodule "veraPDF-corpus"]
 	path = veraPDF-corpus
-	url = git@github.com:GerHobbelt/veraPDF-corpus.git
+	url = https://github.com/GerHobbelt/veraPDF-corpus.git
 [submodule "pdfium_tests"]
 	path = pdfium_tests
 	url = https://pdfium.googlesource.com/pdfium_tests
 [submodule "openpreserve-format-corpus"]
 	path = openpreserve-format-corpus
-	url = git@github.com:GerHobbelt/format-corpus.git
+	url = https://github.com/GerHobbelt/format-corpus.git
 [submodule "list-of-other-pdf-corpora-out-there"]
 	path = list-of-other-pdf-corpora-out-there
-	url = git@github.com:GerHobbelt/pdf-corpora.git
+	url = https://github.com/GerHobbelt/pdf-corpora.git
 [submodule "artifex-mupdf-test-corpus"]
 	path = artifex-mupdf-test-corpus
-	url = git@github.com:GerHobbelt/artifex-mupdf-test-corpus.git
+	url = https://github.com/GerHobbelt/artifex-mupdf-test-corpus.git
