@@ -3,7 +3,7 @@
 	url = https://github.com/GerHobbelt/veraPDF-corpus.git
 [submodule "pdfium_tests"]
 	path = pdfium_tests
-	url = https://pdfium.googlesource.com/pdfium_tests
+	url = https://github.com/GerHobbelt/pdfium_tests.git
 [submodule "openpreserve-format-corpus"]
 	path = openpreserve-format-corpus
 	url = https://github.com/GerHobbelt/format-corpus.git
@@ -16,3 +16,15 @@
 [submodule "pdf2htmlEX-testcases"]
 	path = pdf2htmlEX-testcases
 	url = https://github.com/GerHobbelt/pdf2htmlEX-testcase.git
+[submodule "ACL-anthology-corpus"]
+	path = ACL-anthology-corpus
+	url = https://github.com/GerHobbelt/ACL-anthology-corpus.git
+[submodule "Ariadne-LinearA-Minoan-corpus"]
+	path = Ariadne-LinearA-Minoan-corpus
+	url = https://github.com/GerHobbelt/Ariadne.git
+[submodule "0ca_fuzzing_corpus_pdfs"]
+	path = 0ca_fuzzing_corpus_pdfs
+	url = https://github.com/GerHobbelt/corpus_pdfs.git
+[submodule "joris-schellekens-pdf-corpus"]
+	path = joris-schellekens-pdf-corpus
+	url = https://github.com/GerHobbelt/pdf-corpus.git
