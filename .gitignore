@@ -106,3 +106,7 @@ Sample-PDFs-for-format-testing/Qiqqa Crash Investigations/0001/Compendium of EIA
 
 /Meuk/
 
+*.lst.backup
+*.RAW.lst
+
+
