@@ -138,8 +138,8 @@ register_remote Ariadne-LinearA-Minoan-corpus                                 Ge
 register_remote artifex-mupdf-test-corpus                                     artifex-original                         git://git.ghostscript.com/tests.git                                              $# $@
 register_remote artifex-mupdf-test-corpus                                     GerHobbelt-original                      https://github.com/GerHobbelt/artifex-mupdf-test-corpus.git                      $# $@
 register_remote joris-schellekens-pdf-corpus                                  GerHobbelt                               https://github.com/GerHobbelt/pdf-corpus.git                                     $# $@
-register_remote joris-schellekens-pdf-corpus                                  jorissschellekens                        https://github.com/jorissschellekens/pdf-corpus.git                              $# $@
-register_remote joris-schellekens-pdf-corpus                                  jorissschellekens-original               https://github.com/jorissschellekens/pdf-corpus.git                              $# $@
+register_remote joris-schellekens-pdf-corpus                                  jorissschellekens                        https://github.com/jorisschellekens/pdf-corpus.git                              $# $@
+register_remote joris-schellekens-pdf-corpus                                  jorissschellekens-original               https://github.com/jorisschellekens/pdf-corpus.git                              $# $@
 register_remote joris-schellekens-pdf-corpus                                  yan01                                    https://github.com/Yan-1-20/pdf-repository.git                                   $# $@
 register_remote list-of-other-pdf-corpora-out-there                           GerHobbelt                               https://github.com/GerHobbelt/pdf-corpora.git                                    $# $@
 register_remote list-of-other-pdf-corpora-out-there                           pdf-association                          https://github.com/pdf-association/pdf-corpora.git                               $# $@
