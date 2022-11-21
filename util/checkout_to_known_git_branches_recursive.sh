@@ -32,7 +32,7 @@ checkout_to_known_git_branches_recursive.sh options
 
 Options:
 
--h      : print this help 
+-h      : print this help
 -l      : LIST the branch/commit for each git repository (directory) registered in this script.
 -c      : CHECKOUT each git repository to the BRANCH registered in this script.
 -r      : CHECKOUT/REVERT each git repository to the COMMIT registered in this script.
@@ -40,7 +40,7 @@ Options:
 Note:
 
 Use the '-r' option to set each repository to an exact commit position, which is useful if,
-for instance, you wish to reproduce this registered previous software state (which may 
+for instance, you wish to reproduce this registered previous software state (which may
 represent a software release) which you wish to analyze/debug.
 
 EOH
@@ -65,14 +65,40 @@ git_repo_checkout_branch() {
       printf "%-43s :: %s / %s\n" "$1" "$2" "$3"
       if test "$mode" = "c" ; then
         if test -n "$3" ; then
-          # make sure the branch is created locally and is a tracking branch:
-          git branch --track "$3" "remotes/origin/$3"                          2> /dev/null  > /dev/null
-          git branch --set-upstream-to=remotes/origin/$3 master                2> /dev/null  > /dev/null
-          git checkout "$3"
+          # make sure the branch is created locally and is a tracking branch, if it isn't already:
+          # https://www.cyberciti.biz/faq/bash-remove-whitespace-from-string/
+          current_branch=$( git branch --show-current )
+          if test -z "$current_branch" -o "$current_branch" != "$3" ; then
+            git checkout "$3"
+          fi
+
+          shopt -s extglob
+          remote_branch=$( git branch -vv --list $3 '--format=%(upstream)' )
+          # Trim leading whitespaces
+          remote_branch="${remote_branch##*( )}"
+          # Trim trailing whitespaces
+          remote_branch="${remote_branch%%*( )}"
+          echo "=${remote_branch}="
+          shopt -u extglob
+
+          if test -z "$remote_branch" ; then
+            echo "No remote branch registered for local branch: $3 --> setting up the remote."
+            git branch --track "$3" "remotes/origin/$3"                          2> /dev/null  > /dev/null
+            git branch --set-upstream-to=remotes/origin/$3 $3                    2> /dev/null  > /dev/null
+            git checkout "$3"
+          fi
         else
-          git checkout master
-          if test $? -ne 0 ; then
-            git checkout main
+          current_branch=$( git branch --show-current )
+          echo "=${current_branch}="
+          if test -z "$current_branch" -o "$current_branch" != "master" ; then
+            # checkout to the first of `master` or `main` in case we're not checked out to either right now:
+            if test "$current_branch" != "main" -a "$current_branch" != "master" ; then
+              echo "Checking out to master/main:"
+              git checkout master
+              if test $? -ne 0 ; then
+                git checkout main
+              fi
+            fi
           fi
         fi
       else
@@ -102,16 +128,16 @@ pushd $(dirname $0)                                                            2
 # The registered repositories:
 #
 
-git_repo_checkout_branch "../0ca_fuzzing_corpus_pdfs"             4f95f599fec0b9456e7e64ff56019e7c0b61d8a9 master    
-git_repo_checkout_branch "../ACL-anthology-corpus"                99439cdccee43386c40923bae49f14930ef8aafd main      
-git_repo_checkout_branch "../Ariadne-LinearA-Minoan-corpus"       4fae0b0be73705fd5b1d6447518ec692aef84297 main      
-git_repo_checkout_branch "../artifex-mupdf-test-corpus"           923c37bb9b6f832e80e54bfdd316f60fd13bec00 main      
-git_repo_checkout_branch "../joris-schellekens-pdf-corpus"        7c7959de692c44902b5dcefb041823f9d1c69bbf master    
-git_repo_checkout_branch "../list-of-other-pdf-corpora-out-there" db4b129e64f0227756a794c3d67651f886294965 master    
-git_repo_checkout_branch "../openpreserve-format-corpus"          76f8bf33f3806b6e161b805a83304d494b70b938 master    
-git_repo_checkout_branch "../pdf2htmlEX-testcases"                5d1aa310121b6aeb13e29981b48cfe0749b3c742 master    
-git_repo_checkout_branch "../pdfium_tests"                        0ddc06ef037071cf575f8b32c512a47db4cc1428 master    
-git_repo_checkout_branch "../veraPDF-corpus"                      c8d6185e89f9da4f2bc206ab0d19404645c46cf5 staging   
+git_repo_checkout_branch "../../../Qiqqa/evil-base/0ca_fuzzing_corpus_pdfs" 4f95f599fec0b9456e7e64ff56019e7c0b61d8a9 master    
+git_repo_checkout_branch "../../../Qiqqa/evil-base/ACL-anthology-corpus" 99439cdccee43386c40923bae49f14930ef8aafd main      
+git_repo_checkout_branch "../../../Qiqqa/evil-base/Ariadne-LinearA-Minoan-corpus" 4fae0b0be73705fd5b1d6447518ec692aef84297 main      
+git_repo_checkout_branch "../../../Qiqqa/evil-base/artifex-mupdf-test-corpus" 923c37bb9b6f832e80e54bfdd316f60fd13bec00 main      
+git_repo_checkout_branch "../../../Qiqqa/evil-base/joris-schellekens-pdf-corpus" 7c7959de692c44902b5dcefb041823f9d1c69bbf master    
+git_repo_checkout_branch "../../../Qiqqa/evil-base/list-of-other-pdf-corpora-out-there" db4b129e64f0227756a794c3d67651f886294965 master    
+git_repo_checkout_branch "../../../Qiqqa/evil-base/openpreserve-format-corpus" 76f8bf33f3806b6e161b805a83304d494b70b938 master    
+git_repo_checkout_branch "../../../Qiqqa/evil-base/pdf2htmlEX-testcases" 5d1aa310121b6aeb13e29981b48cfe0749b3c742 master    
+git_repo_checkout_branch "../../../Qiqqa/evil-base/pdfium_tests"  b6972cf63cb584ee0c3ac13a7e21e0374259a0c3 master    
+git_repo_checkout_branch "../../../Qiqqa/evil-base/veraPDF-corpus" c8d6185e89f9da4f2bc206ab0d19404645c46cf5 staging   
 
 # --- all done ---
 
