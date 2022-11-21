@@ -28,3 +28,6 @@
 [submodule "joris-schellekens-pdf-corpus"]
 	path = joris-schellekens-pdf-corpus
 	url = https://github.com/GerHobbelt/pdf-corpus.git
+[submodule "itext7-pdf-corpus"]
+	path = itext7-pdf-corpus
+	url = https://github.com/GerHobbelt/itext7-pdf-corpus.git
