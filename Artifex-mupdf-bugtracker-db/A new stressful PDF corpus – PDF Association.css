@@ -352,7 +352,7 @@ font-size:1em;
 	/* font: bold 11px Arial; */
   	font-size: 1.2em!important;
 	text-decoration: none!important;
-	background-color: #ddd!important;*/
+	background-color: #ddd!important;
 	color: gray !important;
 	padding: 10px 20px 10px 20px!important;
 
@@ -1125,7 +1125,7 @@ z-index: -1;
 -webkit-filter: grayscale(100%) opacity(0.10);*/
 }
 
-}
+
 .form_helper {
   text-align:right;
 	font-weight: normal;
@@ -1328,7 +1328,7 @@ blockquote {
   margin-top: 22px;
 	padding-left: 140px !important;
 }
-}
+
 .my_menu {
   /*background: #4891af;*/
 }
@@ -5256,11 +5256,12 @@ del .woocommerce-Price-amount {
  * Print Stylesheet for pdfa.org (to be adapted)
 */
 
+@media print { 
     
-/ ** Adjust margins * /       
+/** Adjust margins */       
 @page { margin: 2cm }
 
-/ * Font set to 16px / 13pt, background set to white and font set to black. * /
+/* Font set to 16px / 13pt, background set to white and font set to black. */
 body {
 font: 13pt Georgia, "Times New Roman", Times, serif;
 line-height: 1.3;
@@ -5277,7 +5278,7 @@ font-size: 14px;
 margin-top: 25px;
 }    
  
-/ * Define all page breaks * /
+/* Define all page breaks */
 a {
     page-break-inside:avoid;
 }
@@ -5291,7 +5292,7 @@ img { page-break-inside:avoid;
 table, pre { page-break-inside:avoid }
 ul, ol, dl  { page-break-before:avoid }
     
-/ * Show link color and link behavior * /
+/* Show link color and link behavior */
 a:link, a:visited, a {
 background: transparent;
 color: #520;
@@ -5337,7 +5338,7 @@ a:not(:local-link):after {
   overflow: hidden;
 }
     
-/ * Hide unnecessary elements for printing * /
+/* Hide unnecessary elements for printing */
 
 #header-widgets, nav, aside.mashsb-container, 
 .sidebar, .mashshare-top, .mashshare-bottom, 
@@ -5349,7 +5350,7 @@ a:not(:local-link):after {
 display: none;
 }
     
-/ * Insert custom messages before and after content * /
+/* Insert custom messages before and after content */
 .entry:after {
 content: "\ All Rights Reserved. (c) 2006 - 2019 PDF Association - pdfa.org";
 color: #999 !important;
@@ -5364,12 +5365,12 @@ padding-top: 30px;
 text-align: center !important;    
 }
 
-/ * Define important elements * /
+/* Define important elements */
 p, address, li, dt, dd, blockquote {
 font-size: 100%
 }
 
-/ * Character set for code examples * /
+/* Character set for code examples */
 code, pre { font-family: "Courier New", Courier, mono}
 
 ul, ol {
@@ -5380,6 +5381,9 @@ margin-bottom: 20pt;
 li {
 line-height: 1.6em;
 }    
+
+}
+
     #toc_container li,#toc_container ul{margin:0;padding:0}#toc_container.no_bullets li,#toc_container.no_bullets ul,#toc_container.no_bullets ul li,.toc_widget_list.no_bullets,.toc_widget_list.no_bullets li{background:0 0;list-style-type:none;list-style:none}#toc_container.have_bullets li{padding-left:12px}#toc_container ul ul{margin-left:1.5em}#toc_container{background:#f9f9f9;border:1px solid #aaa;padding:10px;margin-bottom:1em;width:auto;display:table;font-size:95%}#toc_container.toc_light_blue{background:#edf6ff}#toc_container.toc_white{background:#fff}#toc_container.toc_black{background:#000}#toc_container.toc_transparent{background:none transparent}#toc_container p.toc_title{text-align:center;font-weight:700;margin:0;padding:0}#toc_container.toc_black p.toc_title{color:#aaa}#toc_container span.toc_toggle{font-weight:400;font-size:90%}#toc_container p.toc_title+ul.toc_list{margin-top:1em}.toc_wrap_left{float:left;margin-right:10px}.toc_wrap_right{float:right;margin-left:10px}#toc_container a{text-decoration:none;text-shadow:none}#toc_container a:hover{text-decoration:underline}.toc_sitemap_posts_letter{font-size:1.5em;font-style:italic}.toolset_select2-container {
   box-sizing: border-box;
   display: inline-block;
