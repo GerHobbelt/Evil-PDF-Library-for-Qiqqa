@@ -110,3 +110,6 @@ Sample-PDFs-for-format-testing/Qiqqa Crash Investigations/0001/Compendium of EIA
 *.RAW.lst
 
 /tika-collected-corpora/
+
+*.tmp
+*.bak
