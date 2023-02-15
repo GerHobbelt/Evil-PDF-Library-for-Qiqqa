@@ -33,4 +33,4 @@
 	url = https://github.com/GerHobbelt/itext7-pdf-corpus.git
 [submodule "pdfminer-testcases"]
 	path = pdfminer-testcases
-	url = git@github.com:GerHobbelt/pdfminer.six.git
+	url = https://github.com/GerHobbelt/pdfminer.six.git
