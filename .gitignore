@@ -81,6 +81,18 @@ Sample-PDFs-for-format-testing/HTML/
 /__unitest/
 /__bulktest/
 
+/digitalcorpora.org/govdocs1/
+
+/Meuk/
+
+*.lst.backup
+*.RAW.lst
+
+/tika-collected-corpora/
+
+*.tmp
+*.bak
+
 # large file split/unsplit support: ignoring the large files.
 all_pdf_files.mujstest
 INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07/documents/Z/7C8FF9CF43D78A6ED77BB4F8BF3674BF992598-UnicodeStandardDoc-bad-OCR-job.pdf
@@ -101,15 +113,17 @@ Sample-PDFs-for-format-testing/ICJ-CIJ/big/153-153-20170915-WRI-01-01-EN.pdf
 Sample-PDFs-for-format-testing/ICJ-CIJ/big/153-153-20170915-WRI-01-02-EN.pdf
 Sample-PDFs-for-format-testing/ICJ-CIJ/big/157-157-20151208-WRI-01-00-EN.pdf
 Sample-PDFs-for-format-testing/Qiqqa Crash Investigations/0001/Compendium of EIA and CRZ notifications and memos.pdf
-
-/digitalcorpora.org/govdocs1/
-
-/Meuk/
-
-*.lst.backup
-*.RAW.lst
-
-/tika-collected-corpora/
-
-*.tmp
-*.bak
+Sample-PDFs-for-format-testing/doc - html to pdf - text runs off the right edge of the pages.pdf
+Sample-PDFs-for-format-testing/pdfdraw-text-extract-horrors-and-low-quality-files/1246A3C11DB7EF762F3CA2BCD01222361B079.pdf
+Sample-PDFs-for-format-testing/pdfdraw-text-extract-horrors-and-low-quality-files/15D97AA3F0B43E0F3CE3DF26EAB668D966E10.pdf
+Sample-PDFs-for-format-testing/pdfdraw-text-extract-horrors-and-low-quality-files/169845858512367BBD45946202889E03BDDD21D.pdf
+Sample-PDFs-for-format-testing/testset misc 4/28CECE527DA34A239261953F6DC64ADDEAD48C1.pdf
+Sample-PDFs-for-format-testing/testset misc 4/unprocessed/28CECE527DA34A239261953F6DC64ADDEAD48C1.pdf
+Sample-PDFs-for-format-testing/mupdf-crashers/misc/Bug 705248 - File doesn't render (incorrent RLE bomb detection)/═¿╙├╣µ╖╢║║╫╓▒φ.pdf
+Sample-PDFs-for-format-testing/music/booklet (33).pdf
+Sample-PDFs-for-format-testing/music/booklet+all others.pdf
+Sample-PDFs-for-format-testing/music/pixels (13).pdf
+Sample-PDFs-for-format-testing/music/pixels (15).pdf
+Sample-PDFs-for-format-testing/music/pixels (6).pdf
+Sample-PDFs-for-format-testing/music/Saint-Saens, Bizet, Dutoit - [18_18]  - _pixels.pdf_-pixels.pdf
+Sample-PDFs-for-format-testing/music/Schubert - Trout Quintet, Variationen, Helmchen - 24-96.pdf

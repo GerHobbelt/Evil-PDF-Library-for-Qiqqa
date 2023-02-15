@@ -47,7 +47,7 @@ if test "$#" -eq 2; then
     	echo "unknown subcommand."
     fi
 else
-	find . -type f -size +45M -a ! -ipath '*.git/*' -a ! -ipath './__mujstest/*' -a ! -ipath './__unitest/*' -a ! -ipath './__bulktest/*' -a ! -iname '*.log' -a ! -iname '*.[tc]sv' -print0 | xargs -0 -n 1 "$0" SPLIT
+    find . -type f -size +45M -a ! -ipath '*.git/*' -a ! -ipath './digitalcorpora.org/*' -a ! -ipath './tika-collected-corpora/*' -a ! -ipath './__mujstest/*' -a ! -ipath './__unitest/*' -a ! -ipath './__bulktest/*' -a ! -iname '*.log' -a ! -iname '*.[tc]sv' -print0 | xargs -0 -n 1 "$0" SPLIT
 fi
 
 
