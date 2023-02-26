@@ -24,12 +24,12 @@ if test -d /z/lib/tooling/qiqqa/MuPDF/tests/ ; then
 	./DirScanner.exe -s -c -r X -o mupdf_test_files_in_dev_drive_Z.lst "Z:/lib/tooling/qiqqa/MuPDF/tests/*.pdf"
 fi
 
-if test -d /y/ ; then
-	./DirScanner.exe -s -c -o all_pdf_files_on_test_drive.RAW.lst "Y:/*.pdf"
+if test -d /s/_Y/ ; then
+	./DirScanner.exe -s -c -o all_pdf_files_on_test_drive.RAW.lst "S:/_Y/*.pdf"
 
-	./DirScanner.exe -s -c -r X -o all_pdf_files_on_test_drive.lst "Y:/*.pdf"
+	./DirScanner.exe -s -c -r X -o all_pdf_files_on_test_drive.lst "S:/_Y/*.pdf"
 
-	./DirScanner.exe -s -c -r X -o all_qiqqa_libraries_on_test_drive.lst "Y:/*.library" "Y:/*.dump" "Y:/*.s3db" "C:/Users/Ger/Downloads/*.library" "C:/Users/Ger/Downloads/*.dump" "C:/Users/Ger/Downloads/*.s3db" "W:/Users/Ger/*.library" "W:/Users/Ger/*.dump" "W:/Users/Ger/*.s3db"
+	./DirScanner.exe -s -c -r X -o all_qiqqa_libraries_on_test_drive.lst "S:/_Y/*.library" "S:/_Y/*.dump" "S:/_Y/*.s3db" "C:/Users/Ger/Downloads/*.library" "C:/Users/Ger/Downloads/*.dump" "C:/Users/Ger/Downloads/*.s3db" "W:/Users/Ger/*.library" "W:/Users/Ger/*.dump" "W:/Users/Ger/*.s3db"
 fi
 
 
