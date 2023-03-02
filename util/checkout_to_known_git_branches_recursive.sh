@@ -128,16 +128,18 @@ pushd $(dirname $0)                                                            2
 # The registered repositories:
 #
 
-git_repo_checkout_branch "../../../Qiqqa/evil-base/0ca_fuzzing_corpus_pdfs" 4f95f599fec0b9456e7e64ff56019e7c0b61d8a9 master    
-git_repo_checkout_branch "../../../Qiqqa/evil-base/ACL-anthology-corpus" 99439cdccee43386c40923bae49f14930ef8aafd main      
-git_repo_checkout_branch "../../../Qiqqa/evil-base/Ariadne-LinearA-Minoan-corpus" 4fae0b0be73705fd5b1d6447518ec692aef84297 main      
-git_repo_checkout_branch "../../../Qiqqa/evil-base/artifex-mupdf-test-corpus" 923c37bb9b6f832e80e54bfdd316f60fd13bec00 main      
-git_repo_checkout_branch "../../../Qiqqa/evil-base/joris-schellekens-pdf-corpus" 7c7959de692c44902b5dcefb041823f9d1c69bbf master    
-git_repo_checkout_branch "../../../Qiqqa/evil-base/list-of-other-pdf-corpora-out-there" db4b129e64f0227756a794c3d67651f886294965 master    
-git_repo_checkout_branch "../../../Qiqqa/evil-base/openpreserve-format-corpus" 76f8bf33f3806b6e161b805a83304d494b70b938 master    
-git_repo_checkout_branch "../../../Qiqqa/evil-base/pdf2htmlEX-testcases" 5d1aa310121b6aeb13e29981b48cfe0749b3c742 master    
-git_repo_checkout_branch "../../../Qiqqa/evil-base/pdfium_tests"  b6972cf63cb584ee0c3ac13a7e21e0374259a0c3 master    
-git_repo_checkout_branch "../../../Qiqqa/evil-base/veraPDF-corpus" c8d6185e89f9da4f2bc206ab0d19404645c46cf5 staging   
+git_repo_checkout_branch "../0ca_fuzzing_corpus_pdfs"             4f95f599fec0b9456e7e64ff56019e7c0b61d8a9 master    
+git_repo_checkout_branch "../ACL-anthology-corpus"                99439cdccee43386c40923bae49f14930ef8aafd main      
+git_repo_checkout_branch "../Ariadne-LinearA-Minoan-corpus"       4fae0b0be73705fd5b1d6447518ec692aef84297 main      
+git_repo_checkout_branch "../artifex-mupdf-test-corpus"           ea419f637c74471d48787dcdb67bd2be7bacf929 main      
+git_repo_checkout_branch "../itext7-pdf-corpus"                   0986c86f4b98d6a4f2aef0b229f37a5de66eb176 main      
+git_repo_checkout_branch "../joris-schellekens-pdf-corpus"        7c7959de692c44902b5dcefb041823f9d1c69bbf master    
+git_repo_checkout_branch "../list-of-other-pdf-corpora-out-there" db4b129e64f0227756a794c3d67651f886294965 master    
+git_repo_checkout_branch "../openpreserve-format-corpus"          76f8bf33f3806b6e161b805a83304d494b70b938 master    
+git_repo_checkout_branch "../pdf2htmlEX-testcases"                5d1aa310121b6aeb13e29981b48cfe0749b3c742 master    
+git_repo_checkout_branch "../pdfium_tests"                        61311caef141c90d3e5c7a86d9eed1a919c9d131 master    
+git_repo_checkout_branch "../pdfminer-testcases"                  5114acdda61205009221ce4ebf2c68c144fc4ee5 master    
+git_repo_checkout_branch "../veraPDF-corpus"                      6ba7b29f2d3b3fc72e4d777d873d0efa3aa18afb staging   
 
 # --- all done ---
 

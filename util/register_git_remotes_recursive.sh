@@ -123,8 +123,6 @@ function register_remote {
 
 
 
-register_remote .                                                             local-3                                  ../../../SSD-0001/Qiqqa/evil-base/                                               $# $@
-register_remote .                                                             local-4                                  ../../../Qiqqa-Test-DrvE/evil-base/                                              $# $@
 register_remote 0ca_fuzzing_corpus_pdfs                                       0ca                                      https://github.com/0ca/corpus_pdfs.git                                           $# $@
 register_remote 0ca_fuzzing_corpus_pdfs                                       0ca-original                             https://github.com/0ca/corpus_pdfs.git                                           $# $@
 register_remote 0ca_fuzzing_corpus_pdfs                                       GerHobbelt                               https://github.com/GerHobbelt/corpus_pdfs.git                                    $# $@

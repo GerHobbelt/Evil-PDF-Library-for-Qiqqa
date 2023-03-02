@@ -22,6 +22,7 @@ fi
 
 if test -d /z/lib/tooling/qiqqa/MuPDF/tests/ ; then
 	./DirScanner.exe -s -c -r X -o mupdf_test_files_in_dev_drive_Z.lst "Z:/lib/tooling/qiqqa/MuPDF/tests/*.pdf"
+	./DirScanner.exe -s -c -r X -o mupdf_files_in_dev_drive_Z.lst "Z:/lib/tooling/qiqqa/*.pdf"
 fi
 
 if test -d /s/_Y/ ; then
