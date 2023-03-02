@@ -127,3 +127,8 @@ Sample-PDFs-for-format-testing/music/pixels (15).pdf
 Sample-PDFs-for-format-testing/music/pixels (6).pdf
 Sample-PDFs-for-format-testing/music/Saint-Saens, Bizet, Dutoit - [18_18]  - _pixels.pdf_-pixels.pdf
 Sample-PDFs-for-format-testing/music/Schubert - Trout Quintet, Variationen, Helmchen - 24-96.pdf
+
+# listing files
+
+*.lst
+
