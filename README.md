@@ -11,7 +11,7 @@ Several other PDFs have been included which test the reach and stability of the 
 
 - [Note for users](#note-for-users)
 
-- [Choose the Usage Mode that suits *you* best](#choose-the-usage-mMode-that-suits-you-best)
+- [Choose the Usage Mode that suits *you* best](#choose-the-usage-mode-that-suits-you-best)
 
 - [Mode A: Setup / Install for use by Qiqqa as a 'library'](#mode-a-setup--install-for-use-by-qiqqa-as-a-library)
 
