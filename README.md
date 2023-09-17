@@ -11,6 +11,8 @@ Several other PDFs have been included which test the reach and stability of the 
 
 - [Note for users](#note-for-users)
 
+- [Choose the Usage Mode that suits *you* best](#choose-the-usage-mMode-that-suits-you-best)
+
 - [Mode A: Setup / Install for use by Qiqqa as a 'library'](#mode-a-setup--install-for-use-by-qiqqa-as-a-library)
 
   - [Qiqqa Folder Watch feature <br><sup>to find & import new PDFs into the library</sup>](#qiqqa-folder-watch-feature-to-find--import-new-pdfs-into-the-library)
@@ -72,6 +74,24 @@ Several other PDFs have been included which test the reach and stability of the 
 - **When you expect to run Unit or System Tests with these files, *NTFS compression* is a real boon as it will reduce disk space costs of the resulting output & reference JSON and LOG files _immensely_!**
  
 - Personally, I'd rather NOT set "NTFS compression" at *disk level*, but rather go in and set it up for a NTFS directory (and all files and directories therein, per the suggested 'attribute inheritance').
+
+
+
+
+## Choose the Usage Mode that suits *you* best
+
+While Mode A is Qiqqa development specific and may look a little complicated, you can consider using this repo in "Mode B" style (see below) as a "**Watch Folder**" *only* or in generic "Mode C" style.
+
+Each have a dedicated description of their setup and use below:
+
+- [Mode A: Setup / Install for use by Qiqqa as a 'library'](#mode-a-setup--install-for-use-by-qiqqa-as-a-library)
+
+- [Mode B: Setup / Install for use by Qiqqa as a 'watched folder'](#mode-b-setup--install-for-use-by-qiqqa-as-a-watched-folder)
+
+- [Mode C: Setup / Install for other uses](#mode-c-setup--install-for-other-uses)
+
+
+
 
  
 
@@ -164,7 +184,7 @@ Several other PDFs have been included which test the reach and stability of the 
         > Junction created for INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07 <<===>> D:\Qiqqa\evil-base\\INTRANET_E57B9774-4712-430E-93E0-E67433F7DF07
         > 
         > D:\Qiqqa\base>rem when you run this for Windows Explorer by right-mouse --: Run As Administrator,
-        > D:\Qiqqa\base>rem you surely would like to ascertain that this thing did what's advertisd on the can.
+        > D:\Qiqqa\base>rem you surely would like to ascertain that this thing did what's advertised on the can.
         > D:\Qiqqa\base>rem Hence wait for user keypress - after heshe's done reviewing the cmd output.
         > D:\Qiqqa\base>pause
         > Press any key to continue . . .
@@ -176,8 +196,6 @@ Several other PDFs have been included which test the reach and stability of the 
 ### Qiqqa Folder Watch feature <br><sup>to find & import new PDFs into the library</sup>
 
 When you install this repo as a 'Qiqqa library', there's also plenty PDFs in here which can be 'discovered' using Qiqqa's "**Watch Folder**" library configuration setting:
-
-> **Note**: When this may look a little complicated, you can consider using this repo in "Mode B" style (see below) as a "**Watch Folder**" *only*.
 
 
 
